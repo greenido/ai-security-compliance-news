@@ -63,6 +63,7 @@ function buildPostHtmlPage(post) {
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.metaDescription,
+    ...(post.heroImage ? { image: post.heroImage.url } : {}),
     datePublished: post.date,
     dateModified: post.date,
     author: { '@type': 'Person', name: 'AI Security & Compliance Desk' },
@@ -91,12 +92,16 @@ function buildPostHtmlPage(post) {
   <meta property="og:site_name" content="${SITE_NAME}">
   <meta property="article:published_time" content="${post.date}">
   <meta property="article:author" content="AI Security &amp; Compliance Desk">
+${post.heroImage ? `  <meta property="og:image" content="${escapeAttr(post.heroImage.url)}">
+  <meta property="og:image:width" content="${post.heroImage.width}">
+  <meta property="og:image:height" content="${post.heroImage.height}">` : ''}
 ${(post.tags || []).map((t) => `  <meta property="article:tag" content="${escapeAttr(t)}">`).join('\n')}
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeAttr(post.title)}">
   <meta name="twitter:description" content="${escapeAttr(post.metaDescription)}">
+${post.heroImage ? `  <meta name="twitter:image" content="${escapeAttr(post.heroImage.url)}">` : ''}
 
   <!-- JSON-LD -->
   <script type="application/ld+json">
@@ -168,6 +173,23 @@ ${(post.tags || []).map((t) => `  <meta property="article:tag" content="${escape
         </div>
         ${post.sourceUrl ? `<p class="mt-3 text-xs text-gray-400">Source: <a href="${escapeAttr(post.sourceUrl)}" target="_blank" rel="noopener" class="hover:underline">${escapeHtml(post.sourceName || 'Original Article')}</a></p>` : ''}
       </header>
+
+${post.heroImage ? `      <figure class="mb-10 -mx-4 sm:mx-0">
+        <div class="relative overflow-hidden rounded-none sm:rounded-xl" style="background-color: ${post.heroImage.color || '#1a1a2e'}">
+          <img
+            src="${escapeAttr(post.heroImage.url)}"
+            alt="${escapeAttr(post.heroImage.alt)}"
+            width="${post.heroImage.width}"
+            height="${post.heroImage.height}"
+            loading="eager"
+            class="w-full h-auto max-h-[420px] object-cover"
+          >
+        </div>
+        <figcaption class="mt-2 px-4 sm:px-0 text-xs text-gray-400 dark:text-gray-500 flex items-center gap-1">
+          Photo by <a href="${escapeAttr(post.heroImage.creditUrl)}" target="_blank" rel="noopener" class="underline hover:text-gray-600 dark:hover:text-gray-300">${escapeHtml(post.heroImage.credit)}</a>
+          on <a href="${escapeAttr(post.heroImage.unsplashUrl)}" target="_blank" rel="noopener" class="underline hover:text-gray-600 dark:hover:text-gray-300">Unsplash</a>
+        </figcaption>
+      </figure>` : ''}
 
       <div class="post-content font-serif text-lg text-gray-800 dark:text-gray-200">
         ${post.content}
@@ -300,6 +322,14 @@ function updateIndex(post) {
     categories: post.categories,
     hasCTA: post.hasCTA || false,
     wordCount: post.wordCount || 650,
+    ...(post.heroImage ? {
+      heroImage: {
+        url: post.heroImage.smallUrl,
+        alt: post.heroImage.alt,
+        credit: post.heroImage.credit,
+        color: post.heroImage.color,
+      },
+    } : {}),
   };
 
   const prevCount = index.length;
