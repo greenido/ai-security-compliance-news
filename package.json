@@ -6,5 +6,8 @@
   "scripts": {
     "serve": "npx serve -l 3000",
     "generate": "npm --prefix scripts run generate"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
   }
 }

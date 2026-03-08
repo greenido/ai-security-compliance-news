@@ -1,14 +1,21 @@
 import { GoogleGenAI } from '@google/genai';
+import { createLogger } from './logger.mjs';
+
+const log = createLogger('gemini');
 
 let _ai;
 function getAI() {
   if (!_ai) {
+    const hasKey = !!process.env.GEMINI_API_KEY;
+    log.info('getAI', `Initializing GoogleGenAI (API key present: ${hasKey}, key prefix: ${hasKey ? process.env.GEMINI_API_KEY.slice(0, 6) + '…' : 'N/A'})`);
     _ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
   }
   return _ai;
 }
 
 function buildPrompt(newsItem) {
+  log.info('buildPrompt', `Building prompt for: "${newsItem.title?.slice(0, 70)}"`);
+
   const today = new Date().toISOString().split('T')[0];
   const shouldIncludeCTA = shouldAddCTA(newsItem);
 
@@ -16,7 +23,7 @@ function buildPrompt(newsItem) {
     ? `IMPORTANT: This post should include a natural, non-spammy mention of Espresso Labs (https://espressolabs.com/) as a relevant solution. Espresso Labs is an AI-powered platform that provides enterprise-grade 24/7 IT management, cybersecurity monitoring (EDR, SOC), and compliance automation (CMMC, SOC 2, HIPAA) as a service. Weave in a brief mention where it fits organically — for example, when discussing how businesses can address the challenges mentioned in the article. Do NOT make it the main focus; it should feel like a helpful aside. Set "hasCTA" to true in the JSON output.`
     : `Do NOT include any product mentions or calls to action. Set "hasCTA" to false in the JSON output.`;
 
-  return `You are an expert technology journalist writing for an audience of IT professionals, security teams, and compliance officers.
+  const prompt = `You are an expert technology journalist writing for an audience of IT professionals, security teams, and compliance officers.
 
 Write a blog post based on this trending news item:
 
@@ -51,6 +58,11 @@ OUTPUT FORMAT: Return ONLY valid JSON (no markdown fences, no extra text) with t
   "hasCTA": true/false,
   "wordCount": 650
 }`;
+
+  log.info('buildPrompt', `Prompt built — ${prompt.length} chars, date=${today}, CTA=${shouldIncludeCTA ? 'YES' : 'NO'}, categories=[${newsItem.categories.join(', ')}]`);
+  log.debug('buildPrompt', 'Full prompt:\n' + prompt);
+
+  return prompt;
 }
 
 function shouldAddCTA(newsItem) {
@@ -63,62 +75,142 @@ function shouldAddCTA(newsItem) {
 
   const text = `${newsItem.title} ${newsItem.snippet} ${newsItem.categories.join(' ')}`.toLowerCase();
   const matches = ctaTopics.filter((topic) => text.includes(topic));
-  return matches.length >= 1;
+
+  const result = matches.length >= 1;
+  log.info('shouldAddCTA', `CTA decision: ${result ? 'YES' : 'NO'} — matched ${matches.length} topic(s): [${matches.join(', ')}]`);
+  return result;
 }
 
 export { shouldAddCTA, buildPrompt };
 
+function tryRepairJSON(text) {
+  try {
+    let fixed = text;
+    const openBraces = (fixed.match(/{/g) || []).length;
+    const closeBraces = (fixed.match(/}/g) || []).length;
+    const openBrackets = (fixed.match(/\[/g) || []).length;
+    const closeBrackets = (fixed.match(/\]/g) || []).length;
+
+    if (openBraces <= closeBraces && openBrackets <= closeBrackets) return null;
+
+    // Truncated inside a string value — close the string and remaining structure
+    const lastQuote = fixed.lastIndexOf('"');
+    const afterLast = fixed.slice(lastQuote + 1).trim();
+    if (afterLast === '' || afterLast === ',') {
+      fixed = fixed.slice(0, lastQuote + 1);
+    } else if (!afterLast.startsWith(':') && !afterLast.startsWith('}') && !afterLast.startsWith(']')) {
+      fixed += '"';
+    }
+
+    fixed = fixed.replace(/,\s*$/, '');
+    for (let i = 0; i < openBrackets - closeBrackets; i++) fixed += ']';
+    for (let i = 0; i < openBraces - closeBraces; i++) fixed += '}';
+
+    return JSON.parse(fixed);
+  } catch {
+    return null;
+  }
+}
+
 export async function generatePost(newsItem) {
-  const prompt = buildPrompt(newsItem);
+  const timer = log.time('generatePost');
 
-  console.log('Generating post with Gemini...');
-
-  const response = await getAI().models.generateContent({
-    model: 'gemini-3.0-flash',
-    contents: prompt,
-    config: {
-      temperature: 0.7,
-      maxOutputTokens: 4096,
-    },
+  log.dump('generatePost', 'Input news item', {
+    title: newsItem.title,
+    source: newsItem.source,
+    link: newsItem.link,
+    categories: newsItem.categories?.join(', '),
+    snippet: newsItem.snippet?.slice(0, 150) || '(none)',
   });
 
-  let text = response.text.trim();
+  const prompt = buildPrompt(newsItem);
 
-  // Strip markdown code fences if Gemini wraps the JSON
-  if (text.startsWith('```')) {
-    text = text.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '');
-  }
-
+  const MAX_RETRIES = 2;
   let post;
-  try {
-    post = JSON.parse(text);
-  } catch (e) {
-    console.error('Failed to parse Gemini output as JSON:');
-    console.error(text.slice(0, 500));
-    throw new Error('Gemini did not return valid JSON: ' + e.message);
-  }
 
-  // Validate required fields
-  const required = ['title', 'slug', 'metaDescription', 'content', 'tags', 'categories'];
-  for (const field of required) {
-    if (!post[field]) {
-      throw new Error(`Missing required field in Gemini output: ${field}`);
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    log.info('generatePost', `Calling Gemini API attempt ${attempt}/${MAX_RETRIES} (model=gemini-2.5-flash, temp=0.7, maxTokens=16384)`);
+    const apiTimer = log.time('generatePost:api-call');
+
+    const response = await getAI().models.generateContent({
+      model: 'gemini-2.5-flash',
+      contents: prompt,
+      config: {
+        temperature: 0.7,
+        maxOutputTokens: 16384,
+      },
+    });
+
+    apiTimer.end('Gemini API responded');
+
+    let text = response.text.trim();
+    log.info('generatePost', `Raw response: ${text.length} chars`);
+    log.debug('generatePost', 'Raw response (first 500 chars):\n' + text.slice(0, 500));
+
+    if (text.startsWith('```')) {
+      log.info('generatePost', 'Stripping markdown code fences from response');
+      text = text.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '');
+    }
+
+    try {
+      post = JSON.parse(text);
+      log.success('generatePost', 'Successfully parsed JSON response');
+      break;
+    } catch (e) {
+      log.error('generatePost', `Failed to parse Gemini output as JSON: ${e.message}`);
+      log.error('generatePost', 'Response preview:\n' + text.slice(0, 500));
+
+      post = tryRepairJSON(text);
+      if (post) {
+        log.success('generatePost', 'Repaired truncated JSON successfully');
+        break;
+      }
+
+      if (attempt < MAX_RETRIES) {
+        log.info('generatePost', `Retrying (${attempt}/${MAX_RETRIES})…`);
+        continue;
+      }
+      throw new Error('Gemini did not return valid JSON after ' + MAX_RETRIES + ' attempts: ' + e.message);
     }
   }
 
-  // Sanitize slug
+  const required = ['title', 'slug', 'metaDescription', 'content', 'tags', 'categories'];
+  const missing = required.filter((f) => !post[f]);
+  if (missing.length > 0) {
+    log.error('generatePost', `Missing required fields: [${missing.join(', ')}]`);
+    log.dump('generatePost', 'Received fields', Object.fromEntries(required.map((f) => [f, post[f] ? '✔ present' : '✖ MISSING'])));
+    throw new Error(`Missing required field in Gemini output: ${missing[0]}`);
+  }
+  log.success('generatePost', `All ${required.length} required fields present`);
+
+  const rawSlug = post.slug;
   post.slug = post.slug
     .toLowerCase()
     .replace(/[^a-z0-9-]/g, '-')
     .replace(/-+/g, '-')
     .replace(/^-|-$/g, '');
 
+  if (rawSlug !== post.slug) {
+    log.info('generatePost', `Sanitized slug: "${rawSlug}" → "${post.slug}"`);
+  }
+
   post.date = new Date().toISOString().split('T')[0];
   post.sourceUrl = newsItem.link;
   post.sourceTitle = newsItem.title;
   post.sourceName = newsItem.source;
 
-  console.log(`Post generated: "${post.title}" (${post.wordCount || '~'} words, CTA: ${post.hasCTA})`);
+  log.dump('generatePost', 'Final post metadata', {
+    title: post.title,
+    slug: post.slug,
+    date: post.date,
+    wordCount: post.wordCount || '~',
+    hasCTA: post.hasCTA,
+    tags: (post.tags || []).join(', '),
+    categories: (post.categories || []).join(', '),
+    contentLength: `${post.content?.length || 0} chars`,
+    source: post.sourceName,
+  });
 
+  timer.end(`"${post.title}" generated`);
   return post;
 }
