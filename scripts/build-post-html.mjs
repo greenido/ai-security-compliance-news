@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import sanitizeHtml from 'sanitize-html';
 import { createLogger } from './logger.mjs';
 
 const log = createLogger('build-post');
@@ -10,9 +11,51 @@ const ROOT = join(__dirname, '..');
 const POSTS_DIR = join(ROOT, 'posts');
 const INDEX_PATH = join(POSTS_DIR, 'index.json');
 const SITEMAP_PATH = join(ROOT, 'sitemap.xml');
+const FEED_PATH = join(ROOT, 'feed.xml');
 
 const SITE_URL = 'https://greenido.github.io/ai-security-compliance-news';
 const SITE_NAME = 'AI Security and Compliance News';
+
+const ALLOWED_TAGS = [
+  'h2', 'h3', 'h4', 'p', 'a', 'ul', 'ol', 'li',
+  'strong', 'em', 'b', 'i', 'br', 'blockquote',
+  'code', 'pre', 'span', 'div', 'figure', 'figcaption',
+  'img', 'table', 'thead', 'tbody', 'tr', 'th', 'td',
+];
+
+function sanitizeContent(html) {
+  log.info('sanitizeContent', `Sanitizing AI-generated HTML (${html.length} chars)`);
+  const clean = sanitizeHtml(html, {
+    allowedTags: ALLOWED_TAGS,
+    allowedAttributes: {
+      'a': ['href', 'target', 'rel', 'title'],
+      'img': ['src', 'alt', 'width', 'height', 'loading'],
+      'td': ['colspan', 'rowspan'],
+      'th': ['colspan', 'rowspan'],
+    },
+    allowedSchemes: ['http', 'https', 'mailto'],
+    transformTags: {
+      'a': (tagName, attribs) => ({
+        tagName,
+        attribs: { ...attribs, rel: 'noopener noreferrer' },
+      }),
+    },
+  });
+  const stripped = html.length - clean.length;
+  if (stripped > 0) {
+    log.warn('sanitizeContent', `Removed ${stripped} chars of disallowed HTML`);
+  } else {
+    log.success('sanitizeContent', 'Content passed sanitization cleanly');
+  }
+  return clean;
+}
+
+function countContentWords(html) {
+  const text = html.replace(/<[^>]*>/g, ' ').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
+  return text.split(' ').filter((w) => w.length > 0).length;
+}
+
+export { sanitizeContent, countContentWords };
 
 function estimateReadTime(wordCount) {
   const time = Math.max(1, Math.ceil((wordCount || 600) / 200));
@@ -109,39 +152,23 @@ ${post.heroImage ? `  <meta name="twitter:image" content="${escapeAttr(post.hero
   </script>
 
   <link rel="canonical" href="${SITE_URL}/posts/${post.slug}.html">
+  <link rel="alternate" type="application/rss+xml" title="${escapeAttr(SITE_NAME)}" href="${SITE_URL}/feed.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Inter', 'system-ui', 'sans-serif'],
-            serif: ['Merriweather', 'Georgia', 'serif'],
-          },
-          colors: {
-            brand: { 50:'#eff6ff',100:'#dbeafe',200:'#bfdbfe',500:'#3b82f6',600:'#2563eb',700:'#1d4ed8',800:'#1e40af',900:'#1e3a5f' }
-          }
-        }
-      }
-    }
-  </script>
-  <link rel="stylesheet" href="../css/custom.css">
+  <link rel="stylesheet" href="../css/tailwind.css">
 </head>
 <body class="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
 
   <!-- Header -->
   <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16">
-        <a href="../index.html" class="flex items-center gap-3 group">
-          <div class="w-9 h-9 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-sm group-hover:bg-brand-700 transition-colors">AI</div>
-          <span class="text-lg font-bold tracking-tight">AI Security &amp; Compliance <span class="text-brand-600">News</span></span>
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-3 sm:py-0 sm:h-16 gap-2 sm:gap-0">
+        <a href="../index.html" class="flex items-center gap-2 sm:gap-3 group">
+          <div class="w-8 h-8 sm:w-9 sm:h-9 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-xs sm:text-sm group-hover:bg-brand-700 transition-colors shrink-0">AI</div>
+          <span class="text-base sm:text-lg font-bold tracking-tight leading-tight">AI Security &amp; Compliance <span class="text-brand-600">News</span></span>
         </a>
-        <nav class="flex items-center gap-6">
+        <nav class="flex items-center gap-4 sm:gap-6">
           <a href="../index.html" class="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a>
           <a href="../about.html" class="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors">About</a>
           <button id="theme-toggle" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle dark mode">
@@ -376,8 +403,68 @@ function updateSitemap(post) {
 
 export { escapeHtml, escapeAttr, formatDate, estimateReadTime, buildPostHtmlPage, buildCtaBanner };
 
+function escapeXml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+function updateRssFeed() {
+  log.info('updateRssFeed', 'Generating RSS feed (feed.xml)');
+
+  let index = [];
+  if (existsSync(INDEX_PATH)) {
+    try {
+      index = JSON.parse(readFileSync(INDEX_PATH, 'utf-8'));
+    } catch (err) {
+      log.warn('updateRssFeed', `Failed to parse index.json: ${err.message}`);
+      return;
+    }
+  }
+
+  const items = index.slice(0, 20).map((p) => `  <item>
+    <title>${escapeXml(p.title)}</title>
+    <link>${SITE_URL}/posts/${p.slug}.html</link>
+    <guid isPermaLink="true">${SITE_URL}/posts/${p.slug}.html</guid>
+    <description>${escapeXml(p.excerpt || '')}</description>
+    <pubDate>${new Date(p.date + 'T12:00:00Z').toUTCString()}</pubDate>
+${(p.categories || []).map((c) => `    <category>${escapeXml(c)}</category>`).join('\n')}
+  </item>`).join('\n');
+
+  const rss = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>${escapeXml(SITE_NAME)}</title>
+    <link>${SITE_URL}</link>
+    <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
+    <language>en-us</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>
+${items}
+  </channel>
+</rss>`;
+
+  writeFileSync(FEED_PATH, rss);
+  log.success('updateRssFeed', `Saved feed.xml — ${index.slice(0, 20).length} items`);
+}
+
+export { updateRssFeed };
+
 export async function buildPost(post) {
   const timer = log.time('buildPost');
+
+  // Sanitize AI-generated content before building
+  post.content = sanitizeContent(post.content);
+
+  const actualWordCount = countContentWords(post.content);
+  log.info('buildPost', `Actual word count: ${actualWordCount} (reported: ${post.wordCount || 'N/A'})`);
+  if (actualWordCount < 200) {
+    log.warn('buildPost', `Content suspiciously short (${actualWordCount} words) — proceeding anyway`);
+  }
+  post.wordCount = actualWordCount;
 
   log.dump('buildPost', 'Post to build', {
     title: post.title,
@@ -385,6 +472,7 @@ export async function buildPost(post) {
     date: post.date,
     categories: (post.categories || []).join(', '),
     hasCTA: post.hasCTA,
+    wordCount: post.wordCount,
     contentLength: `${post.content?.length || 0} chars`,
   });
 
@@ -400,6 +488,7 @@ export async function buildPost(post) {
 
   updateIndex(post);
   updateSitemap(post);
+  updateRssFeed();
 
   timer.end(`build complete for "${post.slug}"`);
   return filePath;

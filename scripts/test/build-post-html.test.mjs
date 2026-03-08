@@ -12,6 +12,8 @@ import {
   buildPostHtmlPage,
   buildCtaBanner,
   buildPost,
+  sanitizeContent,
+  countContentWords,
 } from '../build-post-html.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -19,6 +21,7 @@ const ROOT = join(__dirname, '..', '..');
 const POSTS_DIR = join(ROOT, 'posts');
 const INDEX_PATH = join(POSTS_DIR, 'index.json');
 const SITEMAP_PATH = join(ROOT, 'sitemap.xml');
+const FEED_PATH = join(ROOT, 'feed.xml');
 
 function samplePost(overrides = {}) {
   return {
@@ -208,9 +211,16 @@ describe('buildPostHtmlPage', () => {
     assert.ok(html.includes('../index.html'));
   });
 
-  it('includes Tailwind CSS CDN', () => {
+  it('links to pre-built Tailwind CSS (no CDN)', () => {
     const html = buildPostHtmlPage(samplePost());
-    assert.ok(html.includes('cdn.tailwindcss.com'));
+    assert.ok(html.includes('tailwind.css'), 'Should reference built tailwind.css');
+    assert.ok(!html.includes('cdn.tailwindcss.com'), 'Should not reference Tailwind CDN');
+  });
+
+  it('includes RSS feed link', () => {
+    const html = buildPostHtmlPage(samplePost());
+    assert.ok(html.includes('application/rss+xml'), 'Should have RSS feed autodiscovery link');
+    assert.ok(html.includes('feed.xml'), 'Should reference feed.xml');
   });
 
   it('includes the post date and source attribution', () => {
@@ -238,6 +248,7 @@ describe('buildPost (file I/O)', () => {
   const testPostPath = join(POSTS_DIR, `${testSlug}.html`);
   let originalIndex;
   let originalSitemap;
+  let originalFeed;
 
   beforeEach(() => {
     if (existsSync(INDEX_PATH)) {
@@ -246,20 +257,25 @@ describe('buildPost (file I/O)', () => {
     if (existsSync(SITEMAP_PATH)) {
       originalSitemap = readFileSync(SITEMAP_PATH, 'utf-8');
     }
+    if (existsSync(FEED_PATH)) {
+      originalFeed = readFileSync(FEED_PATH, 'utf-8');
+    }
   });
 
   afterEach(() => {
-    // Clean up test post file
     if (existsSync(testPostPath)) {
       rmSync(testPostPath);
     }
-    // Restore original index
     if (originalIndex !== undefined) {
       writeFileSync(INDEX_PATH, originalIndex);
     }
-    // Restore original sitemap
     if (originalSitemap !== undefined) {
       writeFileSync(SITEMAP_PATH, originalSitemap);
+    }
+    if (originalFeed !== undefined) {
+      writeFileSync(FEED_PATH, originalFeed);
+    } else if (existsSync(FEED_PATH)) {
+      rmSync(FEED_PATH);
     }
   });
 
@@ -295,5 +311,73 @@ describe('buildPost (file I/O)', () => {
     assert.ok(existsSync(SITEMAP_PATH), 'sitemap.xml should exist');
     const sitemap = readFileSync(SITEMAP_PATH, 'utf-8');
     assert.ok(sitemap.includes(testSlug), 'Sitemap should contain the post slug');
+  });
+
+  it('generates feed.xml after building a post', async () => {
+    const post = samplePost({ slug: testSlug, title: 'Feed Test Post' });
+    await buildPost(post);
+    assert.ok(existsSync(FEED_PATH), 'feed.xml should exist');
+    const feed = readFileSync(FEED_PATH, 'utf-8');
+    assert.ok(feed.includes('<rss'), 'Should be valid RSS');
+    assert.ok(feed.includes('Feed Test Post'), 'Feed should contain the post title');
+    assert.ok(feed.includes(testSlug), 'Feed should contain the post slug');
+  });
+});
+
+// ---------------------------------------------------------------------------
+// sanitizeContent
+// ---------------------------------------------------------------------------
+describe('sanitizeContent', () => {
+  it('allows safe HTML tags', () => {
+    const input = '<p>Hello <strong>world</strong></p>';
+    const result = sanitizeContent(input);
+    assert.equal(result, input);
+  });
+
+  it('strips script tags', () => {
+    const input = '<p>Hello</p><script>alert("xss")</script>';
+    const result = sanitizeContent(input);
+    assert.ok(!result.includes('<script>'), 'Should strip script tags');
+    assert.ok(result.includes('<p>Hello</p>'));
+  });
+
+  it('strips event handler attributes', () => {
+    const input = '<p onclick="alert(1)">Click me</p>';
+    const result = sanitizeContent(input);
+    assert.ok(!result.includes('onclick'), 'Should strip onclick');
+    assert.ok(result.includes('<p>Click me</p>'));
+  });
+
+  it('strips iframe tags', () => {
+    const input = '<p>Content</p><iframe src="https://evil.com"></iframe>';
+    const result = sanitizeContent(input);
+    assert.ok(!result.includes('<iframe'), 'Should strip iframes');
+  });
+
+  it('adds rel=noopener noreferrer to links', () => {
+    const input = '<a href="https://example.com">Link</a>';
+    const result = sanitizeContent(input);
+    assert.ok(result.includes('noopener'), 'Should add noopener');
+    assert.ok(result.includes('noreferrer'), 'Should add noreferrer');
+  });
+});
+
+// ---------------------------------------------------------------------------
+// countContentWords
+// ---------------------------------------------------------------------------
+describe('countContentWords', () => {
+  it('counts words in HTML content', () => {
+    const html = '<p>Hello world this is a test</p>';
+    assert.equal(countContentWords(html), 6);
+  });
+
+  it('handles multiple tags and entities', () => {
+    const html = '<h2>Title</h2><p>One two &amp; three</p>';
+    const count = countContentWords(html);
+    assert.ok(count >= 4, `Expected at least 4 words, got ${count}`);
+  });
+
+  it('returns 0 for empty content', () => {
+    assert.equal(countContentWords(''), 0);
   });
 });

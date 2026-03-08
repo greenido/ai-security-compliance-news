@@ -4,10 +4,12 @@
   "private": true,
   "description": "AI-Powered Daily Blog: IT, Security & Compliance",
   "scripts": {
+    "build:css": "npx tailwindcss -i css/input.css -o css/tailwind.css --minify",
     "serve": "npx serve -l 3000",
-    "generate": "npm --prefix scripts run generate"
+    "generate": "npm --prefix scripts run generate && npm run build:css"
   },
   "devDependencies": {
-    "sharp": "^0.34.5"
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.19"
   }
 }
