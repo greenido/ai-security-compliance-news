@@ -38,13 +38,25 @@ Go to **Actions > Daily Blog Post > Run workflow** to generate your first post m
 
 ## Local Development
 
+### Serve the site locally
+
+```bash
+npx serve
+```
+
+This starts a local server at [http://localhost:3000](http://localhost:3000). Alternatively, use the npm script:
+
+```bash
+npm run serve
+```
+
+### Generate a new post
+
 ```bash
 cd scripts
 npm install
 GEMINI_API_KEY=your_key_here node generate-post.mjs
 ```
-
-Then open `index.html` in a browser to preview the site.
 
 ## Tech Stack
 

@@ -1,0 +1,10 @@
+{
+  "name": "daily-blog-news",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-Powered Daily Blog: IT, Security & Compliance",
+  "scripts": {
+    "serve": "npx serve -l 3000",
+    "generate": "npm --prefix scripts run generate"
+  }
+}

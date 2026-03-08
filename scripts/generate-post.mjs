@@ -10,7 +10,7 @@ import { generatePost } from './gemini-writer.mjs';
 import { buildPost } from './build-post-html.mjs';
 
 async function main() {
-  console.log('=== Daily Blog Post Generator ===');
+  console.log('=== AI Security and Compliance News — Post Generator ===');
   console.log(`Date: ${new Date().toISOString().split('T')[0]}`);
   console.log('');
 

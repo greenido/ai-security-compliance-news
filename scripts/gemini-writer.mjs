@@ -1,6 +1,12 @@
 import { GoogleGenAI } from '@google/genai';
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+let _ai;
+function getAI() {
+  if (!_ai) {
+    _ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+  }
+  return _ai;
+}
 
 function buildPrompt(newsItem) {
   const today = new Date().toISOString().split('T')[0];
@@ -67,7 +73,7 @@ export async function generatePost(newsItem) {
 
   console.log('Generating post with Gemini...');
 
-  const response = await ai.models.generateContent({
+  const response = await getAI().models.generateContent({
     model: 'gemini-2.0-flash',
     contents: prompt,
     config: {

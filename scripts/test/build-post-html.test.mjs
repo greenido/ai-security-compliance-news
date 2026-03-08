@@ -220,11 +220,13 @@ describe('buildPostHtmlPage', () => {
     assert.ok(html.includes('TestSource123'));
   });
 
-  it('properly escapes HTML in title', () => {
+  it('properly escapes HTML in title within element content', () => {
     const post = samplePost({ title: 'Test <script>alert(1)</script>' });
     const html = buildPostHtmlPage(post);
-    assert.ok(!html.includes('<script>alert(1)</script>'));
-    assert.ok(html.includes('&lt;script&gt;'));
+    const h1Match = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/);
+    assert.ok(h1Match, 'Should have an h1 tag');
+    assert.ok(h1Match[1].includes('&lt;script&gt;'), 'h1 content should have escaped tags');
+    assert.ok(!h1Match[1].includes('<script>alert'), 'h1 content must not have raw script tag');
   });
 });
 

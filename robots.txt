@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://greenido.github.io/daily-blog-news/sitemap.xml
+Sitemap: https://greenido.github.io/ai-security-compliance-news/sitemap.xml
