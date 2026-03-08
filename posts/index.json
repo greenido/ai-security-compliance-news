@@ -1,5 +1,23 @@
 [
   {
+    "title": "VOID#GEIST: Deconstructing the Stealthy Multi-Stage RAT Threat",
+    "slug": "2026-03-08-voidgeist-deconstructing-stealthy-multi-stage-rat-threat",
+    "date": "2026-03-08",
+    "excerpt": "A new multi-stage malware campaign, dubbed VOID#GEIST, is leveraging obfuscated batch scripts to deploy a trio of potent Remote Access Trojans: XWorm, AsyncRAT, and Xeno RAT. Securonix Threat Research has unveiled the intricate details of this stealthy attack chain, highlighting a significant evolution in threat actor tactics.",
+    "tags": [
+      "Malware",
+      "Cybersecurity",
+      "RATs",
+      "Threat Intelligence",
+      "VOID#GEIST"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 780
+  },
+  {
     "title": "VOID#GEIST: New Multi-RAT Malware Threat Emerges",
     "slug": "2026-03-08-voidgeist-new-multi-rat-malware-threat-emerges",
     "date": "2026-03-08",
