@@ -1,4 +1,5 @@
 import Parser from 'rss-parser';
+import { getRecentPosts, isTooSimilar } from './dedupe.mjs';
 
 const RSS_FEEDS = [
   { url: 'https://feeds.feedburner.com/TheHackersNews', source: 'The Hacker News', focus: 'Security' },
@@ -114,7 +115,29 @@ export async function fetchTrendingNews() {
     throw new Error('No articles found from any RSS feed');
   }
 
-  const top = scored[0];
+  const recentPosts = getRecentPosts();
+  if (recentPosts.length > 0) {
+    console.log(`Checking against ${recentPosts.length} recent post(s) for duplicates...`);
+  }
+
+  let top = null;
+  for (const candidate of scored) {
+    const check = isTooSimilar(
+      { title: candidate.title, snippet: candidate.contentSnippet, categories: candidate.categories },
+      recentPosts,
+    );
+    if (check.similar) {
+      console.log(`  Skipped: "${candidate.title}" — too similar to "${check.matchedPost}" (${check.similarity})`);
+      continue;
+    }
+    top = candidate;
+    break;
+  }
+
+  if (!top) {
+    throw new Error('All candidate articles are too similar to recent posts — nothing new to write about');
+  }
+
   console.log(`Selected: "${top.title}" (score: ${top.score}, source: ${top.source})`);
 
   return {

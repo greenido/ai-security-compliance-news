@@ -8,6 +8,7 @@ dotenv.config({ path: join(__dirname, '..', '.env') });
 import { fetchTrendingNews } from './fetch-news.mjs';
 import { generatePost } from './gemini-writer.mjs';
 import { buildPost } from './build-post-html.mjs';
+import { getRecentPosts, isTooSimilar } from './dedupe.mjs';
 
 async function main() {
   console.log('=== AI Security and Compliance News — Post Generator ===');
@@ -18,6 +19,15 @@ async function main() {
   console.log('[1/3] Fetching trending news from RSS feeds...');
   const newsItem = await fetchTrendingNews();
   console.log('');
+
+  // Safety check: verify the selected article isn't a duplicate
+  const recentPosts = getRecentPosts();
+  const dupeCheck = isTooSimilar(newsItem, recentPosts);
+  if (dupeCheck.similar) {
+    throw new Error(
+      `Aborting: selected topic "${newsItem.title}" is too similar to recent post "${dupeCheck.matchedPost}" (similarity: ${dupeCheck.similarity})`,
+    );
+  }
 
   // Step 2: Generate post with Gemini
   console.log('[2/3] Generating blog post with Gemini...');
