@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI's Deep Dive: OpenAI Codex Security Reshapes Code Security",
+    "slug": "2026-03-08-ai-deep-dive-openai-codex-security-reshapes-code-security",
+    "date": "2026-03-08",
+    "excerpt": "The landscape of software security is undergoing a seismic shift. OpenAI's recently launched Codex Security, an AI-powered agent, has revealed the sheer scale of vulnerabilities lurking in codebases. Its initial findings underscore the transformative potential of AI in proactive code security.",
+    "tags": [
+      "AI",
+      "Software Security",
+      "DevSecOps",
+      "Vulnerability Management",
+      "Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 776,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1667453466805-75bbf36e8707?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwc2VjdXJpdHl8ZW58MXwwfHx8MTc3Mjk0MDk5M3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a person holding a phone",
+      "credit": "Onur Binay",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "AI-Powered Code Security: OpenAI Codex Unearths Thousands of Vulnerabilities",
     "slug": "2026-03-08-ai-powered-code-security-openai-codex-unearths-thousands-of-vulnerabilities",
     "date": "2026-03-08",
