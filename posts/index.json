@@ -1,5 +1,24 @@
 [
   {
+    "title": "AI Transforms Code Security: A New Era for Vulnerability Detection",
+    "slug": "2026-03-08-ai-transforms-code-security-a-new-era-for-vulnerability-detection",
+    "date": "2026-03-08",
+    "excerpt": "The landscape of software development security is undergoing a seismic shift. OpenAI's new Codex Security agent is demonstrating unprecedented capabilities in identifying and fixing vulnerabilities at scale, promising a future of more resilient codebases.",
+    "tags": [
+      "AI",
+      "Security",
+      "Code Review",
+      "Vulnerability Management",
+      "DevSecOps"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 789
+  },
+  {
     "title": "OpenAI Codex Security: AI's Bold Leap in Code Vulnerability",
     "slug": "2026-03-08-openai-codex-security-ais-bold-leap-in-code-vulnerability",
     "date": "2026-03-08",
