@@ -1,24 +1,40 @@
 [
   {
-    "title": "VOID#GEIST: A Triple Threat RAT Attack Surfaces",
-    "slug": "2026-03-08-voidgeist-triple-threat-rat-attack",
+    "title": "AI-Powered Code Security: OpenAI Codex Unearths Thousands of Vulnerabilities",
+    "slug": "2026-03-08-ai-powered-code-security-openai-codex-unearths-thousands-of-vulnerabilities",
     "date": "2026-03-08",
-    "excerpt": "A new multi-stage malware campaign, dubbed VOID#GEIST, is making waves in the cybersecurity community. It leverages obfuscated batch scripts to deploy a trio of potent Remote Access Trojans (RATs): XWorm, AsyncRAT, and Xeno RAT.",
+    "excerpt": "The cybersecurity landscape just gained a powerful new ally. OpenAI has unveiled Codex Security, an AI-powered agent designed to proactively identify and fix vulnerabilities in codebases. This innovative tool promises to redefine how organizations approach software security.",
     "tags": [
-      "malware",
-      "RAT",
-      "VOID#GEIST",
-      "XWorm",
-      "AsyncRAT",
-      "Xeno RAT",
-      "cybersecurity",
-      "threat intelligence"
+      "AI Security",
+      "Code Vulnerability",
+      "DevSecOps",
+      "Software Security",
+      "Automated Security"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 782
+  },
+  {
+    "title": "VOID#GEIST: Deconstructing the Stealthy Multi-Stage RAT Threat",
+    "slug": "2026-03-08-voidgeist-deconstructing-stealthy-multi-stage-rat-threat",
+    "date": "2026-03-08",
+    "excerpt": "A new multi-stage malware campaign, dubbed VOID#GEIST, is leveraging obfuscated batch scripts to deploy a trio of potent Remote Access Trojans: XWorm, AsyncRAT, and Xeno RAT. Securonix Threat Research has unveiled the intricate details of this stealthy attack chain, highlighting a significant evolution in threat actor tactics.",
+    "tags": [
+      "Malware",
+      "Cybersecurity",
+      "RATs",
+      "Threat Intelligence",
+      "VOID#GEIST"
     ],
     "categories": [
       "Security"
     ],
     "hasCTA": false,
-    "wordCount": 667
+    "wordCount": 780
   },
   {
     "title": "VOID#GEIST: New Multi-RAT Malware Threat Emerges",

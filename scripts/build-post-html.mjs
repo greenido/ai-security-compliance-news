@@ -1,6 +1,9 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { createLogger } from './logger.mjs';
+
+const log = createLogger('build-post');
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -12,10 +15,13 @@ const SITE_URL = 'https://greenido.github.io/ai-security-compliance-news';
 const SITE_NAME = 'AI Security and Compliance News';
 
 function estimateReadTime(wordCount) {
-  return Math.max(1, Math.ceil((wordCount || 600) / 200));
+  const time = Math.max(1, Math.ceil((wordCount || 600) / 200));
+  log.debug('estimateReadTime', `wordCount=${wordCount || '(default 600)'} → ${time} min read`);
+  return time;
 }
 
 function buildCtaBanner() {
+  log.info('buildCtaBanner', 'Generating CTA banner HTML for Espresso Labs');
   return `
     <div style="margin:2rem 0" class="p-6 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-xl border border-blue-200 dark:border-blue-800">
       <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
@@ -32,6 +38,8 @@ function buildCtaBanner() {
 }
 
 function buildPostHtmlPage(post) {
+  log.info('buildPostHtmlPage', `Building HTML page for: "${post.title?.slice(0, 60)}"`);
+
   const readTime = estimateReadTime(post.wordCount);
   const categoryColors = {
     'AI': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300',
@@ -41,6 +49,8 @@ function buildPostHtmlPage(post) {
   };
   const primaryCategory = (post.categories && post.categories[0]) || 'AI';
   const catClass = categoryColors[primaryCategory] || 'bg-gray-100 text-gray-700';
+
+  log.info('buildPostHtmlPage', `Page config: category=${primaryCategory}, readTime=${readTime}min, CTA=${post.hasCTA ? 'YES' : 'NO'}, tags=[${(post.tags || []).join(', ')}]`);
 
   const tagsHtml = (post.tags || [])
     .map((t) => `<span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">${escapeHtml(t)}</span>`)
@@ -61,7 +71,9 @@ function buildPostHtmlPage(post) {
     keywords: (post.tags || []).join(', '),
   };
 
-  return `<!DOCTYPE html>
+  log.debug('buildPostHtmlPage', 'JSON-LD structured data prepared');
+
+  const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -177,10 +189,10 @@ ${(post.tags || []).map((t) => `  <meta property="article:tag" content="${escape
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
             Post
           </a>
-          <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(SITE_URL + '/posts/' + post.slug + '.html')}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+          <button id="linkedin-share" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            Share
-          </a>
+            <span class="li-label">Share on LinkedIn</span>
+          </button>
           <button onclick="navigator.clipboard.writeText(window.location.href).then(()=>this.textContent='Copied!')" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
             Copy link
@@ -206,6 +218,9 @@ ${(post.tags || []).map((t) => `  <meta property="article:tag" content="${escape
           <ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
             <li><a href="../index.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a></li>
             <li><a href="../about.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">About</a></li>
+            <li><a href="https://ido-green.appspot.com/contact.html" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Contact Ido</a></li>
+            <li><a href="https://greenido.wordpress.com" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Ido's Blog</a></li>
+            <li><a href="https://espressolabs.com" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">EspressoLabs.com</a></li>
           </ul>
         </div>
         <div>
@@ -220,8 +235,27 @@ ${(post.tags || []).map((t) => `  <meta property="article:tag" content="${escape
   </footer>
 
   <script src="../js/app.js"></script>
+  <script>
+  (function() {
+    var btn = document.getElementById('linkedin-share');
+    if (!btn) return;
+    var shareText = ${JSON.stringify(post.title + '\n\n' + (post.metaDescription || '') + '\n\nRead more: ' + SITE_URL + '/posts/' + post.slug + '.html')};
+    var shareUrl = ${JSON.stringify(SITE_URL + '/posts/' + post.slug + '.html')};
+    btn.addEventListener('click', function() {
+      navigator.clipboard.writeText(shareText).then(function() {
+        var label = btn.querySelector('.li-label');
+        if (label) { label.textContent = 'Copied! Paste in LinkedIn'; }
+        setTimeout(function() { if (label) label.textContent = 'Share on LinkedIn'; }, 3000);
+      });
+      window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(shareUrl), '_blank');
+    });
+  })();
+  </script>
 </body>
 </html>`;
+
+  log.success('buildPostHtmlPage', `HTML page built — ${html.length} chars`);
+  return html;
 }
 
 function escapeHtml(str) {
@@ -242,13 +276,19 @@ function formatDate(dateStr) {
 }
 
 function updateIndex(post) {
+  log.info('updateIndex', `Updating posts index for slug="${post.slug}"`);
+
   let index = [];
   if (existsSync(INDEX_PATH)) {
     try {
       index = JSON.parse(readFileSync(INDEX_PATH, 'utf-8'));
-    } catch {
+      log.info('updateIndex', `Loaded existing index with ${index.length} posts`);
+    } catch (err) {
+      log.warn('updateIndex', `Failed to read existing index: ${err.message} — starting fresh`);
       index = [];
     }
+  } else {
+    log.info('updateIndex', 'No existing index.json found — creating new one');
   }
 
   const entry = {
@@ -262,49 +302,75 @@ function updateIndex(post) {
     wordCount: post.wordCount || 650,
   };
 
-  // Prevent duplicates
+  const prevCount = index.length;
   index = index.filter((p) => p.slug !== post.slug);
+  if (index.length < prevCount) {
+    log.info('updateIndex', `Removed existing entry for slug="${post.slug}" (was duplicate)`);
+  }
   index.unshift(entry);
 
   writeFileSync(INDEX_PATH, JSON.stringify(index, null, 2));
-  console.log(`Updated posts/index.json (${index.length} posts total)`);
+  log.success('updateIndex', `Saved index.json — ${index.length} posts total`);
 }
 
 function updateSitemap(post) {
+  log.info('updateSitemap', `Updating sitemap for slug="${post.slug}"`);
+
   let xml = '';
   if (existsSync(SITEMAP_PATH)) {
     xml = readFileSync(SITEMAP_PATH, 'utf-8');
+    log.info('updateSitemap', `Loaded existing sitemap (${xml.length} chars)`);
+  } else {
+    log.info('updateSitemap', 'No existing sitemap.xml — will create new one');
   }
 
   const postUrl = `${SITE_URL}/posts/${post.slug}.html`;
-  if (xml.includes(postUrl)) return;
+  if (xml.includes(postUrl)) {
+    log.info('updateSitemap', `URL already in sitemap — skipping: ${postUrl}`);
+    return;
+  }
 
   const newEntry = `  <url>\n    <loc>${postUrl}</loc>\n    <lastmod>${post.date}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>`;
 
   if (xml.includes('</urlset>')) {
     xml = xml.replace('</urlset>', newEntry + '\n</urlset>');
+    log.info('updateSitemap', 'Appended new URL entry to existing sitemap');
   } else {
     xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${newEntry}\n</urlset>`;
+    log.info('updateSitemap', 'Created new sitemap from scratch');
   }
 
   writeFileSync(SITEMAP_PATH, xml);
-  console.log(`Updated sitemap.xml`);
+  log.success('updateSitemap', `Saved sitemap.xml — added ${postUrl}`);
 }
 
 export { escapeHtml, escapeAttr, formatDate, estimateReadTime, buildPostHtmlPage, buildCtaBanner };
 
 export async function buildPost(post) {
+  const timer = log.time('buildPost');
+
+  log.dump('buildPost', 'Post to build', {
+    title: post.title,
+    slug: post.slug,
+    date: post.date,
+    categories: (post.categories || []).join(', '),
+    hasCTA: post.hasCTA,
+    contentLength: `${post.content?.length || 0} chars`,
+  });
+
   if (!existsSync(POSTS_DIR)) {
+    log.info('buildPost', `Creating posts directory: ${POSTS_DIR}`);
     mkdirSync(POSTS_DIR, { recursive: true });
   }
 
   const html = buildPostHtmlPage(post);
   const filePath = join(POSTS_DIR, `${post.slug}.html`);
   writeFileSync(filePath, html);
-  console.log(`Wrote post: ${filePath}`);
+  log.success('buildPost', `Wrote post HTML: ${filePath} (${html.length} chars)`);
 
   updateIndex(post);
   updateSitemap(post);
 
+  timer.end(`build complete for "${post.slug}"`);
   return filePath;
 }
