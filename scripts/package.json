@@ -1,0 +1,17 @@
+{
+  "name": "daily-blog-news-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Generation pipeline for AI-powered daily blog posts",
+  "scripts": {
+    "generate": "node generate-post.mjs",
+    "test": "node --test test/*.test.mjs",
+    "test:unit": "node --test test/fetch-news.test.mjs test/build-post-html.test.mjs test/gemini-writer.test.mjs",
+    "test:integration": "node --test test/integration.test.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "dotenv": "^16.4.0",
+    "rss-parser": "^3.13.0"
+  }
+}

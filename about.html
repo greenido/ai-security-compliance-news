@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — AI Security and Compliance News</title>
+  <meta name="description" content="Learn about AI Security and Compliance News, an automated blog covering AI in IT, cybersecurity, and compliance. Powered by Gemini AI and Espresso Labs.">
+
+  <meta property="og:title" content="About — AI Security and Compliance News">
+  <meta property="og:description" content="Learn about AI Security and Compliance News, an automated blog covering AI in IT, cybersecurity, and compliance.">
+  <meta property="og:type" content="website">
+
+  <link rel="canonical" href="https://greenido.github.io/daily-blog-news/about.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            serif: ['Merriweather', 'Georgia', 'serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              200: '#bfdbfe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a5f',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div class="w-9 h-9 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-sm group-hover:bg-brand-700 transition-colors">AI</div>
+          <span class="text-lg font-bold tracking-tight">AI Security &amp; Compliance <span class="text-brand-600">News</span></span>
+        </a>
+        <nav class="flex items-center gap-6">
+          <a href="index.html" class="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a>
+          <a href="about.html" class="text-sm font-medium text-brand-600 dark:text-brand-400">About</a>
+          <button id="theme-toggle" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle dark mode">
+            <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+            <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h1 class="text-4xl font-bold tracking-tight mb-8">About AI Security and Compliance News</h1>
+
+    <div class="prose prose-lg dark:prose-invert max-w-none space-y-6 text-gray-700 dark:text-gray-300 leading-relaxed">
+      <p>
+        <strong>AI Security and Compliance News</strong> is an automated blog that publishes fresh, in-depth articles every day on the intersection of <strong>artificial intelligence, cybersecurity, regulatory compliance, and IT operations</strong>.
+      </p>
+
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100 mt-10 mb-4">How It Works</h2>
+      <p>
+        Each morning, our pipeline scans the top cybersecurity and AI news sources &mdash; including The Hacker News, Krebs on Security, TechCrunch, Wired, and more. We identify the most relevant trending topic and use <strong>Google Gemini AI</strong> to write a detailed, SEO-optimized blog post about it.
+      </p>
+      <p>
+        Every post is fully automated: fetched, written, formatted, and published via GitHub Actions without any manual intervention. The content is designed to be informative and actionable for IT professionals, security teams, and compliance officers.
+      </p>
+
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100 mt-10 mb-4">Topics We Cover</h2>
+      <ul class="list-disc pl-6 space-y-2">
+        <li><strong>AI &amp; Machine Learning</strong> &mdash; How AI is reshaping IT workflows, threat detection, and automation</li>
+        <li><strong>Cybersecurity</strong> &mdash; Latest threats, vulnerabilities, breach analyses, and defense strategies</li>
+        <li><strong>Compliance</strong> &mdash; CMMC, SOC 2, HIPAA, and evolving regulatory frameworks</li>
+        <li><strong>IT Operations</strong> &mdash; Endpoint management, cloud security, patch management, and DevSecOps</li>
+      </ul>
+
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100 mt-10 mb-4">Espresso Labs</h2>
+      <p>
+        This blog is brought to you by the team at <a href="https://espressolabs.com/" target="_blank" rel="noopener" class="text-brand-600 dark:text-brand-400 hover:underline font-semibold">Espresso Labs</a> &mdash; an AI-powered platform for IT, security, and compliance.
+      </p>
+      <p>
+        Espresso Labs delivers enterprise-grade 24/7 IT management, cybersecurity monitoring, and compliance automation as a service. Powered by AI and backed by real human experts, it replaces the complexity of managing multiple security tools with a single intelligent platform.
+      </p>
+
+      <!-- Espresso Labs CTA -->
+      <div class="mt-8 p-6 bg-gradient-to-r from-brand-50 to-blue-50 dark:from-brand-900/20 dark:to-blue-900/20 rounded-xl border border-brand-200 dark:border-brand-800">
+        <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div class="flex-1">
+            <h3 class="font-bold text-gray-900 dark:text-gray-100 mb-1">Ready to simplify your IT &amp; security?</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400">Discover how Espresso Labs can protect your business with AI-powered IT, security, and compliance &mdash; all in one platform.</p>
+          </div>
+          <a href="https://espressolabs.com/" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-2.5 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold rounded-lg transition-colors whitespace-nowrap">
+            Learn More
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100 mt-10 mb-4">Disclaimer</h2>
+      <p class="text-sm text-gray-500 dark:text-gray-400">
+        All articles on this blog are generated by artificial intelligence based on publicly available news sources. While we strive for accuracy, AI-generated content may contain errors or not reflect the very latest developments. Always verify critical information from primary sources.
+      </p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid gap-8 sm:grid-cols-3">
+        <div>
+          <div class="flex items-center gap-2 mb-3">
+            <div class="w-7 h-7 bg-brand-600 rounded-md flex items-center justify-center text-white font-bold text-xs">AI</div>
+            <span class="font-bold text-sm">AI Security &amp; Compliance News</span>
+          </div>
+          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">AI-powered news and analysis on cybersecurity, compliance, and IT operations.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">Navigation</h4>
+          <ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+            <li><a href="index.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a></li>
+            <li><a href="about.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">Powered By</h4>
+          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">Content generated by Google Gemini AI. IT &amp; Security solutions by <a href="https://espressolabs.com/" target="_blank" rel="noopener" class="text-brand-600 dark:text-brand-400 hover:underline">Espresso Labs</a>.</p>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-gray-200 dark:border-gray-800 text-center text-xs text-gray-400">
+        &copy; <span id="year"></span> AI Security and Compliance News. Posts are AI-generated and may not reflect the latest information.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
