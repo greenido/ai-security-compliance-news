@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://greenido.github.io/ai-security-compliance-news/sitemap.xml
