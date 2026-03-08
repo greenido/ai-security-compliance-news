@@ -98,6 +98,25 @@ describe('formatDate', () => {
     assert.ok(result.includes('1'));
     assert.ok(result.includes('2026'));
   });
+
+  it('does not shift the date across timezones (T00:00:00 forces local interpretation)', async () => {
+    const { execFileSync } = await import('node:child_process');
+    const script = [
+      "const d = new Date('2026-03-08T00:00:00');",
+      "process.stdout.write(d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }));",
+    ].join('');
+
+    for (const tz of ['Pacific/Honolulu', 'America/New_York', 'UTC', 'Asia/Tokyo', 'Pacific/Auckland']) {
+      const out = execFileSync('node', ['-e', script], {
+        env: { ...process.env, TZ: tz },
+        encoding: 'utf-8',
+      });
+      assert.ok(
+        out.includes('March') && out.includes('8') && out.includes('2026'),
+        `Expected "March 8, 2026" in TZ=${tz}, got "${out}"`,
+      );
+    }
+  });
 });
 
 // ---------------------------------------------------------------------------
