@@ -74,7 +74,7 @@ export async function generatePost(newsItem) {
   console.log('Generating post with Gemini...');
 
   const response = await getAI().models.generateContent({
-    model: 'gemini-2.0-flash',
+    model: 'gemini-3.0-flash',
     contents: prompt,
     config: {
       temperature: 0.7,
