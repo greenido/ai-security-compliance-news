@@ -7,6 +7,7 @@ dotenv.config({ path: join(__dirname, '..', '.env') });
 
 import { fetchTrendingNews } from './fetch-news.mjs';
 import { generatePost } from './gemini-writer.mjs';
+import { fetchHeroImage } from './unsplash.mjs';
 import { buildPost } from './build-post-html.mjs';
 import { getRecentPosts, isTooSimilar } from './dedupe.mjs';
 import { createLogger } from './logger.mjs';
@@ -45,6 +46,18 @@ async function main() {
   const genTimer = log.time('step2:generate');
   const post = await generatePost(newsItem);
   genTimer.end('post generated');
+
+  // Step 2b: Fetch hero image from Unsplash
+  log.section('Step 2b — Fetch Hero Image (Unsplash)');
+  const imgTimer = log.time('step2b:image');
+  const heroImage = await fetchHeroImage(post);
+  if (heroImage) {
+    post.heroImage = heroImage;
+    log.success('main', `Hero image: "${heroImage.query}" by ${heroImage.credit}`);
+  } else {
+    log.warn('main', 'No hero image — post will render without one');
+  }
+  imgTimer.end('image step complete');
 
   // Step 3: Build HTML and update index
   log.section('Step 3/3 — Build HTML & Update Index');
