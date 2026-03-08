@@ -1,5 +1,26 @@
 [
   {
+    "title": "VOID#GEIST: A Triple Threat RAT Attack Surfaces",
+    "slug": "2026-03-08-voidgeist-triple-threat-rat-attack",
+    "date": "2026-03-08",
+    "excerpt": "A new multi-stage malware campaign, dubbed VOID#GEIST, is making waves in the cybersecurity community. It leverages obfuscated batch scripts to deploy a trio of potent Remote Access Trojans (RATs): XWorm, AsyncRAT, and Xeno RAT.",
+    "tags": [
+      "malware",
+      "RAT",
+      "VOID#GEIST",
+      "XWorm",
+      "AsyncRAT",
+      "Xeno RAT",
+      "cybersecurity",
+      "threat intelligence"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 667
+  },
+  {
     "title": "VOID#GEIST: New Multi-RAT Malware Threat Emerges",
     "slug": "2026-03-08-voidgeist-new-multi-rat-malware-threat-emerges",
     "date": "2026-03-08",
