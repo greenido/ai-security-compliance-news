@@ -34,16 +34,26 @@
   }
 
   function createPostCard(post) {
-    var category = (post.categories && post.categories[0]) || 'AI';
+    var categories = (post.categories && post.categories.length) ? post.categories : ['AI'];
     var readTime = estimateReadTime(post.wordCount);
     var card = document.createElement('article');
     card.className = 'group bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col';
     card.setAttribute('data-categories', JSON.stringify(post.categories || []));
 
+    var sortedCats = categories.slice();
+    if (currentFilter !== 'all') {
+      sortedCats.sort(function (a, b) {
+        return (a === currentFilter ? -1 : 0) - (b === currentFilter ? -1 : 0);
+      });
+    }
+    var badgesHtml = sortedCats.map(function (cat) {
+      return '<span class="inline-block px-2.5 py-0.5 text-xs font-semibold rounded-full ' + getCategoryColor(cat) + '">' + cat + '</span>';
+    }).join('');
+
     card.innerHTML =
       '<div class="p-6 flex flex-col flex-1">' +
-        '<div class="flex items-center gap-2 mb-3">' +
-          '<span class="inline-block px-2.5 py-0.5 text-xs font-semibold rounded-full ' + getCategoryColor(category) + '">' + category + '</span>' +
+        '<div class="flex items-center gap-2 mb-3 flex-wrap">' +
+          badgesHtml +
           '<span class="text-xs text-gray-400">' + readTime + ' min read</span>' +
         '</div>' +
         '<h2 class="text-lg font-bold leading-snug mb-2 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">' +

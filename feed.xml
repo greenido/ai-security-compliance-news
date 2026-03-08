@@ -5,8 +5,17 @@
     <link>https://greenido.github.io/ai-security-compliance-news</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Mar 2026 03:48:13 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 16:03:04 GMT</lastBuildDate>
     <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>AI Transforms Code Security: OpenAI&apos;s New Vulnerability Agent</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent.html</guid>
+    <description>The landscape of software security is shifting. OpenAI has just unveiled Codex Security, an AI agent designed to proactively identify, validate, and propose fixes for vulnerabilities in your codebase. This innovation promises to revolutionize how organizations approach secure development.</description>
+    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+  </item>
   <item>
     <title>AI Transforms Code Security: A New Era for Vulnerability Detection</title>
     <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-a-new-era-for-vulnerability-detection.html</link>
