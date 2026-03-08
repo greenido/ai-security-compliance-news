@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Security and Compliance News</title>
+    <link>https://greenido.github.io/ai-security-compliance-news</link>
+    <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2026 03:46:16 GMT</lastBuildDate>
+    <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>AI&apos;s New Frontier: OpenAI Codex Security Tackles Code Vulnerabilities</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-new-frontier-openai-codex-security-tackles-code-vulnerabilities.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-new-frontier-openai-codex-security-tackles-code-vulnerabilities.html</guid>
+    <description>Software security is a relentless battle, with vulnerabilities lurking in every line of code. Enter OpenAI Codex Security, an AI agent designed to fundamentally transform how organizations approach code security, promising a future where critical flaws are caught and fixed with unprecedented speed and scale.</description>
+    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>AI&apos;s Deep Dive: OpenAI Codex Security Reshapes Code Security</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-deep-dive-openai-codex-security-reshapes-code-security.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-deep-dive-openai-codex-security-reshapes-code-security.html</guid>
+    <description>The landscape of software security is undergoing a seismic shift. OpenAI&apos;s recently launched Codex Security, an AI-powered agent, has revealed the sheer scale of vulnerabilities lurking in codebases. Its initial findings underscore the transformative potential of AI in proactive code security.</description>
+    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>AI-Powered Code Security: OpenAI Codex Unearths Thousands of Vulnerabilities</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-powered-code-security-openai-codex-unearths-thousands-of-vulnerabilities.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-powered-code-security-openai-codex-unearths-thousands-of-vulnerabilities.html</guid>
+    <description>The cybersecurity landscape just gained a powerful new ally. OpenAI has unveiled Codex Security, an AI-powered agent designed to proactively identify and fix vulnerabilities in codebases. This innovative tool promises to redefine how organizations approach software security.</description>
+    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>VOID#GEIST: Deconstructing the Stealthy Multi-Stage RAT Threat</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-deconstructing-stealthy-multi-stage-rat-threat.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-deconstructing-stealthy-multi-stage-rat-threat.html</guid>
+    <description>A new multi-stage malware campaign, dubbed VOID#GEIST, is leveraging obfuscated batch scripts to deploy a trio of potent Remote Access Trojans: XWorm, AsyncRAT, and Xeno RAT. Securonix Threat Research has unveiled the intricate details of this stealthy attack chain, highlighting a significant evolution in threat actor tactics.</description>
+    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>VOID#GEIST: New Multi-RAT Malware Threat Emerges</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-new-multi-rat-malware-threat-emerges.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-new-multi-rat-malware-threat-emerges.html</guid>
+    <description>A newly discovered malware campaign, dubbed VOID#GEIST, is leveraging sophisticated techniques to deliver a trio of potent Remote Access Trojans (RATs). Security teams need to understand this multi-stage attack to protect their environments.</description>
+    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+  </item>
+  </channel>
+</rss>
