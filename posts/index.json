@@ -1,5 +1,23 @@
 [
   {
+    "title": "Zero-Day Blitz: Navigating Qualcomm, iOS & New Cyber Threats",
+    "slug": "2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats",
+    "date": "2026-03-09",
+    "excerpt": "Another week, another stark reminder of the relentless pace of cyber threats. From a critical Qualcomm 0-day to sophisticated iOS exploit chains and novel attack vectors, defenders were kept on their toes. This post unpacks the key takeaways from the latest cybersecurity headlines.",
+    "tags": [
+      "Cybersecurity",
+      "Zero-Day",
+      "Qualcomm",
+      "iOS Security",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 836
+  },
+  {
     "title": "AI Transforms Code Security: OpenAI's New Vulnerability Agent",
     "slug": "2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent",
     "date": "2026-03-08",
