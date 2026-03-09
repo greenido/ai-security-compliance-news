@@ -84,32 +84,67 @@ function shouldAddCTA(newsItem) {
 export { shouldAddCTA, buildPrompt };
 
 function tryRepairJSON(text) {
-  try {
-    let fixed = text;
-    const openBraces = (fixed.match(/{/g) || []).length;
-    const closeBraces = (fixed.match(/}/g) || []).length;
-    const openBrackets = (fixed.match(/\[/g) || []).length;
-    const closeBrackets = (fixed.match(/\]/g) || []).length;
+  const strategies = [
+    // Strategy 1: strip control characters that break JSON strings
+    (t) => t.replace(/[\x00-\x1f\x7f]/g, (ch) => {
+      const esc = { '\n': '\\n', '\r': '\\r', '\t': '\\t' }[ch];
+      return esc || '';
+    }),
+    // Strategy 2: fix truncated tail — close open strings, arrays, braces
+    (t) => {
+      let fixed = t;
+      const openBraces = (fixed.match(/{/g) || []).length;
+      const closeBraces = (fixed.match(/}/g) || []).length;
+      const openBrackets = (fixed.match(/\[/g) || []).length;
+      const closeBrackets = (fixed.match(/\]/g) || []).length;
 
-    if (openBraces <= closeBraces && openBrackets <= closeBrackets) return null;
+      if (openBraces <= closeBraces && openBrackets <= closeBrackets) return null;
 
-    // Truncated inside a string value — close the string and remaining structure
-    const lastQuote = fixed.lastIndexOf('"');
-    const afterLast = fixed.slice(lastQuote + 1).trim();
-    if (afterLast === '' || afterLast === ',') {
-      fixed = fixed.slice(0, lastQuote + 1);
-    } else if (!afterLast.startsWith(':') && !afterLast.startsWith('}') && !afterLast.startsWith(']')) {
-      fixed += '"';
+      const lastQuote = fixed.lastIndexOf('"');
+      const afterLast = fixed.slice(lastQuote + 1).trim();
+      if (afterLast === '' || afterLast === ',') {
+        fixed = fixed.slice(0, lastQuote + 1);
+      } else if (!afterLast.startsWith(':') && !afterLast.startsWith('}') && !afterLast.startsWith(']')) {
+        fixed += '"';
+      }
+
+      fixed = fixed.replace(/,\s*$/, '');
+      for (let i = 0; i < openBrackets - closeBrackets; i++) fixed += ']';
+      for (let i = 0; i < openBraces - closeBraces; i++) fixed += '}';
+      return fixed;
+    },
+    // Strategy 3: combine control-char fix + truncation fix
+    (t) => {
+      const cleaned = t.replace(/[\x00-\x1f\x7f]/g, (ch) => {
+        const esc = { '\n': '\\n', '\r': '\\r', '\t': '\\t' }[ch];
+        return esc || '';
+      });
+      let fixed = cleaned;
+      const openBraces = (fixed.match(/{/g) || []).length;
+      const closeBraces = (fixed.match(/}/g) || []).length;
+      const openBrackets = (fixed.match(/\[/g) || []).length;
+      const closeBrackets = (fixed.match(/\]/g) || []).length;
+
+      if (openBraces > closeBraces || openBrackets > closeBrackets) {
+        fixed = fixed.replace(/,\s*$/, '');
+        for (let i = 0; i < openBrackets - closeBrackets; i++) fixed += ']';
+        for (let i = 0; i < openBraces - closeBraces; i++) fixed += '}';
+      }
+      return fixed;
+    },
+  ];
+
+  for (const strategy of strategies) {
+    try {
+      const result = strategy(text);
+      if (result === null) continue;
+      const parsed = typeof result === 'string' ? JSON.parse(result) : result;
+      if (parsed && typeof parsed === 'object') return parsed;
+    } catch {
+      // try next strategy
     }
-
-    fixed = fixed.replace(/,\s*$/, '');
-    for (let i = 0; i < openBrackets - closeBrackets; i++) fixed += ']';
-    for (let i = 0; i < openBraces - closeBraces; i++) fixed += '}';
-
-    return JSON.parse(fixed);
-  } catch {
-    return null;
   }
+  return null;
 }
 
 export async function generatePost(newsItem) {
@@ -125,11 +160,11 @@ export async function generatePost(newsItem) {
 
   const prompt = buildPrompt(newsItem);
 
-  const MAX_RETRIES = 2;
+  const MAX_RETRIES = 3;
   let post;
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-    log.info('generatePost', `Calling Gemini API attempt ${attempt}/${MAX_RETRIES} (model=gemini-2.5-flash, temp=0.7, maxTokens=16384)`);
+    log.info('generatePost', `Calling Gemini API attempt ${attempt}/${MAX_RETRIES} (model=gemini-2.5-flash, temp=0.7, maxTokens=16384, json-mode=ON)`);
     const apiTimer = log.time('generatePost:api-call');
 
     const response = await getAI().models.generateContent({
@@ -138,6 +173,7 @@ export async function generatePost(newsItem) {
       config: {
         temperature: 0.7,
         maxOutputTokens: 16384,
+        responseMimeType: 'application/json',
       },
     });
 
