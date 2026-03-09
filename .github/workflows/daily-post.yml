@@ -31,6 +31,7 @@ jobs:
         working-directory: scripts
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
 
       - name: Commit new post
         run: |
