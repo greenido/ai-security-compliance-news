@@ -5,8 +5,16 @@
     <link>https://greenido.github.io/ai-security-compliance-news</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Mar 2026 16:03:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 17:28:20 GMT</lastBuildDate>
     <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Zero-Day Blitz: Navigating Qualcomm, iOS &amp; New Cyber Threats</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats.html</guid>
+    <description>Another week, another stark reminder of the relentless pace of cyber threats. From a critical Qualcomm 0-day to sophisticated iOS exploit chains and novel attack vectors, defenders were kept on their toes. This post unpacks the key takeaways from the latest cybersecurity headlines.</description>
+    <pubDate>Mon, 09 Mar 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+  </item>
   <item>
     <title>AI Transforms Code Security: OpenAI&apos;s New Vulnerability Agent</title>
     <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent.html</link>
