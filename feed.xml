@@ -5,13 +5,48 @@
     <link>https://greenido.github.io/ai-security-compliance-news</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Mar 2026 03:46:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 17:43:21 GMT</lastBuildDate>
     <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>AI&apos;s New Frontier: OpenAI Codex Security Tackles Code Vulnerabilities</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-new-frontier-openai-codex-security-tackles-code-vulnerabilities.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-new-frontier-openai-codex-security-tackles-code-vulnerabilities.html</guid>
-    <description>Software security is a relentless battle, with vulnerabilities lurking in every line of code. Enter OpenAI Codex Security, an AI agent designed to fundamentally transform how organizations approach code security, promising a future where critical flaws are caught and fixed with unprecedented speed and scale.</description>
+    <title>AirDrop to Cloud Compromise: UNC4899&apos;s Latest Crypto Heist</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-airdrop-to-cloud-compromise-unc4899s-latest-crypto-heist.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-airdrop-to-cloud-compromise-unc4899s-latest-crypto-heist.html</guid>
+    <description>The North Korean threat actor UNC4899 orchestrated a sophisticated cloud compromise, exploiting a developer&apos;s AirDrop use to steal millions from a crypto firm. This incident highlights critical vulnerabilities in human trust and device policies, demanding a re-evaluation of current security strategies.</description>
+    <pubDate>Mon, 09 Mar 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>IT Ops</category>
+  </item>
+  <item>
+    <title>Zero-Day Blitz: Navigating Qualcomm, iOS &amp; New Cyber Threats</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats.html</guid>
+    <description>Another week, another stark reminder of the relentless pace of cyber threats. From a critical Qualcomm 0-day to sophisticated iOS exploit chains and novel attack vectors, defenders were kept on their toes. This post unpacks the key takeaways from the latest cybersecurity headlines.</description>
+    <pubDate>Mon, 09 Mar 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>AI Transforms Code Security: OpenAI&apos;s New Vulnerability Agent</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent.html</guid>
+    <description>The landscape of software security is shifting. OpenAI has just unveiled Codex Security, an AI agent designed to proactively identify, validate, and propose fixes for vulnerabilities in your codebase. This innovation promises to revolutionize how organizations approach secure development.</description>
+    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>AI Transforms Code Security: A New Era for Vulnerability Detection</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-a-new-era-for-vulnerability-detection.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-a-new-era-for-vulnerability-detection.html</guid>
+    <description>The landscape of software development security is undergoing a seismic shift. OpenAI&apos;s new Codex Security agent is demonstrating unprecedented capabilities in identifying and fixing vulnerabilities at scale, promising a future of more resilient codebases.</description>
+    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+  </item>
+  <item>
+    <title>OpenAI Codex Security: AI&apos;s Bold Leap in Code Vulnerability</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-openai-codex-security-ais-bold-leap-in-code-vulnerability.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-openai-codex-security-ais-bold-leap-in-code-vulnerability.html</guid>
+    <description>The cybersecurity landscape just got a powerful new ally. OpenAI&apos;s Codex Security, an AI-powered agent, has scanned millions of code commits, uncovering thousands of high-severity vulnerabilities and proposing fixes. This innovation marks a significant shift in how organizations can approach code security, promising to revolutionize DevSecOps workflows.</description>
     <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
     <category>AI</category>
     <category>Security</category>

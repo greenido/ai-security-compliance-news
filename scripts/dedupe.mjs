@@ -74,6 +74,46 @@ function jaccardSimilarity(setA, setB) {
   return similarity;
 }
 
+const TRACKED_CATEGORIES = ['Compliance', 'IT Ops'];
+
+export function getCategoryGaps(lookbackCount = 8) {
+  log.info('getCategoryGaps', `Checking last ${lookbackCount} posts for category coverage gaps (tracking: [${TRACKED_CATEGORIES.join(', ')}])`);
+
+  if (!existsSync(INDEX_PATH)) {
+    log.warn('getCategoryGaps', `Index file not found — assuming all categories are gaps`);
+    return [...TRACKED_CATEGORIES];
+  }
+
+  let index;
+  try {
+    index = JSON.parse(readFileSync(INDEX_PATH, 'utf-8'));
+  } catch (err) {
+    log.error('getCategoryGaps', `Failed to parse index.json: ${err.message}`);
+    return [...TRACKED_CATEGORIES];
+  }
+
+  const recentSlice = index.slice(0, lookbackCount);
+  log.info('getCategoryGaps', `Analyzing ${recentSlice.length} most recent posts`);
+
+  const coveredCategories = new Set();
+  for (const post of recentSlice) {
+    for (const cat of (post.categories || [])) {
+      coveredCategories.add(cat);
+    }
+  }
+
+  log.info('getCategoryGaps', `Categories covered in last ${recentSlice.length} posts: [${[...coveredCategories].join(', ')}]`);
+
+  const gaps = TRACKED_CATEGORIES.filter((cat) => !coveredCategories.has(cat));
+  if (gaps.length > 0) {
+    log.warn('getCategoryGaps', `Category gaps found: [${gaps.join(', ')}]`);
+  } else {
+    log.success('getCategoryGaps', 'All tracked categories are covered — no gaps');
+  }
+
+  return gaps;
+}
+
 export function isTooSimilar(candidate, recentPosts) {
   log.info('isTooSimilar', `Checking candidate: "${candidate.title?.slice(0, 60)}" against ${recentPosts.length} recent posts (threshold=${SIMILARITY_THRESHOLD})`);
 
