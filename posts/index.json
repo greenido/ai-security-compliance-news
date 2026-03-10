@@ -1,5 +1,29 @@
 [
   {
+    "title": "Proactive Defense: Mastering Your Attack Surface Against Zero-Days",
+    "slug": "2026-03-10-proactive-defense-mastering-attack-surface-zero-days",
+    "date": "2026-03-10",
+    "excerpt": "The frantic scramble during a zero-day exploit is a familiar, unwelcome scenario for many IT and security teams. But what if much of that panic could be avoided? A recent report highlights that proactive attack surface reduction is key to mitigating the impact of inevitable vulnerabilities.",
+    "tags": [
+      "cybersecurity",
+      "zero-day",
+      "attack surface management",
+      "vulnerability management",
+      "IT security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 827,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1485230405346-71acb9518d9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxHdWFyZHxlbnwxfDB8fHwxNzczMTU1ODE2fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "security guard standing on the gray floor",
+      "credit": "Collin",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "2026 Compliance Crossroads: Mastering Evolving Frameworks",
     "slug": "2026-compliance-crossroads-mastering-evolving-frameworks",
     "date": "2026-03-10",
