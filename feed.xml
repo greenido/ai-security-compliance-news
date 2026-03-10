@@ -5,8 +5,16 @@
     <link>https://greenido.github.io/ai-security-compliance-news</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2026 01:07:59 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 15:16:56 GMT</lastBuildDate>
     <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Proactive Defense: Mastering Your Attack Surface Against Zero-Days</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-10-proactive-defense-mastering-attack-surface-zero-days.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-10-proactive-defense-mastering-attack-surface-zero-days.html</guid>
+    <description>The frantic scramble during a zero-day exploit is a familiar, unwelcome scenario for many IT and security teams. But what if much of that panic could be avoided? A recent report highlights that proactive attack surface reduction is key to mitigating the impact of inevitable vulnerabilities.</description>
+    <pubDate>Tue, 10 Mar 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+  </item>
   <item>
     <title>2026 Compliance Crossroads: Mastering Evolving Frameworks</title>
     <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-compliance-crossroads-mastering-evolving-frameworks.html</link>
