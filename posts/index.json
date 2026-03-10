@@ -1,5 +1,54 @@
 [
   {
+    "title": "2026 Compliance Crossroads: Mastering Evolving Frameworks",
+    "slug": "2026-compliance-crossroads-mastering-evolving-frameworks",
+    "date": "2026-03-10",
+    "excerpt": "The regulatory landscape is shifting dramatically. For IT professionals, security teams, and compliance officers, understanding the latest updates to CMMC 2.0, SOC 2 Type II, and HIPAA is no longer optional—it's imperative. Prepare for tighter timelines and increased enforcement.",
+    "tags": [
+      "Compliance",
+      "CMMC 2.0",
+      "SOC 2 Type II",
+      "HIPAA",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 803,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1734659280729-54b8cf826c45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxiYWxhbmNlJTIwb3JkZXIlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc3MzEwNDg3OXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a sculpture of three balls",
+      "credit": "Bharath Kumar",
+      "color": "#8c7373"
+    }
+  },
+  {
+    "title": "AirDrop Attack: UNC4899's Cloud Compromise Exposes Enterprise Vulnerabilities",
+    "slug": "2026-03-10-airdrop-attack-unc4899s-cloud-compromise-exposes-enterprise-vulnerabilities",
+    "date": "2026-03-10",
+    "excerpt": "A seemingly innocuous AirDrop transfer led to a multi-million dollar cloud compromise by the North Korean threat actor UNC4899. This incident serves as a stark reminder of the evolving attack vectors and the necessity for robust security protocols.",
+    "tags": [
+      "UNC4899",
+      "Cloud Security",
+      "Supply Chain Attack",
+      "Social Engineering",
+      "Endpoint Security"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 681,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1511075675422-c8e008f749d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxIaWRkZW58ZW58MXwwfHx8MTc3MzEwNDg1OXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "opened secret door inside library",
+      "credit": "Stefan Steinbauer",
+      "color": "#260c0c"
+    }
+  },
+  {
     "title": "Zero-Day Blitz: Navigating Qualcomm, iOS & New Cyber Threats",
     "slug": "2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats",
     "date": "2026-03-09",
