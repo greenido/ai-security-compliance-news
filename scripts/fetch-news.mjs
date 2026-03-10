@@ -1,5 +1,5 @@
 import Parser from 'rss-parser';
-import { getRecentPosts, isTooSimilar } from './dedupe.mjs';
+import { getRecentPosts, isTooSimilar, getCategoryGaps } from './dedupe.mjs';
 import { createLogger } from './logger.mjs';
 
 const log = createLogger('fetch-news');
@@ -78,7 +78,28 @@ function categorizeArticle(article) {
   return categories;
 }
 
-export { scoreArticle, categorizeArticle, RSS_FEEDS, RELEVANCE_KEYWORDS };
+const CATEGORY_GAP_BOOST = 10;
+
+let _scoredArticlesCache = [];
+
+const FALLBACK_TOPICS = {
+  'Compliance': {
+    title: 'Compliance Frameworks in 2026: CMMC, SOC 2, and HIPAA Updates',
+    link: 'https://www.nist.gov/cyberframework',
+    snippet: 'Regulatory requirements continue to evolve rapidly. Organizations navigating CMMC 2.0, SOC 2 Type II, HIPAA, and emerging data-privacy frameworks face new audit expectations, tighter timelines, and increased enforcement. Understanding the latest changes is critical for compliance officers and IT leaders.',
+    source: 'Industry Analysis',
+    categories: ['Compliance'],
+  },
+  'IT Ops': {
+    title: 'IT Operations Modernization: Automation, Observability, and Resilience',
+    link: 'https://www.gartner.com/en/information-technology',
+    snippet: 'IT operations teams face mounting pressure to deliver reliable infrastructure at scale. From AIOps and predictive monitoring to endpoint management and cloud-native operations, the modern IT Ops landscape demands automation-first strategies and cross-functional collaboration.',
+    source: 'Industry Analysis',
+    categories: ['IT Ops'],
+  },
+};
+
+export { scoreArticle, categorizeArticle, RSS_FEEDS, RELEVANCE_KEYWORDS, FALLBACK_TOPICS };
 
 export async function fetchTrendingNews() {
   const timer = log.time('fetchTrendingNews');
@@ -131,8 +152,25 @@ export async function fetchTrendingNews() {
   }
 
   const scored = articlesToScore
-    .map((a) => ({ ...a, score: scoreArticle(a), categories: categorizeArticle(a) }))
-    .sort((a, b) => b.score - a.score);
+    .map((a) => ({ ...a, score: scoreArticle(a), categories: categorizeArticle(a) }));
+
+  const categoryGaps = getCategoryGaps(8);
+  if (categoryGaps.length > 0) {
+    log.info('fetchTrendingNews', `Category gaps detected: [${categoryGaps.join(', ')}] — applying +${CATEGORY_GAP_BOOST} boost to matching articles`);
+    let boosted = 0;
+    for (const article of scored) {
+      const matchesGap = article.categories.some((c) => categoryGaps.includes(c));
+      if (matchesGap) {
+        article.score += CATEGORY_GAP_BOOST;
+        boosted++;
+        log.debug('fetchTrendingNews', `  Boosted: "${article.title?.slice(0, 60)}" [${article.categories.join(',')}] → score=${article.score}`);
+      }
+    }
+    log.info('fetchTrendingNews', `Boosted ${boosted} article(s) matching gap categories`);
+  }
+
+  scored.sort((a, b) => b.score - a.score);
+  _scoredArticlesCache = scored;
 
   log.info('fetchTrendingNews', `Scored ${scored.length} articles — top 5:`);
   scored.slice(0, 5).forEach((a, i) => {
@@ -193,4 +231,40 @@ export async function fetchTrendingNews() {
     categories: top.categories,
     date: top.isoDate,
   };
+}
+
+export function pickArticleForCategory(category, excludeTitles = []) {
+  log.info('pickArticleForCategory', `Looking for a "${category}" article (excluding ${excludeTitles.length} title(s), cache size=${_scoredArticlesCache.length})`);
+
+  const candidates = _scoredArticlesCache
+    .filter((a) => a.categories.includes(category))
+    .filter((a) => !excludeTitles.includes(a.title));
+
+  if (candidates.length === 0) {
+    log.warn('pickArticleForCategory', `No RSS articles found for "${category}" — will need fallback`);
+    return null;
+  }
+
+  const recentPosts = getRecentPosts();
+  for (const candidate of candidates) {
+    const check = isTooSimilar(
+      { title: candidate.title, snippet: candidate.contentSnippet, categories: candidate.categories },
+      recentPosts,
+    );
+    if (!check.similar) {
+      log.success('pickArticleForCategory', `Selected "${category}" article: "${candidate.title}" (score=${candidate.score})`);
+      return {
+        title: candidate.title,
+        link: candidate.link,
+        snippet: candidate.contentSnippet,
+        source: candidate.source,
+        categories: candidate.categories,
+        date: candidate.isoDate,
+      };
+    }
+    log.debug('pickArticleForCategory', `  Skipped: "${candidate.title?.slice(0, 60)}" — too similar to recent post`);
+  }
+
+  log.warn('pickArticleForCategory', `All ${candidates.length} "${category}" candidates were too similar to recent posts — will need fallback`);
+  return null;
 }

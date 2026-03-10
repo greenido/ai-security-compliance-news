@@ -5,8 +5,25 @@
     <link>https://greenido.github.io/ai-security-compliance-news</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2026 17:28:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 01:07:59 GMT</lastBuildDate>
     <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>2026 Compliance Crossroads: Mastering Evolving Frameworks</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-compliance-crossroads-mastering-evolving-frameworks.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-compliance-crossroads-mastering-evolving-frameworks.html</guid>
+    <description>The regulatory landscape is shifting dramatically. For IT professionals, security teams, and compliance officers, understanding the latest updates to CMMC 2.0, SOC 2 Type II, and HIPAA is no longer optional—it&apos;s imperative. Prepare for tighter timelines and increased enforcement.</description>
+    <pubDate>Tue, 10 Mar 2026 12:00:00 GMT</pubDate>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>AirDrop Attack: UNC4899&apos;s Cloud Compromise Exposes Enterprise Vulnerabilities</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-10-airdrop-attack-unc4899s-cloud-compromise-exposes-enterprise-vulnerabilities.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-10-airdrop-attack-unc4899s-cloud-compromise-exposes-enterprise-vulnerabilities.html</guid>
+    <description>A seemingly innocuous AirDrop transfer led to a multi-million dollar cloud compromise by the North Korean threat actor UNC4899. This incident serves as a stark reminder of the evolving attack vectors and the necessity for robust security protocols.</description>
+    <pubDate>Tue, 10 Mar 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>IT Ops</category>
+  </item>
   <item>
     <title>Zero-Day Blitz: Navigating Qualcomm, iOS &amp; New Cyber Threats</title>
     <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats.html</link>
