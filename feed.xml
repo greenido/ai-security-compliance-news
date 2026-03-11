@@ -5,8 +5,17 @@
     <link>https://greenido.github.io/ai-security-compliance-news</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2026 15:16:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 15:15:19 GMT</lastBuildDate>
     <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>n8n Critical Flaws: RCE &amp; Credential Exposure Alert</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-11-n8n-critical-flaws-rce-credential-exposure-alert.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-11-n8n-critical-flaws-rce-credential-exposure-alert.html</guid>
+    <description>A recent disclosure from cybersecurity researchers has revealed two critical vulnerabilities in the n8n workflow automation platform. These flaws, carrying CVSS scores up to 9.5, could lead to remote code execution and the exposure of sensitive stored credentials, posing significant risks to IT operations and data security.</description>
+    <pubDate>Wed, 11 Mar 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>IT Ops</category>
+  </item>
   <item>
     <title>Proactive Defense: Mastering Your Attack Surface Against Zero-Days</title>
     <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-10-proactive-defense-mastering-attack-surface-zero-days.html</link>

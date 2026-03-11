@@ -1,5 +1,35 @@
 [
   {
+    "title": "n8n Critical Flaws: RCE & Credential Exposure Alert",
+    "slug": "2026-03-11-n8n-critical-flaws-rce-credential-exposure-alert",
+    "date": "2026-03-11",
+    "excerpt": "A recent disclosure from cybersecurity researchers has revealed two critical vulnerabilities in the n8n workflow automation platform. These flaws, carrying CVSS scores up to 9.5, could lead to remote code execution and the exposure of sensitive stored credentials, posing significant risks to IT operations and data security.",
+    "tags": [
+      "n8n",
+      "cybersecurity",
+      "RCE",
+      "vulnerability",
+      "IT operations",
+      "data security",
+      "compliance",
+      "workflow automation",
+      "CVE-2026-27577",
+      "CVE-2026-27493"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 790,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1633517433736-e904ceeefbd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxjcnxlbnwxfDB8fHwxNzczMjQyMTE5fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a close up of a rock with moss growing on it",
+      "credit": "kimia ghossi",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Proactive Defense: Mastering Your Attack Surface Against Zero-Days",
     "slug": "2026-03-10-proactive-defense-mastering-attack-surface-zero-days",
     "date": "2026-03-10",
