@@ -5,8 +5,16 @@
     <link>https://greenido.github.io/ai-security-compliance-news</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Mar 2026 15:15:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 15:16:58 GMT</lastBuildDate>
     <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Beyond the Inbox: Phishing Attacks Weaponize Your SOC Workload</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-12-beyond-inbox-phishing-attacks-weaponize-soc-workload.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-12-beyond-inbox-phishing-attacks-weaponize-soc-workload.html</guid>
+    <description>Phishing has evolved beyond simple email scams. Modern attackers are now designing campaigns to overwhelm and exhaust your Security Operations Center (SOC) analysts, turning routine investigations into critical incidents. This new threat paradigm demands a shift in defensive strategies.</description>
+    <pubDate>Thu, 12 Mar 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+  </item>
   <item>
     <title>n8n Critical Flaws: RCE &amp; Credential Exposure Alert</title>
     <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-11-n8n-critical-flaws-rce-credential-exposure-alert.html</link>

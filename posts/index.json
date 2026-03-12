@@ -1,5 +1,29 @@
 [
   {
+    "title": "Beyond the Inbox: Phishing Attacks Weaponize Your SOC Workload",
+    "slug": "2026-03-12-beyond-inbox-phishing-attacks-weaponize-soc-workload",
+    "date": "2026-03-12",
+    "excerpt": "Phishing has evolved beyond simple email scams. Modern attackers are now designing campaigns to overwhelm and exhaust your Security Operations Center (SOC) analysts, turning routine investigations into critical incidents. This new threat paradigm demands a shift in defensive strategies.",
+    "tags": [
+      "phishing",
+      "cybersecurity",
+      "SOC",
+      "analyst fatigue",
+      "security operations"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 845,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1620809975674-10b8ff5f8e58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxPdmVyd2hlbG1lZHxlbnwxfDB8fHwxNzczMzI4NjE3fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "woman in black blazer sitting on chair",
+      "credit": "Elisa Ventur",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "n8n Critical Flaws: RCE & Credential Exposure Alert",
     "slug": "2026-03-11-n8n-critical-flaws-rce-credential-exposure-alert",
     "date": "2026-03-11",
