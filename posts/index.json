@@ -1,5 +1,33 @@
 [
   {
+    "title": "AI-Powered Malware: The Rise of Slopoly and Hive0163's Threat",
+    "slug": "2026-03-13-ai-powered-malware-slopoly-hive0163-threat",
+    "date": "2026-03-13",
+    "excerpt": "The cybersecurity landscape just got a significant upgrade in threat sophistication. New research reveals Hive0163 is utilizing AI-generated malware, dubbed Slopoly, to streamline ransomware operations. This development signals a new era for enterprise security.",
+    "tags": [
+      "AI",
+      "Malware",
+      "Ransomware",
+      "Cybersecurity",
+      "Threat Actor",
+      "Hive0163",
+      "Slopoly",
+      "Enterprise Security"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 906,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEaWdpdGFsfGVufDF8MHx8fDE3NzM0MTQ4Mzd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "Beyond the Inbox: Phishing Attacks Weaponize Your SOC Workload",
     "slug": "2026-03-12-beyond-inbox-phishing-attacks-weaponize-soc-workload",
     "date": "2026-03-12",
