@@ -5,8 +5,17 @@
     <link>https://greenido.github.io/ai-security-compliance-news</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Mar 2026 15:13:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 15:04:45 GMT</lastBuildDate>
     <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>AI-Assisted Malware: The Slopoly Threat and Your Defenses</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-14-ai-assisted-malware-the-slopoly-threat-and-your-defenses.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-14-ai-assisted-malware-the-slopoly-threat-and-your-defenses.html</guid>
+    <description>The cybersecurity landscape just got a significant jolt. AI-generated malware, exemplified by the recently disclosed Slopoly, is no longer a theoretical threat but a practical weapon in the hands of sophisticated actors like Hive0163. This development demands a re-evaluation of our defensive strategies.</description>
+    <pubDate>Sat, 14 Mar 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+  </item>
   <item>
     <title>AI-Powered Malware: The Rise of Slopoly and Hive0163&apos;s Threat</title>
     <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-13-ai-powered-malware-slopoly-hive0163-threat.html</link>

@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI-Assisted Malware: The Slopoly Threat and Your Defenses",
+    "slug": "2026-03-14-ai-assisted-malware-the-slopoly-threat-and-your-defenses",
+    "date": "2026-03-14",
+    "excerpt": "The cybersecurity landscape just got a significant jolt. AI-generated malware, exemplified by the recently disclosed Slopoly, is no longer a theoretical threat but a practical weapon in the hands of sophisticated actors like Hive0163. This development demands a re-evaluation of our defensive strategies.",
+    "tags": [
+      "AI-Malware",
+      "Cybersecurity",
+      "Ransomware",
+      "Threat Intelligence",
+      "Enterprise Security"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 803,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1764336312138-14a5368a6cd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzczNTAwNjg1fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Abstract blue and purple light streaks forming a head shape",
+      "credit": "Mirella Callage",
+      "color": "#4059d9"
+    }
+  },
+  {
     "title": "AI-Powered Malware: The Rise of Slopoly and Hive0163's Threat",
     "slug": "2026-03-13-ai-powered-malware-slopoly-hive0163-threat",
     "date": "2026-03-13",
