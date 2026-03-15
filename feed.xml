@@ -5,8 +5,16 @@
     <link>https://greenido.github.io/ai-security-compliance-news</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Mar 2026 15:04:45 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 15:06:01 GMT</lastBuildDate>
     <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>INTERPOL&apos;s Cyber Strike: 45,000 IPs Down, What It Means</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-15-interpol-cyber-strike-45000-ips-down-what-it-means.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-15-interpol-cyber-strike-45000-ips-down-what-it-means.html</guid>
+    <description>INTERPOL&apos;s recent global operation dismantled 45,000 malicious IPs and led to 94 arrests, striking a blow against cybercriminal infrastructure. This significant victory offers a critical lesson for IT professionals and security teams on maintaining robust defenses in an evolving threat landscape.</description>
+    <pubDate>Sun, 15 Mar 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+  </item>
   <item>
     <title>AI-Assisted Malware: The Slopoly Threat and Your Defenses</title>
     <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-14-ai-assisted-malware-the-slopoly-threat-and-your-defenses.html</link>
