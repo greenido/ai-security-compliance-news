@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  generate-and-deploy:
+  generate-and-push:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -42,9 +42,3 @@ jobs:
           git commit -m "Daily post: $(date +%Y-%m-%d)"
           git push
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
-          exclude_assets: '.github,scripts/node_modules'

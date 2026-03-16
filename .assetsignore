@@ -1,0 +1,10 @@
+node_modules/
+scripts/
+.git/
+.github/
+README.md
+package.json
+package-lock.json
+tailwind.config.js
+wrangler.toml
+.assetsignore
