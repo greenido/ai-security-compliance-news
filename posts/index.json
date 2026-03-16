@@ -1,5 +1,34 @@
 [
   {
+    "title": "Cybersecurity's Shifting Sands: 0-Days, Botnets, & Rogue AI",
+    "slug": "2026-03-16-cybersecuritys-shifting-sands-0-days-botnets-rogue-ai",
+    "date": "2026-03-16",
+    "excerpt": "The cybersecurity landscape is in constant flux, but some weeks underscore just how rapidly threats evolve. From critical browser vulnerabilities and silent infrastructure compromises to the ominous rise of AI-driven risks, vigilance is paramount.",
+    "tags": [
+      "Cybersecurity",
+      "Zero-Day",
+      "Botnet",
+      "Cloud Security",
+      "AI Security",
+      "Threat Intelligence",
+      "IT Operations",
+      "Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 714,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1531211373157-f54cd9ece990?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaHxlbnwxfDB8fHwxNzczNjc0NTgzfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "man doing keep quiet sign",
+      "credit": "Ocean Biggshott",
+      "color": "#260c0c"
+    }
+  },
+  {
     "title": "INTERPOL's Cyber Strike: 45,000 IPs Down, What It Means",
     "slug": "2026-03-15-interpol-cyber-strike-45000-ips-down-what-it-means",
     "date": "2026-03-15",
