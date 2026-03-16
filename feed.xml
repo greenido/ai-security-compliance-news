@@ -5,8 +5,18 @@
     <link>https://greenido.github.io/ai-security-compliance-news</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Mar 2026 15:06:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 15:23:03 GMT</lastBuildDate>
     <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Cybersecurity&apos;s Shifting Sands: 0-Days, Botnets, &amp; Rogue AI</title>
+    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-16-cybersecuritys-shifting-sands-0-days-botnets-rogue-ai.html</link>
+    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-16-cybersecuritys-shifting-sands-0-days-botnets-rogue-ai.html</guid>
+    <description>The cybersecurity landscape is in constant flux, but some weeks underscore just how rapidly threats evolve. From critical browser vulnerabilities and silent infrastructure compromises to the ominous rise of AI-driven risks, vigilance is paramount.</description>
+    <pubDate>Mon, 16 Mar 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+    <category>IT Ops</category>
+  </item>
   <item>
     <title>INTERPOL&apos;s Cyber Strike: 45,000 IPs Down, What It Means</title>
     <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-15-interpol-cyber-strike-45000-ips-down-what-it-means.html</link>
