@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI's Edge in Cybersecurity Compliance Automation",
+    "slug": "2026-03-17-ais-edge-in-cybersecurity-compliance-automation",
+    "date": "2026-03-17",
+    "excerpt": "The cybersecurity compliance landscape is a minefield of regulations, manual tasks, and escalating threats. Learn how AI-driven platforms are emerging as essential tools to automate, streamline, and secure your organization's compliance posture.",
+    "tags": [
+      "Cybersecurity Compliance",
+      "AI Automation",
+      "IT Management",
+      "Security Operations",
+      "Regulatory Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 662,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsfGVufDF8MHx8fDE3NzM3NjA4NzV8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "Cybersecurity's Shifting Sands: 0-Days, Botnets, & Rogue AI",
     "slug": "2026-03-16-cybersecuritys-shifting-sands-0-days-botnets-rogue-ai",
     "date": "2026-03-16",
