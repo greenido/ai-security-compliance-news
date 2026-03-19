@@ -1,5 +1,29 @@
 [
   {
+    "title": "Cisco FMC Zero-Day: Interlock Ransomware Strikes Hard",
+    "slug": "2026-03-19-cisco-fmc-zero-day-interlock-ransomware-strikes-hard",
+    "date": "2026-03-19",
+    "excerpt": "A new warning from Amazon Threat Intelligence highlights a critical zero-day vulnerability in Cisco Secure Firewall Management Center (FMC) software, actively exploited by the Interlock ransomware. This CVSS 10.0 flaw allows unauthenticated remote attackers root access, demanding urgent attention from IT and security teams.",
+    "tags": [
+      "Cisco FMC",
+      "Zero-Day",
+      "Ransomware",
+      "Cybersecurity",
+      "Vulnerability Management"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 902,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1609529669235-c07e4e1bd6e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxCcm9rZW4lMjBkaWdpdGFsfGVufDF8MHx8fDE3NzM5MzMzMTB8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silver iphone 6 on white surface",
+      "credit": "Fili Santillán",
+      "color": "#d9f3f3"
+    }
+  },
+  {
     "title": "AI Flaws Expose Cloud Data: Bedrock, LangSmith, SGLang Risk",
     "slug": "2026-03-18-ai-flaws-expose-cloud-data-bedrock-langsmith-sglang-risk",
     "date": "2026-03-18",
