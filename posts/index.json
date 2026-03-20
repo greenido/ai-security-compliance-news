@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI's Cyber Shadow: Behavioral Analytics, Our New Defense Line",
+    "slug": "2026-03-20-ais-cyber-shadow-behavioral-analytics-our-new-defense-line",
+    "date": "2026-03-20",
+    "excerpt": "Artificial intelligence is arming cybercriminals with unprecedented capabilities, from hyper-personalized phishing to evasive malware. Traditional defenses are struggling to keep pace. This post explores why shifting to behavioral analytics is no longer optional, but essential for robust cybersecurity.",
+    "tags": [
+      "AI Security",
+      "Behavioral Analytics",
+      "Cyber Threats",
+      "Advanced Persistent Threats",
+      "Phishing Defense"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 779,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1565789433740-571aa9faa2c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxzaGFkb3clMjBkZWZlbnNlfGVufDF8MHx8fDE3NzQwMTk2NjF8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "inside building during night time",
+      "credit": "valentin ciccarone",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Cisco FMC Zero-Day: Interlock Ransomware Strikes Hard",
     "slug": "2026-03-19-cisco-fmc-zero-day-interlock-ransomware-strikes-hard",
     "date": "2026-03-19",
