@@ -1,5 +1,30 @@
 [
   {
+    "title": "Russian Intelligence Phishing Attacks Target Secure Messaging",
+    "slug": "2026-03-21-russian-intelligence-phishing-attacks-target-secure-messaging",
+    "date": "2026-03-21",
+    "excerpt": "The FBI and CISA have issued a critical warning: Russian intelligence-backed threat actors are actively targeting commercial messaging applications like Signal and WhatsApp. These sophisticated phishing campaigns aim to compromise accounts of high-value individuals, posing a significant risk to organizational security and intelligence.",
+    "tags": [
+      "Cybersecurity",
+      "Phishing",
+      "Russian APT",
+      "Secure Messaging",
+      "Account Takeover"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 878,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1521193089946-7aa29d1fe776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d8ZW58MXwwfHx8MTc3NDEwNTQ3MHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a close up view of a white fabric",
+      "credit": "Bernard Hermant",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "AI's Cyber Shadow: Behavioral Analytics, Our New Defense Line",
     "slug": "2026-03-20-ais-cyber-shadow-behavioral-analytics-our-new-defense-line",
     "date": "2026-03-20",
