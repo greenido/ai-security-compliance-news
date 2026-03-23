@@ -1,5 +1,24 @@
 [
   {
+    "title": "Quest KACE SMA Under Attack: Critical Flaw Actively Exploited",
+    "slug": "2026-03-23-quest-kace-sma-under-attack-critical-flaw-actively-exploited",
+    "date": "2026-03-23",
+    "excerpt": "A critical zero-day vulnerability, CVE-2025-32975, impacting Quest KACE Systems Management Appliance (SMA) is now under active exploitation. Security firm Arctic Wolf has observed malicious activity targeting unpatched systems, confirming the dire threat posed by this maximum-severity flaw.",
+    "tags": [
+      "CVE-2025-32975",
+      "Quest KACE SMA",
+      "Zero-Day",
+      "Cybersecurity",
+      "Vulnerability Management"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 815
+  },
+  {
     "title": "CI/CD Supply Chain Under Attack: Lessons from the Trivy Breach",
     "slug": "2026-03-22-ci-cd-supply-chain-under-attack-lessons-from-the-trivy-breach",
     "date": "2026-03-22",
