@@ -1,5 +1,35 @@
 [
   {
+    "title": "CI/CD Under Siege: Checkmarx GitHub Actions Compromised",
+    "slug": "2026-03-24-ci-cd-under-siege-checkmarx-github-actions-compromised",
+    "date": "2026-03-24",
+    "excerpt": "The recent compromise of Checkmarx's GitHub Actions workflows by TeamPCP underscores the escalating threat to CI/CD pipelines. This incident, leveraging stolen CI credentials, serves as a stark reminder that even leading security vendors are not immune to sophisticated supply chain attacks.",
+    "tags": [
+      "CI/CD Security",
+      "Supply Chain Attack",
+      "GitHub Actions",
+      "Cybersecurity",
+      "Credential Theft",
+      "TeamPCP",
+      "Checkmarx",
+      "IT Security",
+      "DevSecOps",
+      "Compliance"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 817,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1605279971636-19d82cd64a68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxzaGF0dGVyZWR8ZW58MXwwfHx8MTc3NDM2NTc5OXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "grayscale photo of heart shaped stone",
+      "credit": "Lieselot. Dalle",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Quest KACE SMA Under Attack: Critical Flaw Actively Exploited",
     "slug": "2026-03-23-quest-kace-sma-under-attack-critical-flaw-actively-exploited",
     "date": "2026-03-23",
