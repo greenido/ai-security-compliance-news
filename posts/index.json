@@ -1,5 +1,54 @@
 [
   {
+    "title": "AI-Driven CMMC Compliance: Zifino & Carahsoft Partner Up",
+    "slug": "2026-03-25-ai-driven-cmmc-compliance-zifino-carahsoft-partner-up",
+    "date": "2026-03-25",
+    "excerpt": "The Carahsoft-Zifino partnership brings the AI-based Zintegrity CMMC Compliance Platform to the public sector, promising to revolutionize how organizations achieve and maintain cybersecurity certification. This collaboration highlights the critical role of intelligent automation in navigating complex regulatory demands and fortifying defenses against evolving cyber threats.",
+    "tags": [
+      "CMMC",
+      "AI",
+      "Cybersecurity",
+      "Compliance Automation",
+      "Defense Industrial Base"
+    ],
+    "categories": [
+      "AI",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 779,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxkaWdpdGFsfGVufDF8MHx8fDE3NzQ0NTIyNTN8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
+    "title": "GlassWorm Evolves: Solana Dead Drops & Advanced Data Theft",
+    "slug": "2026-03-25-glassworm-evolves-solana-dead-drops-advanced-data-theft",
+    "date": "2026-03-25",
+    "excerpt": "A significant evolution in the GlassWorm malware campaign has been identified, employing an ingenious method of using Solana blockchain 'dead drops' to deliver its payloads. This multi-stage framework is designed for sophisticated data exfiltration, targeting browser data, crypto assets, and installing a persistent RAT.",
+    "tags": [
+      "Malware",
+      "Cybersecurity",
+      "Data Theft",
+      "Solana",
+      "GlassWorm"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 730,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsfGVufDF8MHx8fDE3NzQ0NTIyMzF8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "CI/CD Under Siege: Checkmarx GitHub Actions Compromised",
     "slug": "2026-03-24-ci-cd-under-siege-checkmarx-github-actions-compromised",
     "date": "2026-03-24",
