@@ -1,5 +1,29 @@
 [
   {
+    "title": "Zero-Click Flaw Exposes AI Assistants to Web-Based Prompt Injection",
+    "slug": "2026-03-26-zero-click-flaw-exposes-ai-assistants-to-web-based-prompt-injection",
+    "date": "2026-03-26",
+    "excerpt": "A recently disclosed zero-click vulnerability in Anthropic's Claude Google Chrome Extension allowed any website to silently inject prompts into the AI assistant. This critical flaw underscores the evolving landscape of AI security threats, demanding immediate attention from IT professionals and compliance officers.",
+    "tags": [
+      "AI Security",
+      "Prompt Injection",
+      "Browser Extensions",
+      "Zero-Click Exploits",
+      "Cybersecurity Vulnerabilities"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 689,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1759950616499-a7aa1b108f07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxIaWRkZW4lMjBkaWdpdGFsfGVufDF8MHx8fDE3NzQ1Mzg3OTN8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A raccoon peeks around a brick wall at night.",
+      "credit": "Omar:. Lopez-Rincon",
+      "color": "#260c26"
+    }
+  },
+  {
     "title": "AI-Driven CMMC Compliance: Zifino & Carahsoft Partner Up",
     "slug": "2026-03-25-ai-driven-cmmc-compliance-zifino-carahsoft-partner-up",
     "date": "2026-03-25",
