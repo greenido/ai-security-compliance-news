@@ -1,5 +1,30 @@
 [
   {
+    "title": "TikTok Business Accounts Under AitM Phishing Siege: What IT Needs to Know",
+    "slug": "2026-03-27-tiktok-business-accounts-under-aitm-phishing-siege-what-it-needs-to-know",
+    "date": "2026-03-27",
+    "excerpt": "Sophisticated adversary-in-the-middle (AitM) phishing attacks are now targeting TikTok for Business accounts, leveraging advanced techniques to evade common security measures like Cloudflare Turnstile. This new threat poses significant risks for IT professionals, security teams, and compliance officers, demanding immediate attention to safeguard brand integrity and prevent malvertising.",
+    "tags": [
+      "Phishing",
+      "AitM",
+      "TikTok Security",
+      "Cloudflare",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 824,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1531672288180-92e0b2de9333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d5fGVufDF8MHx8fDE3NzQ2MjQ1NjZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blurry photo of a person walking down a hallway",
+      "credit": "Chris Anderson",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Zero-Click Flaw Exposes AI Assistants to Web-Based Prompt Injection",
     "slug": "2026-03-26-zero-click-flaw-exposes-ai-assistants-to-web-based-prompt-injection",
     "date": "2026-03-26",
