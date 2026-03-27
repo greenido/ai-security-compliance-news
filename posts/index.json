@@ -1,5 +1,35 @@
 [
   {
+    "title": "TikTok Business Accounts: New AitM Phishing Bypass Cloudflare",
+    "slug": "2026-03-27-tiktok-business-accounts-new-aitm-phishing-bypass-cloudflare",
+    "date": "2026-03-27",
+    "excerpt": "A sophisticated adversary-in-the-middle (AitM) phishing campaign is actively targeting TikTok for Business accounts, exploiting them for malvertising and malware distribution. This new threat, detailed by Push Security and reported by The Hacker News, highlights the escalating risk to enterprise social media presence and the need for robust defenses.",
+    "tags": [
+      "Phishing",
+      "AitM",
+      "Cybersecurity",
+      "TikTok",
+      "Business Security",
+      "Cloudflare",
+      "Threat Actors",
+      "Social Media Security",
+      "IT Security",
+      "Compliance"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 889,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1646171734439-b9be0b2a4eba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3dlZHxlbnwxfDB8fHwxNzc0NjMyMTA3fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a brown and gold wallpaper with a pattern on it",
+      "credit": "Bryan Welborn",
+      "color": "#260c0c"
+    }
+  },
+  {
     "title": "TikTok Business Accounts Under AitM Phishing Siege: What IT Needs to Know",
     "slug": "2026-03-27-tiktok-business-accounts-under-aitm-phishing-siege-what-it-needs-to-know",
     "date": "2026-03-27",
