@@ -1,5 +1,32 @@
 [
   {
+    "title": "State-Sponsored Threats Target iOS with DarkSword Exploit",
+    "slug": "2026-03-28-state-sponsored-threats-target-ios-with-darksword-exploit",
+    "date": "2026-03-28",
+    "excerpt": "A sophisticated state-sponsored threat group, TA446, has been observed deploying the DarkSword iOS exploit kit in highly targeted spear-phishing attacks. This development underscores the critical need for robust mobile security strategies within organizations, as even perceived secure platforms face advanced threats.",
+    "tags": [
+      "cybersecurity",
+      "state-sponsored threats",
+      "iOS security",
+      "spear-phishing",
+      "exploit kits",
+      "TA446",
+      "DarkSword",
+      "mobile security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 866,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1521193089946-7aa29d1fe776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxzaGFkb3dzfGVufDF8MHx8fDE3NzQ3MTA0MDJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a close up view of a white fabric",
+      "credit": "Bernard Hermant",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "TikTok Business Accounts: New AitM Phishing Bypass Cloudflare",
     "slug": "2026-03-27-tiktok-business-accounts-new-aitm-phishing-bypass-cloudflare",
     "date": "2026-03-27",
