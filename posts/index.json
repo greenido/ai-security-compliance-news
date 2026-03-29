@@ -1,5 +1,23 @@
 [
   {
+    "title": "TA446's DarkSword Exploit: A New iOS Threat for Enterprise Mobility",
+    "slug": "2026-03-29-ta446s-darksword-exploit-new-ios-threat-enterprise-mobility",
+    "date": "2026-03-29",
+    "excerpt": "A sophisticated new threat emerges as Russian state-sponsored actor TA446 unleashes the DarkSword iOS exploit kit. This targeted spear-phishing campaign poses significant risks to enterprise mobility and calls for immediate security review.",
+    "tags": [
+      "Cybersecurity",
+      "iOS Security",
+      "Spear-Phishing",
+      "State-Sponsored Threats",
+      "Mobile Security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 788
+  },
+  {
     "title": "State-Sponsored Threats Target iOS with DarkSword Exploit",
     "slug": "2026-03-28-state-sponsored-threats-target-ios-with-darksword-exploit",
     "date": "2026-03-28",
