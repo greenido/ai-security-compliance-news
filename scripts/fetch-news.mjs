@@ -4,6 +4,50 @@ import { createLogger } from './logger.mjs';
 
 const log = createLogger('fetch-news');
 
+/**
+ * Strip Slack-style angle-bracket wrapping and truncate at obviously
+ * corrupted repeated path segments (e.g. pasted garbled URLs).
+ */
+export function cleanUrl(raw) {
+  if (!raw || typeof raw !== 'string') return '';
+  let url = raw.trim().replace(/^<+/, '').replace(/>+$/, '');
+
+  // Slack sometimes appends a label: <url|label>
+  const pipeIdx = url.indexOf('|');
+  if (pipeIdx !== -1) url = url.slice(0, pipeIdx);
+
+  // Detect repeated path-segment pattern (broken paste) and truncate.
+  // e.g. "https://ft.com/content/abc-abc-abc-abc-abc-abc..." repeating the
+  // same chunk dozens of times. We keep only the first two occurrences.
+  try {
+    const parsed = new URL(url);
+    const segments = parsed.pathname.split('/').filter(Boolean);
+    if (segments.length > 0) {
+      const last = segments[segments.length - 1];
+      const parts = last.split('-');
+      if (parts.length > 12) {
+        const seen = new Map();
+        const deduped = [];
+        for (const p of parts) {
+          const count = (seen.get(p) || 0) + 1;
+          seen.set(p, count);
+          if (count <= 2) deduped.push(p);
+        }
+        if (deduped.length < parts.length) {
+          segments[segments.length - 1] = deduped.join('-');
+          parsed.pathname = '/' + segments.join('/');
+          url = parsed.toString();
+          log.info('cleanUrl', `Truncated corrupted URL → ${url}`);
+        }
+      }
+    }
+  } catch {
+    // not a valid URL — return as-is for downstream error handling
+  }
+
+  return url;
+}
+
 const RSS_FEEDS = [
   { url: 'https://feeds.feedburner.com/TheHackersNews', source: 'The Hacker News', focus: 'Security' },
   { url: 'https://krebsonsecurity.com/feed/', source: 'Krebs on Security', focus: 'Security' },
@@ -115,7 +159,7 @@ export async function fetchTrendingNews() {
         const result = await parser.parseURL(feed.url);
         const items = (result.items || []).map((item) => ({
           title: item.title || '',
-          link: item.link || '',
+          link: cleanUrl(item.link || ''),
           contentSnippet: (item.contentSnippet || '').slice(0, 500),
           isoDate: item.isoDate || item.pubDate || '',
           source: feed.source,

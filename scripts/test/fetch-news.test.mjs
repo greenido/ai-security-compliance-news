@@ -4,9 +4,54 @@ import {
   scoreArticle,
   categorizeArticle,
   fetchTrendingNews,
+  cleanUrl,
   RSS_FEEDS,
   RELEVANCE_KEYWORDS,
 } from '../fetch-news.mjs';
+
+// ---------------------------------------------------------------------------
+// cleanUrl — strips Slack formatting and truncates corrupted URLs
+// ---------------------------------------------------------------------------
+describe('cleanUrl', () => {
+  it('strips Slack angle brackets from a URL', () => {
+    assert.equal(
+      cleanUrl('<https://example.com/article>'),
+      'https://example.com/article',
+    );
+  });
+
+  it('strips Slack label syntax <url|label>', () => {
+    assert.equal(
+      cleanUrl('<https://example.com/article|Example Article>'),
+      'https://example.com/article',
+    );
+  });
+
+  it('returns plain URLs unchanged', () => {
+    const url = 'https://www.ft.com/content/7de1d3c5-0d0c-46b1';
+    assert.equal(cleanUrl(url), url);
+  });
+
+  it('handles empty/null input', () => {
+    assert.equal(cleanUrl(''), '');
+    assert.equal(cleanUrl(null), '');
+    assert.equal(cleanUrl(undefined), '');
+  });
+
+  it('truncates obviously corrupted repeated segments', () => {
+    const corrupted = 'https://www.ft.com/content/7de1d3c5-0d0c-46b1-dbb2b7-dbb2b7-dbb2b7-dbb2b7-dbb2b7-dbb2b7-dbb2b7-dbb2b7-dbb2b7-dbb2b7-dbb2b7-dbb2b7';
+    const result = cleanUrl(corrupted);
+    assert.ok(result.length < corrupted.length, 'Should be shorter than the corrupted input');
+    assert.ok(result.startsWith('https://www.ft.com/content/'), 'Should preserve the base URL');
+  });
+
+  it('trims whitespace', () => {
+    assert.equal(
+      cleanUrl('  <https://example.com>  '),
+      'https://example.com',
+    );
+  });
+});
 
 // ---------------------------------------------------------------------------
 // scoreArticle

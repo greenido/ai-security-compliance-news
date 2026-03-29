@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import sanitizeHtml from 'sanitize-html';
+import { cleanUrl } from './fetch-news.mjs';
 import { createLogger } from './logger.mjs';
 
 const log = createLogger('build-post');
@@ -198,7 +199,7 @@ ${post.heroImage ? `  <meta name="twitter:image" content="${escapeAttr(post.hero
           <span>By <strong class="text-gray-700 dark:text-gray-300">AI Security &amp; Compliance Desk</strong></span>
           <time datetime="${post.date}">${formatDate(post.date)}</time>
         </div>
-        ${post.sourceUrl ? `<p class="mt-3 text-xs text-gray-400">Source: <a href="${escapeAttr(post.sourceUrl)}" target="_blank" rel="noopener" class="hover:underline">${escapeHtml(post.sourceName || 'Original Article')}</a></p>` : ''}
+        ${post.sourceUrl ? `<p class="mt-3 text-xs text-gray-400">Source: <a href="${escapeAttr(cleanUrl(post.sourceUrl))}" target="_blank" rel="noopener" class="hover:underline">${escapeHtml(post.sourceName || 'Original Article')}</a></p>` : ''}
       </header>
 
 ${post.heroImage ? `      <figure class="mb-10 -mx-4 sm:mx-0">

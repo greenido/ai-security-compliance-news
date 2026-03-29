@@ -1,4 +1,5 @@
 import { GoogleGenAI } from '@google/genai';
+import { cleanUrl } from './fetch-news.mjs';
 import { createLogger } from './logger.mjs';
 
 const log = createLogger('gemini');
@@ -30,7 +31,7 @@ Write a blog post based on this trending news item:
 HEADLINE: ${newsItem.title}
 SOURCE: ${newsItem.source}
 SUMMARY: ${newsItem.snippet}
-ORIGINAL LINK: ${newsItem.link}
+ORIGINAL LINK: ${cleanUrl(newsItem.link)}
 CATEGORIES: ${newsItem.categories.join(', ')}
 DATE: ${today}
 
@@ -231,7 +232,7 @@ export async function generatePost(newsItem) {
   }
 
   post.date = new Date().toISOString().split('T')[0];
-  post.sourceUrl = newsItem.link;
+  post.sourceUrl = cleanUrl(newsItem.link);
   post.sourceTitle = newsItem.title;
   post.sourceName = newsItem.source;
 
