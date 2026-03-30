@@ -1,5 +1,29 @@
 [
   {
+    "title": "CTRL Toolkit: Russian APT Leverages LNKs for RDP Hijacks",
+    "slug": "2026-03-30-ctrl-toolkit-russian-apt-leverages-lnks-for-rdp-hijacks",
+    "date": "2026-03-30",
+    "excerpt": "Cybersecurity researchers have uncovered the CTRL toolkit, a sophisticated Russian-origin threat leveraging malicious LNK files to hijack RDP sessions through FRP tunnels. This custom .NET toolkit facilitates credential phishing, keylogging, and deep network compromise, posing a significant risk to enterprise environments.",
+    "tags": [
+      "Cybersecurity",
+      "APT",
+      "RDP Security",
+      "LNK Files",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 662,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1490668219599-a79d4d90cf66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEYXJrJTIwdHVubmVsfGVufDF8MHx8fDE3NzQ4ODQzNzB8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of person walking out from tunnel during daytime",
+      "credit": "Chris Buckwald",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "TA446's DarkSword Exploit: A New iOS Threat for Enterprise Mobility",
     "slug": "2026-03-29-ta446s-darksword-exploit-new-ios-threat-enterprise-mobility",
     "date": "2026-03-29",
