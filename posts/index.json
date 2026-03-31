@@ -1,5 +1,34 @@
 [
   {
+    "title": "Weaponized AI Agents: Google Cloud Vertex AI's Critical Blind Spot",
+    "slug": "2026-03-31-weaponized-ai-agents-google-cloud-vertex-ais-critical-blind-spot",
+    "date": "2026-03-31",
+    "excerpt": "A new security vulnerability in Google Cloud's Vertex AI platform has been disclosed, revealing how AI agents can be weaponized to compromise sensitive data and cloud environments. This \"blind spot\" demands immediate attention from IT and security professionals.",
+    "tags": [
+      "AI Security",
+      "Cloud Vulnerability",
+      "Vertex AI",
+      "Google Cloud Security",
+      "Data Protection",
+      "Compliance",
+      "Cybersecurity",
+      "IT Ops"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 813,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1652243006372-bc51aa2d000a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxEaWdpdGFsJTIwZm9ydHJlc3MlMjBkYXJrfGVufDF8MHx8fDE3NzQ5NzA2ODd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a person standing in a field",
+      "credit": "Max Zhdanov",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "CTRL Toolkit: Russian APT Leverages LNKs for RDP Hijacks",
     "slug": "2026-03-30-ctrl-toolkit-russian-apt-leverages-lnks-for-rdp-hijacks",
     "date": "2026-03-30",
