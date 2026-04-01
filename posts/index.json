@@ -1,5 +1,55 @@
 [
   {
+    "title": "AI Gateway Security Crisis: LiteLLM's Delve Breakup Sparks Rethink",
+    "slug": "2026-04-01-ai-gateway-security-crisis-litellms-delve-breakup-sparks-rethink",
+    "date": "2026-04-01",
+    "excerpt": "The recent news of LiteLLM severing ties with its controversial compliance partner, Delve, following a severe credential-stealing malware incident, sends a stark warning across the tech landscape. This event underscores the immense pressure on AI-driven organizations to ensure robust security and compliance in their rapidly evolving ecosystems.",
+    "tags": [
+      "AI Security",
+      "Compliance",
+      "Data Protection",
+      "Supply Chain Risk",
+      "Incident Response"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 779,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1764336312138-14a5368a6cd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzc1MDU3MjU0fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Abstract blue and purple light streaks forming a head shape",
+      "credit": "Mirella Callage",
+      "color": "#4059d9"
+    }
+  },
+  {
+    "title": "Your Trust, Their Weapon: Why 'Living Off the Land' Attacks Thrive",
+    "slug": "2026-04-01-your-trust-their-weapon-why-living-off-the-land-attacks-thrive",
+    "date": "2026-04-01",
+    "excerpt": "For years, cybersecurity focused on blocking malware. But the game has changed. Attackers are now leveraging your own legitimate tools to move unseen within your network, making traditional defenses obsolete. This new approach, known as 'Living Off the Land,' presents a formidable challenge for IT and security teams.",
+    "tags": [
+      "Cybersecurity",
+      "Living Off the Land",
+      "Attack Techniques",
+      "Threat Detection",
+      "Endpoint Security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 853,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1714123752890-d878117f5f0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxIaWRkZW4lMjB0aHJlYXR8ZW58MXwwfHx8MTc3NTA1NzIyOXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A man holding a gun in a field",
+      "credit": "Julien Lenoir",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Weaponized AI Agents: Google Cloud Vertex AI's Critical Blind Spot",
     "slug": "2026-03-31-weaponized-ai-agents-google-cloud-vertex-ais-critical-blind-spot",
     "date": "2026-03-31",
