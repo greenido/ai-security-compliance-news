@@ -1,5 +1,30 @@
 [
   {
+    "title": "Trust Under Attack: CERT-UA Impersonation & AGEWHEEZE",
+    "slug": "2026-04-02-trust-under-attack-cert-ua-impersonation-agewheeze",
+    "date": "2026-04-02",
+    "excerpt": "The cybersecurity community is reeling from a sophisticated phishing campaign impersonating CERT-UA, distributing AGEWHEEZE malware to a million inboxes. This attack underscores a critical erosion of trust and the urgent need for robust defense strategies across all organizations.",
+    "tags": [
+      "Phishing",
+      "Cybersecurity",
+      "Incident Response",
+      "Supply Chain Security",
+      "Compliance"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 836,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc3NTE0MzI0N3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "AI Gateway Security Crisis: LiteLLM's Delve Breakup Sparks Rethink",
     "slug": "2026-04-01-ai-gateway-security-crisis-litellms-delve-breakup-sparks-rethink",
     "date": "2026-04-01",
