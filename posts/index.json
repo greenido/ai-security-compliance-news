@@ -1,5 +1,29 @@
 [
   {
+    "title": "Cyber Security Alert: Code Leaks Weaponized, FBI Hacked",
+    "slug": "2026-04-04-cyber-security-alert-code-leaks-weaponized-fbi-hacked",
+    "date": "2026-04-04",
+    "excerpt": "The cyber landscape is heating up, with recent reports highlighting a dangerous trend: weaponized code leaks. From malware-laden Claude code to compromised FBI tools and stolen Cisco intellectual property, security teams face unprecedented challenges. This post unpacks the implications for IT professionals, security teams, and compliance officers.",
+    "tags": [
+      "Cybersecurity",
+      "Supply Chain Security",
+      "Malware",
+      "Data Breach",
+      "National Security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 818,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1765410853514-bb06027854c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEaWdpdGFsJTIwY2hhb3N8ZW58MXwwfHx8MTc3NTMxNTIxM3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Abstract red and black digital glitch art",
+      "credit": "Egor Komarov",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Trust Under Attack: CERT-UA Impersonation & AGEWHEEZE",
     "slug": "2026-04-02-trust-under-attack-cert-ua-impersonation-agewheeze",
     "date": "2026-04-02",
