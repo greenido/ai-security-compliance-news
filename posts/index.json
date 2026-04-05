@@ -1,5 +1,29 @@
 [
   {
+    "title": "Syria's Cyber Failures: A Stark Warning for Enterprise Security",
+    "slug": "2026-04-05-syrias-cyber-failures-stark-warning-enterprise-security",
+    "date": "2026-04-05",
+    "excerpt": "When Syrian government accounts were hijacked, the world saw chaos. But a deeper look, as reported by Wired, revealed a stark truth: a state struggling with the most basic layers of cybersecurity. This incident offers critical lessons for every organization, highlighting the enduring importance of foundational security practices.",
+    "tags": [
+      "cybersecurity",
+      "security hygiene",
+      "data breach",
+      "information security",
+      "risk management"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 721,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1596579903788-b2a5f4d47e10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxDcmFja2VkJTIwZGVzZXJ0fGVufDF8MHx8fDE3NzU0MDE2Nzl8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "grayscale photo of 2 children standing on concrete floor",
+      "credit": "Kelsey Dody",
+      "color": "#c0c0c0"
+    }
+  },
+  {
     "title": "Cyber Security Alert: Code Leaks Weaponized, FBI Hacked",
     "slug": "2026-04-04-cyber-security-alert-code-leaks-weaponized-fbi-hacked",
     "date": "2026-04-04",
