@@ -1,5 +1,31 @@
 [
   {
+    "title": "Ransomware's New Playbook: Disabling EDR with BYOVD",
+    "slug": "2026-04-06-ransomwares-new-playbook-disabling-edr-with-byovd",
+    "date": "2026-04-06",
+    "excerpt": "Ransomware operations like Qilin and Warlock are escalating their tactics, leveraging 'Bring Your Own Vulnerable Driver' (BYOVD) techniques. This sophisticated approach allows them to silence over 300 EDR tools, granting them unrestricted access to compromised systems. Discover the implications for your security posture and essential defense strategies.",
+    "tags": [
+      "Ransomware",
+      "BYOVD",
+      "EDR",
+      "Cybersecurity",
+      "Threat Intelligence",
+      "Qilin",
+      "Warlock"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 867,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc3NTQ4ODQ4M3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "Syria's Cyber Failures: A Stark Warning for Enterprise Security",
     "slug": "2026-04-05-syrias-cyber-failures-stark-warning-enterprise-security",
     "date": "2026-04-05",
