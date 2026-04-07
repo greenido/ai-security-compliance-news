@@ -1,5 +1,31 @@
 [
   {
+    "title": "Critical RCE Exploit Targets Flowise AI: What You Must Know",
+    "slug": "2026-04-07-critical-rce-exploit-targets-flowise-ai-what-you-must-know",
+    "date": "2026-04-07",
+    "excerpt": "The AI landscape just got a stark reminder of its security challenges. Flowise AI, an open-source agent builder, is currently facing active exploitation of a maximum-severity RCE vulnerability, impacting thousands of instances globally.",
+    "tags": [
+      "AI Security",
+      "Cybersecurity",
+      "RCE Vulnerability",
+      "Flowise AI",
+      "Open Source Security",
+      "CVE-2025-59528"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 788,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1764336312138-14a5368a6cd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzc1NTc1NjM0fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Abstract blue and purple light streaks forming a head shape",
+      "credit": "Mirella Callage",
+      "color": "#4059d9"
+    }
+  },
+  {
     "title": "Ransomware's New Playbook: Disabling EDR with BYOVD",
     "slug": "2026-04-06-ransomwares-new-playbook-disabling-edr-with-byovd",
     "date": "2026-04-06",
