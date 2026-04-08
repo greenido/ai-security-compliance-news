@@ -1,5 +1,55 @@
 [
   {
+    "title": "Critical Infrastructure Under Fire: PLCs Targeted by State-Sponsored Cyber Storm",
+    "slug": "2026-04-08-critical-infrastructure-under-fire-plcs-targeted-by-state-sponsored-cyber-storm",
+    "date": "2026-04-08",
+    "excerpt": "A new and alarming report confirms that Iran-affiliated cyber actors are actively targeting critical infrastructure across the U.S., specifically zeroing in on internet-exposed Programmable Logic Controllers (PLCs). This campaign has led to operational disruptions and financial losses, signaling a critical escalation in cyber warfare.",
+    "tags": [
+      "Cybersecurity",
+      "Critical Infrastructure",
+      "OT Security",
+      "PLCs",
+      "State-Sponsored Threats"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 687,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc3NTY2MjA2MHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
+    "title": "AI Unleashes a Tsunami of Zero-Day Discoveries: Mythos Reshapes Security",
+    "slug": "2026-04-08-ai-unleashes-a-tsunami-of-zero-day-discoveries-mythos-reshapes-security",
+    "date": "2026-04-08",
+    "excerpt": "In a groundbreaking development, Anthropic's Claude Mythos AI has reportedly uncovered thousands of zero-day vulnerabilities across major systems. This initiative, Project Glasswing, promises to redefine how organizations approach proactive security.",
+    "tags": [
+      "AI Security",
+      "Zero-Day",
+      "Vulnerability Management",
+      "Anthropic",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 722,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1602287389013-cb4321544a54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEZWVwfGVufDF8MHx8fDE3NzU2NjIwNDd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "water wave in close up photography",
+      "credit": "Jonas Allert",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Critical RCE Exploit Targets Flowise AI: What You Must Know",
     "slug": "2026-04-07-critical-rce-exploit-targets-flowise-ai-what-you-must-know",
     "date": "2026-04-07",
