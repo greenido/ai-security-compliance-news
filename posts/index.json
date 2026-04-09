@@ -1,5 +1,31 @@
 [
   {
+    "title": "Adobe Zero-Day: Silent PDF Threat Exploiting Enterprises",
+    "slug": "2026-04-09-adobe-zero-day-silent-pdf-threat-exploiting-enterprises",
+    "date": "2026-04-09",
+    "excerpt": "The digital landscape is a minefield, and a newly unearthed zero-day in Adobe Reader serves as a stark reminder of the constant, sophisticated threats targeting enterprise environments. Threat actors have been exploiting this vulnerability with malicious PDFs since late 2025.",
+    "tags": [
+      "Adobe",
+      "Zero-Day",
+      "PDF Exploit",
+      "Cybersecurity",
+      "Enterprise Security",
+      "Threat Intelligence",
+      "Compliance"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 796,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1759950616499-a7aa1b108f07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxIaWRkZW4lMjBkaWdpdGFsfGVufDF8MHx8fDE3NzU3NDg1OTd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A raccoon peeks around a brick wall at night.",
+      "credit": "Omar:. Lopez-Rincon",
+      "color": "#260c26"
+    }
+  },
+  {
     "title": "Critical Infrastructure Under Fire: PLCs Targeted by State-Sponsored Cyber Storm",
     "slug": "2026-04-08-critical-infrastructure-under-fire-plcs-targeted-by-state-sponsored-cyber-storm",
     "date": "2026-04-08",
