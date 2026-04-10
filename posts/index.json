@@ -1,5 +1,53 @@
 [
   {
+    "title": "Mastering 2026 Compliance: CMMC, SOC 2, & HIPAA Shifts",
+    "slug": "mastering-2026-compliance-cmmc-soc2-hipaa-shifts",
+    "date": "2026-04-10",
+    "excerpt": "The regulatory landscape is shifting rapidly, presenting new challenges for IT professionals and compliance officers. This post breaks down the critical updates to CMMC 2.0, SOC 2 Type II, and HIPAA, offering actionable insights to navigate the tighter timelines and increased enforcement of 2026.",
+    "tags": [
+      "Compliance",
+      "Cybersecurity",
+      "Regulatory Affairs",
+      "IT Governance",
+      "Risk Management"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 868,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1689872330643-3305cde123ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDb252ZXJnaW5nfGVufDF8MHx8fDE3NzU4MzQxNTR8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue and green background with a circular shape",
+      "credit": "Martin Martz",
+      "color": "#0c7359"
+    }
+  },
+  {
+    "title": "GlassWorm's New Zig Dropper: A Direct Threat to Developer IDEs",
+    "slug": "2026-04-10-glassworms-new-zig-dropper-a-direct-threat-to-developer-ides",
+    "date": "2026-04-10",
+    "excerpt": "A critical new development in the GlassWorm campaign reveals a sophisticated Zig dropper designed to infect developer IDEs. This evolving threat, masquerading as legitimate extensions, demands immediate attention from IT and security teams to protect development pipelines.",
+    "tags": [
+      "Security",
+      "Cybersecurity",
+      "GlassWorm",
+      "IDE Security",
+      "Software Supply Chain"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 800,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1701303813706-9f9114f7e62d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxCcm9rZW4lMjBtaXJyb3J8ZW58MXwwfHx8MTc3NTgzNDEzN3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a broken mirror sitting on top of a sidewalk",
+      "credit": "Savannah B.",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "Adobe Zero-Day: Silent PDF Threat Exploiting Enterprises",
     "slug": "2026-04-09-adobe-zero-day-silent-pdf-threat-exploiting-enterprises",
     "date": "2026-04-09",
