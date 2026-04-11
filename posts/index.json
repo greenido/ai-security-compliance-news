@@ -1,5 +1,29 @@
 [
   {
+    "title": "LucidRook: Unpacking the Sophisticated Malware Targeting Taiwanese NGOs",
+    "slug": "2026-04-11-lucidrook-unpacking-sophisticated-malware-targeting-taiwanese-ngos",
+    "date": "2026-04-11",
+    "excerpt": "A previously unseen threat cluster, UAT-10362, is leveraging sophisticated spear-phishing tactics to target non-governmental organizations and academic institutions in Taiwan. Their weapon of choice: LucidRook, a novel Lua-based malware designed for stealthy data exfiltration and persistent access.",
+    "tags": [
+      "Cybersecurity",
+      "Malware Analysis",
+      "Threat Intelligence",
+      "Spear Phishing",
+      "NGO Security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 926,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1531672288180-92e0b2de9333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d5fGVufDF8MHx8fDE3NzU5MjAxMzl8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blurry photo of a person walking down a hallway",
+      "credit": "Chris Anderson",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Mastering 2026 Compliance: CMMC, SOC 2, & HIPAA Shifts",
     "slug": "mastering-2026-compliance-cmmc-soc2-hipaa-shifts",
     "date": "2026-04-10",
