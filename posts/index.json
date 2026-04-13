@@ -1,5 +1,35 @@
 [
   {
+    "title": "AI Redefines Cyber Compliance: Fortreum's Strategic Move",
+    "slug": "2026-04-13-ai-redefines-cyber-compliance-fortreums-strategic-move",
+    "date": "2026-04-13",
+    "excerpt": "The cybersecurity compliance landscape is undergoing a significant transformation. Fortreum's recent acquisition of Kovr.AI, as reported by Yahoo Finance Singapore, signals a powerful shift towards \"AI Done Right,\" promising unprecedented levels of audit quality and compliance readiness.",
+    "tags": [
+      "AI in Cybersecurity",
+      "Compliance Automation",
+      "Audit Quality",
+      "Fortreum",
+      "Kovr.AI",
+      "Risk Management",
+      "IT Governance",
+      "Cybersecurity Strategy",
+      "Regulatory Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 748,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1764336312138-14a5368a6cd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzc2MDk0MDY3fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Abstract blue and purple light streaks forming a head shape",
+      "credit": "Mirella Callage",
+      "color": "#4059d9"
+    }
+  },
+  {
     "title": "Supply Chain Shock: STX RAT Spreads via CPUID Breach",
     "slug": "2026-04-12-supply-chain-shock-stx-rat-spreads-via-cpuid-breach",
     "date": "2026-04-12",
