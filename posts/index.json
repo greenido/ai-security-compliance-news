@@ -1,5 +1,35 @@
 [
   {
+    "title": "N8n Webhook Abuse: When Productivity Tools Turn Malicious",
+    "slug": "2026-04-16-n8n-webhook-abuse-when-productivity-tools-turn-malicious",
+    "date": "2026-04-16",
+    "excerpt": "A disturbing trend has emerged: threat actors are leveraging n8n, a popular AI workflow automation platform, to launch sophisticated phishing campaigns and deliver malware. This exploitation turns trusted productivity tools into stealthy attack vectors, bypassing traditional security measures.",
+    "tags": [
+      "n8n",
+      "Webhooks",
+      "Phishing",
+      "Malware",
+      "AI Security",
+      "Automation Security",
+      "Threat Intelligence",
+      "Cybersecurity",
+      "IT Operations"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 765,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1764336312138-14a5368a6cd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzc2MjY2Njc1fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Abstract blue and purple light streaks forming a head shape",
+      "credit": "Mirella Callage",
+      "color": "#4059d9"
+    }
+  },
+  {
     "title": "Fortreum's Kovr.AI: AI Redefines Cybersecurity Compliance",
     "slug": "2026-04-15-fortreums-kovr-ai-ai-redefines-cybersecurity-compliance",
     "date": "2026-04-15",
