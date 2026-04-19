@@ -1,5 +1,29 @@
 [
   {
+    "title": "IoT Botnet Threat: Nexcorium Hijacks DVRs, EoL Routers",
+    "slug": "2026-04-19-iot-botnet-threat-nexcorium-hijacks-dvrs-eol-routers",
+    "date": "2026-04-19",
+    "excerpt": "A dangerous new Mirai variant, Nexcorium, is actively exploiting vulnerabilities in overlooked devices like TBK DVRs and end-of-life TP-Link routers. This rapidly expanding botnet poses a significant DDoS threat, leveraging CVE-2024-3721 to hijack vulnerable hardware. IT professionals and security teams must act now to secure their perimeters.",
+    "tags": [
+      "IoT Security",
+      "DDoS Botnets",
+      "Vulnerability Management",
+      "CVE-2024-3721",
+      "Network Security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 808,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1752742111841-f490c48aa668?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwZGVjYXklMjBpbmZyYXN0cnVjdHVyZXxlbnwxfDB8fHwxNzc2NjExNTM2fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Servers illuminate a futuristic cityscape with a data center.",
+      "credit": "Markus Stickling",
+      "color": "#0c2640"
+    }
+  },
+  {
     "title": "Nexcorium Mirai Variant Hijacks DVRs: What IT Needs to Know",
     "slug": "2026-04-18-nexcorium-mirai-variant-hijacks-dvrs-what-it-needs-to-know",
     "date": "2026-04-18",
