@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI Supply Chain Under Threat: MCP Vulnerability Exposes RCE",
+    "slug": "2026-04-20-ai-supply-chain-under-threat-mcp-vulnerability-exposes-rce",
+    "date": "2026-04-20",
+    "excerpt": "The AI world is reeling from news of a significant vulnerability in the Model Context Protocol (MCP). This 'by design' weakness could enable Remote Code Execution, posing a severe risk to the AI supply chain's integrity and security. IT professionals and security teams must understand the implications.",
+    "tags": [
+      "AI Security",
+      "RCE Vulnerability",
+      "Model Context Protocol",
+      "AI Supply Chain",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 1005,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1515788909301-3cfe52ab6bdd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxDcmFja2VkfGVufDF8MHx8fDE3NzY2OTg4NTV8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "dried up soil",
+      "credit": "Jo Van de kerkhove",
+      "color": "#c0a6a6"
+    }
+  },
+  {
     "title": "IoT Botnet Threat: Nexcorium Hijacks DVRs, EoL Routers",
     "slug": "2026-04-19-iot-botnet-threat-nexcorium-hijacks-dvrs-eol-routers",
     "date": "2026-04-19",
