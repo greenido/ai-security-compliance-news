@@ -1,5 +1,30 @@
 [
   {
+    "title": "Identity Attacks: The Front Door to Data Breaches",
+    "slug": "2026-04-21-identity-attacks-the-front-door-to-data-breaches",
+    "date": "2026-04-21",
+    "excerpt": "The cybersecurity landscape is often defined by the latest, most sophisticated threats. Yet, a recent report highlights a stark reality: the simplest, oldest trick in the book — stolen credentials — continues to be the most effective entry point for attackers. It's time to refocus on the fundamentals of identity security.",
+    "tags": [
+      "Identity Security",
+      "Credential Theft",
+      "Cybersecurity",
+      "Breaches",
+      "Risk Management"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 810,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1592921195496-6ff2e332c0f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxCcm9rZW4lMjBsb2NrJTIwZGFya3xlbnwxfDB8fHwxNzc2Nzg1MjE1fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "black and silver padlock in grayscale photography",
+      "credit": "Vanna Phon",
+      "color": "#595959"
+    }
+  },
+  {
     "title": "AI Supply Chain Under Threat: MCP Vulnerability Exposes RCE",
     "slug": "2026-04-20-ai-supply-chain-under-threat-mcp-vulnerability-exposes-rce",
     "date": "2026-04-20",
