@@ -1,5 +1,30 @@
 [
   {
+    "title": "Identity-Based Attacks: The Unseen Threat Bypassing Defenses",
+    "slug": "2026-04-22-identity-based-attacks-unseen-threat",
+    "date": "2026-04-22",
+    "excerpt": "The cybersecurity industry often fixates on sophisticated threats like zero-days and AI-generated exploits. Yet, the most persistent and effective entry point for attackers remains surprisingly simple: stolen credentials. This deep dive explores why identity-based attacks continue to dominate initial access vectors.",
+    "tags": [
+      "cybersecurity",
+      "identity-theft",
+      "credential-stuffing",
+      "zero-trust",
+      "MFA"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 828,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1633967474537-ab2cc003e136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxIaWRkZW4lMjBwYXRofGVufDF8MHx8fDE3NzY4NzE1ODd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a person standing on a wooden bridge in the woods",
+      "credit": "Thomas Park",
+      "color": "#0c260c"
+    }
+  },
+  {
     "title": "Identity Attacks: The Front Door to Data Breaches",
     "slug": "2026-04-21-identity-attacks-the-front-door-to-data-breaches",
     "date": "2026-04-21",
