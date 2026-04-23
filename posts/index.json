@@ -1,5 +1,59 @@
 [
   {
+    "title": "Delve's Compliance Failures: A Wake-Up Call for AI Security",
+    "slug": "2026-04-23-delves-compliance-failures-a-wake-up-call-for-ai-security",
+    "date": "2026-04-23",
+    "excerpt": "The recent security incident at Context AI, following its certification by the now-troubled Delve, sends shivers down the spines of IT leaders. This isn't just about one company's missteps; it's a stark reminder of the fragile state of AI security and compliance in a rapidly evolving landscape.",
+    "tags": [
+      "AI Security",
+      "Compliance",
+      "Third-Party Risk",
+      "Data Breach",
+      "Context AI",
+      "Delve",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 705,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1619597357093-d5e0bb272cc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTfGVufDF8MHx8fDE3NzY5NTgzODR8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "red and green floral wreath",
+      "credit": "Olha Ivanova",
+      "color": "#404026"
+    }
+  },
+  {
+    "title": "GopherWhisper APT: Unpacking the Go Backdoor Threat to Government Systems",
+    "slug": "2026-04-23-gopherwhisper-apt-unpacking-the-go-backdoor-threat-to-government-systems",
+    "date": "2026-04-23",
+    "excerpt": "The cybersecurity landscape just got more complex with the emergence of GopherWhisper, a previously undocumented, China-aligned APT group. This sophisticated threat actor is leveraging Go-based backdoors to target critical government infrastructure, raising alarms for IT and security professionals worldwide.",
+    "tags": [
+      "APT",
+      "GopherWhisper",
+      "Cybersecurity",
+      "Go Malware",
+      "Government Security",
+      "Threat Intelligence",
+      "ESET"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 722,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc3Njk1ODM0OXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "Identity-Based Attacks: The Unseen Threat Bypassing Defenses",
     "slug": "2026-04-22-identity-based-attacks-unseen-threat",
     "date": "2026-04-22",
