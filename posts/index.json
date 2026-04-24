@@ -1,5 +1,57 @@
 [
   {
+    "title": "Project Glasswing: AI Finds Bugs, Who Will Fix Them All?",
+    "slug": "2026-04-24-project-glasswing-ai-finds-bugs-who-will-fix-them-all",
+    "date": "2026-04-24",
+    "excerpt": "Imagine an AI so potent at discovering software vulnerabilities that its creators took the extraordinary step of postponing its public release. This isn't science fiction; it's the reality of Anthropic's Project Glasswing, and it signals a monumental shift for cybersecurity.",
+    "tags": [
+      "AI",
+      "Cybersecurity",
+      "Vulnerability Management",
+      "IT Operations",
+      "Security Strategy"
+    ],
+    "categories": [
+      "AI",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 832,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1630768641092-cf535245ba7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxBSSUyMGludHJpY2F0ZSUyMHdlYnxlbnwxfDB8fHwxNzc3MDQ0MzE0fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "spider on spider web in close up photography",
+      "credit": "Rolf Schmidbauer",
+      "color": "#734026"
+    }
+  },
+  {
+    "title": "Supply Chain Shock: Malicious KICS Docker Images Found",
+    "slug": "2026-04-24-supply-chain-shock-malicious-kics-docker-images-found",
+    "date": "2026-04-24",
+    "excerpt": "A recent alert from Socket security researchers has sent ripples through the DevSecOps community. Malicious Docker images and VS Code extensions targeting Checkmarx's KICS platform were discovered, highlighting critical vulnerabilities in software supply chain integrity. This incident underscores the urgent need for enhanced security measures.",
+    "tags": [
+      "Supply Chain Security",
+      "Docker",
+      "VS Code",
+      "Cybersecurity",
+      "DevSecOps",
+      "Checkmarx",
+      "KICS",
+      "Software Security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 847,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1719251931947-f652f951b356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwY2hhaW5zJTIwYnJva2VufGVufDF8MHx8fDE3NzcwNDQyOTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a metal chain on a black background",
+      "credit": "Dexter Fernandes",
+      "color": "#0c2626"
+    }
+  },
+  {
     "title": "Delve's Compliance Failures: A Wake-Up Call for AI Security",
     "slug": "2026-04-23-delves-compliance-failures-a-wake-up-call-for-ai-security",
     "date": "2026-04-23",
