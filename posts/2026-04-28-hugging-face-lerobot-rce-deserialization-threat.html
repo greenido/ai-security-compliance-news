@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hugging Face LeRobot RCE: The Deserialization Threat to AI Robotics — AI Security and Compliance News</title>
+  <meta name="description" content="A critical unpatched RCE flaw (CVE-2026-25874) in Hugging Face LeRobot exposes AI robotics to untrusted data deserialization. IT pros, secure your deployments now.">
+  <meta name="keywords" content="Cybersecurity, RCE, Deserialization, AI Security, Robotics">
+  <meta name="author" content="AI Security &amp; Compliance Desk">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Hugging Face LeRobot RCE: The Deserialization Threat to AI Robotics">
+  <meta property="og:description" content="A critical unpatched RCE flaw (CVE-2026-25874) in Hugging Face LeRobot exposes AI robotics to untrusted data deserialization. IT pros, secure your deployments now.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://greenido.github.io/ai-security-compliance-news/posts/2026-04-28-hugging-face-lerobot-rce-deserialization-threat.html">
+  <meta property="og:site_name" content="AI Security and Compliance News">
+  <meta property="article:published_time" content="2026-04-28">
+  <meta property="article:author" content="AI Security &amp; Compliance Desk">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1736564176042-b3d49989b230?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxicm9rZW4lMjByb2JvdGljJTIwZnV0dXJlfGVufDF8MHx8fDE3NzczOTExNjF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080">
+  <meta property="og:image:width" content="7680">
+  <meta property="og:image:height" content="4320">
+  <meta property="article:tag" content="Cybersecurity">
+  <meta property="article:tag" content="RCE">
+  <meta property="article:tag" content="Deserialization">
+  <meta property="article:tag" content="AI Security">
+  <meta property="article:tag" content="Robotics">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hugging Face LeRobot RCE: The Deserialization Threat to AI Robotics">
+  <meta name="twitter:description" content="A critical unpatched RCE flaw (CVE-2026-25874) in Hugging Face LeRobot exposes AI robotics to untrusted data deserialization. IT pros, secure your deployments now.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1736564176042-b3d49989b230?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxicm9rZW4lMjByb2JvdGljJTIwZnV0dXJlfGVufDF8MHx8fDE3NzczOTExNjF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Hugging Face LeRobot RCE: The Deserialization Threat to AI Robotics",
+  "description": "A critical unpatched RCE flaw (CVE-2026-25874) in Hugging Face LeRobot exposes AI robotics to untrusted data deserialization. IT pros, secure your deployments now.",
+  "image": "https://images.unsplash.com/photo-1736564176042-b3d49989b230?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxicm9rZW4lMjByb2JvdGljJTIwZnV0dXJlfGVufDF8MHx8fDE3NzczOTExNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "datePublished": "2026-04-28",
+  "dateModified": "2026-04-28",
+  "author": {
+    "@type": "Person",
+    "name": "AI Security & Compliance Desk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI Security and Compliance News"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://greenido.github.io/ai-security-compliance-news/posts/2026-04-28-hugging-face-lerobot-rce-deserialization-threat.html"
+  },
+  "keywords": "Cybersecurity, RCE, Deserialization, AI Security, Robotics"
+}
+  </script>
+
+  <link rel="canonical" href="https://greenido.github.io/ai-security-compliance-news/posts/2026-04-28-hugging-face-lerobot-rce-deserialization-threat.html">
+  <link rel="alternate" type="application/rss+xml" title="AI Security and Compliance News" href="https://greenido.github.io/ai-security-compliance-news/feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tailwind.css">
+</head>
+<body class="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-3 sm:py-0 sm:h-16 gap-2 sm:gap-0">
+        <a href="../index.html" class="flex items-center gap-2 sm:gap-3 group">
+          <div class="w-8 h-8 sm:w-9 sm:h-9 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-xs sm:text-sm group-hover:bg-brand-700 transition-colors shrink-0">AI</div>
+          <span class="text-base sm:text-lg font-bold tracking-tight leading-tight">AI Security &amp; Compliance <span class="text-brand-600">News</span></span>
+        </a>
+        <nav class="flex items-center gap-4 sm:gap-6">
+          <a href="../index.html" class="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a>
+          <a href="../about.html" class="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors">About</a>
+          <button id="theme-toggle" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle dark mode">
+            <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+            <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Article -->
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <a href="../index.html" class="inline-flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-400 transition-colors mb-8">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+      Back to all posts
+    </a>
+
+    <article>
+      <header class="mb-8">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="inline-block px-2.5 py-0.5 text-xs font-semibold rounded-full bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300">Security</span>
+          <span class="text-sm text-gray-400">5 min read</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-bold tracking-tight leading-tight mb-4">Hugging Face LeRobot RCE: The Deserialization Threat to AI Robotics</h1>
+        <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+          <span>By <strong class="text-gray-700 dark:text-gray-300">AI Security &amp; Compliance Desk</strong></span>
+          <time datetime="2026-04-28">April 28, 2026</time>
+        </div>
+        <p class="mt-3 text-xs text-gray-400">Source: <a href="https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html" target="_blank" rel="noopener" class="hover:underline">The Hacker News</a></p>
+      </header>
+
+      <figure class="mb-10 -mx-4 sm:mx-0">
+        <div class="relative overflow-hidden rounded-none sm:rounded-xl" style="background-color: #737373">
+          <img
+            src="https://images.unsplash.com/photo-1736564176042-b3d49989b230?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxicm9rZW4lMjByb2JvdGljJTIwZnV0dXJlfGVufDF8MHx8fDE3NzczOTExNjF8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
+            alt="A digital image of a man with a robot face"
+            width="7680"
+            height="4320"
+            loading="eager"
+            class="w-full h-auto max-h-[420px] object-cover"
+          >
+        </div>
+        <figcaption class="mt-2 px-4 sm:px-0 text-xs text-gray-400 dark:text-gray-500 flex items-center gap-1">
+          Photo by <a href="https://unsplash.com/@loganvoss?utm_source=ai_security_blog&amp;utm_medium=referral" target="_blank" rel="noopener" class="underline hover:text-gray-600 dark:hover:text-gray-300">Logan Voss</a>
+          on <a href="https://unsplash.com/photos/a-digital-image-of-a-man-with-a-robot-face-zXzRePFvCFQ?utm_source=ai_security_blog&amp;utm_medium=referral" target="_blank" rel="noopener" class="underline hover:text-gray-600 dark:hover:text-gray-300">Unsplash</a>
+        </figcaption>
+      </figure>
+
+      <div class="post-content font-serif text-lg text-gray-800 dark:text-gray-200">
+        <p>The rapid evolution of AI and robotics has ushered in an era of unprecedented innovation, transforming industries from manufacturing to healthcare. Platforms like Hugging Face's LeRobot have become instrumental, empowering developers to build sophisticated robotic applications with ease. However, this accelerating pace of technological advancement often brings with it new, complex security challenges. A recent disclosure has cast a stark spotlight on this reality, revealing a critical unpatched vulnerability in LeRobot that poses a significant remote code execution (RCE) risk.</p><p>As reported by <a href="https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html" target="_blank" rel="noopener noreferrer">The Hacker News</a>, cybersecurity researchers have unearthed details of CVE-2026-25874, a severe flaw scoring 9.3 on the CVSS scale. This vulnerability, described as a case of untrusted data deserialization, leaves nearly 24,000 GitHub-starred LeRobot projects open to potential compromise. For IT professionals, security teams, and compliance officers overseeing AI and robotics deployments, this isn't merely a theoretical threat; it's an immediate operational imperative.</p><h2>Understanding the Deserialization Threat</h2><p>At its core, CVE-2026-25874 exploits a fundamental process known as deserialization. In simple terms, deserialization is the process of converting data from a structured format (often transmitted across a network or stored in a file) back into an object in memory that an application can use. When this process handles “untrusted data”—input that hasn't been properly validated or sanitized—it creates a dangerous avenue for attackers.</p><p>Here's why untrusted data deserialization is particularly insidious:</p><ul><li><strong>Arbitrary Code Execution:</strong> An attacker can craft malicious serialized data that, when deserialized by the vulnerable application, tricks the system into executing arbitrary code. This is the essence of Remote Code Execution (RCE).</li><li><strong>Unauthenticated Access:</strong> The critical nature of CVE-2026-25874 is amplified by its unauthenticated status. This means an attacker doesn't need to bypass login screens or possess valid credentials to exploit the flaw, significantly lowering the bar for compromise.</li><li><strong>Systemic Impact:</strong> Once RCE is achieved, an attacker can gain full control over the compromised system, potentially leading to data exfiltration, service disruption, lateral movement within the network, or even the deployment of ransomware. Given LeRobot's role in controlling physical robots, the implications extend beyond digital assets to the physical world, raising concerns about safety and operational integrity.</li></ul><h2>Immediate Implications for AI Robotics Deployments</h2><p>The disclosure of CVE-2026-25874 sends a clear warning across all sectors leveraging LeRobot. For organizations that have integrated this platform into their AI and robotics initiatives, the potential ramifications are extensive:</p><ul><li><strong>Data Breach Risk:</strong> Malicious actors could access sensitive data processed or stored by LeRobot instances, including proprietary algorithms, user data, or operational insights.</li><li><strong>Operational Disruption:</strong> RCE allows attackers to manipulate or shut down robotic systems, leading to severe operational downtime, production losses, and potential safety hazards in industrial settings.</li><li><strong>Intellectual Property Theft:</strong> The blueprints, designs, and operational logic embedded within robotic applications are valuable intellectual property. An RCE exploit could facilitate their theft.</li><li><strong>Reputational Damage:</strong> A security incident stemming from an unpatched vulnerability can severely erode customer trust and damage an organization's reputation.</li><li><strong>Compliance Headaches:</strong> For regulated industries, a breach via this vulnerability could trigger significant compliance violations, leading to hefty fines and legal repercussions.</li></ul><p>While a patch is undoubtedly in development from Hugging Face, the interim period presents a heightened risk. Organizations must act proactively to minimize their exposure.</p><h2>Navigating the Unpatched Landscape: Proactive Measures</h2><p>Given that CVE-2026-25874 remains unpatched at the time of this report, immediate defensive strategies are paramount. Security and IT teams should consider the following:</p><ul><li><strong>Network Segmentation:</strong> Isolate LeRobot deployments within segmented network zones. Restrict their ability to communicate with critical internal systems unless absolutely necessary. Implement strict firewall rules.</li><li><strong>Input Validation and Sanitization:</strong> While the vulnerability lies within the deserialization process, reinforcing input validation at all entry points to LeRobot applications can help catch potentially malicious data before it reaches the vulnerable deserialization routines.</li><li><strong>Monitoring and Anomaly Detection:</strong> Enhance logging and monitoring for LeRobot instances. Look for unusual network traffic patterns, unexpected process executions, or unauthorized access attempts that could indicate an attempted or successful exploit.</li><li><strong>Least Privilege Principle:</strong> Ensure that LeRobot services and applications operate with the absolute minimum necessary privileges. This can limit the extent of damage if an exploit is successful.</li><li><strong>Secure Configuration Review:</strong> Review all LeRobot configurations for any insecure defaults or unnecessary open ports. Harden the underlying operating systems.</li><li><strong>Stay Informed:</strong> Continuously monitor official Hugging Face channels and reputable cybersecurity news sources for updates, advisories, and the eventual release of a patch. Plan for immediate deployment of any fix.</li></ul><p>The discovery of CVE-2026-25874 in Hugging Face's LeRobot serves as a potent reminder of the persistent security challenges inherent in rapidly evolving technology stacks, particularly those at the forefront of AI and robotics. While the promise of these technologies is immense, their secure implementation is non-negotiable. For IT professionals and security leaders, the current imperative is clear: understand the threat, assess your exposure, and implement robust interim controls. The future of AI robotics depends not just on innovation, but on an unwavering commitment to security by design and diligent operational vigilance.</p>
+        
+      </div>
+
+      <!-- Tags -->
+      <div class="mt-10 pt-6 border-t border-gray-200 dark:border-gray-800">
+        <div class="flex flex-wrap gap-2">
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Cybersecurity</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">RCE</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Deserialization</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">AI Security</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Robotics</span>
+        </div>
+      </div>
+
+      <!-- Share -->
+      <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-800">
+        <p class="text-sm font-semibold mb-3">Share this article</p>
+        <div class="flex gap-3">
+          <a href="https://twitter.com/intent/tweet?text=Hugging%20Face%20LeRobot%20RCE%3A%20The%20Deserialization%20Threat%20to%20AI%20Robotics&url=https%3A%2F%2Fgreenido.github.io%2Fai-security-compliance-news%2Fposts%2F2026-04-28-hugging-face-lerobot-rce-deserialization-threat.html" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Post
+          </a>
+          <button id="linkedin-share" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span class="li-label">Share on LinkedIn</span>
+          </button>
+          <button onclick="navigator.clipboard.writeText(window.location.href).then(()=>this.textContent='Copied!')" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+            Copy link
+          </button>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid gap-8 sm:grid-cols-3">
+        <div>
+          <div class="flex items-center gap-2 mb-3">
+            <div class="w-7 h-7 bg-brand-600 rounded-md flex items-center justify-center text-white font-bold text-xs">AI</div>
+            <span class="font-bold text-sm">AI Security &amp; Compliance News</span>
+          </div>
+          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">AI-powered news and analysis on cybersecurity, compliance, and IT operations.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">Navigation</h4>
+          <ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+            <li><a href="../index.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a></li>
+            <li><a href="../about.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">About</a></li>
+            <li><a href="https://ido-green.appspot.com/contact.html" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Contact Ido</a></li>
+            <li><a href="https://greenido.wordpress.com" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Ido's Blog</a></li>
+            <li><a href="https://espressolabs.com" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">EspressoLabs.com</a></li>
+            <li><a href="../feed.xml" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors inline-flex items-center gap-1"><svg class="w-3.5 h-3.5 inline" fill="currentColor" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg> RSS Feed</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">Powered By</h4>
+          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">Content generated by Google AI with people - so it's the best of both worlds. IT &amp; Security solutions by <a href="https://espressolabs.com/" target="_blank" rel="noopener" class="text-brand-600 dark:text-brand-400 hover:underline">Espresso Labs</a>.</p>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-gray-200 dark:border-gray-800 text-center text-xs text-gray-400">
+        &copy; <span id="year"></span> AI Security and Compliance News. Posts are AI-generated and may not reflect the latest information.
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+  <script>
+  (function() {
+    var btn = document.getElementById('linkedin-share');
+    if (!btn) return;
+    var shareText = "Hugging Face LeRobot RCE: The Deserialization Threat to AI Robotics\n\nA critical unpatched RCE flaw (CVE-2026-25874) in Hugging Face LeRobot exposes AI robotics to untrusted data deserialization. IT pros, secure your deployments now.\n\nRead more: https://greenido.github.io/ai-security-compliance-news/posts/2026-04-28-hugging-face-lerobot-rce-deserialization-threat.html";
+    var shareUrl = "https://greenido.github.io/ai-security-compliance-news/posts/2026-04-28-hugging-face-lerobot-rce-deserialization-threat.html";
+    btn.addEventListener('click', function() {
+      navigator.clipboard.writeText(shareText).then(function() {
+        var label = btn.querySelector('.li-label');
+        if (label) { label.textContent = 'Copied! Paste in LinkedIn'; }
+        setTimeout(function() { if (label) label.textContent = 'Share on LinkedIn'; }, 3000);
+      });
+      window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(shareUrl), '_blank');
+    });
+  })();
+  </script>
+</body>
+</html>

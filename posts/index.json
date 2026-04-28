@@ -1,5 +1,30 @@
 [
   {
+    "title": "Hugging Face LeRobot RCE: The Deserialization Threat to AI Robotics",
+    "slug": "2026-04-28-hugging-face-lerobot-rce-deserialization-threat",
+    "date": "2026-04-28",
+    "excerpt": "Hugging Face's LeRobot platform, a cornerstone for many AI robotics projects, is currently vulnerable to a critical remote code execution flaw. This unpatched deserialization vulnerability, CVE-2026-25874, demands immediate attention from IT and security teams overseeing AI and robotics deployments.",
+    "tags": [
+      "Cybersecurity",
+      "RCE",
+      "Deserialization",
+      "AI Security",
+      "Robotics"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 820,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1736564176042-b3d49989b230?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxicm9rZW4lMjByb2JvdGljJTIwZnV0dXJlfGVufDF8MHx8fDE3NzczOTExNjF8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A digital image of a man with a robot face",
+      "credit": "Logan Voss",
+      "color": "#737373"
+    }
+  },
+  {
     "title": "AI's Vulnerability Surge: Are Your Defenses Ready for Mythos?",
     "slug": "2026-04-27-ais-vulnerability-surge-defenses-ready-mythos",
     "date": "2026-04-27",
