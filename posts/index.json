@@ -1,5 +1,33 @@
 [
   {
+    "title": "AI Transforms GRC: Compliagence.ai's Global Rollout",
+    "slug": "2026-04-29-ai-transforms-grc-compliagence-ai-global-rollout",
+    "date": "2026-04-29",
+    "excerpt": "The compliance landscape just got a major upgrade. Compliagence.ai, an AI-powered platform built by industry veterans, has announced its global availability, promising to revolutionize how organizations manage regulatory and security challenges. This deep dive explores its implications for IT, security, and compliance teams.",
+    "tags": [
+      "AI",
+      "Compliance",
+      "Cybersecurity",
+      "Regulatory Technology",
+      "Risk Management",
+      "IT Security",
+      "GRC"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 904,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1767481732722-9ee269aab736?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxBc2N8ZW58MXwwfHx8MTc3NzQ3NzAzN3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Green translucent 3D text on white background",
+      "credit": "Logan Voss",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "Hugging Face LeRobot RCE: The Deserialization Threat to AI Robotics",
     "slug": "2026-04-28-hugging-face-lerobot-rce-deserialization-threat",
     "date": "2026-04-28",
