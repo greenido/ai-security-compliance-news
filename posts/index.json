@@ -1,5 +1,30 @@
 [
   {
+    "title": "DEEP#DOOR: Python Backdoor Targets Cloud & Browser Credentials",
+    "slug": "2026-04-30-deepdoor-python-backdoor-targets-cloud-browser-credentials",
+    "date": "2026-04-30",
+    "excerpt": "A stealthy Python-based backdoor, DEEP#DOOR, has been uncovered, designed to establish persistent access and exfiltrate sensitive browser and cloud credentials. Leveraging tunneling services, this threat poses a significant challenge. Understand its mechanics and fortify your defenses.",
+    "tags": [
+      "Cybersecurity",
+      "Backdoor",
+      "Credential Theft",
+      "Python Malware",
+      "Cloud Security"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 938,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1533621892401-13da58d40f77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxEYXJrJTIwdHVubmVsJTIwbGlnaHR8ZW58MXwwfHx8MTc3NzU2MzE4NHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man standing on tunnel",
+      "credit": "Jr Korpa",
+      "color": "#260c26"
+    }
+  },
+  {
     "title": "AI Transforms GRC: Compliagence.ai's Global Rollout",
     "slug": "2026-04-29-ai-transforms-grc-compliagence-ai-global-rollout",
     "date": "2026-04-29",
