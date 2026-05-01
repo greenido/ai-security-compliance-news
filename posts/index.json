@@ -1,5 +1,29 @@
 [
   {
+    "title": "Cybersecurity Revenue: Why MSPs Miss the $69B Opportunity",
+    "slug": "2026-05-01-cybersecurity-revenue-why-msps-miss-69b-opportunity",
+    "date": "2026-05-01",
+    "excerpt": "The cybersecurity market is set to explode, yet many Managed Service Providers are leaving significant revenue on the table. Discover the common pitfalls preventing MSPs from translating their technical prowess into lucrative business solutions and securing their share of a multi-billion dollar opportunity.",
+    "tags": [
+      "MSPs",
+      "Cybersecurity",
+      "Managed Security Services",
+      "Business Strategy",
+      "Sales Challenges"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 773,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1596579903788-b2a5f4d47e10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxDcmFja2VkJTIwZGVzZXJ0fGVufDF8MHx8fDE3Nzc2NDg4MTV8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "grayscale photo of 2 children standing on concrete floor",
+      "credit": "Kelsey Dody",
+      "color": "#c0c0c0"
+    }
+  },
+  {
     "title": "DEEP#DOOR: Python Backdoor Targets Cloud & Browser Credentials",
     "slug": "2026-04-30-deepdoor-python-backdoor-targets-cloud-browser-credentials",
     "date": "2026-04-30",
