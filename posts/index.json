@@ -1,5 +1,29 @@
 [
   {
+    "title": "Trellix Source Code Breach: A Supply Chain Security Red Flag",
+    "slug": "2026-05-03-trellix-source-code-breach-supply-chain-security-red-flag",
+    "date": "2026-05-03",
+    "excerpt": "The cybersecurity industry is once again reminded of its own vulnerabilities as Trellix confirms a source code breach. This incident is a stark red flag for software supply chain security, urging IT professionals and security teams to reassess their defenses.",
+    "tags": [
+      "cybersecurity",
+      "source code breach",
+      "supply chain security",
+      "Trellix",
+      "risk management"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 790,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1625470496744-a01bf36a262f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDcmFja2VkJTIwZm91bmRhdGlvbnxlbnwxfDB8fHwxNzc3ODIxMjMwfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "3 men in white and orange shirts and green pants action figures",
+      "credit": "Mathieu Stern",
+      "color": "#a6a6a6"
+    }
+  },
+  {
     "title": "Trellix Source Code Breach: Unpacking the Supply Chain Risk",
     "slug": "2026-05-02-trellix-source-code-breach-unpacking-supply-chain-risk",
     "date": "2026-05-02",
