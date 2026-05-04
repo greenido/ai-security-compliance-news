@@ -1,5 +1,31 @@
 [
   {
+    "title": "Beyond the Breach: The New Era of Cyber Occupation",
+    "slug": "2026-05-04-beyond-the-breach-the-new-era-of-cyber-occupation",
+    "date": "2026-05-04",
+    "excerpt": "The latest cyber landscape shows a disturbing shift: attackers are no longer just breaching perimeters but establishing long-term residency within systems. This week's critical security recap underscores the need for a fundamental re-evaluation of our defense strategies.",
+    "tags": [
+      "Cybersecurity",
+      "Threat Intelligence",
+      "AI Security",
+      "Supply Chain Attacks",
+      "Endpoint Protection"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 723,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1647774327239-6f8852af65d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3dzJTIwY3JlZXBpbmd8ZW58MXwwfHx8MTc3NzkwODk1OHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a close up of a book on a table",
+      "credit": "Jonathan Marchal",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Trellix Source Code Breach: A Supply Chain Security Red Flag",
     "slug": "2026-05-03-trellix-source-code-breach-supply-chain-security-red-flag",
     "date": "2026-05-03",
