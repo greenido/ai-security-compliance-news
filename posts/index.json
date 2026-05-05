@@ -1,5 +1,34 @@
 [
   {
+    "title": "MetInfo CMS Under Siege: Unauthenticated RCE Exploit Active",
+    "slug": "2026-05-05-metinfo-cms-under-siege-unauthenticated-rce-exploit-active",
+    "date": "2026-05-05",
+    "excerpt": "A severe vulnerability in MetInfo CMS, identified as CVE-2026-29014, is currently under active exploitation by threat actors. This critical code injection flaw allows for unauthenticated remote code execution, posing a significant risk to affected organizations running versions 7.9, 8.0, and 8.1. Immediate action is required to mitigate this threat.",
+    "tags": [
+      "MetInfo CMS",
+      "CVE-2026-29014",
+      "RCE",
+      "Code Injection",
+      "Vulnerability",
+      "Cybersecurity",
+      "IT Security",
+      "CMS Security",
+      "Threat Actors",
+      "Patch Management"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 841,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc3Nzk5NTE3M3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "Beyond the Breach: The New Era of Cyber Occupation",
     "slug": "2026-05-04-beyond-the-breach-the-new-era-of-cyber-occupation",
     "date": "2026-05-04",
