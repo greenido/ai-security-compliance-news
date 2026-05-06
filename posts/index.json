@@ -1,5 +1,29 @@
 [
   {
+    "title": "Beyond the Breach: Celebrating Cybersecurity's Unsung Heroes",
+    "slug": "2026-05-06-beyond-breach-celebrating-cybersecuritys-unsung-heroes",
+    "date": "2026-05-06",
+    "excerpt": "For years, cybersecurity news has predominantly focused on threats and breaches. Now, The Hacker News is shifting the narrative, launching its 'Cybersecurity Stars Awards 2026' to celebrate the unsung heroes building robust defenses and innovating in the face of relentless digital adversaries.",
+    "tags": [
+      "CybersecurityAwards",
+      "SecurityLeadership",
+      "ITProfessionals",
+      "Compliance",
+      "Innovation"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 790,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1630330879693-6aaaffa6de48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxSZXNpbGllbmNlfGVufDF8MHx8fDE3NzgwODIyNzJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "red rose on gray rock",
+      "credit": "Levi Meir Clancy",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "MetInfo CMS Under Siege: Unauthenticated RCE Exploit Active",
     "slug": "2026-05-05-metinfo-cms-under-siege-unauthenticated-rce-exploit-active",
     "date": "2026-05-05",
