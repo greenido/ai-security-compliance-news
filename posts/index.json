@@ -1,5 +1,58 @@
 [
   {
+    "title": "2026 Compliance: Navigating CMMC, SOC 2, and HIPAA Shifts",
+    "slug": "2026-05-07-2026-compliance-navigating-cmmc-soc2-hipaa-shifts",
+    "date": "2026-05-07",
+    "excerpt": "The compliance landscape is shifting rapidly in 2026. With CMMC, SOC 2, and HIPAA evolving, IT and security teams face stricter requirements and increased enforcement. Discover what you need to know to stay compliant and secure amidst these critical updates.",
+    "tags": [
+      "Compliance",
+      "Cybersecurity",
+      "CMMC",
+      "SOC 2",
+      "HIPAA"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 883,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1625723760387-129b389c28c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGlmdGluZ3xlbnwxfDB8fHwxNzc4MTY4NzA5fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "black and silver letter b",
+      "credit": "Matthias Speicher",
+      "color": "#a6a6a6"
+    }
+  },
+  {
+    "title": "AI's Invisible Hand: Mitigating Next-Gen Patient Zero Threats",
+    "slug": "2026-05-07-ais-invisible-hand-mitigating-next-gen-patient-zero-threats",
+    "date": "2026-05-07",
+    "excerpt": "The cybersecurity landscape is shifting dramatically, with AI making initial compromises virtually undetectable. A single employee's click can now trigger a total shutdown. Are your defenses ready for the stealth breaches of 2026?",
+    "tags": [
+      "AI Security",
+      "Cybersecurity",
+      "Patient Zero",
+      "Breach Prevention",
+      "Incident Response",
+      "Human Element",
+      "Phishing",
+      "Enterprise Security",
+      "Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 747,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1743439949029-3f4469f5bf99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxJbnZpc2libGUlMjBkaWdpdGFsJTIwc3Rvcm18ZW58MXwwfHx8MTc3ODE2ODY4OHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A futuristic cube floats in a digital space.",
+      "credit": "Bojun Liu",
+      "color": "#262659"
+    }
+  },
+  {
     "title": "Beyond the Breach: Celebrating Cybersecurity's Unsung Heroes",
     "slug": "2026-05-06-beyond-breach-celebrating-cybersecuritys-unsung-heroes",
     "date": "2026-05-06",
