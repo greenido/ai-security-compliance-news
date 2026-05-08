@@ -1,5 +1,33 @@
 [
   {
+    "title": "AI-Powered Patient Zero: Defending Against One-Click Catastrophe",
+    "slug": "2026-05-08-ai-powered-patient-zero-one-click-catastrophe",
+    "date": "2026-05-08",
+    "excerpt": "The cybersecurity landscape is shifting. With AI-powered social engineering, the 'patient zero' breach – a single compromised employee – now poses an unprecedented threat. Discover how to fortify your defenses against this evolving danger.",
+    "tags": [
+      "cybersecurity",
+      "AI security",
+      "social engineering",
+      "patient zero",
+      "breach prevention",
+      "human element",
+      "security awareness",
+      "incident response"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 824,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1761075666032-7540b8c58de7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEYXJrJTIwZGlnaXRhbCUyMHN0b3JtfGVufDF8MHx8fDE3NzgyNTQyMTR8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Abstract network of glowing blue and red lines",
+      "credit": "Dmitry Khotsinskiy",
+      "color": "#260c0c"
+    }
+  },
+  {
     "title": "2026 Compliance: Navigating CMMC, SOC 2, and HIPAA Shifts",
     "slug": "2026-05-07-2026-compliance-navigating-cmmc-soc2-hipaa-shifts",
     "date": "2026-05-07",
