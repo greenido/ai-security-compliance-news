@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI-Powered Patient Zero: Containing the Next Stealth Breach",
+    "slug": "2026-05-09-ai-powered-patient-zero-containing-the-next-stealth-breach",
+    "date": "2026-05-09",
+    "excerpt": "The cybersecurity landscape is shifting dramatically. With AI-powered social engineering, the 'first click' is becoming undetectable. We delve into how organizations must adapt their defenses to contain the inevitable stealth breach.",
+    "tags": [
+      "Cybersecurity",
+      "AI Security",
+      "Incident Response",
+      "Breach Containment",
+      "Social Engineering"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 851,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxJbnZpc2libGV8ZW58MXwwfHx8MTc3ODMzOTg5MXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "person behind fog glass",
+      "credit": "Stefano Pollio",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "AI-Powered Patient Zero: Defending Against One-Click Catastrophe",
     "slug": "2026-05-08-ai-powered-patient-zero-one-click-catastrophe",
     "date": "2026-05-08",
