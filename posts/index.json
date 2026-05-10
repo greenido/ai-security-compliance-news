@@ -1,5 +1,29 @@
 [
   {
+    "title": "Ollama's Bleeding Llama: Critical Memory Leak Threat",
+    "slug": "2026-05-10-ollamas-bleeding-llama-critical-memory-leak-threat",
+    "date": "2026-05-10",
+    "excerpt": "A severe out-of-bounds read vulnerability, codenamed 'Bleeding Llama,' has been disclosed in Ollama, impacting hundreds of thousands of servers. Tracked as CVE-2026-7482, this flaw allows remote, unauthenticated attackers to leak sensitive process memory. IT professionals and security teams must act swiftly to mitigate the risk.",
+    "tags": [
+      "Ollama",
+      "Vulnerability",
+      "Cybersecurity",
+      "Memory Leak",
+      "CVE-2026-7482"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 676,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1515788909301-3cfe52ab6bdd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxDcmFja2VkfGVufDF8MHx8fDE3Nzg0MjYzNTl8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "dried up soil",
+      "credit": "Jo Van de kerkhove",
+      "color": "#c0a6a6"
+    }
+  },
+  {
     "title": "AI-Powered Patient Zero: Containing the Next Stealth Breach",
     "slug": "2026-05-09-ai-powered-patient-zero-containing-the-next-stealth-breach",
     "date": "2026-05-09",
