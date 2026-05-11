@@ -1,5 +1,32 @@
 [
   {
+    "title": "Beyond Red and Blue: Building Integrated Security Operations",
+    "slug": "2026-05-11-beyond-red-and-blue-integrated-security-operations",
+    "date": "2026-05-11",
+    "excerpt": "The promise of purple teaming is a unified front against cyber threats. Yet, for many organizations, the reality is far from it. We explore why your 'purple team' might just be red and blue in the same room, and what systemic changes are needed.",
+    "tags": [
+      "Cybersecurity",
+      "Purple Teaming",
+      "Security Operations",
+      "IT Management",
+      "Compliance",
+      "Automation",
+      "AI in Security"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 802,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1689872330643-3305cde123ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDb252ZXJnaW5nfGVufDF8MHx8fDE3Nzg1MTUxOTN8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue and green background with a circular shape",
+      "credit": "Martin Martz",
+      "color": "#0c7359"
+    }
+  },
+  {
     "title": "Ollama's Bleeding Llama: Critical Memory Leak Threat",
     "slug": "2026-05-10-ollamas-bleeding-llama-critical-memory-leak-threat",
     "date": "2026-05-10",
