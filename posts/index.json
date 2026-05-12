@@ -1,5 +1,31 @@
 [
   {
+    "title": "OpenAI Daybreak: AI-Powered Proactive Cyber Defense",
+    "slug": "2026-05-12-openai-daybreak-ai-powered-proactive-cyber-defense",
+    "date": "2026-05-12",
+    "excerpt": "The cybersecurity landscape is constantly evolving, demanding more intelligent defenses. OpenAI's new Daybreak initiative promises to revolutionize vulnerability management, shifting organizations from reactive responses to proactive security postures.",
+    "tags": [
+      "Cybersecurity",
+      "AI Security",
+      "Vulnerability Management",
+      "Patch Management",
+      "Enterprise Security"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 750,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1503424160383-57de83bd6fb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxkYXdufGVufDF8MHx8fDE3Nzg2MDA5NjV8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "tree against golden sun",
+      "credit": "Simon Wilkes",
+      "color": "#26260c"
+    }
+  },
+  {
     "title": "Beyond Red and Blue: Building Integrated Security Operations",
     "slug": "2026-05-11-beyond-red-and-blue-integrated-security-operations",
     "date": "2026-05-11",
