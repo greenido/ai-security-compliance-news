@@ -1,5 +1,29 @@
 [
   {
+    "title": "GemStuffer Campaign: RubyGems Abused for Covert Data Exfiltration",
+    "slug": "2026-05-13-gemstuffer-campaign-rubygems-abused-for-covert-data-exfiltration",
+    "date": "2026-05-13",
+    "excerpt": "A sophisticated new campaign dubbed GemStuffer is redefining supply chain threats. Targeting the RubyGems repository, attackers used over 150 malicious packages not for malware, but for covert data exfiltration. This novel approach demands immediate attention from IT and security teams.",
+    "tags": [
+      "RubyGems",
+      "Supply Chain Security",
+      "Data Exfiltration",
+      "Cybersecurity",
+      "GemStuffer"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 691,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1633967474537-ab2cc003e136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxIaWRkZW4lMjBwYXRoJTIwc2VjcmV0fGVufDF8MHx8fDE3Nzg2ODc1MjR8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a person standing on a wooden bridge in the woods",
+      "credit": "Thomas Park",
+      "color": "#0c260c"
+    }
+  },
+  {
     "title": "OpenAI Daybreak: AI-Powered Proactive Cyber Defense",
     "slug": "2026-05-12-openai-daybreak-ai-powered-proactive-cyber-defense",
     "date": "2026-05-12",
