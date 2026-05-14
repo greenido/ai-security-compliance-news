@@ -1,5 +1,30 @@
 [
   {
+    "title": "PraisonAI Exploit: When Hours Matter in Cyber Defense",
+    "slug": "2026-05-14-praisonai-exploit-when-hours-matter-in-cyber-defense",
+    "date": "2026-05-14",
+    "excerpt": "A critical authentication bypass in PraisonAI, CVE-2026-44338, was targeted by threat actors within four hours of public disclosure. This incident highlights the shrinking window for defenders and the urgent need for rapid, proactive cybersecurity measures.",
+    "tags": [
+      "Cybersecurity",
+      "Vulnerability",
+      "AI Security",
+      "Open Source",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 631,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1699138346491-d6f4c7e04b85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxyYWNpbmclMjBhZ2FpbnN0fGVufDF8MHx8fDE3Nzg3NzM0OTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a racing car driving on a track in motion",
+      "credit": "Isaac Maffeis",
+      "color": "#0c2626"
+    }
+  },
+  {
     "title": "GemStuffer Campaign: RubyGems Abused for Covert Data Exfiltration",
     "slug": "2026-05-13-gemstuffer-campaign-rubygems-abused-for-covert-data-exfiltration",
     "date": "2026-05-13",
