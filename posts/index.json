@@ -1,5 +1,30 @@
 [
   {
+    "title": "Critical NGINX Flaw Exploited: What IT Needs to Know About CVE-2026-42945",
+    "slug": "2026-05-17-critical-nginx-flaw-exploited-what-it-needs-to-know-about-cve-2026-42945",
+    "date": "2026-05-17",
+    "excerpt": "A severe heap buffer overflow in NGINX, tracked as CVE-2026-42945, is now under active exploitation. This critical flaw affects a vast range of NGINX versions, posing significant risks from worker crashes to potential remote code execution. Immediate action is imperative for all organizations leveraging NGINX.",
+    "tags": [
+      "NGINX",
+      "CVE-2026-42945",
+      "Security Vulnerability",
+      "Heap Buffer Overflow",
+      "Cybersecurity Alert"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 731,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1704019483449-57278d210bae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxjcnxlbnwxfDB8fHwxNzc5MDMxMjg0fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a black and white photo of two curves",
+      "credit": "POOYAST .",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "When Cybercriminals Forget to Hit Mute: OpSec Lessons",
     "slug": "2026-05-16-when-cybercriminals-forget-to-hit-mute-opsec-lessons",
     "date": "2026-05-16",
