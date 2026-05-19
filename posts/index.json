@@ -1,5 +1,30 @@
 [
   {
+    "title": "DirtyDecrypt PoC: Urgent Linux LPE Threat for IT Professionals",
+    "slug": "2026-05-19-dirtydecrypt-poc-urgent-linux-lpe-threat-for-it-professionals",
+    "date": "2026-05-19",
+    "excerpt": "The Linux ecosystem is abuzz with urgent news: proof-of-concept exploit code has been released for 'DirtyDecrypt,' a critical local privilege escalation (LPE) vulnerability (CVE-2026-31635). This flaw poses a significant risk to Linux servers and workstations, demanding immediate attention from IT professionals and security teams to prevent unauthorized system access.",
+    "tags": [
+      "Linux Security",
+      "CVE-2026-31635",
+      "LPE Vulnerability",
+      "Kernel Exploit",
+      "Cybersecurity News"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 783,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1565551223391-be988013ee6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxCcm9rZW58ZW58MXwwfHx8MTc3OTIwNjcyMXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "orange band aid on concrete surface crack",
+      "credit": "Luis Villasmil",
+      "color": "#404040"
+    }
+  },
+  {
     "title": "Closing the Gap: Early Phishing Detection to Prevent Disruption",
     "slug": "2026-05-18-closing-the-gap-early-phishing-detection-to-prevent-disruption",
     "date": "2026-05-18",
