@@ -1,5 +1,29 @@
 [
   {
+    "title": "Showboat Linux Malware: A Stealthy Threat to Critical Infrastructure",
+    "slug": "2026-05-21-showboat-linux-malware-stealthy-threat-critical-infrastructure",
+    "date": "2026-05-21",
+    "excerpt": "A new Linux malware, dubbed Showboat, has been quietly operating since mid-2022, targeting a Middle Eastern telecommunications provider. This sophisticated, modular post-exploitation framework presents a significant threat to critical infrastructure, leveraging SOCKS5 proxy capabilities for stealth and persistence.",
+    "tags": [
+      "Linux Security",
+      "Malware Analysis",
+      "Cybersecurity",
+      "Critical Infrastructure",
+      "Telecom Security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 890,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1706986966473-b1de94e9ef5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxkYXJrJTIwb21pbm91cyUyMGRpZ2l0YWx8ZW58MXwwfHx8MTc3OTM3OTQ4NXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a man standing in the middle of a dark cave",
+      "credit": "vista graphics3d",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Microsoft Disrupts Malware-Signing Service: A Wake-Up Call for IT",
     "slug": "2026-05-20-microsoft-disrupts-malware-signing-service-wake-up-call",
     "date": "2026-05-20",
