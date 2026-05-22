@@ -1,5 +1,29 @@
 [
   {
+    "title": "Megalodon Strikes GitHub: CI/CD Supply Chain Under Siege",
+    "slug": "2026-05-22-megalodon-strikes-github-ci-cd-supply-chain-under-siege",
+    "date": "2026-05-22",
+    "excerpt": "A massive, automated campaign dubbed 'Megalodon' has rocked the GitHub ecosystem, injecting malicious CI/CD workflows into thousands of repositories. This sophisticated attack underscores a growing threat to software supply chain integrity, leveraging forged identities and stealthy payloads to exfiltrate critical data.",
+    "tags": [
+      "GitHub Security",
+      "CI/CD",
+      "Supply Chain Attack",
+      "Megalodon",
+      "DevSecOps"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 762,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1549074862-6173e20d02a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxkZWVwJTIwb2NlYW58ZW58MXwwfHx8MTc3OTQ2NTIzM3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "photography of blue water",
+      "credit": "Sarah Lee",
+      "color": "#0c2640"
+    }
+  },
+  {
     "title": "Showboat Linux Malware: A Stealthy Threat to Critical Infrastructure",
     "slug": "2026-05-21-showboat-linux-malware-stealthy-threat-critical-infrastructure",
     "date": "2026-05-21",
