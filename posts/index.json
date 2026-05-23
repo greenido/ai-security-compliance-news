@@ -1,5 +1,56 @@
 [
   {
+    "title": "2026 Compliance: Navigating Evolving CMMC, SOC 2, & HIPAA",
+    "slug": "2026-05-23-2026-compliance-navigating-evolving-cmmc-soc2-hipaa",
+    "date": "2026-05-23",
+    "excerpt": "The regulatory tide waits for no one, and in 2026, the currents are stronger than ever. CMMC 2.0, SOC 2 Type II, and HIPAA are undergoing significant updates, demanding heightened vigilance from IT and security teams. Prepare for tighter timelines and increased enforcement.",
+    "tags": [
+      "Compliance",
+      "Cybersecurity",
+      "Regulatory",
+      "CMMC",
+      "HIPAA"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 811,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1524679166686-04237b4667b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxOYXZpZ2F0aW5nJTIwc3Rvcm15fGVufDF8MHx8fDE3Nzk1NDk4MDF8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "huge wave at daytime",
+      "credit": "Torsten Dederichs",
+      "color": "#73738c"
+    }
+  },
+  {
+    "title": "AI Uncovers 10,000 Critical Flaws: A New Security Paradigm",
+    "slug": "2026-05-23-ai-uncovers-10000-critical-flaws-new-security-paradigm",
+    "date": "2026-05-23",
+    "excerpt": "A recent disclosure from Anthropic's Project Glasswing has unveiled over 10,000 high-severity vulnerabilities in critical software. Powered by Claude Mythos AI, this initiative signals a transformative shift in vulnerability discovery, demanding immediate attention from IT, security, and compliance teams.",
+    "tags": [
+      "AI",
+      "Cybersecurity",
+      "Vulnerability Management",
+      "Anthropic",
+      "Project Glasswing",
+      "Software Security",
+      "Risk Management"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 471,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsfGVufDF8MHx8fDE3Nzk1NDk3ODV8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "Megalodon Strikes GitHub: CI/CD Supply Chain Under Siege",
     "slug": "2026-05-22-megalodon-strikes-github-ci-cd-supply-chain-under-siege",
     "date": "2026-05-22",
