@@ -1,5 +1,32 @@
 [
   {
+    "title": "AI Revolutionizes ISO 27001: A New Era for Compliance",
+    "slug": "2026-05-24-ai-revolutionizes-iso-27001-new-era-for-compliance",
+    "date": "2026-05-24",
+    "excerpt": "The arduous journey to ISO 27001 certification is getting a significant upgrade. A recent announcement from the UK Cyber Security Group highlights a new AI-powered platform designed to streamline compliance, promising a future where robust security doesn't mean endless manual tasks.",
+    "tags": [
+      "ISO 27001",
+      "AI",
+      "Compliance",
+      "Cybersecurity",
+      "IT Management",
+      "Security Automation"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 693,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1737505599162-d9932323a889?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwZ2xvd2luZyUyMG5ldHdvcmt8ZW58MXwwfHx8MTc3OTYzNjIwN3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A group of blue and green balls on a black background",
+      "credit": "Ecliptic Graphic",
+      "color": "#0c2626"
+    }
+  },
+  {
     "title": "2026 Compliance: Navigating Evolving CMMC, SOC 2, & HIPAA",
     "slug": "2026-05-23-2026-compliance-navigating-evolving-cmmc-soc2-hipaa",
     "date": "2026-05-23",
