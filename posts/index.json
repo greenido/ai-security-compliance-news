@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI's Quiet Revolution: Silencing the NDR Alert Storm",
+    "slug": "2026-05-25-ais-quiet-revolution-silencing-the-ndr-alert-storm",
+    "date": "2026-05-25",
+    "excerpt": "For years, Network Detection and Response (NDR) battled a reputation for noise and data overload. But a new era, powered by agentic AI, is changing the narrative. Security teams are now leveraging advanced NDR to dramatically improve threat detection and triage, turning a former pain point into a powerful ally.",
+    "tags": [
+      "AI",
+      "NDR",
+      "Cybersecurity",
+      "Threat Detection",
+      "Security Operations"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 766,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1616315656382-4751c2ce941a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDYWxtJTIwYWZ0ZXJ8ZW58MXwwfHx8MTc3OTcyNDYyM3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "blue and white cloudy sky during daytime",
+      "credit": "Will Shelley",
+      "color": "#594040"
+    }
+  },
+  {
     "title": "AI Revolutionizes ISO 27001: A New Era for Compliance",
     "slug": "2026-05-24-ai-revolutionizes-iso-27001-new-era-for-compliance",
     "date": "2026-05-24",
