@@ -1,5 +1,33 @@
 [
   {
+    "title": "AI-Accelerated Threats Demand 12-Hour Patching: CERT-In's New Mandate",
+    "slug": "2026-05-26-ai-accelerated-threats-demand-12-hour-patching-cert-ins-new-mandate",
+    "date": "2026-05-26",
+    "excerpt": "The threat landscape is evolving at an unprecedented pace, driven by AI. CERT-In's recent directive calls for a radical shift to 12-hour patching for critical internet-facing vulnerabilities, marking a new era of cybersecurity urgency. This move underscores the escalating risk from AI-assisted attacks and demands immediate attention from IT professionals, security teams, and compliance officers.",
+    "tags": [
+      "CERT-In",
+      "AI Security",
+      "Vulnerability Management",
+      "Patch Management",
+      "Rapid Response",
+      "Compliance",
+      "IT Operations"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 592,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1720394493241-099fae733da2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxzdG9ybSUyMGRhcmslMjBjaXR5fGVufDF8MHx8fDE3Nzk4MTIyMDN8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A view of a city with tall buildings in the background",
+      "credit": "gretta vosper",
+      "color": "#c0c0d9"
+    }
+  },
+  {
     "title": "AI's Quiet Revolution: Silencing the NDR Alert Storm",
     "slug": "2026-05-25-ais-quiet-revolution-silencing-the-ndr-alert-storm",
     "date": "2026-05-25",
