@@ -1,5 +1,29 @@
 [
   {
+    "title": "Gitea Flaw Exposes Private Container Images: Urgent Patch Required",
+    "slug": "2026-05-27-gitea-flaw-exposes-private-container-images-urgent-patch-required",
+    "date": "2026-05-27",
+    "excerpt": "A recently disclosed security flaw in Gitea, the popular self-hosted Git service, presents a significant risk to organizations leveraging its container registry features. This critical vulnerability allows unauthenticated attackers to pull private container images, exposing sensitive data and intellectual property without requiring any credentials.",
+    "tags": [
+      "Gitea",
+      "Vulnerability",
+      "Container Security",
+      "Supply Chain Security",
+      "DevOps Security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 863,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1508935620299-047e0e35fbe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxCcm9rZW58ZW58MXwwfHx8MTc3OTg5ODY4Mnww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "top view photography of broken ceramic plate",
+      "credit": "CHUTTERSNAP",
+      "color": "#8c8c8c"
+    }
+  },
+  {
     "title": "AI-Accelerated Threats Demand 12-Hour Patching: CERT-In's New Mandate",
     "slug": "2026-05-26-ai-accelerated-threats-demand-12-hour-patching-cert-ins-new-mandate",
     "date": "2026-05-26",
