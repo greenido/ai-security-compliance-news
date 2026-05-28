@@ -1,5 +1,30 @@
 [
   {
+    "title": "FortiClient EMS Flaw: A Wake-Up Call for Endpoint Security",
+    "slug": "2026-05-28-forticlient-ems-flaw-wake-up-call-endpoint-security",
+    "date": "2026-05-28",
+    "excerpt": "A critical vulnerability in FortiClient EMS is being actively exploited, allowing threat actors to deploy credential-stealing malware. This campaign highlights the urgent need for robust endpoint security and proactive patching strategies. Understand the risks and how to protect your organization.",
+    "tags": [
+      "FortiClient EMS",
+      "Endpoint Security",
+      "Credential Stealing",
+      "Cybersecurity",
+      "Vulnerability Management"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 679,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1513082325166-c105b20374bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxCcm9rZW4lMjBkaWdpdGFsfGVufDF8MHx8fDE3Nzk5ODU1ODZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "broken blue ceramic plate",
+      "credit": "CHUTTERSNAP",
+      "color": "#a6a6a6"
+    }
+  },
+  {
     "title": "Gitea Flaw Exposes Private Container Images: Urgent Patch Required",
     "slug": "2026-05-27-gitea-flaw-exposes-private-container-images-urgent-patch-required",
     "date": "2026-05-27",
