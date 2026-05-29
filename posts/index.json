@@ -1,5 +1,30 @@
 [
   {
+    "title": "Software Supply Chain Under Siege: Malicious NuGet Targets Banking",
+    "slug": "2026-05-29-software-supply-chain-under-siege-malicious-nuget-targets-banking",
+    "date": "2026-05-29",
+    "excerpt": "The digital battleground expands as a malicious NuGet package, 'Sicoob.Sdk,' has been found actively stealing banking credentials and sensitive PFX certificates. This incident highlights critical vulnerabilities in the software supply chain that IT and security teams must address immediately.",
+    "tags": [
+      "Software Supply Chain",
+      "Cybersecurity",
+      "NuGet",
+      "Banking Security",
+      "Credential Theft"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 851,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsfGVufDF8MHx8fDE3ODAwNzEzODl8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "FortiClient EMS Flaw: A Wake-Up Call for Endpoint Security",
     "slug": "2026-05-28-forticlient-ems-flaw-wake-up-call-endpoint-security",
     "date": "2026-05-28",
