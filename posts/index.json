@@ -1,5 +1,31 @@
 [
   {
+    "title": "ChatGPhish: ChatGPT's New Phishing Vector Unveiled",
+    "slug": "2026-05-31-chatgphish-chatgpts-new-phishing-vector-unveiled",
+    "date": "2026-05-31",
+    "excerpt": "A critical vulnerability, dubbed ChatGPhish, has been disclosed, revealing how OpenAI's ChatGPT can be weaponized for sophisticated phishing attacks. This novel technique exploits the AI assistant's implicit trust in Markdown links, creating a new challenge for IT and security professionals.",
+    "tags": [
+      "AI Security",
+      "Phishing",
+      "ChatGPT Vulnerability",
+      "Cybersecurity",
+      "Prompt Injection",
+      "Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 760,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1767481732879-f00f76dcec01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsJTIwZGVjZXB0aW9uJTIwdmVpbGVkfGVufDF8MHx8fDE3ODAyNDEyMjN8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Red translucent 3D text on dark background",
+      "credit": "Logan Voss",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "ChatGPhish: AI's Unexpected Phishing Surface in ChatGPT",
     "slug": "2026-05-30-chatgphish-ais-unexpected-phishing-surface-in-chatgpt",
     "date": "2026-05-30",
