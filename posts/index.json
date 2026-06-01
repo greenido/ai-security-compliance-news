@@ -1,5 +1,30 @@
 [
   {
+    "title": "Beyond vCISO: The Rise of Security Growth Platforms for MSPs",
+    "slug": "2026-06-01-beyond-vciso-rise-of-security-growth-platforms-for-msps",
+    "date": "2026-06-01",
+    "excerpt": "The cybersecurity landscape demands more than traditional vCISO services. MSPs are now embracing Security Growth Platforms, integrating continuous monitoring, advanced compliance, and strategic execution to meet modern threats and regulatory challenges head-on.",
+    "tags": [
+      "cybersecurity",
+      "MSPs",
+      "MSSPs",
+      "compliance",
+      "security growth platform"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 604,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1606314629557-411a2e94b356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxBc2NlbmRpbmd8ZW58MXwwfHx8MTc4MDMzMjU5MXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "man in green shirt and black pants jumping on rocky mountain during daytime",
+      "credit": "Coasteering",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "ChatGPhish: ChatGPT's New Phishing Vector Unveiled",
     "slug": "2026-05-31-chatgphish-chatgpts-new-phishing-vector-unveiled",
     "date": "2026-05-31",
