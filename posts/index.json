@@ -1,5 +1,31 @@
 [
   {
+    "title": "Beyond Zero-Day Panic: Reshaping Your Network for Inevitable Breaches",
+    "slug": "2026-06-03-beyond-zero-day-panic-reshaping-your-network-for-inevitable-breaches",
+    "date": "2026-06-03",
+    "excerpt": "The era of winning the zero-day race is over. With exploits evolving faster than patches, IT and security teams must shift focus from prevention to resilience. Discover how rethinking your network's shape from an attacker's perspective is the key to minimizing breach impact.",
+    "tags": [
+      "Security Strategy",
+      "Network Architecture",
+      "Attack Surface",
+      "Cyber Resilience",
+      "Exploit Development"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 697,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1508935620299-047e0e35fbe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxCcm9rZW4lMjBnbGFzcyUyMHJlc2lsaWVuY2V8ZW58MXwwfHx8MTc4MDUwNDMxMXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "top view photography of broken ceramic plate",
+      "credit": "CHUTTERSNAP",
+      "color": "#8c8c8c"
+    }
+  },
+  {
     "title": "SideCopy Unleashes Xeno RAT: A Warning for Critical Sectors",
     "slug": "2026-06-02-sidecopy-unleashes-xeno-rat-warning-critical-sectors",
     "date": "2026-06-02",
