@@ -1,5 +1,29 @@
 [
   {
+    "title": "FlutterShell Backdoor: macOS Under Siege via Malvertising",
+    "slug": "2026-06-04-fluttershell-backdoor-macos-under-siege-via-malvertising",
+    "date": "2026-06-04",
+    "excerpt": "A sophisticated malvertising campaign, Operation FlutterBridge, is leveraging malicious Google and YouTube ads to infect macOS systems with the new FlutterShell backdoor. This evolution of the JSCoreRunner activity cluster demands immediate attention from IT and security teams. Understand the threat and fortify your defenses.",
+    "tags": [
+      "macOS Security",
+      "Malvertising",
+      "FlutterShell",
+      "Cybersecurity",
+      "Backdoor"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 820,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxEYXJrfGVufDF8MHx8fDE3ODA1ODkxOTV8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of mountain",
+      "credit": "Elliott Engelmann",
+      "color": "#0c2626"
+    }
+  },
+  {
     "title": "Beyond Zero-Day Panic: Reshaping Your Network for Inevitable Breaches",
     "slug": "2026-06-03-beyond-zero-day-panic-reshaping-your-network-for-inevitable-breaches",
     "date": "2026-06-03",
