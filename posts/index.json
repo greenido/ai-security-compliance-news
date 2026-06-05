@@ -1,5 +1,34 @@
 [
   {
+    "title": "OP-512 Targets IIS: Unpacking the Custom Web Shell Threat",
+    "slug": "2026-06-05-op-512-targets-iis-unpacking-custom-web-shell-threat",
+    "date": "2026-06-05",
+    "excerpt": "A new threat cluster, OP-512, is actively targeting Microsoft IIS servers with a sophisticated, custom web shell framework. Assessed as espionage-focused and linked to China, this campaign demands immediate attention from IT, security, and compliance teams. Understand the threat and fortify your defenses.",
+    "tags": [
+      "Security",
+      "Cybersecurity",
+      "IIS",
+      "Web Shell",
+      "Threat Intelligence",
+      "Espionage",
+      "China",
+      "OP-512",
+      "ReliaQuest",
+      "APT"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 792,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1481754100984-dbae571fe45b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3dlZHxlbnwxfDB8fHwxNzgwNjc1MTQ2fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "woman walking with shadow",
+      "credit": "Martino Pietropoli",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "FlutterShell Backdoor: macOS Under Siege via Malvertising",
     "slug": "2026-06-04-fluttershell-backdoor-macos-under-siege-via-malvertising",
     "date": "2026-06-04",
