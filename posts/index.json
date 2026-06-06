@@ -1,5 +1,31 @@
 [
   {
+    "title": "Cisco SD-WAN Flaw Actively Exploited: Urgent Action Needed for IT and Security",
+    "slug": "2026-06-06-cisco-sd-wan-flaw-actively-exploited-urgent-action-needed-for-it-and-security",
+    "date": "2026-06-06",
+    "excerpt": "A critical flaw in Cisco Catalyst SD-WAN Manager (CVE-2026-20245) is actively being exploited, leaving organizations vulnerable without an immediate patch. This high-severity vulnerability demands swift action from IT professionals, security teams, and compliance officers to mitigate risks and protect critical network infrastructure.",
+    "tags": [
+      "Cisco",
+      "SD-WAN",
+      "Cybersecurity",
+      "Vulnerability",
+      "Compliance"
+    ],
+    "categories": [
+      "Security",
+      "Compliance",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 763,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1686620225824-d4120ed3a81e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxjcnVtYmxpbmd8ZW58MXwwfHx8MTc4MDc1OTU0MHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a very large building that has been destroyed",
+      "credit": "Jade Koroliuk",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "OP-512 Targets IIS: Unpacking the Custom Web Shell Threat",
     "slug": "2026-06-05-op-512-targets-iis-unpacking-custom-web-shell-threat",
     "date": "2026-06-05",
