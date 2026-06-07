@@ -1,5 +1,31 @@
 [
   {
+    "title": "Cisco SD-WAN Zero-Day Exploited: Urgent Action, No Patch",
+    "slug": "2026-06-07-cisco-sd-wan-zero-day-exploited-urgent-action-no-patch",
+    "date": "2026-06-07",
+    "excerpt": "A critical high-severity flaw, CVE-2026-20245, affecting Cisco Catalyst SD-WAN Manager is currently under active exploitation with no patch available. This impacts various deployment types, urging immediate attention from IT and security teams. Discover what you need to know and how to respond.",
+    "tags": [
+      "Cisco",
+      "SD-WAN",
+      "CVE-2026-20245",
+      "Cybersecurity",
+      "Vulnerability Management"
+    ],
+    "categories": [
+      "Security",
+      "Compliance",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 613,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1489846986031-7cea03ab8fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEYXJrbmVzcyUyMGNvbnN1bWluZ3xlbnwxfDB8fHwxNzgwODQ2MTM2fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "person walking between trees",
+      "credit": "Elti Meshau",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Cisco SD-WAN Flaw Actively Exploited: Urgent Action Needed for IT and Security",
     "slug": "2026-06-06-cisco-sd-wan-flaw-actively-exploited-urgent-action-needed-for-it-and-security",
     "date": "2026-06-06",
