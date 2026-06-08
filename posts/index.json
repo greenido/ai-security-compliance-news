@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI Phishing Overload: SOCs Fight Back Against Alert Fatigue",
+    "slug": "2026-06-08-ai-phishing-overload-socs-fight-back-against-alert-fatigue",
+    "date": "2026-06-08",
+    "excerpt": "The age of AI has transformed phishing from a numbers game into a relentless volume machine, inundating Security Operations Centers (SOCs) with an unprecedented flood of alerts. This isn't just an inconvenience; it's a critical vulnerability that demands a proactive, intelligent defense.",
+    "tags": [
+      "AI Security",
+      "Phishing Defense",
+      "SOC Overload",
+      "Cybersecurity Strategy",
+      "Alert Fatigue"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 747,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1620809975674-10b8ff5f8e58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxPdmVyd2hlbG1lZHxlbnwxfDB8fHwxNzgwOTM1NzY1fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "stressed woman with head in hands at laptop",
+      "credit": "Elisa Ventur",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Cisco SD-WAN Zero-Day Exploited: Urgent Action, No Patch",
     "slug": "2026-06-07-cisco-sd-wan-zero-day-exploited-urgent-action-no-patch",
     "date": "2026-06-07",
