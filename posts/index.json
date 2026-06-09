@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI Regulation's New Era: Navigating the GAIA Act's Impact",
+    "slug": "2026-06-09-ai-regulations-new-era-gaia-act",
+    "date": "2026-06-09",
+    "excerpt": "A new era of AI regulation is dawning. The proposed Great American Artificial Intelligence Act promises to reshape how enterprises develop, deploy, and secure AI systems, demanding unprecedented levels of cybersecurity compliance and developer oversight. Prepare your organization for the coming changes.",
+    "tags": [
+      "AI Regulation",
+      "Cybersecurity Compliance",
+      "AI Governance",
+      "Enterprise AI",
+      "Developer Oversight"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 812,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1681405203174-240c946cf06e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxTY2FsZXMlMjBiYWxhbmNlfGVufDF8MHx8fDE3ODEwMjA3OTR8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a sculpture with balls on top of it",
+      "credit": "Myles Bloomfield",
+      "color": "#a6a6a6"
+    }
+  },
+  {
     "title": "AI Phishing Overload: SOCs Fight Back Against Alert Fatigue",
     "slug": "2026-06-08-ai-phishing-overload-socs-fight-back-against-alert-fatigue",
     "date": "2026-06-08",
