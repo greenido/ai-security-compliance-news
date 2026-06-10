@@ -1,5 +1,31 @@
 [
   {
+    "title": "Langflow RCE: Unpatched AI Flaw Under Active Attack",
+    "slug": "2026-06-10-langflow-rce-unpatched-ai-flaw-under-active-attack",
+    "date": "2026-06-10",
+    "excerpt": "A critical, unpatched vulnerability in Langflow, an open-source platform for building AI applications, is now under active exploitation. This path traversal flaw, identified as CVE-2026-5027, allows for unauthenticated remote code execution, posing a severe risk to organizations leveraging the platform.",
+    "tags": [
+      "AI Security",
+      "RCE",
+      "Vulnerability Management",
+      "Path Traversal",
+      "Open Source Security"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 811,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1579943048076-4d5b4a0e1e48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDcmFja2VkJTIwZWFydGh8ZW58MXwwfHx8MTc4MTEwODE2N3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "grey and black metal chain link fence",
+      "credit": "Renzo D'souza",
+      "color": "#a6a6a6"
+    }
+  },
+  {
     "title": "AI Regulation's New Era: Navigating the GAIA Act's Impact",
     "slug": "2026-06-09-ai-regulations-new-era-gaia-act",
     "date": "2026-06-09",
