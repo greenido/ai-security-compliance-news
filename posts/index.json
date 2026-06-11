@@ -1,5 +1,29 @@
 [
   {
+    "title": "Cybersecurity's Quiet Victories: Unpacking the 2026 Stars Awards",
+    "slug": "2026-06-11-cybersecuritys-quiet-victories-unpacking-the-2026-stars-awards",
+    "date": "2026-06-11",
+    "excerpt": "In the high-stakes world of cybersecurity, the most effective work often goes unnoticed by design. This year, the Cybersecurity Stars Awards 2026 shine a much-deserved spotlight on the teams, products, and companies quietly fortifying our digital defenses across 95 categories. It's a critical moment to acknowledge the guardians of our digital realm.",
+    "tags": [
+      "Cybersecurity Awards",
+      "Security Recognition",
+      "IT Security",
+      "Threat Intelligence",
+      "Compliance"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 812,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1483706600674-e0c87d3fe85b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxRdWlldHxlbnwxfDB8fHwxNzgxMTk0OTYzfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "grayscale photo of woman doing silent hand sign",
+      "credit": "Kristina Flour",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Langflow RCE: Unpatched AI Flaw Under Active Attack",
     "slug": "2026-06-10-langflow-rce-unpatched-ai-flaw-under-active-attack",
     "date": "2026-06-10",
