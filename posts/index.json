@@ -1,5 +1,34 @@
 [
   {
+    "title": "LangGraph RCE: Securing Your AI Agents from Critical Flaws",
+    "slug": "2026-06-12-langgraph-rce-securing-ai-agents",
+    "date": "2026-06-12",
+    "excerpt": "Recent disclosures reveal a critical remote code execution flaw chain in LangGraph, an open-source framework for AI agentic applications. This vulnerability poses significant risks to self-hosted AI systems, demanding immediate attention from IT and security professionals.",
+    "tags": [
+      "AI Security",
+      "LangGraph",
+      "RCE",
+      "Vulnerability",
+      "Cybersecurity",
+      "AI Agents",
+      "Open Source Security",
+      "IT Operations"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 840,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1635336969658-03690a37b8e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxmcmFjdHVyZWQlMjBkaWdpdGFsfGVufDF8MHx8fDE3ODEyODAxOTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a digital painting of a city with lots of buildings",
+      "credit": "David Spiers",
+      "color": "#0cf3f3"
+    }
+  },
+  {
     "title": "Cybersecurity's Quiet Victories: Unpacking the 2026 Stars Awards",
     "slug": "2026-06-11-cybersecuritys-quiet-victories-unpacking-the-2026-stars-awards",
     "date": "2026-06-11",
