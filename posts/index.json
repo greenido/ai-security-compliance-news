@@ -1,5 +1,33 @@
 [
   {
+    "title": "FCC's Burner Phone Plan: A Privacy & Security Tightrope",
+    "slug": "2026-06-13-fccs-burner-phone-plan-privacy-security-tightrope",
+    "date": "2026-06-13",
+    "excerpt": "The FCC's latest proposal to mandate Know Your Customer (KYC) rules for prepaid phones has sparked debate, aiming to curb illicit activities but raising significant privacy and operational questions for individuals and businesses alike. This regulatory shift arrives amidst a rapidly evolving cyber threat landscape, where AI-driven bug hunting and persistent ransomware attacks demand constant vigilance.",
+    "tags": [
+      "Cybersecurity",
+      "FCC",
+      "Privacy",
+      "IT Management",
+      "Compliance",
+      "AI",
+      "Ransomware"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 727,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1646171734439-b9be0b2a4eba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxTaGFkb3dlZHxlbnwxfDB8fHwxNzgxMzY0Njg0fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a brown and gold wallpaper with a pattern on it",
+      "credit": "Bryan Welborn",
+      "color": "#260c0c"
+    }
+  },
+  {
     "title": "LangGraph RCE: Securing Your AI Agents from Critical Flaws",
     "slug": "2026-06-12-langgraph-rce-securing-ai-agents",
     "date": "2026-06-12",
