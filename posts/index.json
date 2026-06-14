@@ -1,5 +1,31 @@
 [
   {
+    "title": "FCC's Burner Phone Plan: Enterprise Impact & Cyber Threats",
+    "slug": "2026-06-14-fccs-burner-phone-plan-enterprise-impact-cyber-threats",
+    "date": "2026-06-14",
+    "excerpt": "The FCC's potential move against burner phones signals a significant shift in privacy and enterprise risk. This regulatory change comes as AI reshapes cybersecurity, both for defense and offense, and ransomware gangs exploit zero-days. IT and security teams must adapt to this complex, evolving landscape.",
+    "tags": [
+      "Cybersecurity",
+      "FCC Regulations",
+      "AI in Security",
+      "Ransomware",
+      "Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": true,
+    "wordCount": 827,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1521193089946-7aa29d1fe776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d8ZW58MXwwfHx8MTc4MTQ1MTE2MHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a close up view of a white fabric",
+      "credit": "Bernard Hermant",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "FCC's Burner Phone Plan: A Privacy & Security Tightrope",
     "slug": "2026-06-13-fccs-burner-phone-plan-privacy-security-tightrope",
     "date": "2026-06-13",
