@@ -1,5 +1,29 @@
 [
   {
+    "title": "North Korea Weaponizes Developer Tools for Malware Delivery",
+    "slug": "2026-06-16-north-korea-weaponizes-developer-tools-for-malware-delivery",
+    "date": "2026-06-16",
+    "excerpt": "A recent report highlights a critical new threat from North Korean state-sponsored hackers. Known as Contagious Interview, these actors are weaponizing developer tools and recruitment themes to infiltrate organizations with sophisticated malware, posing a significant risk to IT environments and supply chains.",
+    "tags": [
+      "Cybersecurity",
+      "North Korea",
+      "Malware",
+      "Developer Security",
+      "Supply Chain Attack"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 727,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1615525137689-198778541af6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxCcm9rZW4lMjBjb2RlfGVufDF8MHx8fDE3ODE2Mjc1MDN8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "text",
+      "credit": "Krishna Pandey",
+      "color": "#0c2626"
+    }
+  },
+  {
     "title": "Cybersecurity's Recurring Nightmare: The Peril of Forgotten Tech",
     "slug": "2026-06-15-cybersecuritys-recurring-nightmare-the-peril-of-forgotten-tech",
     "date": "2026-06-15",
