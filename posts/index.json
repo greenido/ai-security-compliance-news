@@ -1,5 +1,58 @@
 [
   {
+    "title": "Government AI Intervention: Beyond Jailbreaks, A Strategic Shift",
+    "slug": "2026-06-17-government-ai-intervention-beyond-jailbreaks-a-strategic-shift",
+    "date": "2026-06-17",
+    "excerpt": "The recent US government action against Anthropic, forcing the withdrawal of its cybersecurity models, marks a pivotal moment in the AI landscape. It's a clear signal that regulatory scrutiny is intensifying, shifting beyond technical concerns to broader strategic implications. Businesses must prepare for a future where AI development and deployment are subject to unprecedented government oversight.",
+    "tags": [
+      "AI Regulation",
+      "Cybersecurity",
+      "Compliance",
+      "Government Policy",
+      "AI Ethics",
+      "National Security",
+      "Enterprise AI"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 700,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxSZWd1bGF0aW5nJTIwQUl8ZW58MXwwfHx8MTc4MTcxMjg5M3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a computer circuit board with a brain on it",
+      "credit": "Steve A Johnson",
+      "color": "#0c2659"
+    }
+  },
+  {
+    "title": "AI API Key Theft: New Threat to Developer Workflows",
+    "slug": "2026-06-17-ai-api-key-theft-developer-workflows-security",
+    "date": "2026-06-17",
+    "excerpt": "The rapid integration of AI into developer tools has opened new attack vectors. Recent reports highlight a coordinated campaign where malicious JetBrains plugins are exfiltrating AI API keys, posing a significant supply chain security threat. This breach extends beyond IDEs, with browser extensions also capturing sensitive chatbot conversations.",
+    "tags": [
+      "AI Security",
+      "Supply Chain Attack",
+      "Developer Tools",
+      "API Security",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 778,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1565551223391-be988013ee6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxjcmFja2VkfGVufDF8MHx8fDE3ODE3MTI4Nzh8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "orange band aid on concrete surface crack",
+      "credit": "Luis Villasmil",
+      "color": "#404040"
+    }
+  },
+  {
     "title": "North Korea Weaponizes Developer Tools for Malware Delivery",
     "slug": "2026-06-16-north-korea-weaponizes-developer-tools-for-malware-delivery",
     "date": "2026-06-16",
