@@ -1,5 +1,30 @@
 [
   {
+    "title": "The New RaaS Reality: INC Ransomware's Meteoric Rise",
+    "slug": "2026-06-18-inc-ransomwares-meteoric-rise",
+    "date": "2026-06-18",
+    "excerpt": "The cybersecurity landscape continues its relentless evolution, and a new name is dominating the headlines: INC Ransomware. With over 830 victims since August 2023, INC has rapidly ascended to become a major player in the ransomware-as-a-service arena, filling the void left by disrupted giants.",
+    "tags": [
+      "Ransomware",
+      "Cybersecurity",
+      "RaaS",
+      "INC Ransomware",
+      "Cybercrime",
+      "Data Breach"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 790,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEYXJrJTIwc3Rvcm18ZW58MXwwfHx8MTc4MTc5ODkyNXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "flowing river between tall trees",
+      "credit": "Karsten Würth",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Government AI Intervention: Beyond Jailbreaks, A Strategic Shift",
     "slug": "2026-06-17-government-ai-intervention-beyond-jailbreaks-a-strategic-shift",
     "date": "2026-06-17",
