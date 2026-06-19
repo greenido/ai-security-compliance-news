@@ -1,5 +1,34 @@
 [
   {
+    "title": "FortiBleed Threat: CISA Warns FortiGate Users of Widespread Attacks",
+    "slug": "2026-06-19-fortibleed-threat-cisa-warns-fortigate-users-of-widespread-attacks",
+    "date": "2026-06-19",
+    "excerpt": "A sweeping campaign, codenamed 'FortiBleed,' is actively exploiting thousands of internet-accessible FortiGate devices, prompting an urgent warning from the U.S. Cybersecurity and Infrastructure Security Agency (CISA). This coordinated digital assault underscores the critical need for immediate action from IT and security professionals.",
+    "tags": [
+      "CISA",
+      "Fortinet",
+      "FortiGate",
+      "FortiBleed",
+      "Cybersecurity",
+      "Threat Actors",
+      "Vulnerability",
+      "Security Alert",
+      "IT Security"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 733,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc4MTg4NDc4N3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "The New RaaS Reality: INC Ransomware's Meteoric Rise",
     "slug": "2026-06-18-inc-ransomwares-meteoric-rise",
     "date": "2026-06-18",
