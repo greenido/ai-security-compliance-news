@@ -1,5 +1,31 @@
 [
   {
+    "title": "EU's Digital Focus: AI, Cyber, and Compliance Converge",
+    "slug": "2026-06-21-eus-digital-focus-ai-cyber-and-compliance-converge",
+    "date": "2026-06-21",
+    "excerpt": "The European Data Protection Supervisor (EDPS) and EU data protection officers are intensifying their focus on the intertwined challenges of AI, cybersecurity, and compliance. This strategic shift signals a critical juncture for businesses operating within the EU's digital sphere, demanding a unified and proactive approach to risk management.",
+    "tags": [
+      "AI Governance",
+      "Cybersecurity Strategy",
+      "EU Compliance",
+      "Data Protection",
+      "Risk Management"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 701,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1767481732747-7907f05e1c12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxjb252ZXJnaW5nJTIwZGlnaXRhbHxlbnwxfDB8fHwxNzgyMDU1OTg4fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Pink translucent 3D text on dark background",
+      "credit": "Logan Voss",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "GentleKiller: RaaS Targets EDR, Elevating Cyber Threat",
     "slug": "2026-06-20-gentlekiller-raas-targets-edr-elevating-cyber-threat",
     "date": "2026-06-20",
