@@ -1,5 +1,35 @@
 [
   {
+    "title": "Asia-Pacific Cyber Surge: Lessons for Global Security",
+    "slug": "2026-06-23-asia-pacific-cyber-surge-lessons-for-global-security",
+    "date": "2026-06-23",
+    "excerpt": "A new INTERPOL report highlights a \"dramatic increase\" in cybercrime across Asia and the South Pacific, presenting critical lessons for global cybersecurity. Phishing, ransomware, and AI-powered scams are surging, fueled by rapid digitalization and evolving threat actors.",
+    "tags": [
+      "cybersecurity",
+      "INTERPOL",
+      "Asia-Pacific",
+      "phishing",
+      "ransomware",
+      "AI security",
+      "compliance",
+      "IT management",
+      "cybercrime",
+      "threat intelligence"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": true,
+    "wordCount": 809,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxOZW9ufGVufDF8MHx8fDE3ODIyMzAzMTl8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "purple and black pyramid wallpaper",
+      "credit": "Sandro Katalina",
+      "color": "#260c59"
+    }
+  },
+  {
     "title": "Cybersecurity Deja Vu: Battling Persistent Threats in 2026",
     "slug": "2026-06-22-cybersecurity-deja-vu-battling-persistent-threats",
     "date": "2026-06-22",
