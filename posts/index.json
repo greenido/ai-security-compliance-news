@@ -1,5 +1,31 @@
 [
   {
+    "title": "Cordyceps CI/CD Flaws: A New Software Supply Chain Nightmare",
+    "slug": "2026-06-24-cordyceps-cicd-flaws-new-software-supply-chain-nightmare",
+    "date": "2026-06-24",
+    "excerpt": "A critical new vulnerability, codenamed Cordyceps, has been identified in CI/CD workflows, threatening the integrity of software supply chains globally. This flaw allows attackers to hijack workflows, potentially compromising hundreds of GitHub repositories at some of the world's largest organizations.",
+    "tags": [
+      "CI/CD Security",
+      "Supply Chain Attacks",
+      "GitHub Vulnerability",
+      "Open Source Security",
+      "DevSecOps",
+      "Cordyceps",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 730,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1765408217270-76e94ff54a5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxjb3JydXB0ZWQlMjBkaWdpdGFsfGVufDF8MHx8fDE3ODIzMTU5MDl8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Abstract geometric shapes in dark space",
+      "credit": "Egor Komarov",
+      "color": "#c0a6a6"
+    }
+  },
+  {
     "title": "Asia-Pacific Cyber Surge: Lessons for Global Security",
     "slug": "2026-06-23-asia-pacific-cyber-surge-lessons-for-global-security",
     "date": "2026-06-23",
