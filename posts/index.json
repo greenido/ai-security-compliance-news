@@ -1,5 +1,32 @@
 [
   {
+    "title": "Cisco SD-WAN Zero-Day: Unmasking a Pre-Disclosure Compromise",
+    "slug": "2026-06-25-cisco-sd-wan-zero-day-unmasking-a-pre-disclosure-compromise",
+    "date": "2026-06-25",
+    "excerpt": "A recently disclosed Cisco Catalyst SD-WAN vulnerability, CVE-2026-20245, was actively exploited as a zero-day for at least two months before its public announcement. This critical flaw allowed attackers to gain root access, raising serious concerns for enterprise security teams.",
+    "tags": [
+      "Cisco",
+      "SD-WAN",
+      "Zero-Day",
+      "Vulnerability",
+      "Cybersecurity",
+      "Threat Intelligence",
+      "Patch Management",
+      "Incident Response"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 741,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1511075675422-c8e008f749d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxIaWRkZW58ZW58MXwwfHx8MTc4MjQwMjYwNnww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "opened secret door inside library",
+      "credit": "Stefan Steinbauer",
+      "color": "#260c0c"
+    }
+  },
+  {
     "title": "Cordyceps CI/CD Flaws: A New Software Supply Chain Nightmare",
     "slug": "2026-06-24-cordyceps-cicd-flaws-new-software-supply-chain-nightmare",
     "date": "2026-06-24",
