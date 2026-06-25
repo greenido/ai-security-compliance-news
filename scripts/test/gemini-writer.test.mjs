@@ -19,7 +19,7 @@ describe('shouldAddCTA', () => {
   });
 
   it('returns true for managed security topics', () => {
-    const news = { title: 'EDR monitoring best practices', snippet: 'managed security endpoint', categories: ['Security'] };
+    const news = { title: 'Managed security EDR best practices', snippet: 'managed security endpoint protection', categories: ['Security'] };
     assert.equal(shouldAddCTA(news), true);
   });
 
@@ -33,9 +33,19 @@ describe('shouldAddCTA', () => {
     assert.equal(shouldAddCTA(news), false);
   });
 
-  it('returns true when category list includes relevant terms', () => {
-    const news = { title: 'Industry overview', snippet: 'general article', categories: ['Compliance', 'SOC'] };
+  it('returns true when category list includes multiple supporting terms', () => {
+    const news = { title: 'Industry overview', snippet: 'compliance audit requirements', categories: ['Compliance'] };
     assert.equal(shouldAddCTA(news), true);
+  });
+
+  it('returns false for generic security news without managed-service relevance', () => {
+    const news = { title: 'Major Ransomware Attack Hits Hospitals', snippet: 'A large-scale ransomware campaign targets healthcare', categories: ['Security'] };
+    assert.equal(shouldAddCTA(news), false);
+  });
+
+  it('returns false for pure AI research articles', () => {
+    const news = { title: 'GPT-5 Achieves New Reasoning Benchmarks', snippet: 'Large language model breakthrough in reasoning tasks', categories: ['AI'] };
+    assert.equal(shouldAddCTA(news), false);
   });
 });
 
@@ -44,9 +54,9 @@ describe('shouldAddCTA', () => {
 // ---------------------------------------------------------------------------
 describe('buildPrompt', () => {
   const sampleNews = {
-    title: 'Major Ransomware Attack Hits Hospitals',
+    title: 'CMMC 2.0 Compliance Deadline Approaches for Defense Contractors',
     source: 'The Hacker News',
-    snippet: 'A large-scale ransomware campaign targets healthcare organizations',
+    snippet: 'Organizations scramble to meet managed security and SOC 2 audit requirements',
     link: 'https://example.com/article',
     categories: ['Security', 'Compliance'],
   };

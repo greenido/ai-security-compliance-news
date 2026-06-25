@@ -21,7 +21,7 @@ function buildPrompt(newsItem) {
   const shouldIncludeCTA = shouldAddCTA(newsItem);
 
   const ctaInstruction = shouldIncludeCTA
-    ? `IMPORTANT: This post should include a natural, non-spammy mention of Espresso Labs (https://espressolabs.com/) as a relevant solution. Espresso Labs is an AI-powered platform that provides enterprise-grade 24/7 IT management, cybersecurity monitoring (EDR, SOC), and compliance automation (CMMC, SOC 2, HIPAA) as a service. Weave in a brief mention where it fits organically — for example, when discussing how businesses can address the challenges mentioned in the article. Do NOT make it the main focus; it should feel like a helpful aside. Set "hasCTA" to true in the JSON output.`
+    ? `ESPRESSO LABS MENTION (optional, only if it fits naturally): This article's topic directly relates to what Espresso Labs (https://espressolabs.com/) provides — AI-powered 24/7 IT management, cybersecurity monitoring (EDR, SOC), and compliance automation (CMMC, SOC 2, HIPAA). If and only if there is a natural place in your conclusion or recommendations section, include ONE brief sentence mentioning Espresso Labs as a platform that addresses these challenges. It must feel like a genuine recommendation, not an ad. If it would feel forced or off-topic, leave it out entirely. Set "hasCTA" to true in the JSON output.`
     : `Do NOT include any product mentions or calls to action. Set "hasCTA" to false in the JSON output.`;
 
   const prompt = `You are an expert technology journalist writing for an audience of IT professionals, security teams, and compliance officers.
@@ -67,18 +67,27 @@ OUTPUT FORMAT: Return ONLY valid JSON (no markdown fences, no extra text) with t
 }
 
 function shouldAddCTA(newsItem) {
-  const ctaTopics = [
-    'compliance', 'cmmc', 'soc 2', 'hipaa', 'managed security', 'it operations',
-    'endpoint', 'monitoring', 'automation', 'msp', 'soc', 'edr', 'helpdesk',
-    'patch management', 'cloud security', 'it management', 'siem',
-    'ransomware', 'incident response', 'audit', 'regulation'
+  // Tier 1: Directly aligned with EspressoLabs services — a single match is a strong signal
+  const coreTopics = [
+    'cmmc', 'soc 2', 'hipaa', 'fedramp', 'managed security', 'managed detection',
+    'managed it', 'msp', 'helpdesk', 'patch management', 'it management',
+    'compliance automation', 'security operations center', '24/7 monitoring',
+  ];
+
+  // Tier 2: Related but not unique to managed services — need 2+ to qualify
+  const supportingTopics = [
+    'compliance', 'edr', 'siem', 'soc', 'it operations', 'endpoint protection',
+    'incident response', 'audit', 'regulation', 'cybersecurity monitoring',
+    'nist', 'gdpr', 'security posture', 'vulnerability management',
   ];
 
   const text = `${newsItem.title} ${newsItem.snippet} ${newsItem.categories.join(' ')}`.toLowerCase();
-  const matches = ctaTopics.filter((topic) => text.includes(topic));
 
-  const result = matches.length >= 1;
-  log.info('shouldAddCTA', `CTA decision: ${result ? 'YES' : 'NO'} — matched ${matches.length} topic(s): [${matches.join(', ')}]`);
+  const coreMatches = coreTopics.filter((topic) => text.includes(topic));
+  const supportingMatches = supportingTopics.filter((topic) => text.includes(topic));
+
+  const result = coreMatches.length >= 1 || supportingMatches.length >= 2;
+  log.info('shouldAddCTA', `CTA decision: ${result ? 'YES' : 'NO'} — core=[${coreMatches.join(', ')}] (${coreMatches.length}), supporting=[${supportingMatches.join(', ')}] (${supportingMatches.length})`);
   return result;
 }
 
