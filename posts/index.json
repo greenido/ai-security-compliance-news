@@ -1,5 +1,29 @@
 [
   {
+    "title": "Miasma Malware Escalates Supply Chain Threat: npm, GitHub, Go Under Fire",
+    "slug": "2026-06-26-miasma-malware-escalates-supply-chain-threat-npm-github-go-under-fire",
+    "date": "2026-06-26",
+    "excerpt": "The Miasma malware family continues its relentless evolution, now compromising critical npm packages and leveraging GitHub Actions for propagation. Cybersecurity researchers have issued new warnings as the threat extends its reach into the Go ecosystem, raising significant concerns for software supply chain integrity.",
+    "tags": [
+      "Miasma Malware",
+      "Supply Chain Attack",
+      "npm Security",
+      "GitHub Actions",
+      "Go Ecosystem"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 813,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsfGVufDF8MHx8fDE3ODI0ODg2MTh8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "Cisco SD-WAN Zero-Day: Unmasking a Pre-Disclosure Compromise",
     "slug": "2026-06-25-cisco-sd-wan-zero-day-unmasking-a-pre-disclosure-compromise",
     "date": "2026-06-25",
