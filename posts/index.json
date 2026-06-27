@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI-Driven GDPR Compliance: A New Benchmark for Data Privacy",
+    "slug": "2026-06-27-ai-driven-gdpr-compliance-new-benchmark-data-privacy",
+    "date": "2026-06-27",
+    "excerpt": "The landscape of data privacy is constantly evolving, making GDPR compliance a persistent challenge for IT and security teams. A recent accolade for HoundDog.ai highlights the critical role of AI in navigating these complexities and setting a new standard for intelligent compliance.",
+    "tags": [
+      "GDPR Compliance",
+      "AI in Security",
+      "Data Privacy",
+      "Cybersecurity Awards",
+      "Compliance Automation"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 844,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzgyNTczOTI5fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "Miasma Malware Escalates Supply Chain Threat: npm, GitHub, Go Under Fire",
     "slug": "2026-06-26-miasma-malware-escalates-supply-chain-threat-npm-github-go-under-fire",
     "date": "2026-06-26",
