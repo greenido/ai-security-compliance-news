@@ -1,5 +1,56 @@
 [
   {
+    "title": "TinyRCT Backdoor: New APT Threat to Southeast Asia's Infrastructure",
+    "slug": "2026-06-28-tiny-rct-backdoor-new-apt-threat-to-southeast-asias-infrastructure",
+    "date": "2026-06-28",
+    "excerpt": "A sophisticated Chinese-speaking Advanced Persistent Threat (APT) actor has unveiled a new custom backdoor, TinyRCT, targeting critical government and energy sectors in Southeast Asia. This development underscores the relentless evolution of state-sponsored cyber espionage and the imperative for robust, proactive defense strategies.",
+    "tags": [
+      "APT",
+      "TinyRCT",
+      "Cybersecurity",
+      "Critical Infrastructure",
+      "Southeast Asia"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 829,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1521193089946-7aa29d1fe776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d8ZW58MXwwfHx8MTc4MjY2MDQwMXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a close up view of a white fabric",
+      "credit": "Bernard Hermant",
+      "color": "#d9d9d9"
+    }
+  },
+  {
+    "title": "GDPR Compliance in the AI Age: HoundDog.ai Leads the Pack",
+    "slug": "2026-06-28-gdpr-compliance-ai-age-hounddog-ai-leads-pack",
+    "date": "2026-06-28",
+    "excerpt": "The compliance world just got a significant shake-up. HoundDog.ai has been recognized as the Best GDPR Compliance Platform, signaling a new era for data privacy. Discover what this means for your organization and how AI is reshaping regulatory adherence.",
+    "tags": [
+      "GDPR",
+      "Compliance",
+      "AI",
+      "Data Privacy",
+      "Cybersecurity Awards"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 736,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzgyNTczOTI5fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "AI-Driven GDPR Compliance: A New Benchmark for Data Privacy",
     "slug": "2026-06-27-ai-driven-gdpr-compliance-new-benchmark-data-privacy",
     "date": "2026-06-27",
