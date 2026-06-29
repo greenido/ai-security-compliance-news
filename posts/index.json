@@ -1,5 +1,30 @@
 [
   {
+    "title": "Gamaredon's Cloud Offensive: New Malware Targets IT & Security",
+    "slug": "2026-06-29-gamaredons-cloud-offensive-new-malware-targets-it-security",
+    "date": "2026-06-29",
+    "excerpt": "The persistent threat from the Russian state-backed Gamaredon APT group continues to evolve, with new reports highlighting an expanded malware arsenal and sophisticated abuse of legitimate cloud services. This intensified campaign against Ukraine offers critical lessons for global IT and security teams facing similar adaptive adversaries.",
+    "tags": [
+      "Cybersecurity",
+      "APT",
+      "Gamaredon",
+      "Cloud Security",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 818,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1500740516770-92bd004b996e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTdG9ybXxlbnwxfDB8fHwxNzgyNzQ5ODA1fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "cloudy sky",
+      "credit": "Anandu Vinod",
+      "color": "#264040"
+    }
+  },
+  {
     "title": "TinyRCT Backdoor: New APT Threat to Southeast Asia's Infrastructure",
     "slug": "2026-06-28-tiny-rct-backdoor-new-apt-threat-to-southeast-asias-infrastructure",
     "date": "2026-06-28",
