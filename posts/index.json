@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI Unleashes Browser Ransomware: A New Chromium Threat",
+    "slug": "2026-07-01-ai-unleashes-browser-ransomware-new-chromium-threat",
+    "date": "2026-07-01",
+    "excerpt": "A new era of cyber threats has emerged: AI-generated browser ransomware. Cybersecurity researchers have documented a novel attack path leveraging DeepSeek to create ransomware that operates entirely within the browser on Windows and Android devices. This development marks a significant shift in the threat landscape.",
+    "tags": [
+      "AI Security",
+      "Browser Ransomware",
+      "Chromium Exploits",
+      "Cyber Threat Intelligence",
+      "Endpoint Security"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 674,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1601043074206-a7cf29b50ea2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsJTIwc3Rvcm18ZW58MXwwfHx8MTc4MjkyMTExNXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "black lantern on black wooden table",
+      "credit": "Cedrik Wesche",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Gamaredon's Evolving Cyber Onslaught: Cloud Abuse and New Malware",
     "slug": "2026-06-30-gamaredons-evolving-cyber-onslaught-cloud-abuse-and-new-malware",
     "date": "2026-06-30",
