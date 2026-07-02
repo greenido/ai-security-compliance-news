@@ -1,5 +1,30 @@
 [
   {
+    "title": "Unmasking the Micro-Vulnerabilities: Why Small Gaps Lead to Big Breaches",
+    "slug": "2026-07-02-unmasking-micro-vulnerabilities-small-gaps-big-breaches",
+    "date": "2026-07-02",
+    "excerpt": "The latest cyber security landscape isn't about massive, overt attacks, but rather the exploitation of subtle, often overlooked vulnerabilities. From AI systems to email platforms, small gaps are proving to be the most dangerous entry points for threat actors.",
+    "tags": [
+      "Cybersecurity",
+      "Vulnerabilities",
+      "AI Security",
+      "Ransomware",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 912,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1704019483449-57278d210bae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDcnxlbnwxfDB8fHwxNzgzMDA3MDQ4fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a black and white photo of two curves",
+      "credit": "POOYAST .",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "AI Unleashes Browser Ransomware: A New Chromium Threat",
     "slug": "2026-07-01-ai-unleashes-browser-ransomware-new-chromium-threat",
     "date": "2026-07-01",
