@@ -1,5 +1,32 @@
 [
   {
+    "title": "VEIL#DROP: Blogger's New Role in Enterprise Data Theft",
+    "slug": "2026-07-03-veildrop-bloggers-new-role-in-enterprise-data-theft",
+    "date": "2026-07-03",
+    "excerpt": "A new, highly deceptive malware campaign dubbed VEIL#DROP is leveraging an unexpected platform – Google's Blogger – to launch multi-stage attacks. This sophisticated chain delivers the PureLogs information stealer, posing a significant threat to enterprise data and security postures.",
+    "tags": [
+      "Malware",
+      "Cybersecurity",
+      "Data Theft",
+      "Information Stealer",
+      "Social Engineering",
+      "Enterprise Security",
+      "Threat Intelligence",
+      "Compliance"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 835,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1758647294142-f548161b1055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxIaWRkZW4lMjBkaWdpdGFsfGVufDF8MHx8fDE3ODMwOTU0OTl8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Old rotary phone with \"funk\" written on it outdoors.",
+      "credit": "Marija Zaric",
+      "color": "#a68c73"
+    }
+  },
+  {
     "title": "Unmasking the Micro-Vulnerabilities: Why Small Gaps Lead to Big Breaches",
     "slug": "2026-07-02-unmasking-micro-vulnerabilities-small-gaps-big-breaches",
     "date": "2026-07-02",
