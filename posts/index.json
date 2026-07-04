@@ -1,5 +1,29 @@
 [
   {
+    "title": "Avalon: The Modular Malware Framework Redefining Cyber Threats",
+    "slug": "2026-07-04-avalon-modular-malware-framework-redefining-cyber-threats",
+    "date": "2026-07-04",
+    "excerpt": "Cybersecurity researchers have uncovered Avalon, a formidable new modular malware framework packing CrownX ransomware capabilities. Distributed via multi-stage phishing, Avalon bypasses traditional security controls, combining credential collection, lateral movement, and recovery disruption into a single, devastating package. This comprehensive threat demands a proactive and layered defense strategy from IT professionals and security teams.",
+    "tags": [
+      "Cybersecurity",
+      "Malware",
+      "Ransomware",
+      "Phishing",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 615,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEYXJrJTIwb21pbm91c3xlbnwxfDB8fHwxNzgzMTgwNDQ3fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "flowing river between tall trees",
+      "credit": "Karsten Würth",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "VEIL#DROP: Blogger's New Role in Enterprise Data Theft",
     "slug": "2026-07-03-veildrop-bloggers-new-role-in-enterprise-data-theft",
     "date": "2026-07-03",
