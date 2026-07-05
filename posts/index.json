@@ -1,5 +1,53 @@
 [
   {
+    "title": "Navigating 2026 Compliance: CMMC, SOC 2, HIPAA & Beyond",
+    "slug": "2026-07-05-navigating-2026-compliance-cmmc-soc-2-hipaa-beyond",
+    "date": "2026-07-05",
+    "excerpt": "The regulatory landscape for CMMC 2.0, SOC 2 Type II, and HIPAA is rapidly evolving. This post delves into the tightening audit expectations, shorter timelines, and increased enforcement that IT professionals and compliance officers must navigate in 2026. Prepare your organization for continuous compliance.",
+    "tags": [
+      "CMMC 2.0",
+      "SOC 2 Type II",
+      "HIPAA",
+      "Cybersecurity Compliance",
+      "Regulatory Updates"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 722,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1516730670158-8c52cb740fcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxiYWxhbmNlJTIwb3JkZXIlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc4MzI2NzIzNHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "brown high-rise building under clear sky during daytime",
+      "credit": "Pierre Châtel-Innocenti",
+      "color": "#73a6a6"
+    }
+  },
+  {
+    "title": "Avalon Malware: A New Era of Modular Ransomware Threats",
+    "slug": "2026-07-05-avalon-malware-modular-ransomware-threats",
+    "date": "2026-07-05",
+    "excerpt": "A new and highly sophisticated modular malware framework, codenamed Avalon, has emerged, posing a significant threat to organizations worldwide. Distributed via multi-stage phishing, Avalon bundles a suite of attack capabilities, from credential theft to CrownX ransomware.",
+    "tags": [
+      "Avalon Malware",
+      "Ransomware",
+      "Cybersecurity",
+      "Phishing",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 834,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1720962158849-2c3b22499d2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEYXJrJTIwZGlnaXRhbHxlbnwxfDB8fHwxNzgzMjY3MjAzfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a remote control with a sound wave",
+      "credit": "Egor Komarov",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "Avalon: The Modular Malware Framework Redefining Cyber Threats",
     "slug": "2026-07-04-avalon-modular-malware-framework-redefining-cyber-threats",
     "date": "2026-07-04",
