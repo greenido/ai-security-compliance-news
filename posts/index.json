@@ -1,5 +1,30 @@
 [
   {
+    "title": "Autonomous AI Ransomware: The New Frontier of Cyber Warfare",
+    "slug": "2026-07-06-autonomous-ai-ransomware-the-new-frontier-of-cyber-warfare",
+    "date": "2026-07-06",
+    "excerpt": "The cybersecurity world just changed. News of the first fully autonomous AI ransomware campaign has sent ripples through the industry, signaling a new era of sophisticated, self-evolving threats. Enterprises must adapt their defenses now.",
+    "tags": [
+      "AI Security",
+      "Ransomware",
+      "Cybersecurity Trends",
+      "Enterprise Security",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 746,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1633098096956-afdc8bcc8552?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxBYnN0cmFjdCUyMGRpZ2l0YWwlMjBzdG9ybXxlbnwxfDB8fHwxNzgzMzU5MjcwfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a close up of a computer screen with a map of the world on it",
+      "credit": "Nicolas Arnold",
+      "color": "#0c260c"
+    }
+  },
+  {
     "title": "Navigating 2026 Compliance: CMMC, SOC 2, HIPAA & Beyond",
     "slug": "2026-07-05-navigating-2026-compliance-cmmc-soc-2-hipaa-beyond",
     "date": "2026-07-05",
