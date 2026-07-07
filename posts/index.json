@@ -1,5 +1,32 @@
 [
   {
+    "title": "AI Flaw Exposes Session Tokens, Threatens Enterprise Data",
+    "slug": "2026-07-07-ai-flaw-exposes-session-tokens-threatens-enterprise-data",
+    "date": "2026-07-07",
+    "excerpt": "Cybersecurity researchers uncovered 'WriteOut,' a critical session isolation flaw in Writer AI that could leak session tokens and lead to cross-tenant compromise. This incident highlights the urgent need for robust security in enterprise AI platforms.",
+    "tags": [
+      "AI Security",
+      "Enterprise AI",
+      "Cybersecurity",
+      "Vulnerability Management",
+      "Data Protection",
+      "IT Operations"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 812,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1508935620299-047e0e35fbe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxCcm9rZW4lMjBnbGFzc3xlbnwxfDB8fHwxNzgzNDQzODc3fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "top view photography of broken ceramic plate",
+      "credit": "CHUTTERSNAP",
+      "color": "#8c8c8c"
+    }
+  },
+  {
     "title": "Autonomous AI Ransomware: The New Frontier of Cyber Warfare",
     "slug": "2026-07-06-autonomous-ai-ransomware-the-new-frontier-of-cyber-warfare",
     "date": "2026-07-06",
