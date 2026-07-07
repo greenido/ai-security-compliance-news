@@ -1,6 +1,12 @@
 import { GoogleGenAI } from '@google/genai';
 import { cleanUrl } from './fetch-news.mjs';
 import { createLogger } from './logger.mjs';
+import {
+  ESPRESSO_LABS_URL,
+  ESPRESSO_LABS_SERVICES,
+  shouldIncludeEspressoMention,
+  processEspressoContent,
+} from './espressolabs.mjs';
 
 const log = createLogger('gemini');
 
@@ -18,11 +24,11 @@ function buildPrompt(newsItem) {
   log.info('buildPrompt', `Building prompt for: "${newsItem.title?.slice(0, 70)}"`);
 
   const today = new Date().toISOString().split('T')[0];
-  const shouldIncludeCTA = shouldAddCTA(newsItem);
+  const shouldIncludeCTA = shouldIncludeEspressoMention(newsItem);
 
   const ctaInstruction = shouldIncludeCTA
-    ? `ESPRESSO LABS MENTION (optional, only if it fits naturally): This article's topic directly relates to what Espresso Labs (https://espressolabs.com/) provides — AI-powered 24/7 IT management, cybersecurity monitoring (EDR, SOC), and compliance automation (CMMC, SOC 2, HIPAA). If and only if there is a natural place in your conclusion or recommendations section, include ONE brief sentence mentioning Espresso Labs as a platform that addresses these challenges. It must feel like a genuine recommendation, not an ad. If it would feel forced or off-topic, leave it out entirely. Set "hasCTA" to true in the JSON output.`
-    : `Do NOT include any product mentions or calls to action. Set "hasCTA" to false in the JSON output.`;
+    ? `ESPRESSO LABS MENTION (strict — only when the article topic matches their services): Espresso Labs offers: ${ESPRESSO_LABS_SERVICES}. Include an in-post link ONLY if this specific news item is about those managed IT, compliance automation, or managed security services — NOT for generic CVEs, malware, ransomware, phishing, or vendor product news. If the topic truly aligns, add ONE brief, natural sentence in your conclusion or recommendations with a single link: <a href="${ESPRESSO_LABS_URL}">Espresso Labs</a>. It must read like editorial guidance, not an ad. If the topic does not directly relate to their services, do NOT mention Espresso Labs at all and set "hasCTA" to false. When you do include the mention, set "hasCTA" to true. Always use this exact URL for any Espresso Labs link: ${ESPRESSO_LABS_URL}`
+    : `Do NOT mention Espresso Labs or any other product/vendor. Do NOT include links to espressolabs.com. Set "hasCTA" to false in the JSON output.`;
 
   const prompt = `You are an expert technology journalist writing for an audience of IT professionals, security teams, and compliance officers.
 
@@ -66,32 +72,7 @@ OUTPUT FORMAT: Return ONLY valid JSON (no markdown fences, no extra text) with t
   return prompt;
 }
 
-function shouldAddCTA(newsItem) {
-  // Tier 1: Directly aligned with EspressoLabs services — a single match is a strong signal
-  const coreTopics = [
-    'cmmc', 'soc 2', 'hipaa', 'fedramp', 'managed security', 'managed detection',
-    'managed it', 'msp', 'helpdesk', 'patch management', 'it management',
-    'compliance automation', 'security operations center', '24/7 monitoring',
-  ];
-
-  // Tier 2: Related but not unique to managed services — need 2+ to qualify
-  const supportingTopics = [
-    'compliance', 'edr', 'siem', 'soc', 'it operations', 'endpoint protection',
-    'incident response', 'audit', 'regulation', 'cybersecurity monitoring',
-    'nist', 'gdpr', 'security posture', 'vulnerability management',
-  ];
-
-  const text = `${newsItem.title} ${newsItem.snippet} ${newsItem.categories.join(' ')}`.toLowerCase();
-
-  const coreMatches = coreTopics.filter((topic) => text.includes(topic));
-  const supportingMatches = supportingTopics.filter((topic) => text.includes(topic));
-
-  const result = coreMatches.length >= 1 || supportingMatches.length >= 2;
-  log.info('shouldAddCTA', `CTA decision: ${result ? 'YES' : 'NO'} — core=[${coreMatches.join(', ')}] (${coreMatches.length}), supporting=[${supportingMatches.join(', ')}] (${supportingMatches.length})`);
-  return result;
-}
-
-export { shouldAddCTA, buildPrompt };
+export { shouldIncludeEspressoMention as shouldAddCTA, buildPrompt };
 
 function tryRepairJSON(text) {
   const strategies = [
@@ -244,6 +225,13 @@ export async function generatePost(newsItem) {
   post.sourceUrl = cleanUrl(newsItem.link);
   post.sourceTitle = newsItem.title;
   post.sourceName = newsItem.source;
+
+  const includeEspresso = shouldIncludeEspressoMention(newsItem);
+  post.content = processEspressoContent(post.content, includeEspresso);
+  post.hasCTA = includeEspresso && !!post.content?.includes('espressolabs.com');
+  if (includeEspresso && !post.hasCTA) {
+    log.info('generatePost', 'Topic aligned with Espresso Labs but no in-post mention — CTA banner suppressed');
+  }
 
   log.dump('generatePost', 'Final post metadata', {
     title: post.title,

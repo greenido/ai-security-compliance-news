@@ -146,9 +146,9 @@ describe('estimateReadTime', () => {
 // buildCtaBanner
 // ---------------------------------------------------------------------------
 describe('buildCtaBanner', () => {
-  it('returns HTML containing Espresso Labs link', () => {
+  it('returns HTML containing Espresso Labs link with UTM', () => {
     const html = buildCtaBanner();
-    assert.ok(html.includes('espressolabs.com'));
+    assert.ok(html.includes('espressolabs.com?utm=aicybersecuritynews'));
     assert.ok(html.includes('Discover Espresso Labs'));
   });
 
@@ -207,7 +207,7 @@ describe('buildPostHtmlPage', () => {
   it('includes CTA banner when hasCTA is true', () => {
     const post = samplePost({ hasCTA: true });
     const html = buildPostHtmlPage(post);
-    assert.ok(html.includes('espressolabs.com'));
+    assert.ok(html.includes('espressolabs.com?utm=aicybersecuritynews'));
     assert.ok(html.includes('Discover Espresso Labs'));
   });
 

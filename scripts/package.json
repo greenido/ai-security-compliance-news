@@ -6,7 +6,7 @@
   "scripts": {
     "generate": "node generate-post.mjs",
     "test": "node --test test/*.test.mjs",
-    "test:unit": "node --test test/fetch-news.test.mjs test/build-post-html.test.mjs test/gemini-writer.test.mjs",
+    "test:unit": "node --test test/fetch-news.test.mjs test/build-post-html.test.mjs test/gemini-writer.test.mjs test/espressolabs.test.mjs",
     "test:integration": "node --test test/integration.test.mjs"
   },
   "dependencies": {

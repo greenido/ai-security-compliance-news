@@ -33,9 +33,9 @@ describe('shouldAddCTA', () => {
     assert.equal(shouldAddCTA(news), false);
   });
 
-  it('returns true when category list includes multiple supporting terms', () => {
+  it('returns false for generic compliance news without framework alignment', () => {
     const news = { title: 'Industry overview', snippet: 'compliance audit requirements', categories: ['Compliance'] };
-    assert.equal(shouldAddCTA(news), true);
+    assert.equal(shouldAddCTA(news), false);
   });
 
   it('returns false for generic security news without managed-service relevance', () => {
@@ -97,6 +97,7 @@ describe('buildPrompt', () => {
   it('includes CTA instruction when topic aligns', () => {
     const prompt = buildPrompt(sampleNews);
     assert.ok(prompt.includes('Espresso Labs'));
+    assert.ok(prompt.includes('utm=aicybersecuritynews'));
     assert.ok(prompt.includes('"hasCTA" to true'));
   });
 
@@ -110,7 +111,7 @@ describe('buildPrompt', () => {
     };
     const prompt = buildPrompt(noCtaNews);
     assert.ok(prompt.includes('"hasCTA" to false'));
-    assert.ok(prompt.includes('Do NOT include any product mentions'));
+    assert.ok(prompt.includes('Do NOT mention Espresso Labs'));
   });
 });
 
