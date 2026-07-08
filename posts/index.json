@@ -1,5 +1,30 @@
 [
   {
+    "title": "Vendor Trust Under Siege: Zero-Day Market's Dark Side",
+    "slug": "2026-07-08-vendor-trust-under-siege-zero-day-markets-dark-side",
+    "date": "2026-07-08",
+    "excerpt": "In the high-stakes world of cybersecurity, trust is paramount. A recent exposé by Krebs on Security highlights a concerning trend: a startup dealing in zero-day vulnerabilities, allegedly run by convicted felons. This news forces IT professionals and security teams to re-evaluate vendor vetting in a murky market.",
+    "tags": [
+      "cybersecurity",
+      "zero-day",
+      "vendor management",
+      "security risks",
+      "compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 699,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1614306539511-4a8d4d690c57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEYXJrJTIwYWxsZXklMjBjcmFja2VkfGVufDF8MHx8fDE3ODM1Mjc4NjJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "empty street between buildings during daytime",
+      "credit": "Aaron Chavez",
+      "color": "#260c0c"
+    }
+  },
+  {
     "title": "AI Flaw Exposes Session Tokens, Threatens Enterprise Data",
     "slug": "2026-07-07-ai-flaw-exposes-session-tokens-threatens-enterprise-data",
     "date": "2026-07-07",
