@@ -1,5 +1,32 @@
 [
   {
+    "title": "Securing Enterprise AI: Mitigating 9 Critical Risks by Mid-2026",
+    "slug": "2026-07-09-securing-enterprise-ai-mitigating-9-critical-risks",
+    "date": "2026-07-09",
+    "excerpt": "The rapid integration of AI into enterprise operations brings unprecedented opportunities—and significant challenges. By mid-2026, IT, security, and compliance teams must address nine critical risk factors to safeguard their AI initiatives and maintain regulatory adherence.",
+    "tags": [
+      "AI Security",
+      "AI Compliance",
+      "Risk Management",
+      "Data Governance",
+      "Cybersecurity Strategy",
+      "Enterprise AI"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 791,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1505716619202-1193d03557c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEaWdpdGFsJTIwZm9ydHJlc3MlMjBzdW5yaXNlfGVufDF8MHx8fDE3ODM2MTcwOTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "tree field at golden hour panoramic photography",
+      "credit": "Syahirah Salleh",
+      "color": "#40260c"
+    }
+  },
+  {
     "title": "Vendor Trust Under Siege: Zero-Day Market's Dark Side",
     "slug": "2026-07-08-vendor-trust-under-siege-zero-day-markets-dark-side",
     "date": "2026-07-08",
