@@ -1,5 +1,29 @@
 [
   {
+    "title": "MODBEACON RAT: gRPC Streaming Elevates C2 Evasion",
+    "slug": "2026-07-10-modbeacon-rat-grpc-streaming-elevates-c2-evasion",
+    "date": "2026-07-10",
+    "excerpt": "A new Rust-based Remote Access Trojan, MODBEACON, attributed to China's Silver Fox group, is raising alarms. This sophisticated malware uses gRPC streaming for highly evasive command-and-control traffic, posing a significant challenge to traditional security defenses.",
+    "tags": [
+      "cybersecurity",
+      "malware analysis",
+      "MODBEACON",
+      "gRPC security",
+      "C2 evasion"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 953,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1577080415932-2e5a0fbec8e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxFdmFzaXZlfGVufDF8MHx8fDE3ODM3MDIxODB8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "lit candles on cake",
+      "credit": "June O",
+      "color": "#260c0c"
+    }
+  },
+  {
     "title": "Securing Enterprise AI: Mitigating 9 Critical Risks by Mid-2026",
     "slug": "2026-07-09-securing-enterprise-ai-mitigating-9-critical-risks",
     "date": "2026-07-09",
