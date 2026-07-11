@@ -882,4 +882,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-11-modbeacon-rat-next-gen-c2-leverages-grpc-for-stealth.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
