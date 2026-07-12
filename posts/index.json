@@ -1,5 +1,29 @@
 [
   {
+    "title": "Police Portal Weaponized: Cyber Espionage Targets Critical Data",
+    "slug": "2026-07-12-police-portal-weaponized-cyber-espionage-targets-critical-data",
+    "date": "2026-07-12",
+    "excerpt": "A recent report from The Hacker News reveals a disturbing trend: critical government infrastructure, specifically the Balochistan Police portal, has been weaponized in multi-group cyber espionage campaigns. This incident serves as a stark reminder of the escalating risks facing public sector organizations and the imperative to fortify digital defenses against persistent threats.",
+    "tags": [
+      "cyber security",
+      "espionage",
+      "data breach",
+      "threat intelligence",
+      "government security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 790,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsfGVufDF8MHx8fDE3ODM4NzEzNDZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "MODBEACON RAT: Next-Gen C2 Leverages gRPC for Stealth",
     "slug": "2026-07-11-modbeacon-rat-next-gen-c2-leverages-grpc-for-stealth",
     "date": "2026-07-11",
