@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI, Old Bugs, New Threats: The Speed of Cyber Exploitation",
+    "slug": "2026-07-13-ai-old-bugs-new-threats-the-speed-of-cyber-exploitation",
+    "date": "2026-07-13",
+    "excerpt": "Security tools find bugs faster than ever, but so do attackers. This week's threats, from AI coding attacks to persistent Citrix vulnerabilities, highlight a critical race against time. Discover how to bridge the remediation gap and defend against rapid exploitation.",
+    "tags": [
+      "Cybersecurity",
+      "Vulnerability Management",
+      "AI Security",
+      "Ransomware",
+      "Patch Management"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 805,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1762518884190-c33c2be305c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsJTIwcmFjZXxlbnwxfDB8fHwxNzgzOTYyMzQwfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A detailed formula 1 steering wheel with many buttons.",
+      "credit": "Hans Westbeek",
+      "color": "#595973"
+    }
+  },
+  {
     "title": "Police Portal Weaponized: Cyber Espionage Targets Critical Data",
     "slug": "2026-07-12-police-portal-weaponized-cyber-espionage-targets-critical-data",
     "date": "2026-07-12",
