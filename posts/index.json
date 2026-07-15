@@ -1,5 +1,30 @@
 [
   {
+    "title": "Windows Zero-Day: LegacyHive Exploits User Profile Service Post-Patch Tuesday",
+    "slug": "2026-07-15-windows-zero-day-legacyhive-exploits-user-profile-service-post-patch-tuesday",
+    "date": "2026-07-15",
+    "excerpt": "Just hours after Microsoft's latest Patch Tuesday, a critical new Windows zero-day, dubbed LegacyHive, has emerged. This elevation of privilege vulnerability targets the User Profile Service, posing a significant risk to unpatched systems and demanding immediate attention from IT and security teams.",
+    "tags": [
+      "Windows Security",
+      "Zero-Day",
+      "Patch Tuesday",
+      "Elevation of Privilege",
+      "ProfSvc"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 749,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1704019483449-57278d210bae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxDcnxlbnwxfDB8fHwxNzg0MTMxOTc4fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a black and white photo of two curves",
+      "credit": "POOYAST .",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "RabbitMQ Flaws Threaten OAuth Secrets, Enterprise Messaging",
     "slug": "2026-07-14-rabbitmq-flaws-threaten-oauth-secrets-enterprise-messaging",
     "date": "2026-07-14",
