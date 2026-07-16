@@ -1,5 +1,29 @@
 [
   {
+    "title": "TELEPUZ Malware: New Threat Spreads via ClickFix Lures",
+    "slug": "2026-07-16-telepuz-malware-new-threat-clickfix",
+    "date": "2026-07-16",
+    "excerpt": "Cybersecurity teams are on high alert following the emergence of TELEPUZ, a sophisticated new modular malware. Spreading through compromised websites utilizing ClickFix lures, it's designed for data exfiltration and remote command execution, posing a critical challenge.",
+    "tags": [
+      "TELEPUZ",
+      "malware",
+      "ClickFix",
+      "cybersecurity",
+      "data theft"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 728,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1521193089946-7aa29d1fe776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d8ZW58MXwwfHx8MTc4NDIxODE0Mnww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a close up view of a white fabric",
+      "credit": "Bernard Hermant",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "Windows Zero-Day: LegacyHive Exploits User Profile Service Post-Patch Tuesday",
     "slug": "2026-07-15-windows-zero-day-legacyhive-exploits-user-profile-service-post-patch-tuesday",
     "date": "2026-07-15",
