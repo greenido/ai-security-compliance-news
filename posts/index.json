@@ -1,5 +1,56 @@
 [
   {
+    "title": "Navigating 2026's Evolving Compliance: CMMC, SOC 2, HIPAA",
+    "slug": "2026-07-17-navigating-2026s-evolving-compliance-cmmc-soc-2-hipaa",
+    "date": "2026-07-17",
+    "excerpt": "The regulatory landscape is shifting rapidly. With CMMC 2.0, SOC 2 Type II, and HIPAA undergoing significant updates, IT leaders and compliance officers face new audit expectations, tighter timelines, and increased enforcement. Staying ahead of these changes is paramount for organizational security and integrity.",
+    "tags": [
+      "CMMC",
+      "SOC2",
+      "HIPAA",
+      "Compliance",
+      "Cybersecurity",
+      "Regulatory",
+      "IT Governance"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 813,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxiYWxhbmNlJTIwb3JkZXIlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc4NDMwNDQ0MXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "worm's-eye view photography of concrete building",
+      "credit": "Kimon Maritz",
+      "color": "#f3f3f3"
+    }
+  },
+  {
+    "title": "SharePoint RCE Zero-Day: CISA KEV Alert Ignites Urgent Patching",
+    "slug": "2026-07-17-sharepoint-rce-zero-day-cisa-kev-alert-ignites-urgent-patching",
+    "date": "2026-07-17",
+    "excerpt": "A critical remote code execution (RCE) zero-day vulnerability in Microsoft SharePoint Server, CVE-2026-58644, has been added to CISA's Known Exploited Vulnerabilities (KEV) catalog. This development signals active exploitation and necessitates immediate action from IT and security teams.",
+    "tags": [
+      "SharePoint Security",
+      "CISA KEV",
+      "Zero-Day Exploits",
+      "Vulnerability Management",
+      "RCE"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 764,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1606362811767-c96ff375b3d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxicmVhY2hpbmclMjB3YWxsfGVufDF8MHx8fDE3ODQzMDQ0MjN8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "white and gray brick wall",
+      "credit": "Mick Haupt",
+      "color": "#c0c0c0"
+    }
+  },
+  {
     "title": "TELEPUZ Malware: New Threat Spreads via ClickFix Lures",
     "slug": "2026-07-16-telepuz-malware-new-threat-clickfix",
     "date": "2026-07-16",
