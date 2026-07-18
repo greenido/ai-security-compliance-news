@@ -1,5 +1,29 @@
 [
   {
+    "title": "DigiCert Breach: GoldenEyeDog Subgroup Steals Code-Signing Certs",
+    "slug": "2026-07-18-digicert-breach-goldeneyedog-subgroup-steals-code-signing-certs",
+    "date": "2026-07-18",
+    "excerpt": "The April 2026 DigiCert breach, now attributed to GoldenEyeDog's CylindricalCanine subgroup, involved the theft of code-signing certificates. This escalation challenges digital trust, demanding immediate attention from IT and security professionals.",
+    "tags": [
+      "Cybersecurity",
+      "Threat Intelligence",
+      "Supply Chain Security",
+      "Digital Trust",
+      "GoldenEyeDog"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 741,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1565551223391-be988013ee6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxzaGF0dGVyZWR8ZW58MXwwfHx8MTc4NDM4OTQzNnww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "orange band aid on concrete surface crack",
+      "credit": "Luis Villasmil",
+      "color": "#404040"
+    }
+  },
+  {
     "title": "Navigating 2026's Evolving Compliance: CMMC, SOC 2, HIPAA",
     "slug": "2026-07-17-navigating-2026s-evolving-compliance-cmmc-soc-2-hipaa",
     "date": "2026-07-17",
