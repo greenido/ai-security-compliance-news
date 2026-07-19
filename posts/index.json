@@ -1,5 +1,29 @@
 [
   {
+    "title": "SonicWall SMA Zero-Days Exploited: What IT Needs to Know",
+    "slug": "2026-07-19-sonicwall-sma-zero-days-exploited-what-it-needs-to-know",
+    "date": "2026-07-19",
+    "excerpt": "A new threat actor, UTA0533, exploited SonicWall SMA 1000 series zero-days for weeks before public disclosure, gaining root access. This incident highlights the critical need for advanced security postures for IT professionals and security teams. Discover key strategies to protect your organization.",
+    "tags": [
+      "SonicWall",
+      "Zero-Day",
+      "VPN Security",
+      "Cybersecurity",
+      "Incident Response"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 764,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsfGVufDF8MHx8fDE3ODQ0NzU4OTh8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "DigiCert Breach: GoldenEyeDog Subgroup Steals Code-Signing Certs",
     "slug": "2026-07-18-digicert-breach-goldeneyedog-subgroup-steals-code-signing-certs",
     "date": "2026-07-18",
