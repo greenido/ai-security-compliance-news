@@ -1,5 +1,30 @@
 [
   {
+    "title": "PAN-OS Flaw Fuels Qilin Ransomware: A Critical Alert for IT",
+    "slug": "2026-07-21-pan-os-flaw-fuels-qilin-ransomware-critical-alert-for-it",
+    "date": "2026-07-21",
+    "excerpt": "The digital battlefield just got hotter. Qilin ransomware actors are now exploiting a critical, patched PAN-OS vulnerability (CVE-2026-0257) to breach networks. This high-severity authentication bypass serves as a dangerous initial access vector, demanding immediate attention from IT and security teams nationwide.",
+    "tags": [
+      "ransomware",
+      "Qilin",
+      "PAN-OS",
+      "vulnerability",
+      "cybersecurity"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 820,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1749928392401-ea3c2c37ecd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTdG9ybSUyMGRhcmslMjBjaXR5fGVufDF8MHx8fDE3ODQ2NTA0OTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Buildings silhouetted against a cloudy, moonlit sky.",
+      "credit": "Clay LeConey",
+      "color": "#595959"
+    }
+  },
+  {
     "title": "AI's Promise: Streamlining Cyber Compliance for Enterprises",
     "slug": "2026-07-20-ais-promise-streamlining-cyber-compliance-for-enterprises",
     "date": "2026-07-20",
