@@ -1,5 +1,33 @@
 [
   {
+    "title": "AI-Powered Attacks Demand Multi-Layered SOC Defenses Now",
+    "slug": "2026-07-22-ai-powered-attacks-demand-multi-layered-soc-defenses-now",
+    "date": "2026-07-22",
+    "excerpt": "The cybersecurity arms race has shifted dramatically. With AI-powered threats bypassing traditional defenses, Security Operations Centers face unprecedented challenges. Discover why multi-layered detection is no longer optional but essential for survival.",
+    "tags": [
+      "AI",
+      "cybersecurity",
+      "SOC",
+      "multi-layered detection",
+      "threat intelligence",
+      "malware-free attacks",
+      "enterprise security"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 729,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsfGVufDF8MHx8fDE3ODQ3MzY4MTd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "PAN-OS Flaw Fuels Qilin Ransomware: A Critical Alert for IT",
     "slug": "2026-07-21-pan-os-flaw-fuels-qilin-ransomware-critical-alert-for-it",
     "date": "2026-07-21",
