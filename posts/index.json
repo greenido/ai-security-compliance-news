@@ -1,5 +1,31 @@
 [
   {
+    "title": "Beyond EDR: Why Modern SOCs Need Multi-Layered Detection",
+    "slug": "2026-07-23-beyond-edr-why-modern-socs-need-multi-layered-detection",
+    "date": "2026-07-23",
+    "excerpt": "The cybersecurity landscape has fundamentally shifted. With AI-powered adversaries and a surge in malware-free attacks, traditional endpoint defenses are no longer enough. Modern SOCs must pivot to multi-layered detection to stay ahead.",
+    "tags": [
+      "Cybersecurity",
+      "SOC",
+      "Threat Detection",
+      "Fileless Attacks",
+      "AI Security"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 712,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxBYnN0cmFjdCUyMGRhdGF8ZW58MXwwfHx8MTc4NDgyMzUxN3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "AI-Powered Attacks Demand Multi-Layered SOC Defenses Now",
     "slug": "2026-07-22-ai-powered-attacks-demand-multi-layered-soc-defenses-now",
     "date": "2026-07-22",
