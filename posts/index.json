@@ -1,5 +1,30 @@
 [
   {
+    "title": "Fastjson 1.x RCE Alert: Unpatched Flaw Under Active Attack",
+    "slug": "2026-07-25-fastjson-1x-rce-alert-unpatched-flaw-under-active-attack",
+    "date": "2026-07-25",
+    "excerpt": "A severe unauthenticated Remote Code Execution (RCE) vulnerability in Fastjson 1.x, Alibaba's popular Java JSON library, is actively being exploited. With no official patch yet released, organizations using affected Spring Boot applications face immediate and significant risk. Security teams must prioritize mitigation strategies to protect their systems from this critical flaw.",
+    "tags": [
+      "Fastjson",
+      "RCE",
+      "CVE-2026-16723",
+      "Java Security",
+      "Application Security"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 841,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1565551223391-be988013ee6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDcmFja2VkfGVufDF8MHx8fDE3ODQ5OTQ5NjR8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "orange band aid on concrete surface crack",
+      "credit": "Luis Villasmil",
+      "color": "#404040"
+    }
+  },
+  {
     "title": "Beyond EDR: Why Modern SOCs Need Multi-Layered Detection",
     "slug": "2026-07-23-beyond-edr-why-modern-socs-need-multi-layered-detection",
     "date": "2026-07-23",
