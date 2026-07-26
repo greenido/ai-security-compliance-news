@@ -1,5 +1,30 @@
 [
   {
+    "title": "DevMan RaaS Portal: New Apex in Ransomware Industrialization",
+    "slug": "2026-07-26-devman-raas-portal-new-apex-in-ransomware-industrialization",
+    "date": "2026-07-26",
+    "excerpt": "Ransomware-as-a-Service (RaaS) has evolved, and the DevMan operation marks a significant, concerning leap. Its sophisticated web portal streamlines every aspect of an attack, from payload creation to victim negotiation, making sophisticated cyber extortion more accessible than ever. This development demands a re-evaluation of current defense strategies.",
+    "tags": [
+      "ransomware",
+      "RaaS",
+      "cybersecurity",
+      "threat intelligence",
+      "compliance"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 736,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1720036236657-cc7de2dc5b7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEYXJrJTIwb21pbm91cyUyMGZhY3Rvcnl8ZW58MXwwfHx8MTc4NTA4MTI0NHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A dark room with a large machine in it",
+      "credit": "Shavr IK",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Fastjson 1.x RCE Alert: Unpatched Flaw Under Active Attack",
     "slug": "2026-07-25-fastjson-1x-rce-alert-unpatched-flaw-under-active-attack",
     "date": "2026-07-25",
