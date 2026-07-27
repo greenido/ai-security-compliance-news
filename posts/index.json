@@ -1,5 +1,30 @@
 [
   {
+    "title": "Fake Teams Update Delivers RMM: A New Enterprise Threat",
+    "slug": "2026-07-27-fake-teams-update-delivers-rmm-a-new-enterprise-threat",
+    "date": "2026-07-27",
+    "excerpt": "A new, highly sophisticated phishing campaign is leveraging the trusted environment of Microsoft Teams to deploy legitimate remote monitoring and management (RMM) tools. This tactic, dubbed \"Operation BlueDash,\" presents a significant challenge for IT professionals, security teams, and compliance officers.",
+    "tags": [
+      "Phishing",
+      "RMM Security",
+      "Microsoft Teams",
+      "Cybersecurity",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 806,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1583263496887-4e3046c78090?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3dlZCUyMGNvcnBvcmF0ZXxlbnwxfDB8fHwxNzg1MTcxMTQzfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "man in black suit standing on top of building looking at city buildings during daytime",
+      "credit": "Jhon Jim",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "DevMan RaaS Portal: New Apex in Ransomware Industrialization",
     "slug": "2026-07-26-devman-raas-portal-new-apex-in-ransomware-industrialization",
     "date": "2026-07-26",
