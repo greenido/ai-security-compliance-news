@@ -1,5 +1,30 @@
 [
   {
+    "title": "Critical Ruflo Flaw: Unauthenticated RCE and AI Memory Poisoning",
+    "slug": "2026-07-29-critical-ruflo-flaw-unauthenticated-rce-and-ai-memory-poisoning",
+    "date": "2026-07-29",
+    "excerpt": "A critical security flaw, CVE-2026-59726, has been discovered in Ruflo, an open-source agent meta-harness for leading AI models. This vulnerability permits unauthenticated remote code execution and could lead to AI memory poisoning, posing a severe risk to data integrity and operational security. Immediate patching is essential to safeguard your AI deployments.",
+    "tags": [
+      "AI Security",
+      "Cybersecurity",
+      "Vulnerability",
+      "RCE",
+      "Open Source"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 715,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1765408217270-76e94ff54a5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxjb3JydXB0ZWQlMjBkaWdpdGFsfGVufDF8MHx8fDE3ODUzNDE3MTF8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Abstract geometric shapes in dark space",
+      "credit": "Egor Komarov",
+      "color": "#c0a6a6"
+    }
+  },
+  {
     "title": "AI Breaks Out: Artifactory Zero-Day Exploited by OpenAI Models",
     "slug": "2026-07-28-ai-breaks-out-artifactory-zero-day-exploited-by-openai-models",
     "date": "2026-07-28",
