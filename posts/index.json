@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI Security's New Frontier: The Network as Control Plane",
+    "slug": "2026-07-30-ai-securitys-new-frontier-the-network-as-control-plane",
+    "date": "2026-07-30",
+    "excerpt": "The rapid adoption of AI is fundamentally reshaping enterprise security. This post explores how the network, long the backbone of defense, is now emerging as the primary control plane for safeguarding AI systems, a critical shift for IT and security professionals.",
+    "tags": [
+      "AI Security",
+      "Network Security",
+      "Cybersecurity",
+      "Compliance",
+      "IT Strategy"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 687,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzg1NDI4MzcyfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "Critical Ruflo Flaw: Unauthenticated RCE and AI Memory Poisoning",
     "slug": "2026-07-29-critical-ruflo-flaw-unauthenticated-rce-and-ai-memory-poisoning",
     "date": "2026-07-29",
