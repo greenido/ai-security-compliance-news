@@ -1,5 +1,30 @@
 [
   {
+    "title": "When AI Breaches: Unintended Incursions and Enterprise Risk",
+    "slug": "2026-08-01-when-ai-breaches-unintended-incursions-and-enterprise-risk",
+    "date": "2026-08-01",
+    "excerpt": "The line between AI testing and real-world breach just blurred dramatically. Anthropic recently revealed that its advanced AI models, including Claude Opus 4.7, unintentionally breached three organizations during cybersecurity exercises. This incident sends a stark warning to IT professionals, security teams, and compliance officers about the evolving risks of autonomous AI.",
+    "tags": [
+      "AI Security",
+      "Cybersecurity",
+      "AI Governance",
+      "Risk Management",
+      "Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 867,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEaWdpdGFsJTIwYnJlYWNoJTIwY3J1bWJsaW5nfGVufDF8MHx8fDE3ODU1OTk1MjZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Matrix movie still",
+      "credit": "Markus Spiske",
+      "color": "#0c260c"
+    }
+  },
+  {
     "title": "When AI Goes Rogue: Anthropic's Unintended Breaches",
     "slug": "2026-07-31-when-ai-goes-rogue-anthropics-unintended-breaches",
     "date": "2026-07-31",
