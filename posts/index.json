@@ -1,5 +1,32 @@
 [
   {
+    "title": "HollowFrame & Matryoshka: New Go/Rust Malware Targets Law Firms",
+    "slug": "2026-08-02-hollowframe-matryoshka-new-go-rust-malware-targets-law-firms",
+    "date": "2026-08-02",
+    "excerpt": "Cybersecurity researchers have uncovered a sophisticated multi-stage attack. A Go-based loader, HollowFrame, and a Rust-based backdoor, Matryoshka, are being deployed via spear-phishing, highlighting a worrying evolution in threat actor tactics.",
+    "tags": [
+      "Cybersecurity",
+      "Malware",
+      "Spear-Phishing",
+      "Threat Intelligence",
+      "Incident Response",
+      "Law Firm Security",
+      "Go Malware",
+      "Rust Malware"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 887,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1785057707872-64ac1f5f3dd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxuZXN0ZWQlMjBkb2xscyUyMGRhcmt8ZW58MXwwfHx8MTc4NTY4NTk0N3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Numerous red daruma dolls in various sizes.",
+      "credit": "Loris Boulinguez",
+      "color": "#260c0c"
+    }
+  },
+  {
     "title": "When AI Breaches: Unintended Incursions and Enterprise Risk",
     "slug": "2026-08-01-when-ai-breaches-unintended-incursions-and-enterprise-risk",
     "date": "2026-08-01",
