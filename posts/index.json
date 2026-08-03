@@ -1,5 +1,58 @@
 [
   {
+    "title": "AI-Driven GRC: Navigating the Future of Cybersecurity Audits",
+    "slug": "2026-08-03-ai-driven-grc-future-cybersecurity-audits",
+    "date": "2026-08-03",
+    "excerpt": "The convergence of AI and GRC is no longer futuristic; it's here. Discover how continuous cybersecurity audits, powered by AI, are reshaping risk management and compliance, offering unprecedented automation and insight for your organization.",
+    "tags": [
+      "AI",
+      "GRC",
+      "Cybersecurity",
+      "Compliance",
+      "Automation",
+      "Risk Management",
+      "Audits",
+      "IT Security"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 664,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1664329182818-f375993c0a00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxnZW9tZXRyaWN8ZW58MXwwfHx8MTc4NTc3NjY0NXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "background pattern",
+      "credit": "BoliviaInteligente",
+      "color": "#590cd9"
+    }
+  },
+  {
+    "title": "INC Ransomware Dominates SonicWall Exploits: Patch Now!",
+    "slug": "2026-08-03-inc-ransomware-dominates-sonicwall-exploits-patch-now",
+    "date": "2026-08-03",
+    "excerpt": "A new report reveals INC Ransomware has become the primary threat actor leveraging recently disclosed SonicWall SMA 1000 vulnerabilities. This escalating campaign demands immediate attention from IT and security teams to safeguard their networks.",
+    "tags": [
+      "Ransomware",
+      "Cybersecurity",
+      "SonicWall",
+      "Vulnerability Management",
+      "INC Ransomware"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 911,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsfGVufDF8MHx8fDE3ODU3NzY2Mjd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "HollowFrame & Matryoshka: New Go/Rust Malware Targets Law Firms",
     "slug": "2026-08-02-hollowframe-matryoshka-new-go-rust-malware-targets-law-firms",
     "date": "2026-08-02",
