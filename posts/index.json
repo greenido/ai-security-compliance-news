@@ -1,5 +1,30 @@
 [
   {
+    "title": "Beware Discounted AI: The Hidden Cost of 'Poison Claude'",
+    "slug": "2026-08-05-beware-discounted-ai-the-hidden-cost-of-poison-claude",
+    "date": "2026-08-05",
+    "excerpt": "The allure of discounted AI access is a potent trap, as recent reports highlight. Services like 'Poison Claude' promise cheap entry to powerful LLMs, but the true price is often your organization's sensitive data and intellectual property, exposed directly to cybercriminals.",
+    "tags": [
+      "AI Security",
+      "Data Privacy",
+      "Cybercrime",
+      "LLM Risks",
+      "Enterprise Security"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 768,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzg1OTQ3MTQ1fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "SMOKE#SCREEN Unveiled: Stealthy RMM Threat to Your Enterprise",
     "slug": "2026-08-04-smokescreen-unveiled-stealthy-rmm-threat-to-your-enterprise",
     "date": "2026-08-04",
