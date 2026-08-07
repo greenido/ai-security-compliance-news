@@ -1,5 +1,29 @@
 [
   {
+    "title": "AitM Phishing Targets Microsoft 365 Finance Accounts",
+    "slug": "2026-08-07-aitm-phishing-targets-microsoft-365-finance-accounts",
+    "date": "2026-08-07",
+    "excerpt": "A new wave of sophisticated AitM phishing attacks is actively compromising Microsoft 365 accounts, specifically targeting sensitive financial and payroll information. IT professionals and security teams must understand these evolving threats to safeguard their organizations.",
+    "tags": [
+      "Phishing",
+      "Microsoft 365",
+      "AitM Attacks",
+      "Account Takeover",
+      "Financial Security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 760,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1521193089946-7aa29d1fe776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d8ZW58MXwwfHx8MTc4NjExNzQxM3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a close up view of a white fabric",
+      "credit": "Bernard Hermant",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "Beware Discounted AI: The Hidden Cost of 'Poison Claude'",
     "slug": "2026-08-05-beware-discounted-ai-the-hidden-cost-of-poison-claude",
     "date": "2026-08-05",
