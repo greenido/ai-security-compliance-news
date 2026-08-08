@@ -1050,4 +1050,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-08-metabase-zero-day-unauthenticated-admin-access-critical-alert.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
