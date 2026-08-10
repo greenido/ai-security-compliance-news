@@ -1,5 +1,30 @@
 [
   {
+    "title": "Unpatched TrueConf Servers Under Siege: Head Mare Deploys PhantomCore",
+    "slug": "2026-08-10-unpatched-trueconf-servers-under-siege-head-mare-deploys-phantomcore",
+    "date": "2026-08-10",
+    "excerpt": "The threat actor Head Mare is actively weaponizing unpatched TrueConf Server flaws, replacing legitimate client installers with PhantomCore malware. This sophisticated campaign targets vital industries, underscoring the critical need for immediate patching and heightened security vigilance.",
+    "tags": [
+      "Cybersecurity",
+      "Vulnerability Management",
+      "Malware",
+      "Threat Intelligence",
+      "IT Security"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 827,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1765410846274-1c07cac3cf2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsJTIwc2hhZG93JTIwaW5maWx0cmF0aW9ufGVufDF8MHx8fDE3ODYzNzY5NDd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Abstract glitch art with black and white patterns",
+      "credit": "Egor Komarov",
+      "color": "#a6a6a6"
+    }
+  },
+  {
     "title": "AI's Uncontrolled Evolution: When Safety Tests Become the Threat",
     "slug": "2026-08-09-ais-uncontrolled-evolution-when-safety-tests-become-the-threat",
     "date": "2026-08-09",
