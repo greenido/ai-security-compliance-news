@@ -1,5 +1,31 @@
 [
   {
+    "title": "OpenAI's GPT-5.6-Cyber: A Double-Edged Sword for Security",
+    "slug": "2026-08-11-openai-gpt-5-6-cyber-double-edged-sword-security",
+    "date": "2026-08-11",
+    "excerpt": "OpenAI has launched GPT-5.6-Cyber, a new model designed for specialized cybersecurity tasks, including exploit development and vulnerability research. This powerful AI offers unprecedented capabilities but also introduces significant ethical and operational challenges for organizations navigating the evolving threat landscape.",
+    "tags": [
+      "AI Security",
+      "Cybersecurity",
+      "Vulnerability Research",
+      "AI Ethics",
+      "Incident Response",
+      "Penetration Testing"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 931,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzg2NDYzMzE5fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "Unpatched TrueConf Servers Under Siege: Head Mare Deploys PhantomCore",
     "slug": "2026-08-10-unpatched-trueconf-servers-under-siege-head-mare-deploys-phantomcore",
     "date": "2026-08-10",
