@@ -1,5 +1,30 @@
 [
   {
+    "title": "80% Incident Rate: Securing AI in the Enterprise Frontier",
+    "slug": "2026-08-14-80-incident-rate-securing-ai-enterprise-frontier",
+    "date": "2026-08-14",
+    "excerpt": "A recent report reveals that a staggering 80% of organizations have faced AI or cybersecurity incidents. This statistic underscores the urgent need for integrated security strategies as AI becomes central to enterprise operations. IT professionals, security teams, and compliance officers must adapt to a rapidly evolving threat landscape.",
+    "tags": [
+      "AI Security",
+      "Cybersecurity Incidents",
+      "Enterprise Risk",
+      "Compliance",
+      "IT Strategy"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 749,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzg2NzIyMDU0fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "Lazarus' Latest: Zero-Day Exploit Targets Global Defense",
     "slug": "2026-08-13-lazarus-latest-zero-day-exploit-targets-global-defense",
     "date": "2026-08-13",
