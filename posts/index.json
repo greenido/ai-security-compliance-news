@@ -1,5 +1,30 @@
 [
   {
+    "title": "The 80% Imperative: Navigating AI and Cyber Incident Realities",
+    "slug": "2026-08-15-the-80-percent-imperative-navigating-ai-and-cyber-incident-realities",
+    "date": "2026-08-15",
+    "excerpt": "A recent report reveals a startling truth: 80% of organizations faced AI or cybersecurity incidents in the past year. This isn't just a statistic; it's a critical call to action for IT professionals, security teams, and compliance officers. Understand the converging threats and how to build a resilient defense.",
+    "tags": [
+      "Cybersecurity",
+      "AI Security",
+      "Threat Intelligence",
+      "Risk Management",
+      "Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 625,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsfGVufDF8MHx8fDE3ODY4MDY2Mjh8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "80% Incident Rate: Securing AI in the Enterprise Frontier",
     "slug": "2026-08-14-80-incident-rate-securing-ai-enterprise-frontier",
     "date": "2026-08-14",
