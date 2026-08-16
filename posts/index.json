@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI Misuse: A Chilling Wake-Up Call for IT & Security Teams",
+    "slug": "2026-08-16-ai-misuse-chilling-wake-up-call-it-security-teams",
+    "date": "2026-08-16",
+    "excerpt": "A recent TechCrunch report detailing the alleged misuse of generative AI to create explicit imagery from childhood photos has sent shockwaves. This incident is a critical warning for IT leaders, security teams, and compliance officers to re-evaluate AI governance and safeguard against profound ethical and security risks.",
+    "tags": [
+      "AI ethics",
+      "cybersecurity",
+      "compliance",
+      "generative AI",
+      "data security",
+      "risk management",
+      "child protection"
+    ],
+    "categories": [
+      "AI"
+    ],
+    "hasCTA": false,
+    "wordCount": 838,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1565551223391-be988013ee6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxGcmFjdHVyZWR8ZW58MXwwfHx8MTc4Njg5MzA3NXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "orange band aid on concrete surface crack",
+      "credit": "Luis Villasmil",
+      "color": "#404040"
+    }
+  },
+  {
     "title": "The 80% Imperative: Navigating AI and Cyber Incident Realities",
     "slug": "2026-08-15-the-80-percent-imperative-navigating-ai-and-cyber-incident-realities",
     "date": "2026-08-15",
