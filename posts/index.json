@@ -1,5 +1,56 @@
 [
   {
+    "title": "Navigating 2026 Compliance: CMMC, SOC 2, HIPAA Updates",
+    "slug": "2026-08-17-navigating-2026-compliance-cmmc-soc-2-hipaa-updates",
+    "date": "2026-08-17",
+    "excerpt": "The regulatory environment is shifting rapidly, demanding a proactive approach from IT and security leaders. Learn about the latest changes to CMMC 2.0, SOC 2 Type II, and HIPAA, and discover strategies to navigate increased audit scrutiny and enforcement in 2026.",
+    "tags": [
+      "CMMC",
+      "SOC 2",
+      "HIPAA",
+      "Compliance",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 724,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1507697364665-69eec30ea71e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxHdWlkaW5nfGVufDF8MHx8fDE3ODY5Nzk3NDZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "person holding red kerosene lantern",
+      "credit": "Jeremy Bishop",
+      "color": "#402626"
+    }
+  },
+  {
+    "title": "Evooo1Bot: New Linux Botnet Turns Edge Devices into Covert SOCKS5 Proxies",
+    "slug": "2026-08-17-evooo1bot-new-linux-botnet-turns-edge-devices-into-covert-socks5-proxies",
+    "date": "2026-08-17",
+    "excerpt": "A new Linux botnet, dubbed Evooo1Bot, is quietly transforming internet-facing edge devices into SOCKS5 proxies. This Mirai-derived threat exploits known vulnerabilities, posing a significant risk to organizational security and compliance.",
+    "tags": [
+      "Linux",
+      "Botnet",
+      "Mirai",
+      "Cybersecurity",
+      "Edge Security",
+      "SOCKS5",
+      "Threat Intelligence",
+      "Vulnerability Management"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 934,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1483706600674-e0c87d3fe85b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaWxlbnR8ZW58MXwwfHx8MTc4Njk3OTcyOHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "grayscale photo of woman doing silent hand sign",
+      "credit": "Kristina Flour",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "AI Misuse: A Chilling Wake-Up Call for IT & Security Teams",
     "slug": "2026-08-16-ai-misuse-chilling-wake-up-call-it-security-teams",
     "date": "2026-08-16",
