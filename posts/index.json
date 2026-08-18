@@ -1,5 +1,29 @@
 [
   {
+    "title": "RubyGems Typosquatting: StubMaker Steals Credentials",
+    "slug": "2026-08-18-rubygems-typosquatting-stubmaker-steals-credentials",
+    "date": "2026-08-18",
+    "excerpt": "The digital supply chain is under constant siege. The latest incident, reported by The Hacker News, reveals a sophisticated typosquatting campaign targeting RubyGems users. Discovered by OpenSourceMalware, 'StubMaker' deploys a Windows-based information stealer, compromising browser credentials and crypto wallets. This attack underscores the critical need for robust supply chain security.",
+    "tags": [
+      "RubyGems",
+      "Typosquatting",
+      "Supply Chain Security",
+      "Information Stealer",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 692,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1740817747878-1a9d2f89d420?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxicm9rZW4lMjBkaWdpdGFsJTIwdHJ1c3R8ZW58MXwwfHx8MTc4NzA2NjQyM3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A wooden block spelling trust on a table",
+      "credit": "Markus Winkler",
+      "color": "#8c7373"
+    }
+  },
+  {
     "title": "Navigating 2026 Compliance: CMMC, SOC 2, HIPAA Updates",
     "slug": "2026-08-17-navigating-2026-compliance-cmmc-soc-2-hipaa-updates",
     "date": "2026-08-17",
