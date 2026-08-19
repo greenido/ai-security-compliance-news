@@ -1,5 +1,31 @@
 [
   {
+    "title": "Operation CameraSwarm: 14,500+ Dahua Devices Compromised",
+    "slug": "2026-08-19-operation-cameraswarm-dahua-devices-compromised",
+    "date": "2026-08-19",
+    "excerpt": "A recent cybersecurity campaign, dubbed Operation CameraSwarm, has exposed a critical vulnerability in the widespread deployment of IoT devices. Over 14,500 Dahua security cameras and related devices were compromised, highlighting the persistent threats facing enterprise networks.",
+    "tags": [
+      "IoT Security",
+      "Dahua",
+      "Cyberattack",
+      "Credential Stuffing",
+      "Vulnerability Management",
+      "Network Security",
+      "Compliance"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 845,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1565551223391-be988013ee6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxmcmFjdHVyZWR8ZW58MXwwfHx8MTc4NzE1MjgxMHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "orange band aid on concrete surface crack",
+      "credit": "Luis Villasmil",
+      "color": "#404040"
+    }
+  },
+  {
     "title": "RubyGems Typosquatting: StubMaker Steals Credentials",
     "slug": "2026-08-18-rubygems-typosquatting-stubmaker-steals-credentials",
     "date": "2026-08-18",
