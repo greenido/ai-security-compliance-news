@@ -1,5 +1,56 @@
 [
   {
+    "title": "CDN Tsunami: HTTP/3 Amplification Threatens Origin Servers",
+    "slug": "2026-08-20-cdn-tsunami-http3-amplification-threatens-origin-servers",
+    "date": "2026-08-20",
+    "excerpt": "A new wave of denial-of-service (DoS) attacks, dubbed 'CDN Tsunami,' has been uncovered, exploiting a critical vulnerability in how major content delivery networks translate HTTP/3 requests. This novel attack vector can amplify a low-bandwidth request stream by up to 350x, posing a significant threat to backend infrastructure.",
+    "tags": [
+      "DoS Attack",
+      "CDN Security",
+      "HTTP/3",
+      "Cybersecurity",
+      "Network Security"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 799,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1704019483449-57278d210bae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDcnxlbnwxfDB8fHwxNzg3MjM5NDAxfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a black and white photo of two curves",
+      "credit": "POOYAST .",
+      "color": "#262626"
+    }
+  },
+  {
+    "title": "ToxicPanda 2.0: The Evolving Android Banking Malware Threat",
+    "slug": "2026-08-20-toxicpanda-2-0-evolving-android-banking-malware-threat",
+    "date": "2026-08-20",
+    "excerpt": "The digital battleground intensifies as cybersecurity researchers reveal significant enhancements to ToxicPanda, also known as TgToxic, and the emergence of GoldDigger. This updated Android banking malware now features a staggering 167 remote commands and sophisticated PIN harvesting, posing a direct threat to over 140 banking and cryptocurrency applications globally.",
+    "tags": [
+      "Android Security",
+      "Mobile Malware",
+      "Banking Trojans",
+      "Cybersecurity",
+      "On-Device Fraud",
+      "Threat Intelligence",
+      "Compliance"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 762,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc4NzIzOTM4OHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "Operation CameraSwarm: 14,500+ Dahua Devices Compromised",
     "slug": "2026-08-19-operation-cameraswarm-dahua-devices-compromised",
     "date": "2026-08-19",
