@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI Integration: Enhancing Cybersecurity Operations for IT Pros",
+    "slug": "2026-08-21-ai-integration-enhancing-cybersecurity-operations-for-it-pros",
+    "date": "2026-08-21",
+    "excerpt": "Artificial Intelligence is no longer just a buzzword; it's a critical tool reshaping cybersecurity. For IT professionals, security teams, and compliance officers, understanding AI's role in enhancing SOC workflows is paramount for future-proofing defenses.",
+    "tags": [
+      "AI in Cybersecurity",
+      "SOC Automation",
+      "Threat Detection",
+      "Incident Response",
+      "Security Operations"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 622,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1752652011885-b0d36aeb3047?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxEaWdpdGFsJTIwR3VhcmRpYW58ZW58MXwwfHx8MTc4NzMyNTc2MHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Mom and daughter read on a tablet together",
+      "credit": "Vitaly Gariev",
+      "color": "#c0c0c0"
+    }
+  },
+  {
     "title": "CDN Tsunami: HTTP/3 Amplification Threatens Origin Servers",
     "slug": "2026-08-20-cdn-tsunami-http3-amplification-threatens-origin-servers",
     "date": "2026-08-20",
