@@ -1,5 +1,29 @@
 [
   {
+    "title": "Vehicle Vulnerability: Android Car Units Hijacked by Malware",
+    "slug": "2026-08-22-vehicle-vulnerability-android-car-units-hijacked-by-malware",
+    "date": "2026-08-22",
+    "excerpt": "The convergence of automotive and digital technology has brought convenience, but also new attack vectors. Cybersecurity researchers have uncovered a new malware family targeting Android-based vehicle head units, turning cars into unwitting participants in ad fraud and proxy botnets.",
+    "tags": [
+      "Automotive Security",
+      "Android Malware",
+      "IoT Security",
+      "Supply Chain Risk",
+      "Botnets"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 857,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxkYXJrfGVufDF8MHx8fDE3ODc0MTE0MDN8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of mountain",
+      "credit": "Elliott Engelmann",
+      "color": "#0c2626"
+    }
+  },
+  {
     "title": "AI Integration: Enhancing Cybersecurity Operations for IT Pros",
     "slug": "2026-08-21-ai-integration-enhancing-cybersecurity-operations-for-it-pros",
     "date": "2026-08-21",

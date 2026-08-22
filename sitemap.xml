@@ -1146,4 +1146,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-22-vehicle-vulnerability-android-car-units-hijacked-by-malware.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
