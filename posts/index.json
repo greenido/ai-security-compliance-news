@@ -1,5 +1,29 @@
 [
   {
+    "title": "Android Car Malware Hijacks Updaters for Ad Fraud, Botnets",
+    "slug": "2026-08-23-android-car-malware-hijacks-updaters-for-ad-fraud-botnets",
+    "date": "2026-08-23",
+    "excerpt": "Cybersecurity researchers have uncovered a sophisticated new malware targeting Android-based vehicle head units. This threat exploits built-in updaters to establish ad fraud schemes and build proxy botnets, posing significant risks to automotive security and data integrity.",
+    "tags": [
+      "Android Security",
+      "Automotive Cybersecurity",
+      "Malware",
+      "Ad Fraud",
+      "Botnet"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 839,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1508935620299-047e0e35fbe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxCcm9rZW58ZW58MXwwfHx8MTc4NzQ5NzkwMHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "top view photography of broken ceramic plate",
+      "credit": "CHUTTERSNAP",
+      "color": "#8c8c8c"
+    }
+  },
+  {
     "title": "Vehicle Vulnerability: Android Car Units Hijacked by Malware",
     "slug": "2026-08-22-vehicle-vulnerability-android-car-units-hijacked-by-malware",
     "date": "2026-08-22",
