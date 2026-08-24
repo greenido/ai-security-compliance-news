@@ -1,5 +1,53 @@
 [
   {
+    "title": "Compliance Frameworks 2026: Navigating Evolving Regulations",
+    "slug": "2026-08-24-compliance-frameworks-2026-navigating-evolving-regulations",
+    "date": "2026-08-24",
+    "excerpt": "The regulatory landscape for IT and security is shifting rapidly. With CMMC 2.0, SOC 2 Type II, and HIPAA facing significant updates, understanding the new audit expectations and tighter timelines is crucial for compliance officers and IT leaders.",
+    "tags": [
+      "CMMC 2.0",
+      "SOC 2",
+      "HIPAA",
+      "Compliance Automation",
+      "Cybersecurity Regulations"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 856,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1641309623097-c305ba71ec7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxFfGVufDF8MHx8fDE3ODc1ODUyOTd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a small yellow and black robot on a black surface",
+      "credit": "Arturo Esparza",
+      "color": "#262626"
+    }
+  },
+  {
+    "title": "New Malware Loaders Threaten Enterprise: WordlistLoader & SynkLoader",
+    "slug": "2026-08-24-new-malware-loaders-threaten-enterprise-wordlistloader-synkloader",
+    "date": "2026-08-24",
+    "excerpt": "The cybersecurity landscape is constantly shifting, and two new malware families, WordlistLoader and SynkLoader, are making waves. These sophisticated loaders are designed to deliver next-stage payloads and phish critical credentials, posing a significant threat to enterprise environments.",
+    "tags": [
+      "malware",
+      "cybersecurity",
+      "initial access brokers",
+      "infostealer",
+      "phishing"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 806,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1767481732747-7907f05e1c12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxTaGFkb3d5JTIwZGlnaXRhbHxlbnwxfDB8fHwxNzg3NTg1Mjc2fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Pink translucent 3D text on dark background",
+      "credit": "Logan Voss",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Android Car Malware Hijacks Updaters for Ad Fraud, Botnets",
     "slug": "2026-08-23-android-car-malware-hijacks-updaters-for-ad-fraud-botnets",
     "date": "2026-08-23",
