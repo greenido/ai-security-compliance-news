@@ -1,5 +1,30 @@
 [
   {
+    "title": "NPM Packages Weaponize unpkg for Phishing: Supply Chain Alert",
+    "slug": "2026-08-25-npm-packages-weaponize-unpkg-for-phishing-supply-chain-alert",
+    "date": "2026-08-25",
+    "excerpt": "Cybersecurity researchers have uncovered a new phishing campaign leveraging 24 npm packages to host fake Cloudflare CAPTCHA pages via unpkg mirrors. This sophisticated attack highlights a growing threat to the software supply chain, impacting both developers and end-users.",
+    "tags": [
+      "npm security",
+      "supply chain attack",
+      "phishing",
+      "unpkg abuse",
+      "developer security"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 771,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1579458342405-52d7d969e0d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxCcm9rZW4lMjBjaGFpbiUyMGRhcmt8ZW58MXwwfHx8MTc4NzY3MTk5Nnww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "grey metal chain in close up photography",
+      "credit": "Aida B",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "Compliance Frameworks 2026: Navigating Evolving Regulations",
     "slug": "2026-08-24-compliance-frameworks-2026-navigating-evolving-regulations",
     "date": "2026-08-24",
