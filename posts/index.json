@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI Voice Phishing: The New Frontier in Apple Device Theft",
+    "slug": "2026-08-26-ai-voice-phishing-new-apple-device-threat",
+    "date": "2026-08-26",
+    "excerpt": "A sophisticated phishing-as-a-service platform, AnonyMousKIT, is leveraging AI voice agents to trick victims into revealing sensitive Apple device credentials. This alarming development underscores a new frontier in social engineering, directly threatening device security and user trust.",
+    "tags": [
+      "AI",
+      "Phishing",
+      "Social Engineering",
+      "Cybersecurity",
+      "Device Security"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 793,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1765174638388-13bbe118378a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxXaGlzcGVyaW5nJTIwZGlnaXRhbHxlbnwxfDB8fHwxNzg3NzYwNTQ0fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Delicate purple wildflowers bloom against a green background",
+      "credit": "Mustafa akın",
+      "color": "#738c26"
+    }
+  },
+  {
     "title": "NPM Packages Weaponize unpkg for Phishing: Supply Chain Alert",
     "slug": "2026-08-25-npm-packages-weaponize-unpkg-for-phishing-supply-chain-alert",
     "date": "2026-08-25",
