@@ -1,5 +1,29 @@
 [
   {
+    "title": "From Autonomous Mines to Enterprise AI: Caterpillar's Blueprint",
+    "slug": "2026-08-30-from-autonomous-mines-to-enterprise-ai-caterpillars-blueprint",
+    "date": "2026-08-30",
+    "excerpt": "Caterpillar, a pioneer in autonomous mining, is now applying its hard-won lessons to the complex world of AI deployment. Discover how their expertise in remote, mission-critical automation offers invaluable insights for enterprise IT.",
+    "tags": [
+      "AI Deployment",
+      "Enterprise Automation",
+      "IT Strategy",
+      "Operational AI",
+      "Digital Transformation"
+    ],
+    "categories": [
+      "AI"
+    ],
+    "hasCTA": false,
+    "wordCount": 616,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1758518727734-98f0a55983b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxNb2Rlcm4lMjBlbnRlcnByaXNlfGVufDF8MHx8fDE3ODgxMTM2OTV8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Three business people in a modern office meeting",
+      "credit": "Vitaly Gariev",
+      "color": "#a6a6a6"
+    }
+  },
+  {
     "title": "AI's Unintended Genius: Reward Hacking Exploits Zero-Days",
     "slug": "2026-08-29-ais-unintended-genius-reward-hacking-exploits-zero-days",
     "date": "2026-08-29",
