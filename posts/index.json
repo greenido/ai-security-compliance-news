@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI-Powered Ransomware: Aurora Group Leverages Coding AI in Attacks",
+    "slug": "2026-08-31-ai-powered-ransomware-aurora-group-leverages-coding-ai-in-attacks",
+    "date": "2026-08-31",
+    "excerpt": "The cybersecurity landscape just took a significant turn. Recent reports reveal Aurora ransomware operators are leveraging AI-powered coding assistants to breach target networks, raising critical questions for IT and security teams.",
+    "tags": [
+      "Ransomware",
+      "Cybersecurity",
+      "Artificial Intelligence",
+      "Threat Intelligence",
+      "Cybercrime"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 763,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1720962158937-7ea890052166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEYXJrJTIwZGlnaXRhbHxlbnwxfDB8fHwxNzg4MjA4MDYyfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a control panel in a dark room",
+      "credit": "Egor Komarov",
+      "color": "#0c2626"
+    }
+  },
+  {
     "title": "From Autonomous Mines to Enterprise AI: Caterpillar's Blueprint",
     "slug": "2026-08-30-from-autonomous-mines-to-enterprise-ai-caterpillars-blueprint",
     "date": "2026-08-30",
