@@ -1212,4 +1212,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-02-streamrat-android-trojan-new-level-mobile-device-takeover.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-02-jfrog-artifactory-flaw-race-from-patch-to-exploit.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

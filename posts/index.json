@@ -1,5 +1,55 @@
 [
   {
+    "title": "JFrog Artifactory Flaw: The Race from Patch to Exploit",
+    "slug": "2026-09-02-jfrog-artifactory-flaw-race-from-patch-to-exploit",
+    "date": "2026-09-02",
+    "excerpt": "The digital clock is ticking, and threat actors are moving fast. A critical vulnerability in JFrog Artifactory, CVE-2026-82329, has moved from disclosure to active exploitation in mere days, putting enterprise software supply chains at risk. This authentication bypass grants administrative access, underscoring the urgency for immediate action.",
+    "tags": [
+      "JFrog Artifactory",
+      "CVE-2026-82329",
+      "Authentication Bypass",
+      "Supply Chain Security",
+      "Critical Vulnerability"
+    ],
+    "categories": [
+      "Security",
+      "Compliance",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 902,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1578923931302-7fd9b3495be7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxUaWNraW5nfGVufDF8MHx8fDE3ODgzNzI4MTJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "clear hour glass",
+      "credit": "Alexandar Todov",
+      "color": "#8c8c8c"
+    }
+  },
+  {
+    "title": "StreamRat Android Trojan: A New Level of Mobile Device Takeover",
+    "slug": "2026-09-02-streamrat-android-trojan-new-level-mobile-device-takeover",
+    "date": "2026-09-02",
+    "excerpt": "A new Android banking trojan, StreamRat, is making headlines after cybersecurity researchers revealed its distribution via deceptive Meta ad campaigns. This sophisticated malware grants attackers near-complete control over infected devices, posing a significant risk to personal and corporate data.",
+    "tags": [
+      "Android Security",
+      "Mobile Malware",
+      "Banking Trojan",
+      "Social Engineering",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 745,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1521193089946-7aa29d1fe776?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d8ZW58MXwwfHx8MTc4ODM3Mjc4OXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a close up view of a white fabric",
+      "credit": "Bernard Hermant",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "AI's New Cyber Vulnerability: GuardBreaker and LLM Manipulation",
     "slug": "2026-09-01-ais-new-cyber-vulnerability-guardbreaker-llm-manipulation",
     "date": "2026-09-01",
