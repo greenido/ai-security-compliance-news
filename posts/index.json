@@ -1,5 +1,29 @@
 [
   {
+    "title": "BraZetsu Malware: The New Frontier of Compromised Host Marketplaces",
+    "slug": "2026-09-03-brazetsu-malware-new-frontier-compromised-host-marketplaces",
+    "date": "2026-09-03",
+    "excerpt": "A new, sophisticated Python-based malware framework, BraZetsu, is redefining how cybercriminals monetize access to compromised Windows systems. Unlike traditional info-stealers, BraZetsu acts as a comprehensive toolkit, empowering Initial Access Brokers to turn your network assets into valuable commodities on underground markets.",
+    "tags": [
+      "BraZetsu",
+      "Malware",
+      "Cybersecurity",
+      "Initial Access Brokers",
+      "Windows Security"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 823,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1639322537228-f710d846310a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxkYXJrJTIwbmV0d29ya3xlbnwxfDB8fHwxNzg4NDU5MTgyfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a group of cubes that are on a black surface",
+      "credit": "Shubham Dhage",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "JFrog Artifactory Flaw: The Race from Patch to Exploit",
     "slug": "2026-09-02-jfrog-artifactory-flaw-race-from-patch-to-exploit",
     "date": "2026-09-02",
