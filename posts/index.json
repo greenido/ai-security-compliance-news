@@ -1,5 +1,30 @@
 [
   {
+    "title": "GPT-6 Astra: A New Era for AI in Cybersecurity?",
+    "slug": "2026-09-04-gpt-6-astra-new-era-ai-cybersecurity",
+    "date": "2026-09-04",
+    "excerpt": "OpenAI has unveiled GPT-6 Astra, touting it as the \"world's most intelligent and aligned model.\" Its unprecedented 100% score on ExploitBench signals a significant shift in AI's role in cybersecurity, prompting critical discussions among IT professionals and security teams.",
+    "tags": [
+      "AI Security",
+      "Cybersecurity",
+      "GPT-6 Astra",
+      "ExploitBench",
+      "OpenAI"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 737,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzg4NTQ0MzkzfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "BraZetsu Malware: The New Frontier of Compromised Host Marketplaces",
     "slug": "2026-09-03-brazetsu-malware-new-frontier-compromised-host-marketplaces",
     "date": "2026-09-03",
