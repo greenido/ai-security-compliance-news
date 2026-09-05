@@ -1,5 +1,30 @@
 [
   {
+    "title": "JetBrains Cadence Breach: Unpatched TeamCity Exposes AWS Credentials",
+    "slug": "2026-09-05-jetbrains-cadence-breach-unpatched-teamcity-exposes-aws-credentials",
+    "date": "2026-09-05",
+    "excerpt": "A critical security incident at JetBrains saw attackers exploit an unpatched TeamCity vulnerability to breach their Cadence environment and extract AWS credentials. This breach is a stark warning for all organizations, highlighting the urgent need for robust patch management and CI/CD pipeline security.",
+    "tags": [
+      "Cloud Security",
+      "CI/CD Security",
+      "Vulnerability Management",
+      "AWS Security",
+      "Incident Response"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 712,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1508935620299-047e0e35fbe3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxCcm9rZW58ZW58MXwwfHx8MTc4ODYyNzYyM3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "top view photography of broken ceramic plate",
+      "credit": "CHUTTERSNAP",
+      "color": "#8c8c8c"
+    }
+  },
+  {
     "title": "GPT-6 Astra: A New Era for AI in Cybersecurity?",
     "slug": "2026-09-04-gpt-6-astra-new-era-ai-cybersecurity",
     "date": "2026-09-04",
