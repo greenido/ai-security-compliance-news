@@ -1,5 +1,31 @@
 [
   {
+    "title": "Unpatched CI/CD: The Ripple Effect of a Supply Chain Breach",
+    "slug": "2026-09-06-unpatched-ci-cd-ripple-effect-supply-chain-breach",
+    "date": "2026-09-06",
+    "excerpt": "A recent security incident at JetBrains, involving a critical vulnerability in their TeamCity CI/CD platform, has exposed AWS credentials for Cadence users. This breach underscores the urgent need for robust patching and proactive security measures within the development pipeline, reminding IT and security professionals of the cascading risks inherent in the software supply chain.",
+    "tags": [
+      "CI/CD Security",
+      "Supply Chain Attack",
+      "Cloud Security",
+      "Credential Management",
+      "Vulnerability Management",
+      "DevOps Security"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 686,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1448230204147-dfb53161b565?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxVbnJhdmVsaW5nfGVufDF8MHx8fDE3ODg3MTU0NTB8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "selective focus photography of brown rope",
+      "credit": "Josh Johnson",
+      "color": "#c0a68c"
+    }
+  },
+  {
     "title": "JetBrains Cadence Breach: Unpatched TeamCity Exposes AWS Credentials",
     "slug": "2026-09-05-jetbrains-cadence-breach-unpatched-teamcity-exposes-aws-credentials",
     "date": "2026-09-05",
