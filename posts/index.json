@@ -1,5 +1,32 @@
 [
   {
+    "title": "AI-Powered SOC: Revolutionizing Cybersecurity & Compliance",
+    "slug": "2026-09-07-ai-powered-soc-revolutionizing-cybersecurity-compliance",
+    "date": "2026-09-07",
+    "excerpt": "The modern SOC faces an overwhelming barrage of alerts and sophisticated threats. AI is emerging as a critical force multiplier, capable of sifting through noise, identifying subtle anomalies, and automating responses. This evolution promises to build more resilient and efficient defense mechanisms.",
+    "tags": [
+      "AI",
+      "Cybersecurity",
+      "SOC",
+      "Compliance",
+      "Threat Detection",
+      "Incident Response"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 701,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzg4ODA3MzAzfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "Unpatched CI/CD: The Ripple Effect of a Supply Chain Breach",
     "slug": "2026-09-06-unpatched-ci-cd-ripple-effect-supply-chain-breach",
     "date": "2026-09-06",
