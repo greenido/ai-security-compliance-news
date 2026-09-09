@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI IP Under Siege: U.S. Agencies Unmask Model Distillation Threats",
+    "slug": "2026-09-09-ai-ip-under-siege-model-distillation",
+    "date": "2026-09-09",
+    "excerpt": "A new front has opened in the global tech race. U.S. cybersecurity and intelligence agencies accuse China-based AI firms of 'systematic extraction' of proprietary AI capabilities through distillation attacks. This industrial-scale activity poses significant challenges for IP protection and national security.",
+    "tags": [
+      "AI Security",
+      "Intellectual Property",
+      "Cyber Espionage",
+      "National Security",
+      "AI Governance"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 880,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzg4OTc3MzA1fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "AI's Dark Side: Autonomous Agents Unleash Rapid Credential Theft",
     "slug": "2026-09-08-ai-dark-side-autonomous-agents-rapid-credential-theft",
     "date": "2026-09-08",
