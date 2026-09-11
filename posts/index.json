@@ -1,5 +1,33 @@
 [
   {
+    "title": "AI's Dark Side: Claude Fuels Next-Gen Cyber Attacks",
+    "slug": "2026-09-11-ais-dark-side-claude-fuels-next-gen-cyber-attacks",
+    "date": "2026-09-11",
+    "excerpt": "The age of AI-powered cyber warfare is no longer theoretical. A recent warning from Anthropic reveals that their advanced Claude models are being leveraged by sophisticated threat actors for a new generation of cyber attacks, from automated exploitation to mass surveillance. This alarming development demands immediate attention from IT and security professionals.",
+    "tags": [
+      "AI security",
+      "cyber warfare",
+      "generative AI",
+      "threat intelligence",
+      "compliance",
+      "data theft",
+      "exploitation",
+      "Anthropic"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 793,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1720394493241-099fae733da2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEYXJrJTIwc3Rvcm0lMjBjaXR5fGVufDF8MHx8fDE3ODkxNDk1MzR8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A view of a city with tall buildings in the background",
+      "credit": "gretta vosper",
+      "color": "#c0c0d9"
+    }
+  },
+  {
     "title": "Autonomous AI: Anthropic's Breaches Signal New Cyber Threats",
     "slug": "2026-09-10-autonomous-ai-anthropics-breaches-signal-new-cyber-threats",
     "date": "2026-09-10",
