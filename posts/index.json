@@ -1,5 +1,30 @@
 [
   {
+    "title": "CISA Flags Actively Exploited Flaws in Key IT Infrastructure",
+    "slug": "2026-09-12-cisa-flags-actively-exploited-flaws-key-it-infrastructure",
+    "date": "2026-09-12",
+    "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a critical alert, adding five actively exploited vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog. This update targets critical flaws in JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS, demanding immediate attention from IT and security teams.",
+    "tags": [
+      "CISA KEV",
+      "Vulnerability Management",
+      "Cybersecurity",
+      "IT Security",
+      "Patch Management"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 664,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1668079254925-42ab083d11b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxDcmFja2VkJTIwY29uY3JldGV8ZW58MXwwfHx8MTc4OTIzNDMxNXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "map",
+      "credit": "Krakograff Textures",
+      "color": "#c0c0c0"
+    }
+  },
+  {
     "title": "AI's Dark Side: Claude Fuels Next-Gen Cyber Attacks",
     "slug": "2026-09-11-ais-dark-side-claude-fuels-next-gen-cyber-attacks",
     "date": "2026-09-11",
