@@ -1,5 +1,31 @@
 [
   {
+    "title": "The New Phishing Frontier: Passkeys Target Microsoft Cloud",
+    "slug": "2026-09-13-the-new-phishing-frontier-passkeys-target-microsoft-cloud",
+    "date": "2026-09-13",
+    "excerpt": "The cyber threat landscape is evolving rapidly, with new attack vectors emerging to bypass traditional defenses. Recent reports detail how sophisticated passkey phishing campaigns are successfully compromising Microsoft cloud environments, leading to significant data exfiltration. This new frontier in social engineering demands immediate attention from IT and security teams.",
+    "tags": [
+      "Cybersecurity",
+      "Phishing",
+      "Passkeys",
+      "Microsoft Cloud",
+      "Account Security",
+      "Data Protection"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 843,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc4OTMyMTYyMXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "CISA Flags Actively Exploited Flaws in Key IT Infrastructure",
     "slug": "2026-09-12-cisa-flags-actively-exploited-flaws-key-it-infrastructure",
     "date": "2026-09-12",
