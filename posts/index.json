@@ -1,5 +1,29 @@
 [
   {
+    "title": "Gitea RCE Exploited: Red Heron's Multi-National Campaign",
+    "slug": "2026-09-14-gitea-rce-exploited-red-herons-multi-national-campaign",
+    "date": "2026-09-14",
+    "excerpt": "A critical remote code execution vulnerability in Gitea has become the latest weapon in the arsenal of the suspected Chinese threat actor, Red Heron. This multi-national campaign has already impacted numerous organizations, highlighting the urgent need for robust security postures.",
+    "tags": [
+      "Gitea",
+      "RCE",
+      "Red Heron",
+      "Cybersecurity",
+      "Threat Actor"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 664,
+    "heroImage": {
+      "url": "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxSZWR8ZW58MXwwfHx8MTc4OTQxNDg0MXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A solid vibrant red background with a smooth texture",
+      "credit": "James Lee",
+      "color": "#a60c0c"
+    }
+  },
+  {
     "title": "The New Phishing Frontier: Passkeys Target Microsoft Cloud",
     "slug": "2026-09-13-the-new-phishing-frontier-passkeys-target-microsoft-cloud",
     "date": "2026-09-13",
