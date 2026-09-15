@@ -1,5 +1,54 @@
 [
   {
+    "title": "Navigating 2026 Compliance: CMMC, SOC 2, HIPAA Evolve",
+    "slug": "2026-09-15-navigating-2026-compliance-cmmc-soc-2-hipaa-evolve",
+    "date": "2026-09-15",
+    "excerpt": "The regulatory landscape is shifting dramatically in 2026, presenting new challenges for IT and security teams. CMMC 2.0, SOC 2 Type II, and HIPAA updates demand proactive strategies and a deep understanding of evolving requirements. Learn how to navigate these critical changes to ensure your organization's compliance and resilience.",
+    "tags": [
+      "compliance",
+      "cybersecurity",
+      "CMMC",
+      "SOC 2",
+      "HIPAA",
+      "regulatory",
+      "IT security",
+      "data privacy",
+      "2026 updates",
+      "audit readiness"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 693
+  },
+  {
+    "title": "Human Speed, AI Threat: Marimo RCE to Bastion in 8 Seconds",
+    "slug": "2026-09-15-human-speed-ai-threat-marimo-rce-bastion-8-seconds",
+    "date": "2026-09-15",
+    "excerpt": "While AI accelerates vulnerability exploitation, a recent incident reveals skilled human operators can move with terrifying speed post-initial access. A Marimo notebook RCE led to an SSH bastion compromise in mere seconds, underscoring the critical need for instant detection and response.",
+    "tags": [
+      "Cloud Security",
+      "Cyber Attack",
+      "RCE",
+      "Threat Detection",
+      "Incident Response"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 760,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxCbHVyfGVufDF8MHx8fDE3ODk0OTcyNjB8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blurry image of a blue and pink background",
+      "credit": "Mohammad Alizade",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Gitea RCE Exploited: Red Heron's Multi-National Campaign",
     "slug": "2026-09-14-gitea-rce-exploited-red-herons-multi-national-campaign",
     "date": "2026-09-14",
