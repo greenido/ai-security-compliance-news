@@ -1,5 +1,33 @@
 [
   {
+    "title": "Agentic AI: The Next Frontier in Enterprise Security & Compliance",
+    "slug": "2026-09-17-agentic-ai-next-frontier-enterprise-security-compliance",
+    "date": "2026-09-17",
+    "excerpt": "The escalating complexity of regulations and cyber threats demands a new approach. Agentic AI is emerging as a game-changer, promising autonomous, proactive solutions for enterprise security and compliance. Recent funding highlights its growing importance.",
+    "tags": [
+      "Agentic AI",
+      "Cybersecurity",
+      "Compliance",
+      "GRC",
+      "AI in Security",
+      "Enterprise AI",
+      "Automation"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 833,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1677980936336-2432094837f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxBc2NlbnNpb258ZW58MXwwfHx8MTc4OTY3MDQzOXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a very large ice formation in the middle of a mountain",
+      "credit": "Florian Delée",
+      "color": "#738ca6"
+    }
+  },
+  {
     "title": "Triple Threat: New APTs Target Russian Enterprises with Wipers",
     "slug": "2026-09-16-triple-threat-new-apts-target-russian-enterprises-with-wipers",
     "date": "2026-09-16",
