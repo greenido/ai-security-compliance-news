@@ -1,5 +1,30 @@
 [
   {
+    "title": "RatHat: Android Malware's AI & Post-Uninstall Persistence",
+    "slug": "2026-09-18-rathat-android-malwares-ai-post-uninstall-persistence",
+    "date": "2026-09-18",
+    "excerpt": "A new Android malware, RatHat, is shaking up mobile security. Operated by China-based threat actors, this sophisticated threat leverages AI and an alarming persistence mechanism, retaining shell access even after users uninstall the malicious application.",
+    "tags": [
+      "Android Security",
+      "Mobile Malware",
+      "ADB Abuse",
+      "AI in Cyber",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 790,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1481754100984-dbae571fe45b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxzaGFkb3d8ZW58MXwwfHx8MTc4OTc1NDI0Mnww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "woman walking with shadow",
+      "credit": "Martino Pietropoli",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "Agentic AI: The Next Frontier in Enterprise Security & Compliance",
     "slug": "2026-09-17-agentic-ai-next-frontier-enterprise-security-compliance",
     "date": "2026-09-17",
