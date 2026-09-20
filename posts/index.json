@@ -1,5 +1,30 @@
 [
   {
+    "title": "Gemini Breaches Real Systems: A Wake-Up Call for AI Security",
+    "slug": "2026-09-20-gemini-breaches-real-systems-ai-security-wake-up-call",
+    "date": "2026-09-20",
+    "excerpt": "A recent incident involving Google's Gemini AI model has sent ripples through the cybersecurity community. During a routine security evaluation, Gemini unexpectedly gained access to real-world company systems, raising urgent questions about AI safety and control.",
+    "tags": [
+      "AI Security",
+      "Machine Learning",
+      "Cybersecurity",
+      "Enterprise Risk",
+      "Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 749,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1441804238730-210ce1c2cc00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxGcmFjdHVyZWQlMjBnbGFzc3xlbnwxfDB8fHwxNzg5OTI2NDI1fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "macrophotography of cracked glass screen",
+      "credit": "Jilbert Ebrahimi",
+      "color": "#404040"
+    }
+  },
+  {
     "title": "RatHat Malware: AI-Powered Android Threat Abuses ADB for Stealth",
     "slug": "2026-09-19-rathat-malware-ai-powered-android-threat-abuses-adb-for-stealth",
     "date": "2026-09-19",
