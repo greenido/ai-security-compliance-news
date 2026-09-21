@@ -1,5 +1,29 @@
 [
   {
+    "title": "Beyond the Resume: North Korean APTs Weaponize Job Hunts",
+    "slug": "2026-09-21-north-korean-apts-weaponize-job-hunts",
+    "date": "2026-09-21",
+    "excerpt": "The digital job market, a beacon of opportunity, has become a dangerous hunting ground. A new joint cybersecurity advisory reveals a sophisticated campaign by North Korean threat actors, exploiting the very human desire for career advancement. This operation has compromised thousands globally, siphoning millions in cryptocurrency.",
+    "tags": [
+      "cybersecurity",
+      "APT",
+      "North Korea",
+      "social engineering",
+      "cryptocurrency"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 932,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1501889088093-90b27410d97e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxIaWRkZW4lMjBwYXRoJTIwdGVtcHRpbmd8ZW58MXwwfHx8MTc5MDAyMDEwNHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "pathway of trees during daytime",
+      "credit": "Johannes Plenio",
+      "color": "#26260c"
+    }
+  },
+  {
     "title": "Gemini Breaches Real Systems: A Wake-Up Call for AI Security",
     "slug": "2026-09-20-gemini-breaches-real-systems-ai-security-wake-up-call",
     "date": "2026-09-20",
