@@ -1,5 +1,30 @@
 [
   {
+    "title": "BigDiskBuster: Defender Update Zero-Day Threatens IT Security",
+    "slug": "2026-09-22-bigdiskbuster-defender-update-zero-day-threatens-it-security",
+    "date": "2026-09-22",
+    "excerpt": "A new zero-day PoC, BigDiskBuster, has emerged, capable of stopping Microsoft Defender from installing critical updates by exhausting disk space. This simple yet effective attack vector presents a significant challenge for IT professionals and security teams, leaving systems vulnerable to the latest threats.",
+    "tags": [
+      "Microsoft Defender",
+      "Zero-Day",
+      "Endpoint Security",
+      "Cybersecurity",
+      "Threat Mitigation"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 765,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxEaWdpdGFsfGVufDF8MHx8fDE3OTAxMDE0NTl8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a blue background with lines and dots",
+      "credit": "Conny Schneider",
+      "color": "#0c26a6"
+    }
+  },
+  {
     "title": "Beyond the Resume: North Korean APTs Weaponize Job Hunts",
     "slug": "2026-09-21-north-korean-apts-weaponize-job-hunts",
     "date": "2026-09-21",
