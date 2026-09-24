@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terraform Supply Chain Under Attack: Malicious Providers Emerge — AI Security and Compliance News</title>
+  <meta name="description" content="Attackers are now using HashiCorp's registry to distribute Go malware via malicious Terraform providers. Learn why this supply chain attack matters for IaC security.">
+  <meta name="keywords" content="Security, Cybersecurity, Terraform, HashiCorp, Supply Chain Attack, Malware, GoLang, IaC">
+  <meta name="author" content="AI Security &amp; Compliance Desk">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Terraform Supply Chain Under Attack: Malicious Providers Emerge">
+  <meta property="og:description" content="Attackers are now using HashiCorp's registry to distribute Go malware via malicious Terraform providers. Learn why this supply chain attack matters for IaC security.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://greenido.github.io/ai-security-compliance-news/posts/2026-09-24-terraform-supply-chain-under-attack-malicious-providers-emerge.html">
+  <meta property="og:site_name" content="AI Security and Compliance News">
+  <meta property="article:published_time" content="2026-09-24">
+  <meta property="article:author" content="AI Security &amp; Compliance Desk">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1765408217270-76e94ff54a5f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDb3JydXB0ZWQlMjBkaWdpdGFsfGVufDF8MHx8fDE3OTAyNzU0NjZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080">
+  <meta property="og:image:width" content="3462">
+  <meta property="og:image:height" content="1880">
+  <meta property="article:tag" content="Security">
+  <meta property="article:tag" content="Cybersecurity">
+  <meta property="article:tag" content="Terraform">
+  <meta property="article:tag" content="HashiCorp">
+  <meta property="article:tag" content="Supply Chain Attack">
+  <meta property="article:tag" content="Malware">
+  <meta property="article:tag" content="GoLang">
+  <meta property="article:tag" content="IaC">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Terraform Supply Chain Under Attack: Malicious Providers Emerge">
+  <meta name="twitter:description" content="Attackers are now using HashiCorp's registry to distribute Go malware via malicious Terraform providers. Learn why this supply chain attack matters for IaC security.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1765408217270-76e94ff54a5f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDb3JydXB0ZWQlMjBkaWdpdGFsfGVufDF8MHx8fDE3OTAyNzU0NjZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Terraform Supply Chain Under Attack: Malicious Providers Emerge",
+  "description": "Attackers are now using HashiCorp's registry to distribute Go malware via malicious Terraform providers. Learn why this supply chain attack matters for IaC security.",
+  "image": "https://images.unsplash.com/photo-1765408217270-76e94ff54a5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDb3JydXB0ZWQlMjBkaWdpdGFsfGVufDF8MHx8fDE3OTAyNzU0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "datePublished": "2026-09-24",
+  "dateModified": "2026-09-24",
+  "author": {
+    "@type": "Person",
+    "name": "AI Security & Compliance Desk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI Security and Compliance News"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://greenido.github.io/ai-security-compliance-news/posts/2026-09-24-terraform-supply-chain-under-attack-malicious-providers-emerge.html"
+  },
+  "keywords": "Security, Cybersecurity, Terraform, HashiCorp, Supply Chain Attack, Malware, GoLang, IaC"
+}
+  </script>
+
+  <link rel="canonical" href="https://greenido.github.io/ai-security-compliance-news/posts/2026-09-24-terraform-supply-chain-under-attack-malicious-providers-emerge.html">
+  <link rel="alternate" type="application/rss+xml" title="AI Security and Compliance News" href="https://greenido.github.io/ai-security-compliance-news/feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tailwind.css">
+</head>
+<body class="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-3 sm:py-0 sm:h-16 gap-2 sm:gap-0">
+        <a href="../index.html" class="flex items-center gap-2 sm:gap-3 group">
+          <div class="w-8 h-8 sm:w-9 sm:h-9 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-xs sm:text-sm group-hover:bg-brand-700 transition-colors shrink-0">AI</div>
+          <span class="text-base sm:text-lg font-bold tracking-tight leading-tight">AI Security &amp; Compliance <span class="text-brand-600">News</span></span>
+        </a>
+        <nav class="flex items-center gap-4 sm:gap-6">
+          <a href="../index.html" class="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a>
+          <a href="../about.html" class="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors">About</a>
+          <button id="theme-toggle" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle dark mode">
+            <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+            <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Article -->
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <a href="../index.html" class="inline-flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-400 transition-colors mb-8">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+      Back to all posts
+    </a>
+
+    <article>
+      <header class="mb-8">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="inline-block px-2.5 py-0.5 text-xs font-semibold rounded-full bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300">Security</span>
+          <span class="text-sm text-gray-400">4 min read</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-bold tracking-tight leading-tight mb-4">Terraform Supply Chain Under Attack: Malicious Providers Emerge</h1>
+        <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+          <span>By <strong class="text-gray-700 dark:text-gray-300">AI Security &amp; Compliance Desk</strong></span>
+          <time datetime="2026-09-24">September 24, 2026</time>
+        </div>
+        <p class="mt-3 text-xs text-gray-400">Source: <a href="https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html" target="_blank" rel="noopener" class="hover:underline">The Hacker News</a></p>
+      </header>
+
+      <figure class="mb-10 -mx-4 sm:mx-0">
+        <div class="relative overflow-hidden rounded-none sm:rounded-xl" style="background-color: #c0a6a6">
+          <img
+            src="https://images.unsplash.com/photo-1765408217270-76e94ff54a5f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDb3JydXB0ZWQlMjBkaWdpdGFsfGVufDF8MHx8fDE3OTAyNzU0NjZ8MA&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
+            alt="Abstract geometric shapes in dark space"
+            width="3462"
+            height="1880"
+            loading="eager"
+            class="w-full h-auto max-h-[420px] object-cover"
+          >
+        </div>
+        <figcaption class="mt-2 px-4 sm:px-0 text-xs text-gray-400 dark:text-gray-500 flex items-center gap-1">
+          Photo by <a href="https://unsplash.com/@egorkomarov?utm_source=ai_security_blog&amp;utm_medium=referral" target="_blank" rel="noopener" class="underline hover:text-gray-600 dark:hover:text-gray-300">Egor Komarov</a>
+          on <a href="https://unsplash.com/photos/abstract-geometric-shapes-in-dark-space-MJ4BcbhXwL0?utm_source=ai_security_blog&amp;utm_medium=referral" target="_blank" rel="noopener" class="underline hover:text-gray-600 dark:hover:text-gray-300">Unsplash</a>
+        </figcaption>
+      </figure>
+
+      <div class="post-content font-serif text-lg text-gray-800 dark:text-gray-200">
+        <p>For years, the promise of Infrastructure-as-Code (IaC) has been built on a foundation of trust: trust in code, trust in automation, and crucially, trust in the registries that host the components we use to build our digital worlds. But what happens when that trust is fundamentally betrayed? What happens when the very repositories designed to streamline deployment become conduits for compromise?</p><p>A recent disclosure from cybersecurity researchers reveals a concerning new frontier in software supply chain attacks. As reported by <a href="https://thehackernews.com/2026/09/attackers-use-malicious-terraform-providers-to-deliver-go-malware-via-hashicorp-registry.html" target="_blank" rel="noopener noreferrer">The Hacker News</a>, threat actors have begun leveraging HashiCorp's centralized registry – a trusted source for Terraform providers and Go modules – to distribute Go-based malware. This isn't merely an isolated incident; it marks the first documented instance of malicious payloads being distributed through this critical infrastructure, posing a significant challenge for IT professionals, security teams, and compliance officers alike.</p><h2>A New Frontier for Supply Chain Attacks</h2><p>The details, brought to light by researchers at Aikido, paint a clear picture of a sophisticated attack vector. Threat actors are uploading seemingly legitimate, but in fact malicious, Terraform providers and Go modules to the HashiCorp registry. Once integrated into a user's IaC workflow and executed, these components deliver Go-based malware. The implications are profound: instead of breaching a perimeter, attackers are now embedding themselves directly into the foundational layers of our infrastructure, using the very tools designed for automation and efficiency against us.</p><p>Aikido's findings specifically highlighted two malicious Terraform providers and Go modules: <code>gocommunity-io/dockerd</code> (which astonishingly saw 222 downloads before detection) and <code>kreuzwenker/</code>. While the specific capabilities of the Go malware aren't fully detailed in the summary, such payloads typically aim for persistent access, data exfiltration, or the establishment of backdoors within compromised environments. This method bypasses many traditional security controls, as the malicious code is introduced via a trusted source and executed by legitimate IaC tools.</p><h2>Why This Matters: Erosion of Trust in IaC Ecosystems</h2><p>This development represents a critical escalation in the ongoing battle for software supply chain security. For IT professionals, it means that even meticulously crafted IaC templates could unknowingly introduce vulnerabilities. The convenience of pulling modules from a public registry now carries an inherent risk that must be proactively managed.</p><p>Security teams face the daunting task of extending their vigilance beyond application code and traditional network perimeters. They must now scrutinize the integrity of every component within their IaC ecosystem, from the initial provider download to its runtime behavior. The challenge is compounded by the fact that these attacks leverage legitimate platforms, making detection difficult without specialized tools and processes.</p><p>For compliance officers, the implications are equally severe. A compromised IaC pipeline can lead to unauthorized changes, data breaches, and system outages, all of which can result in significant regulatory non-compliance fines and reputational damage. Ensuring the integrity and provenance of all deployed infrastructure components becomes a paramount concern for maintaining an auditable and secure posture.</p><h2>Fortifying Your IaC Supply Chain</h2><p>Given this evolving threat landscape, a proactive and multi-layered approach to IaC security is no longer optional. Here are critical steps organizations should consider:</p><ul><li><strong>Strict Provider and Module Verification:</strong> Always verify the authenticity and integrity of third-party providers and modules. Prioritize official, well-vetted sources. Implement checksum verification where available and scrutinize provider documentation for inconsistencies.</li><li><strong>Least Privilege for IaC Execution:</strong> Ensure that the environments executing Terraform or other IaC tools operate with the absolute minimum necessary permissions. This limits the potential damage if a malicious provider is inadvertently run.</li><li><strong>Static and Dynamic Analysis:</strong> Integrate static application security testing (SAST) and dynamic analysis into your IaC pipelines. Scan downloaded modules for known vulnerabilities, suspicious patterns, and unexpected behaviors before deployment.</li><li><strong>Dependency Management and Pinning:</strong> Explicitly pin provider and module versions in your IaC configurations to prevent automatic updates to potentially malicious versions. Regularly audit and update dependencies in a controlled manner.</li><li><strong>Network Segmentation and Egress Filtering:</strong> Isolate IaC execution environments and implement strict egress filtering to prevent malicious modules from communicating with unauthorized external command-and-control servers.</li><li><strong>Comprehensive Monitoring and Alerting:</strong> Deploy robust monitoring solutions that can detect anomalous behavior during IaC execution, such as unexpected network connections, file modifications, or process spawns.</li><li><strong>Developer Education:</strong> Continuously educate development and operations teams on the risks of supply chain attacks and best practices for secure IaC development and dependency management.</li></ul><p>The emergence of malicious Terraform providers on HashiCorp's registry is a stark reminder that no part of our digital infrastructure is immune to attack. As our reliance on IaC grows, so too must our commitment to securing its supply chain. By adopting a proactive, vigilant, and comprehensive security strategy, organizations can mitigate these new risks and continue to harness the power of automation with confidence.</p>
+        
+      </div>
+
+      <!-- Tags -->
+      <div class="mt-10 pt-6 border-t border-gray-200 dark:border-gray-800">
+        <div class="flex flex-wrap gap-2">
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Security</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Cybersecurity</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Terraform</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">HashiCorp</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Supply Chain Attack</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Malware</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">GoLang</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">IaC</span>
+        </div>
+      </div>
+
+      <!-- Share -->
+      <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-800">
+        <p class="text-sm font-semibold mb-3">Share this article</p>
+        <div class="flex gap-3">
+          <a href="https://twitter.com/intent/tweet?text=Terraform%20Supply%20Chain%20Under%20Attack%3A%20Malicious%20Providers%20Emerge&url=https%3A%2F%2Fgreenido.github.io%2Fai-security-compliance-news%2Fposts%2F2026-09-24-terraform-supply-chain-under-attack-malicious-providers-emerge.html" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Post
+          </a>
+          <button id="linkedin-share" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span class="li-label">Share on LinkedIn</span>
+          </button>
+          <button onclick="navigator.clipboard.writeText(window.location.href).then(()=>this.textContent='Copied!')" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+            Copy link
+          </button>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid gap-8 sm:grid-cols-3">
+        <div>
+          <div class="flex items-center gap-2 mb-3">
+            <div class="w-7 h-7 bg-brand-600 rounded-md flex items-center justify-center text-white font-bold text-xs">AI</div>
+            <span class="font-bold text-sm">AI Security &amp; Compliance News</span>
+          </div>
+          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">AI-powered news and analysis on cybersecurity, compliance, and IT operations.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">Navigation</h4>
+          <ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+            <li><a href="../index.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a></li>
+            <li><a href="../about.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">About</a></li>
+            <li><a href="https://ido-green.appspot.com/contact.html" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Contact Ido</a></li>
+            <li><a href="https://greenido.wordpress.com" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Ido's Blog</a></li>
+            <li><a href="https://espressolabs.com?utm=aicybersecuritynews" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">EspressoLabs.com</a></li>
+            <li><a href="../feed.xml" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors inline-flex items-center gap-1"><svg class="w-3.5 h-3.5 inline" fill="currentColor" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg> RSS Feed</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">Powered By</h4>
+          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">Content generated by Google AI with people - so it's the best of both worlds. IT &amp; Security solutions by <a href="https://espressolabs.com?utm=aicybersecuritynews" target="_blank" rel="noopener" class="text-brand-600 dark:text-brand-400 hover:underline">Espresso Labs</a>.</p>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-gray-200 dark:border-gray-800 text-center text-xs text-gray-400">
+        &copy; <span id="year"></span> AI Security and Compliance News. Posts are AI-generated and may not reflect the latest information.
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+  <script>
+  (function() {
+    var btn = document.getElementById('linkedin-share');
+    if (!btn) return;
+    var shareText = "Terraform Supply Chain Under Attack: Malicious Providers Emerge\n\nAttackers are now using HashiCorp's registry to distribute Go malware via malicious Terraform providers. Learn why this supply chain attack matters for IaC security.\n\nRead more: https://greenido.github.io/ai-security-compliance-news/posts/2026-09-24-terraform-supply-chain-under-attack-malicious-providers-emerge.html";
+    var shareUrl = "https://greenido.github.io/ai-security-compliance-news/posts/2026-09-24-terraform-supply-chain-under-attack-malicious-providers-emerge.html";
+    btn.addEventListener('click', function() {
+      navigator.clipboard.writeText(shareText).then(function() {
+        var label = btn.querySelector('.li-label');
+        if (label) { label.textContent = 'Copied! Paste in LinkedIn'; }
+        setTimeout(function() { if (label) label.textContent = 'Share on LinkedIn'; }, 3000);
+      });
+      window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(shareUrl), '_blank');
+    });
+  })();
+  </script>
+</body>
+</html>

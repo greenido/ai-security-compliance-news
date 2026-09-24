@@ -1,5 +1,32 @@
 [
   {
+    "title": "Terraform Supply Chain Under Attack: Malicious Providers Emerge",
+    "slug": "2026-09-24-terraform-supply-chain-under-attack-malicious-providers-emerge",
+    "date": "2026-09-24",
+    "excerpt": "The world of Infrastructure-as-Code faces a new threat: malicious Terraform providers and Go modules found on HashiCorp's centralized registry. This marks a critical shift in software supply chain attacks.",
+    "tags": [
+      "Security",
+      "Cybersecurity",
+      "Terraform",
+      "HashiCorp",
+      "Supply Chain Attack",
+      "Malware",
+      "GoLang",
+      "IaC"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 778,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1765408217270-76e94ff54a5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxDb3JydXB0ZWQlMjBkaWdpdGFsfGVufDF8MHx8fDE3OTAyNzU0NjZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Abstract geometric shapes in dark space",
+      "credit": "Egor Komarov",
+      "color": "#c0a6a6"
+    }
+  },
+  {
     "title": "Enterprise Alert: Meta AI Flaw Exposes New Zero-Day Risks",
     "slug": "2026-09-23-enterprise-alert-meta-ai-flaw-exposes-new-zero-day-risks",
     "date": "2026-09-23",
