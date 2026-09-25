@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PamStealer's Evolved Stealth: A New macOS Threat Landscape — AI Security and Compliance News</title>
+  <meta name="description" content="PamStealer macOS malware has evolved, featuring live C2 payload decryption and multi-layer persistence. Understand the new threats and how to protect your enterprise.">
+  <meta name="keywords" content="macOS Security, Malware Analysis, Cybersecurity Threats, Persistence Mechanisms, Threat Intelligence">
+  <meta name="author" content="AI Security &amp; Compliance Desk">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PamStealer's Evolved Stealth: A New macOS Threat Landscape">
+  <meta property="og:description" content="PamStealer macOS malware has evolved, featuring live C2 payload decryption and multi-layer persistence. Understand the new threats and how to protect your enterprise.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://greenido.github.io/ai-security-compliance-news/posts/2026-09-25-pamstealers-evolved-stealth-new-macos-threat-landscape.html">
+  <meta property="og:site_name" content="AI Security and Compliance News">
+  <meta property="article:published_time" content="2026-09-25">
+  <meta property="article:author" content="AI Security &amp; Compliance Desk">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1481754100984-dbae571fe45b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d8ZW58MXwwfHx8MTc5MDM2Mjg3NHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080">
+  <meta property="og:image:width" content="2304">
+  <meta property="og:image:height" content="1536">
+  <meta property="article:tag" content="macOS Security">
+  <meta property="article:tag" content="Malware Analysis">
+  <meta property="article:tag" content="Cybersecurity Threats">
+  <meta property="article:tag" content="Persistence Mechanisms">
+  <meta property="article:tag" content="Threat Intelligence">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PamStealer's Evolved Stealth: A New macOS Threat Landscape">
+  <meta name="twitter:description" content="PamStealer macOS malware has evolved, featuring live C2 payload decryption and multi-layer persistence. Understand the new threats and how to protect your enterprise.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1481754100984-dbae571fe45b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d8ZW58MXwwfHx8MTc5MDM2Mjg3NHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "PamStealer's Evolved Stealth: A New macOS Threat Landscape",
+  "description": "PamStealer macOS malware has evolved, featuring live C2 payload decryption and multi-layer persistence. Understand the new threats and how to protect your enterprise.",
+  "image": "https://images.unsplash.com/photo-1481754100984-dbae571fe45b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d8ZW58MXwwfHx8MTc5MDM2Mjg3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+  "datePublished": "2026-09-25",
+  "dateModified": "2026-09-25",
+  "author": {
+    "@type": "Person",
+    "name": "AI Security & Compliance Desk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI Security and Compliance News"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://greenido.github.io/ai-security-compliance-news/posts/2026-09-25-pamstealers-evolved-stealth-new-macos-threat-landscape.html"
+  },
+  "keywords": "macOS Security, Malware Analysis, Cybersecurity Threats, Persistence Mechanisms, Threat Intelligence"
+}
+  </script>
+
+  <link rel="canonical" href="https://greenido.github.io/ai-security-compliance-news/posts/2026-09-25-pamstealers-evolved-stealth-new-macos-threat-landscape.html">
+  <link rel="alternate" type="application/rss+xml" title="AI Security and Compliance News" href="https://greenido.github.io/ai-security-compliance-news/feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tailwind.css">
+</head>
+<body class="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-3 sm:py-0 sm:h-16 gap-2 sm:gap-0">
+        <a href="../index.html" class="flex items-center gap-2 sm:gap-3 group">
+          <div class="w-8 h-8 sm:w-9 sm:h-9 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-xs sm:text-sm group-hover:bg-brand-700 transition-colors shrink-0">AI</div>
+          <span class="text-base sm:text-lg font-bold tracking-tight leading-tight">AI Security &amp; Compliance <span class="text-brand-600">News</span></span>
+        </a>
+        <nav class="flex items-center gap-4 sm:gap-6">
+          <a href="../index.html" class="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a>
+          <a href="../about.html" class="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors">About</a>
+          <button id="theme-toggle" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle dark mode">
+            <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+            <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Article -->
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <a href="../index.html" class="inline-flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-400 transition-colors mb-8">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+      Back to all posts
+    </a>
+
+    <article>
+      <header class="mb-8">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="inline-block px-2.5 py-0.5 text-xs font-semibold rounded-full bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300">Security</span>
+          <span class="text-sm text-gray-400">4 min read</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-bold tracking-tight leading-tight mb-4">PamStealer's Evolved Stealth: A New macOS Threat Landscape</h1>
+        <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+          <span>By <strong class="text-gray-700 dark:text-gray-300">AI Security &amp; Compliance Desk</strong></span>
+          <time datetime="2026-09-25">September 25, 2026</time>
+        </div>
+        <p class="mt-3 text-xs text-gray-400">Source: <a href="https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html" target="_blank" rel="noopener" class="hover:underline">The Hacker News</a></p>
+      </header>
+
+      <figure class="mb-10 -mx-4 sm:mx-0">
+        <div class="relative overflow-hidden rounded-none sm:rounded-xl" style="background-color: #d9d9d9">
+          <img
+            src="https://images.unsplash.com/photo-1481754100984-dbae571fe45b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d8ZW58MXwwfHx8MTc5MDM2Mjg3NHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
+            alt="woman walking with shadow"
+            width="2304"
+            height="1536"
+            loading="eager"
+            class="w-full h-auto max-h-[420px] object-cover"
+          >
+        </div>
+        <figcaption class="mt-2 px-4 sm:px-0 text-xs text-gray-400 dark:text-gray-500 flex items-center gap-1">
+          Photo by <a href="https://unsplash.com/@martino_pietropoli?utm_source=ai_security_blog&amp;utm_medium=referral" target="_blank" rel="noopener" class="underline hover:text-gray-600 dark:hover:text-gray-300">Martino Pietropoli</a>
+          on <a href="https://unsplash.com/photos/woman-walking-with-shadow-pirWeToS2mA?utm_source=ai_security_blog&amp;utm_medium=referral" target="_blank" rel="noopener" class="underline hover:text-gray-600 dark:hover:text-gray-300">Unsplash</a>
+        </figcaption>
+      </figure>
+
+      <div class="post-content font-serif text-lg text-gray-800 dark:text-gray-200">
+        <p>For years, macOS enjoyed a reputation for being relatively secure from the deluge of malware targeting other platforms. While that perception has long been challenged, recent developments prove that adversaries are investing heavily in sophisticated macOS-specific threats. The latest iteration of the PamStealer malware is a stark reminder of this evolving landscape, showcasing advanced evasion tactics designed to bypass even robust defenses. For IT professionals, security teams, and compliance officers, understanding these shifts is paramount to maintaining a resilient security posture.</p>
+
+<p>According to a recent report by The Hacker News, citing research from Jamf Threat Labs, a new version of PamStealer has emerged, significantly upping its game in terms of stealth and persistence. This isn't just another incremental update; it's a strategic move by threat actors to make detection and analysis considerably more challenging, pushing the boundaries of what enterprise security solutions must contend with.</p>
+
+<h2>The Stealthy Shift: Live C2 Decryption</h2>
+<p>Perhaps the most concerning evolution within the new PamStealer variant is its adoption of live Command and Control (C2) payload decryption. Earlier versions of PamStealer, while effective, embedded their payload key material directly within the malware's artifacts. This made it possible for security researchers to reverse-engineer and potentially develop static signatures or decryption routines more readily.</p>
+
+<p>The new approach, however, ensures that the main payload can only be recovered using a dynamic, server-side decryption chain. What does this mean for your organization? Essentially:</p>
+<ul>
+<li><strong>Enhanced Evasion:</strong> The core malicious payload remains encrypted until it's retrieved and decrypted in real-time by the C2 server. This makes static analysis significantly harder, as the true nature of the payload isn't revealed until runtime, and only then if the C2 is active and responsive.</li>
+<li><strong>Dynamic Capabilities:</strong> Threat actors gain greater flexibility. They can modify or update the final payload on the fly without needing to redeploy new malware droppers, adapting to new defenses or changing their objectives post-initial infection.</li>
+<li><strong>Reduced Fingerprints:</strong> By decoupling the decryption key from the initial dropper, the malware leaves fewer forensic breadcrumbs for security analysts to follow, making attribution and incident response more complex.</li>
+</ul>
+<p>This shift represents a sophisticated move towards making the malware more ephemeral and harder to pin down, demanding more advanced behavioral analysis and network monitoring capabilities from defenders.</p>
+
+<h2>Beyond the Initial Breach: Multi-Layered Persistence</h2>
+<p>While the decryption mechanism is a significant technical advancement, the new PamStealer variants also double down on persistence. Jamf Threat Labs notes that the latest artifacts continue to leverage the same JavaScript for Automation (JXA) dropper mechanism, a common technique for macOS malware to execute scripts and interact with system services. However, the lure and delivery methods have been modified, suggesting ongoing refinement in initial access tactics.</p>
+
+<p>What's critical here is the emphasis on multi-layer persistence. Once inside, the malware aims to embed itself deeply within the system, ensuring it can survive reboots, user logouts, and even some cleanup attempts. This could involve:</p>
+<ul>
+<li>Establishing multiple launch agents or daemons.</li>
+<li>Modifying user login items.</li>
+<li>Utilizing less common directories or file names to blend in with legitimate system components.</li>
+</ul>
+<p>The combination of dynamic payload delivery and robust persistence means that even if an initial detection fails, the malware has multiple opportunities to re-establish itself and continue its malicious activities, which typically involve stealing sensitive information from compromised systems.</p>
+
+<h2>Fortifying Your macOS Defenses</h2>
+<p>The evolution of PamStealer underscores a critical truth: macOS is not immune to sophisticated cyber threats. For IT professionals and security teams, a proactive, multi-layered defense strategy is no longer optional but essential:</p>
+<ol>
+<li><strong>Advanced Endpoint Detection and Response (EDR):</strong> Invest in EDR solutions specifically designed for macOS that can monitor behavioral anomalies, detect suspicious process execution, and identify unusual network connections, even if the payload is decrypted at runtime.</li>
+<li><strong>Regular Patching and Updates:</strong> Ensure all macOS devices are kept up-to-date with the latest security patches. Many malware variants exploit known vulnerabilities.</li>
+<li><strong>User Education and Awareness:</strong> Train users to recognize phishing attempts, suspicious attachments, and social engineering tactics, as these often serve as the initial infection vector for JXA droppers.</li>
+<li><strong>Network Segmentation and Monitoring:</strong> Segment your network to limit lateral movement if a macOS endpoint is compromised. Implement robust network monitoring to detect unusual C2 communications.</li>
+<li><strong>Threat Intelligence Integration:</strong> Stay abreast of the latest threat intelligence, particularly regarding macOS-specific malware. Leverage services that provide timely updates on new attack techniques and indicators of compromise (IoCs).</li>
+</ol>
+<p>The new PamStealer variant is a clear signal that adversaries are continually refining their tools and techniques. By understanding these advancements and implementing comprehensive security measures, organizations can significantly reduce their risk exposure and protect their critical assets against an increasingly sophisticated threat landscape.</p>
+        
+      </div>
+
+      <!-- Tags -->
+      <div class="mt-10 pt-6 border-t border-gray-200 dark:border-gray-800">
+        <div class="flex flex-wrap gap-2">
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">macOS Security</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Malware Analysis</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Cybersecurity Threats</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Persistence Mechanisms</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Threat Intelligence</span>
+        </div>
+      </div>
+
+      <!-- Share -->
+      <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-800">
+        <p class="text-sm font-semibold mb-3">Share this article</p>
+        <div class="flex gap-3">
+          <a href="https://twitter.com/intent/tweet?text=PamStealer's%20Evolved%20Stealth%3A%20A%20New%20macOS%20Threat%20Landscape&url=https%3A%2F%2Fgreenido.github.io%2Fai-security-compliance-news%2Fposts%2F2026-09-25-pamstealers-evolved-stealth-new-macos-threat-landscape.html" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Post
+          </a>
+          <button id="linkedin-share" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span class="li-label">Share on LinkedIn</span>
+          </button>
+          <button onclick="navigator.clipboard.writeText(window.location.href).then(()=>this.textContent='Copied!')" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+            Copy link
+          </button>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid gap-8 sm:grid-cols-3">
+        <div>
+          <div class="flex items-center gap-2 mb-3">
+            <div class="w-7 h-7 bg-brand-600 rounded-md flex items-center justify-center text-white font-bold text-xs">AI</div>
+            <span class="font-bold text-sm">AI Security &amp; Compliance News</span>
+          </div>
+          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">AI-powered news and analysis on cybersecurity, compliance, and IT operations.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">Navigation</h4>
+          <ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+            <li><a href="../index.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a></li>
+            <li><a href="../about.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">About</a></li>
+            <li><a href="https://ido-green.appspot.com/contact.html" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Contact Ido</a></li>
+            <li><a href="https://greenido.wordpress.com" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Ido's Blog</a></li>
+            <li><a href="https://espressolabs.com?utm=aicybersecuritynews" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">EspressoLabs.com</a></li>
+            <li><a href="../feed.xml" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors inline-flex items-center gap-1"><svg class="w-3.5 h-3.5 inline" fill="currentColor" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg> RSS Feed</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">Powered By</h4>
+          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">Content generated by Google AI with people - so it's the best of both worlds. IT &amp; Security solutions by <a href="https://espressolabs.com?utm=aicybersecuritynews" target="_blank" rel="noopener" class="text-brand-600 dark:text-brand-400 hover:underline">Espresso Labs</a>.</p>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-gray-200 dark:border-gray-800 text-center text-xs text-gray-400">
+        &copy; <span id="year"></span> AI Security and Compliance News. Posts are AI-generated and may not reflect the latest information.
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+  <script>
+  (function() {
+    var btn = document.getElementById('linkedin-share');
+    if (!btn) return;
+    var shareText = "PamStealer's Evolved Stealth: A New macOS Threat Landscape\n\nPamStealer macOS malware has evolved, featuring live C2 payload decryption and multi-layer persistence. Understand the new threats and how to protect your enterprise.\n\nRead more: https://greenido.github.io/ai-security-compliance-news/posts/2026-09-25-pamstealers-evolved-stealth-new-macos-threat-landscape.html";
+    var shareUrl = "https://greenido.github.io/ai-security-compliance-news/posts/2026-09-25-pamstealers-evolved-stealth-new-macos-threat-landscape.html";
+    btn.addEventListener('click', function() {
+      navigator.clipboard.writeText(shareText).then(function() {
+        var label = btn.querySelector('.li-label');
+        if (label) { label.textContent = 'Copied! Paste in LinkedIn'; }
+        setTimeout(function() { if (label) label.textContent = 'Share on LinkedIn'; }, 3000);
+      });
+      window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(shareUrl), '_blank');
+    });
+  })();
+  </script>
+</body>
+</html>

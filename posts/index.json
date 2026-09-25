@@ -1,5 +1,55 @@
 [
   {
+    "title": "CJIS, AI, and Cybersecurity: Beyond the Audit Imperative",
+    "slug": "2026-09-25-cjis-ai-cybersecurity-beyond-audit-imperative",
+    "date": "2026-09-25",
+    "excerpt": "The convergence of CJIS compliance, robust cybersecurity, and emerging AI technologies presents both challenges and unparalleled opportunities for public safety. This post delves into moving beyond mere audit readiness to proactively secure sensitive data and leverage AI responsibly.",
+    "tags": [
+      "CJIS",
+      "Cybersecurity",
+      "AI Governance",
+      "Data Security",
+      "Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 808,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzkwMzYyODk1fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
+    "title": "PamStealer's Evolved Stealth: A New macOS Threat Landscape",
+    "slug": "2026-09-25-pamstealers-evolved-stealth-new-macos-threat-landscape",
+    "date": "2026-09-25",
+    "excerpt": "A significant evolution in macOS malware has been detected with the latest PamStealer variants. This new iteration introduces sophisticated evasion techniques, including server-side payload decryption and enhanced persistence mechanisms, raising the bar for enterprise security.",
+    "tags": [
+      "macOS Security",
+      "Malware Analysis",
+      "Cybersecurity Threats",
+      "Persistence Mechanisms",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 766,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1481754100984-dbae571fe45b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxTaGFkb3d8ZW58MXwwfHx8MTc5MDM2Mjg3NHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "woman walking with shadow",
+      "credit": "Martino Pietropoli",
+      "color": "#d9d9d9"
+    }
+  },
+  {
     "title": "Terraform Supply Chain Under Attack: Malicious Providers Emerge",
     "slug": "2026-09-24-terraform-supply-chain-under-attack-malicious-providers-emerge",
     "date": "2026-09-24",
