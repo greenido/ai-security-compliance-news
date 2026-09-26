@@ -1,5 +1,29 @@
 [
   {
+    "title": "PamStealer Evolves: macOS Malware's Stealthy New Tactics",
+    "slug": "2026-09-26-pamstealer-evolves-macos-malwares-stealthy-new-tactics",
+    "date": "2026-09-26",
+    "excerpt": "A sophisticated new variant of PamStealer macOS malware has been identified, employing advanced techniques like server-side payload decryption. This poses a heightened risk to enterprise macOS environments, demanding immediate attention from security teams.",
+    "tags": [
+      "macOS Security",
+      "Malware Analysis",
+      "Cybersecurity",
+      "Threat Intelligence",
+      "Data Protection"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 703,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc5MDQ0NjE5NHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "CJIS, AI, and Cybersecurity: Beyond the Audit Imperative",
     "slug": "2026-09-25-cjis-ai-cybersecurity-beyond-audit-imperative",
     "date": "2026-09-25",
