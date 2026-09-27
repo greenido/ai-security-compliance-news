@@ -1,5 +1,29 @@
 [
   {
+    "title": "PeopleSoft Under Attack: WAFs Bypassed, Web Shells Deployed",
+    "slug": "2026-09-27-peoplesoft-under-attack-wafs-bypassed-web-shells-deployed",
+    "date": "2026-09-27",
+    "excerpt": "A critical vulnerability in Oracle PeopleSoft is under renewed mass exploitation, with attackers deploying web shells after bypassing Web Application Firewalls. This global campaign, linked to ShinyHunters, leverages CVE-2026-35273 for unauthenticated remote code execution.",
+    "tags": [
+      "Oracle",
+      "PeopleSoft",
+      "CVE-2026-35273",
+      "WAF Bypass",
+      "Web Shells"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 860,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1565551223391-be988013ee6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxTaGF0dGVyZWR8ZW58MXwwfHx8MTc5MDUzNDcyNHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "orange band aid on concrete surface crack",
+      "credit": "Luis Villasmil",
+      "color": "#404040"
+    }
+  },
+  {
     "title": "PamStealer Evolves: macOS Malware's Stealthy New Tactics",
     "slug": "2026-09-26-pamstealer-evolves-macos-malwares-stealthy-new-tactics",
     "date": "2026-09-26",
