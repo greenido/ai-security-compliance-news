@@ -1,5 +1,30 @@
 [
   {
+    "title": "Carbonato Botnet Weaponizes AI Agents on Docker Hosts",
+    "slug": "2026-09-28-carbonato-botnet-weaponizes-ai-agents-on-docker-hosts",
+    "date": "2026-09-28",
+    "excerpt": "The cybersecurity landscape is constantly evolving, and a new threat, the Carbonato botnet, marks a significant escalation. Targeting exposed Docker daemons, Carbonato deploys a sophisticated, Telegram-controlled AI agent, signaling a new frontier in automated cyberattacks. This development demands immediate attention from IT and security professionals.",
+    "tags": [
+      "Cybersecurity",
+      "Docker Security",
+      "AI Threats",
+      "Botnet",
+      "Infrastructure Protection"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 612,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxEaWdpdGFsJTIwbmV1cmFsfGVufDF8MHx8fDE3OTA2Mjg5MzJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "an abstract image of a sphere with dots and lines",
+      "credit": "Growtika",
+      "color": "#262640"
+    }
+  },
+  {
     "title": "PeopleSoft Under Attack: WAFs Bypassed, Web Shells Deployed",
     "slug": "2026-09-27-peoplesoft-under-attack-wafs-bypassed-web-shells-deployed",
     "date": "2026-09-27",
