@@ -1,5 +1,55 @@
 [
   {
+    "title": "OpenAI Codex: AI's Next Leap for Enterprise Dev & Security",
+    "slug": "2026-09-29-openai-codex-ais-next-leap-for-enterprise-dev-security",
+    "date": "2026-09-29",
+    "excerpt": "The landscape of software development is undergoing a profound transformation, driven by increasingly sophisticated AI. OpenAI's latest enhancements to Codex promise to redefine how enterprises build, secure, and manage their codebases, offering a glimpse into the future of developer tooling.",
+    "tags": [
+      "AI Development",
+      "Cloud Environments",
+      "Application Security",
+      "DevOps",
+      "IT Operations"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 758,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1546188994-07c34f6e5e1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxGdXR1cmV8ZW58MXwwfHx8MTc5MDcxMDk2OHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A hand holding a glass sphere reflecting a beach at low sun",
+      "credit": "Drew Beamer",
+      "color": "#405973"
+    }
+  },
+  {
+    "title": "AI Agents Weaponized: Carbonato Botnet Targets Docker Hosts",
+    "slug": "2026-09-29-ai-agents-weaponized-carbonato-botnet-targets-docker-hosts",
+    "date": "2026-09-29",
+    "excerpt": "The cybersecurity landscape just got more complex. A new botnet, Carbonato, is deploying AI agents via compromised Docker hosts, marking a significant shift in attack sophistication. Understand this evolving threat and how to protect your infrastructure.",
+    "tags": [
+      "Cybersecurity",
+      "Docker Security",
+      "AI Threats",
+      "Botnets",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 899,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1644321939012-840bf13ea6d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxEaWdpdGFsJTIwY2l0eXxlbnwxfDB8fHwxNzkwNzEwOTUwfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a black and white photo of a large number of lights",
+      "credit": "Conny Schneider",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Carbonato Botnet Weaponizes AI Agents on Docker Hosts",
     "slug": "2026-09-28-carbonato-botnet-weaponizes-ai-agents-on-docker-hosts",
     "date": "2026-09-28",
