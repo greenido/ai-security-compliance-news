@@ -1,5 +1,30 @@
 [
   {
+    "title": "ChatGPT Custom GPTs Exploited for RAT Delivery",
+    "slug": "2026-09-30-chatgpt-custom-gpts-exploited-for-rat-delivery",
+    "date": "2026-09-30",
+    "excerpt": "The digital threat landscape continues to evolve at a relentless pace, and the latest frontier under attack is trusted AI platforms. A new report reveals threat actors are abusing ChatGPT Custom GPTs to deliver sophisticated malware, creating a dangerous new vector for system compromise.",
+    "tags": [
+      "AI Security",
+      "Cybersecurity",
+      "Malware",
+      "ChatGPT",
+      "Threat Actors"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 849,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzkwNzk3NDE0fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "OpenAI Codex: AI's Next Leap for Enterprise Dev & Security",
     "slug": "2026-09-29-openai-codex-ais-next-leap-for-enterprise-dev-security",
     "date": "2026-09-29",
