@@ -1,5 +1,29 @@
 [
   {
+    "title": "WordPress's Self-Healing Backdoor: A New Era of Persistent Threats",
+    "slug": "2026-10-01-wordpress-self-healing-backdoor-new-era-persistent-threats",
+    "date": "2026-10-01",
+    "excerpt": "Imagine meticulously cleaning a WordPress site, only for the infection to reappear hours later, fully operational. This isn't a nightmare scenario; it's the reality of a sophisticated new WordPress backdoor, codenamed SC, that's redefining persistence. Threat actors are deploying advanced tactics that challenge traditional cybersecurity cleanup protocols.",
+    "tags": [
+      "WordPress Security",
+      "Cybersecurity",
+      "Malware",
+      "Web Security",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 762,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxSZXN8ZW58MXwwfHx8MTc5MDg4NDY2M3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "focus photography of person counting dollar banknotes",
+      "credit": "Alexander Grey",
+      "color": "#0c2626"
+    }
+  },
+  {
     "title": "ChatGPT Custom GPTs Exploited for RAT Delivery",
     "slug": "2026-09-30-chatgpt-custom-gpts-exploited-for-rat-delivery",
     "date": "2026-09-30",
