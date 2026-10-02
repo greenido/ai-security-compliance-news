@@ -1,5 +1,56 @@
 [
   {
+    "title": "AI's Regulatory Wave: Cybersecurity's Crucial Role in Compliance",
+    "slug": "2026-10-02-ais-regulatory-wave-cybersecuritys-crucial-role-in-compliance",
+    "date": "2026-10-02",
+    "excerpt": "The rapid evolution of AI brings unprecedented opportunities, but also a complex web of regulatory challenges. For IT professionals, security teams, and compliance officers, understanding the interplay between AI, cybersecurity, and governance is paramount. This post delves into the critical role cybersecurity plays in meeting rising AI compliance demands.",
+    "tags": [
+      "AI Compliance",
+      "Cybersecurity",
+      "Regulatory Frameworks",
+      "AI Governance",
+      "Data Security"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 837,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1620121692029-d088224ddc74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxBYnN0cmFjdHxlbnwxfDB8fHwxNzkwOTY5OTYyfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "deep blue and purple flowing shapes",
+      "credit": "Richard Horvath",
+      "color": "#0c268c"
+    }
+  },
+  {
+    "title": "FortiMail Zero-Day Exploited: CISA Warns of Critical Flaw",
+    "slug": "2026-10-02-fortimail-zero-day-exploited-cisa-warns-critical-flaw",
+    "date": "2026-10-02",
+    "excerpt": "Another day, another critical zero-day. This time, Fortinet's FortiMail is under the microscope, with a severe vulnerability actively exploited in the wild. CISA has issued a dire warning, adding CVE-2026-104286 to its KEV catalog, demanding immediate action from IT and security teams.",
+    "tags": [
+      "Security",
+      "Vulnerability Management",
+      "Zero-Day",
+      "CISA",
+      "FortiMail"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 805,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1561572639-773635958b8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxicm9rZW4lMjBmb3J0cmVzc3xlbnwxfDB8fHwxNzkwOTY5OTQxfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "grey concrete building",
+      "credit": "Boban Simonovski",
+      "color": "#0c2626"
+    }
+  },
+  {
     "title": "WordPress's Self-Healing Backdoor: A New Era of Persistent Threats",
     "slug": "2026-10-01-wordpress-self-healing-backdoor-new-era-persistent-threats",
     "date": "2026-10-01",
