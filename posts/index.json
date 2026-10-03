@@ -1,5 +1,33 @@
 [
   {
+    "title": "FortiMail Zero-Day: Unauthenticated File Write Poses Critical Threat",
+    "slug": "2026-10-03-fortimail-zero-day-unauthenticated-file-write-poses-critical-threat",
+    "date": "2026-10-03",
+    "excerpt": "A new zero-day vulnerability in Fortinet's FortiMail, tracked as CVE-2026-104286, has been added to CISA's Known Exploited Vulnerabilities catalog. This critical flaw allows unauthenticated attackers to write arbitrary files, posing an immediate and severe risk to organizations leveraging the email security platform.",
+    "tags": [
+      "FortiMail",
+      "Zero-Day",
+      "CVE-2026-104286",
+      "Cybersecurity",
+      "CISA KEV",
+      "Vulnerability",
+      "Incident Response",
+      "Email Security"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 752,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1668079254925-42ab083d11b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxDcmFja2VkJTIwY29uY3JldGV8ZW58MXwwfHx8MTc5MTA1MTkzMHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "map",
+      "credit": "Krakograff Textures",
+      "color": "#c0c0c0"
+    }
+  },
+  {
     "title": "AI's Regulatory Wave: Cybersecurity's Crucial Role in Compliance",
     "slug": "2026-10-02-ais-regulatory-wave-cybersecuritys-crucial-role-in-compliance",
     "date": "2026-10-02",

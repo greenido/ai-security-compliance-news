@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FortiMail Zero-Day: Unauthenticated File Write Poses Critical Threat — AI Security and Compliance News</title>
+  <meta name="description" content="A critical FortiMail zero-day flaw (CVE-2026-104286) allowing unauthenticated arbitrary file writes is actively exploited. CISA adds it to KEV. Learn what IT pros, security teams, and compliance officers must do now.">
+  <meta name="keywords" content="FortiMail, Zero-Day, CVE-2026-104286, Cybersecurity, CISA KEV, Vulnerability, Incident Response, Email Security">
+  <meta name="author" content="AI Security &amp; Compliance Desk">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="FortiMail Zero-Day: Unauthenticated File Write Poses Critical Threat">
+  <meta property="og:description" content="A critical FortiMail zero-day flaw (CVE-2026-104286) allowing unauthenticated arbitrary file writes is actively exploited. CISA adds it to KEV. Learn what IT pros, security teams, and compliance officers must do now.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://greenido.github.io/ai-security-compliance-news/posts/2026-10-03-fortimail-zero-day-unauthenticated-file-write-poses-critical-threat.html">
+  <meta property="og:site_name" content="AI Security and Compliance News">
+  <meta property="article:published_time" content="2026-10-03">
+  <meta property="article:author" content="AI Security &amp; Compliance Desk">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1668079254925-42ab083d11b6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxDcmFja2VkJTIwY29uY3JldGV8ZW58MXwwfHx8MTc5MTA1MTkzMHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080">
+  <meta property="og:image:width" content="4032">
+  <meta property="og:image:height" content="2268">
+  <meta property="article:tag" content="FortiMail">
+  <meta property="article:tag" content="Zero-Day">
+  <meta property="article:tag" content="CVE-2026-104286">
+  <meta property="article:tag" content="Cybersecurity">
+  <meta property="article:tag" content="CISA KEV">
+  <meta property="article:tag" content="Vulnerability">
+  <meta property="article:tag" content="Incident Response">
+  <meta property="article:tag" content="Email Security">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FortiMail Zero-Day: Unauthenticated File Write Poses Critical Threat">
+  <meta name="twitter:description" content="A critical FortiMail zero-day flaw (CVE-2026-104286) allowing unauthenticated arbitrary file writes is actively exploited. CISA adds it to KEV. Learn what IT pros, security teams, and compliance officers must do now.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1668079254925-42ab083d11b6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxDcmFja2VkJTIwY29uY3JldGV8ZW58MXwwfHx8MTc5MTA1MTkzMHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "FortiMail Zero-Day: Unauthenticated File Write Poses Critical Threat",
+  "description": "A critical FortiMail zero-day flaw (CVE-2026-104286) allowing unauthenticated arbitrary file writes is actively exploited. CISA adds it to KEV. Learn what IT pros, security teams, and compliance officers must do now.",
+  "image": "https://images.unsplash.com/photo-1668079254925-42ab083d11b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxDcmFja2VkJTIwY29uY3JldGV8ZW58MXwwfHx8MTc5MTA1MTkzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+  "datePublished": "2026-10-03",
+  "dateModified": "2026-10-03",
+  "author": {
+    "@type": "Person",
+    "name": "AI Security & Compliance Desk"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI Security and Compliance News"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://greenido.github.io/ai-security-compliance-news/posts/2026-10-03-fortimail-zero-day-unauthenticated-file-write-poses-critical-threat.html"
+  },
+  "keywords": "FortiMail, Zero-Day, CVE-2026-104286, Cybersecurity, CISA KEV, Vulnerability, Incident Response, Email Security"
+}
+  </script>
+
+  <link rel="canonical" href="https://greenido.github.io/ai-security-compliance-news/posts/2026-10-03-fortimail-zero-day-unauthenticated-file-write-poses-critical-threat.html">
+  <link rel="alternate" type="application/rss+xml" title="AI Security and Compliance News" href="https://greenido.github.io/ai-security-compliance-news/feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/tailwind.css">
+</head>
+<body class="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between py-3 sm:py-0 sm:h-16 gap-2 sm:gap-0">
+        <a href="../index.html" class="flex items-center gap-2 sm:gap-3 group">
+          <div class="w-8 h-8 sm:w-9 sm:h-9 bg-brand-600 rounded-lg flex items-center justify-center text-white font-bold text-xs sm:text-sm group-hover:bg-brand-700 transition-colors shrink-0">AI</div>
+          <span class="text-base sm:text-lg font-bold tracking-tight leading-tight">AI Security &amp; Compliance <span class="text-brand-600">News</span></span>
+        </a>
+        <nav class="flex items-center gap-4 sm:gap-6">
+          <a href="../index.html" class="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a>
+          <a href="../about.html" class="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors">About</a>
+          <button id="theme-toggle" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle dark mode">
+            <svg id="sun-icon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+            <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Article -->
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <a href="../index.html" class="inline-flex items-center gap-1.5 text-sm text-gray-500 dark:text-gray-400 hover:text-brand-600 dark:hover:text-brand-400 transition-colors mb-8">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+      Back to all posts
+    </a>
+
+    <article>
+      <header class="mb-8">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="inline-block px-2.5 py-0.5 text-xs font-semibold rounded-full bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300">Security</span>
+          <span class="text-sm text-gray-400">4 min read</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-bold tracking-tight leading-tight mb-4">FortiMail Zero-Day: Unauthenticated File Write Poses Critical Threat</h1>
+        <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+          <span>By <strong class="text-gray-700 dark:text-gray-300">AI Security &amp; Compliance Desk</strong></span>
+          <time datetime="2026-10-03">October 3, 2026</time>
+        </div>
+        <p class="mt-3 text-xs text-gray-400">Source: <a href="https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html" target="_blank" rel="noopener" class="hover:underline">The Hacker News</a></p>
+      </header>
+
+      <figure class="mb-10 -mx-4 sm:mx-0">
+        <div class="relative overflow-hidden rounded-none sm:rounded-xl" style="background-color: #c0c0c0">
+          <img
+            src="https://images.unsplash.com/photo-1668079254925-42ab083d11b6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxDcmFja2VkJTIwY29uY3JldGV8ZW58MXwwfHx8MTc5MTA1MTkzMHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080"
+            alt="map"
+            width="4032"
+            height="2268"
+            loading="eager"
+            class="w-full h-auto max-h-[420px] object-cover"
+          >
+        </div>
+        <figcaption class="mt-2 px-4 sm:px-0 text-xs text-gray-400 dark:text-gray-500 flex items-center gap-1">
+          Photo by <a href="https://unsplash.com/@krakograff?utm_source=ai_security_blog&amp;utm_medium=referral" target="_blank" rel="noopener" class="underline hover:text-gray-600 dark:hover:text-gray-300">Krakograff Textures</a>
+          on <a href="https://unsplash.com/photos/map-LCS7oXArC-A?utm_source=ai_security_blog&amp;utm_medium=referral" target="_blank" rel="noopener" class="underline hover:text-gray-600 dark:hover:text-gray-300">Unsplash</a>
+        </figcaption>
+      </figure>
+
+      <div class="post-content font-serif text-lg text-gray-800 dark:text-gray-200">
+        <p>In the relentless landscape of cyber threats, the emergence of an actively exploited zero-day vulnerability is always a cause for immediate concern. But when that flaw targets a critical email security gateway, allows unauthenticated access, and enables arbitrary file writes, the alarm bells should be ringing across every IT department, security operations center, and compliance office. Such is the gravity of the latest news surrounding Fortinet's FortiMail.</p><p>As reported by The Hacker News and confirmed by the U.S. Cybersecurity and Infrastructure Security Agency (CISA), a severe security flaw – <strong>CVE-2026-104286</strong> – has been identified in FortiMail, earning a critical CVSS score of 9.8. This isn't merely a theoretical vulnerability; CISA has added it to its Known Exploited Vulnerabilities (KEV) catalog, signaling active exploitation in the wild. For IT professionals, security teams, and compliance officers, this isn't a future threat; it's a present danger demanding immediate attention.</p><h2>The Anatomy of a Critical Flaw: Unauthenticated Arbitrary File Writes</h2><p>Let's dissect why CVE-2026-104286 is so dangerous. The core of the vulnerability lies in its ability to allow <strong>unauthenticated attackers to write arbitrary files on the underlying system</strong>. This is a potent combination of capabilities that opens the door to a myriad of devastating attack scenarios:</p><ul><li><strong>Remote Code Execution (RCE):</strong> By writing malicious files, such as web shells or configuration files that execute commands, attackers can gain full control over the FortiMail appliance. This effectively turns your email security gateway into an attacker-controlled server.</li><li><strong>Data Exfiltration:</strong> With system access, attackers can potentially modify scripts to collect sensitive emails, user credentials, or other proprietary data passing through the gateway, then transmit it to external servers.</li><li><strong>System Disruption and Denial of Service:</strong> Malicious file writes can corrupt system files, leading to instability, crashes, or complete denial of service, impacting critical business communications.</li><li><strong>Persistence:</strong> Attackers can establish persistent footholds within your network by writing backdoors or scheduled tasks that survive reboots or patches, ensuring continued access even after initial compromise.</li></ul><p>The 'unauthenticated' aspect is particularly alarming. It means an attacker doesn't need valid credentials or any prior access to your network to initiate the exploit. If your FortiMail instance is exposed to the internet, it is a potential target.</p><h2>CISA's KEV Catalog: A Call to Action</h2><p>CISA's KEV catalog is not merely a list; it's a directive. Its inclusion of CVE-2026-104286 means that this vulnerability has been proven to be actively exploited by threat actors. For federal civilian executive branch agencies, patching systems against KEV vulnerabilities is mandatory within a specific timeframe. For all other organizations, it serves as a strong, unequivocal recommendation to prioritize remediation immediately.</p><p>This elevation in status underscores the urgency. It transforms the vulnerability from a potential risk into an active, proven threat that organizations must address as part of their critical cybersecurity hygiene. Failing to do so leaves a gaping hole in your defenses, one that attackers are already leveraging.</p><h2>What Your Teams Must Do Now</h2><p>Given the severity and active exploitation of this FortiMail zero-day, immediate action is paramount for IT professionals, security teams, and compliance officers:</p><ul><li><strong>Patch Immediately:</strong> The absolute top priority is to apply all available patches and updates from Fortinet as soon as they are released. Monitor Fortinet's official advisories closely for specific instructions and timelines.</li><li><strong>Scan and Monitor:</strong> Conduct thorough scans of your FortiMail instances and surrounding network for any indicators of compromise (IOCs) related to this vulnerability. Look for unusual file creations, suspicious outbound connections, unexpected process executions, or unauthorized configuration changes.</li><li><strong>Review Logs:</strong> Scrutinize FortiMail logs, firewall logs, and intrusion detection/prevention system (IDS/IPS) logs for any anomalies or failed login attempts that might indicate attempted or successful exploitation.</li><li><strong>Isolate and Investigate:</strong> If a compromise is suspected, immediately isolate the affected FortiMail appliance from the network to prevent further lateral movement or data exfiltration. Initiate a full incident response investigation to determine the scope and impact.</li><li><strong>Network Segmentation:</strong> Ensure that your FortiMail appliance is properly segmented from critical internal systems. This can limit the blast radius if an attacker gains control.</li><li><strong>Stronger Access Controls:</strong> While this exploit is unauthenticated, review and strengthen all access controls, including multi-factor authentication (MFA) for administrative interfaces, as a general best practice.</li></ul><p>The FortiMail zero-day, CVE-2026-104286, is a stark reminder of the continuous, aggressive nature of today's cyber threat landscape. Proactive vigilance, rapid response, and a robust patching strategy are not just best practices; they are essential for survival. Ensure your teams are fully aware, equipped, and empowered to address this critical threat head-on, safeguarding your organization's most vital communications and data.</p>
+        
+      </div>
+
+      <!-- Tags -->
+      <div class="mt-10 pt-6 border-t border-gray-200 dark:border-gray-800">
+        <div class="flex flex-wrap gap-2">
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">FortiMail</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Zero-Day</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">CVE-2026-104286</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Cybersecurity</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">CISA KEV</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Vulnerability</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Incident Response</span>
+            <span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">Email Security</span>
+        </div>
+      </div>
+
+      <!-- Share -->
+      <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-800">
+        <p class="text-sm font-semibold mb-3">Share this article</p>
+        <div class="flex gap-3">
+          <a href="https://twitter.com/intent/tweet?text=FortiMail%20Zero-Day%3A%20Unauthenticated%20File%20Write%20Poses%20Critical%20Threat&url=https%3A%2F%2Fgreenido.github.io%2Fai-security-compliance-news%2Fposts%2F2026-10-03-fortimail-zero-day-unauthenticated-file-write-poses-critical-threat.html" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Post
+          </a>
+          <button id="linkedin-share" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span class="li-label">Share on LinkedIn</span>
+          </button>
+          <button onclick="navigator.clipboard.writeText(window.location.href).then(()=>this.textContent='Copied!')" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-gray-300 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+            Copy link
+          </button>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid gap-8 sm:grid-cols-3">
+        <div>
+          <div class="flex items-center gap-2 mb-3">
+            <div class="w-7 h-7 bg-brand-600 rounded-md flex items-center justify-center text-white font-bold text-xs">AI</div>
+            <span class="font-bold text-sm">AI Security &amp; Compliance News</span>
+          </div>
+          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">AI-powered news and analysis on cybersecurity, compliance, and IT operations.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">Navigation</h4>
+          <ul class="space-y-2 text-sm text-gray-500 dark:text-gray-400">
+            <li><a href="../index.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Blog</a></li>
+            <li><a href="../about.html" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">About</a></li>
+            <li><a href="https://ido-green.appspot.com/contact.html" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Contact Ido</a></li>
+            <li><a href="https://greenido.wordpress.com" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Ido's Blog</a></li>
+            <li><a href="https://espressolabs.com?utm=aicybersecuritynews" target="_blank" rel="noopener" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">EspressoLabs.com</a></li>
+            <li><a href="../feed.xml" class="hover:text-gray-900 dark:hover:text-gray-100 transition-colors inline-flex items-center gap-1"><svg class="w-3.5 h-3.5 inline" fill="currentColor" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg> RSS Feed</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-sm mb-3">Powered By</h4>
+          <p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed">Content generated by Google AI with people - so it's the best of both worlds. IT &amp; Security solutions by <a href="https://espressolabs.com?utm=aicybersecuritynews" target="_blank" rel="noopener" class="text-brand-600 dark:text-brand-400 hover:underline">Espresso Labs</a>.</p>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-gray-200 dark:border-gray-800 text-center text-xs text-gray-400">
+        &copy; <span id="year"></span> AI Security and Compliance News. Posts are AI-generated and may not reflect the latest information.
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+  <script>
+  (function() {
+    var btn = document.getElementById('linkedin-share');
+    if (!btn) return;
+    var shareText = "FortiMail Zero-Day: Unauthenticated File Write Poses Critical Threat\n\nA critical FortiMail zero-day flaw (CVE-2026-104286) allowing unauthenticated arbitrary file writes is actively exploited. CISA adds it to KEV. Learn what IT pros, security teams, and compliance officers must do now.\n\nRead more: https://greenido.github.io/ai-security-compliance-news/posts/2026-10-03-fortimail-zero-day-unauthenticated-file-write-poses-critical-threat.html";
+    var shareUrl = "https://greenido.github.io/ai-security-compliance-news/posts/2026-10-03-fortimail-zero-day-unauthenticated-file-write-poses-critical-threat.html";
+    btn.addEventListener('click', function() {
+      navigator.clipboard.writeText(shareText).then(function() {
+        var label = btn.querySelector('.li-label');
+        if (label) { label.textContent = 'Copied! Paste in LinkedIn'; }
+        setTimeout(function() { if (label) label.textContent = 'Share on LinkedIn'; }, 3000);
+      });
+      window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(shareUrl), '_blank');
+    });
+  })();
+  </script>
+</body>
+</html>
