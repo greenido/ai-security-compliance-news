@@ -1,5 +1,33 @@
 [
   {
+    "title": "Small Oversights, Major Threats: A Week in Cyber Security",
+    "slug": "2026-10-05-small-oversights-major-threats-a-week-in-cyber-security",
+    "date": "2026-10-05",
+    "excerpt": "This week's cyber security recap from The Hacker News highlights a critical truth: the most dangerous exploits often begin with seemingly minor oversights. Actively exploited 0-days, AI coding leaks, and persistent hardware vulnerabilities underscore the need for vigilance and a proactive defense strategy.",
+    "tags": [
+      "cybersecurity",
+      "vulnerability management",
+      "threat intelligence",
+      "data breaches",
+      "ransomware",
+      "AI security",
+      "IT security"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 779,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1739056238917-d89cd05c48d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxDcnxlbnwxfDB8fHwxNzkxMjM2NjAxfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a metal object on a black background",
+      "credit": "Logan Voss",
+      "color": "#c0c0c0"
+    }
+  },
+  {
     "title": "AI Policy Under Siege: Nation-State Phishing Targets U.S. Experts",
     "slug": "2026-10-04-ai-policy-under-siege-nation-state-phishing-targets-us-experts",
     "date": "2026-10-04",
