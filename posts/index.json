@@ -1,5 +1,31 @@
 [
   {
+    "title": "Unseen Threats: Why Small Oversights Fuel Major Cyber Attacks",
+    "slug": "2026-10-06-unseen-threats-why-small-oversights-fuel-major-cyber-attacks",
+    "date": "2026-10-06",
+    "excerpt": "This week's security landscape underscores a critical truth: the most devastating cyber attacks often originate from seemingly insignificant oversights. From actively exploited 0-days to AI coding leaks, the threats are finding leverage in what was once easy to overlook.",
+    "tags": [
+      "cybersecurity",
+      "zero-day",
+      "AI security",
+      "ransomware",
+      "IT operations"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 652,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzkxMzE2NDI1fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "Small Oversights, Major Threats: A Week in Cyber Security",
     "slug": "2026-10-05-small-oversights-major-threats-a-week-in-cyber-security",
     "date": "2026-10-05",
