@@ -1458,4 +1458,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-08-ashvein-rat-uac-0099s-stealthy-attack-on-ukraines-gov.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
