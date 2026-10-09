@@ -1,5 +1,30 @@
 [
   {
+    "title": "DarkSword P7: iOS Exploit Kit Targets Crypto Wallets & Data",
+    "slug": "2026-10-09-darksword-p7-ios-exploit-kit-targets-crypto-wallets-data",
+    "date": "2026-10-09",
+    "excerpt": "A new variant of the DarkSword iOS exploit kit, dubbed P7 DarkSword, has surfaced, posing significant risks to mobile security. This evolution introduces advanced capabilities, including the theft of cryptocurrency wallet data and sophisticated remote command execution, demanding immediate attention from IT and security professionals.",
+    "tags": [
+      "iOS Security",
+      "Mobile Threats",
+      "Exploit Kits",
+      "Cryptocurrency Security",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 942,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1633432695542-b2c8e2b8a26c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxkYXJrJTIwZGlnaXRhbHxlbnwxfDB8fHwxNzkxNTc1NTg0fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a black and white photo of a wave",
+      "credit": "Shubham Dhage",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "ASHVEIN RAT: UAC-0099's Stealthy Attack on Ukraine's Gov",
     "slug": "2026-10-08-ashvein-rat-uac-0099s-stealthy-attack-on-ukraines-gov",
     "date": "2026-10-08",
