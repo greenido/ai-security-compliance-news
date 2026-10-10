@@ -1,5 +1,54 @@
 [
   {
+    "title": "2026 Compliance Update: Navigating CMMC, SOC 2, HIPAA Shifts",
+    "slug": "2026-10-10-2026-compliance-update-navigating-cmmc-soc-2-hipaa-shifts",
+    "date": "2026-10-10",
+    "excerpt": "The compliance landscape is shifting rapidly in 2026. With new audit expectations for CMMC 2.0, SOC 2 Type II, and HIPAA, organizations must adapt quickly. Learn what's critical for IT leaders and compliance officers to maintain robust security and avoid penalties.",
+    "tags": [
+      "compliance",
+      "cybersecurity",
+      "CMMC 2.0",
+      "SOC 2",
+      "HIPAA"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 1048,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxBcmNoaXRlY3R1cmFsJTIwYmx1ZXByaW50fGVufDF8MHx8fDE3OTE2NTkwMDZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "An architect working on a draft with a pencil and ruler",
+      "credit": "Daniel McCullough",
+      "color": "#262626"
+    }
+  },
+  {
+    "title": "Anthropic Unleashes Free AI Scanner: Revolutionizing Open Source Security",
+    "slug": "2026-10-10-anthropic-unleashes-free-ai-scanner-revolutionizing-open-source-security",
+    "date": "2026-10-10",
+    "excerpt": "The open-source world just got a powerful new guardian. Anthropic has launched OSS Scanner, a free, AI-powered vulnerability detection service designed to fortify the security posture of critical open-source projects. This initiative promises to revolutionize how we approach software supply chain security.",
+    "tags": [
+      "AI",
+      "Security",
+      "Open Source",
+      "Vulnerability Scanning",
+      "Software Supply Chain"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 768,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzkxNjU4OTgyfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "DarkSword P7: iOS Exploit Kit Targets Crypto Wallets & Data",
     "slug": "2026-10-09-darksword-p7-ios-exploit-kit-targets-crypto-wallets-data",
     "date": "2026-10-09",
