@@ -55,6 +55,8 @@ const RSS_FEEDS = [
   { url: 'https://www.wired.com/feed/category/security/latest/rss', source: 'Wired', focus: 'Security' },
   { url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', source: 'Ars Technica', focus: 'AI' },
   { url: 'https://news.google.com/rss/search?q=AI+cybersecurity+compliance&hl=en-US&gl=US&ceid=US:en', source: 'Google News', focus: 'Mixed' },
+  { url: 'https://news.google.com/rss/search?q=%22SOC+2%22+compliance+when:7d&hl=en-US&gl=US&ceid=US:en', source: 'Google News', focus: 'Compliance' },
+  { url: 'https://news.google.com/rss/search?q=compliance+audit+(%22SOC+2%22+OR+%22ISO+27001%22+OR+GRC)+when:7d&hl=en-US&gl=US&ceid=US:en', source: 'Google News', focus: 'Compliance' },
 ];
 
 const RELEVANCE_KEYWORDS = [
@@ -66,6 +68,11 @@ const RELEVANCE_KEYWORDS = [
   { word: 'compliance', weight: 3 },
   { word: 'cmmc', weight: 4 },
   { word: 'soc 2', weight: 4 },
+  { word: 'soc2', weight: 4 },
+  { word: 'trust services criteria', weight: 4 },
+  { word: 'iso 27001', weight: 3 },
+  { word: 'fedramp', weight: 3 },
+  { word: 'pci dss', weight: 3 },
   { word: 'hipaa', weight: 4 },
   { word: 'ransomware', weight: 3 },
   { word: 'breach', weight: 3 },
@@ -85,12 +92,18 @@ const RELEVANCE_KEYWORDS = [
   { word: 'malware', weight: 2 },
 ];
 
+// Whole-word match (plurals allowed) so e.g. "ai" doesn't hit "email" or "against".
+const KEYWORD_PATTERNS = RELEVANCE_KEYWORDS.map((kw) => ({
+  ...kw,
+  pattern: new RegExp(`\\b${kw.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(s|es)?\\b`),
+}));
+
 function scoreArticle(article) {
   const text = `${article.title || ''} ${article.contentSnippet || ''} ${article.content || ''}`.toLowerCase();
   let score = 0;
   const matched = [];
-  for (const kw of RELEVANCE_KEYWORDS) {
-    if (text.includes(kw.word)) {
+  for (const kw of KEYWORD_PATTERNS) {
+    if (kw.pattern.test(text)) {
       score += kw.weight;
       matched.push(`${kw.word}(+${kw.weight})`);
     }
@@ -105,8 +118,24 @@ function scoreArticle(article) {
     score += ageBonus;
   }
 
-  log.debug('scoreArticle', `"${article.title?.slice(0, 60)}" → score=${score} (keywords=${matched.join(', ')}, ageBonus=+${ageBonus})`);
+  const complianceBoost = getComplianceBoost(text);
+  score += complianceBoost;
+
+  log.debug('scoreArticle', `"${article.title?.slice(0, 60)}" → score=${score} (keywords=${matched.join(', ')}, ageBonus=+${ageBonus}, complianceBoost=+${complianceBoost})`);
   return score;
+}
+
+// Editorial priority: compliance (SOC 2 above all) should win over routine
+// CVE/malware news, which otherwise out-scores it by stacking many keywords.
+const SOC2_PATTERN = /\bsoc[\s-]?2\b|trust services criteria/;
+const COMPLIANCE_FRAMEWORK_PATTERN = /\bsoc[\s-]?2\b|trust services criteria|iso[\s-]?27001|\bcmmc\b|\bhipaa\b|fedramp|pci[\s-]?dss|\bgrc\b|compliance automation/;
+const COMPLIANCE_BOOST = 8;
+const SOC2_EXTRA_BOOST = 8;
+
+function getComplianceBoost(lowerText) {
+  if (SOC2_PATTERN.test(lowerText)) return COMPLIANCE_BOOST + SOC2_EXTRA_BOOST;
+  if (COMPLIANCE_FRAMEWORK_PATTERN.test(lowerText)) return COMPLIANCE_BOOST;
+  return 0;
 }
 
 function categorizeArticle(article) {
@@ -126,22 +155,74 @@ const CATEGORY_GAP_BOOST = 10;
 
 let _scoredArticlesCache = [];
 
+const SOC2_LINK = 'https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2';
+
+// Evergreen topics used when RSS has nothing suitable. Rotated (first one not
+// too similar to a recent post wins) so gap-fillers don't repeat themselves.
 const FALLBACK_TOPICS = {
-  'Compliance': {
-    title: 'Compliance Frameworks in 2026: CMMC, SOC 2, and HIPAA Updates',
-    link: 'https://www.nist.gov/cyberframework',
-    snippet: 'Regulatory requirements continue to evolve rapidly. Organizations navigating CMMC 2.0, SOC 2 Type II, HIPAA, and emerging data-privacy frameworks face new audit expectations, tighter timelines, and increased enforcement. Understanding the latest changes is critical for compliance officers and IT leaders.',
-    source: 'Industry Analysis',
-    categories: ['Compliance'],
-  },
-  'IT Ops': {
-    title: 'IT Operations Modernization: Automation, Observability, and Resilience',
-    link: 'https://www.gartner.com/en/information-technology',
-    snippet: 'IT operations teams face mounting pressure to deliver reliable infrastructure at scale. From AIOps and predictive monitoring to endpoint management and cloud-native operations, the modern IT Ops landscape demands automation-first strategies and cross-functional collaboration.',
-    source: 'Industry Analysis',
-    categories: ['IT Ops'],
-  },
+  'Compliance': [
+    {
+      title: 'SOC 2 Type I vs. Type II: Choosing the Right Report for Your Customers',
+      link: SOC2_LINK,
+      snippet: 'Buyers increasingly demand a SOC 2 report before signing. Type I attests to control design at a point in time, while Type II tests operating effectiveness over a 3-12 month window. Choosing the right report, scoping the Trust Services Criteria, and planning the observation period shape cost, timeline, and sales impact.',
+      source: 'Industry Analysis',
+      categories: ['Compliance'],
+    },
+    {
+      title: 'Continuous Compliance: Automating SOC 2 Evidence Collection',
+      link: SOC2_LINK,
+      snippet: 'Screenshot-driven audits do not scale. Teams are moving to continuous control monitoring that pulls SOC 2 evidence directly from identity providers, cloud consoles, ticketing, and endpoint management tools, cutting audit prep time and catching control drift before the auditor does.',
+      source: 'Industry Analysis',
+      categories: ['Compliance'],
+    },
+    {
+      title: 'SOC 2 in the Age of AI: Applying Trust Services Criteria to LLM Features',
+      link: SOC2_LINK,
+      snippet: 'Shipping AI features changes the SOC 2 scope. Model providers become subservice organizations, prompts and outputs raise confidentiality and processing-integrity questions, and auditors now ask how AI-driven changes are reviewed, logged, and monitored under the Trust Services Criteria.',
+      source: 'Industry Analysis',
+      categories: ['AI', 'Compliance'],
+    },
+    {
+      title: 'Mapping SOC 2 to ISO 27001 and NIST CSF: Test Once, Comply Many',
+      link: 'https://www.nist.gov/cyberframework',
+      snippet: 'Organizations facing SOC 2, ISO 27001, and NIST CSF requests can build a single unified control set. Cross-mapping controls, sharing evidence across audits, and choosing a primary framework reduce duplicate work and audit fatigue for lean security and IT teams.',
+      source: 'Industry Analysis',
+      categories: ['Compliance'],
+    },
+    {
+      title: 'Compliance Frameworks in 2026: CMMC, SOC 2, and HIPAA Updates',
+      link: 'https://www.nist.gov/cyberframework',
+      snippet: 'Regulatory requirements continue to evolve rapidly. Organizations navigating CMMC 2.0, SOC 2 Type II, HIPAA, and emerging data-privacy frameworks face new audit expectations, tighter timelines, and increased enforcement. Understanding the latest changes is critical for compliance officers and IT leaders.',
+      source: 'Industry Analysis',
+      categories: ['Compliance'],
+    },
+  ],
+  'IT Ops': [
+    {
+      title: 'IT Operations Modernization: Automation, Observability, and Resilience',
+      link: 'https://www.gartner.com/en/information-technology',
+      snippet: 'IT operations teams face mounting pressure to deliver reliable infrastructure at scale. From AIOps and predictive monitoring to endpoint management and cloud-native operations, the modern IT Ops landscape demands automation-first strategies and cross-functional collaboration.',
+      source: 'Industry Analysis',
+      categories: ['IT Ops'],
+    },
+  ],
 };
+
+const FALLBACK_LOOKBACK_DAYS = 60;
+
+export function pickFallbackTopic(category) {
+  const topics = FALLBACK_TOPICS[category] || [];
+  const recentPosts = getRecentPosts(FALLBACK_LOOKBACK_DAYS);
+  const fresh = topics.find((t) => !isTooSimilar(t, recentPosts).similar);
+  if (fresh) {
+    log.info('pickFallbackTopic', `Using "${category}" fallback: "${fresh.title}"`);
+    return fresh;
+  }
+  if (topics.length > 0) {
+    log.warn('pickFallbackTopic', `All "${category}" fallbacks used in the last ${FALLBACK_LOOKBACK_DAYS} days — reusing the first one`);
+  }
+  return topics[0] || null;
+}
 
 export { scoreArticle, categorizeArticle, RSS_FEEDS, RELEVANCE_KEYWORDS, FALLBACK_TOPICS };
 
@@ -198,7 +279,7 @@ export async function fetchTrendingNews() {
   const scored = articlesToScore
     .map((a) => ({ ...a, score: scoreArticle(a), categories: categorizeArticle(a) }));
 
-  const categoryGaps = getCategoryGaps(8);
+  const categoryGaps = getCategoryGaps();
   if (categoryGaps.length > 0) {
     log.info('fetchTrendingNews', `Category gaps detected: [${categoryGaps.join(', ')}] — applying +${CATEGORY_GAP_BOOST} boost to matching articles`);
     let boosted = 0;
@@ -282,6 +363,7 @@ export function pickArticleForCategory(category, excludeTitles = []) {
 
   const candidates = _scoredArticlesCache
     .filter((a) => a.categories.includes(category))
+    .filter((a) => category !== 'Compliance' || COMPLIANCE_FRAMEWORK_PATTERN.test(`${a.title} ${a.contentSnippet}`.toLowerCase()))
     .filter((a) => !excludeTitles.includes(a.title));
 
   if (candidates.length === 0) {

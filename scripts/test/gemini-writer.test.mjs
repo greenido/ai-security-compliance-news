@@ -87,6 +87,11 @@ describe('buildPrompt', () => {
     assert.ok(prompt.includes(today));
   });
 
+  it('adds a SOC 2 angle for Compliance posts only', () => {
+    assert.ok(buildPrompt(sampleNews).includes('COMPLIANCE ANGLE'));
+    assert.ok(!buildPrompt({ ...sampleNews, categories: ['Security'] }).includes('COMPLIANCE ANGLE'));
+  });
+
   it('requests JSON output format', () => {
     const prompt = buildPrompt(sampleNews);
     assert.ok(prompt.includes('"title"'));

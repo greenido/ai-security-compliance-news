@@ -34,6 +34,10 @@ function buildPrompt(newsItem) {
     ? `ESPRESSO LABS MENTION (strict — only when the article topic matches their services): Espresso Labs offers: ${ESPRESSO_LABS_SERVICES}. Include an in-post link ONLY if this specific news item is about those managed IT, compliance automation, or managed security services — NOT for generic CVEs, malware, ransomware, phishing, or vendor product news. If the topic truly aligns, add ONE brief, natural sentence in your conclusion or recommendations with a single link: <a href="${ESPRESSO_LABS_URL}">Espresso Labs</a>. It must read like editorial guidance, not an ad. If the topic does not directly relate to their services, do NOT mention Espresso Labs at all and set "hasCTA" to false. When you do include the mention, set "hasCTA" to true. Always use this exact URL for any Espresso Labs link: ${ESPRESSO_LABS_URL}`
     : `Do NOT mention Espresso Labs or any other product/vendor. Do NOT include links to espressolabs.com. Set "hasCTA" to false in the JSON output.`;
 
+  const complianceInstruction = newsItem.categories.includes('Compliance')
+    ? `COMPLIANCE ANGLE: Make the post genuinely useful to compliance officers. Where relevant, explain the practical SOC 2 implications (affected Trust Services Criteria, controls to review, audit evidence to collect, impact on Type II observation periods) and note overlaps with ISO 27001, HIPAA, or CMMC. Do not invent requirements or claim regulatory changes that are not in the source.\n\n`
+    : '';
+
   const prompt = `You are an expert technology journalist writing for an audience of IT professionals, security teams, and compliance officers.
 
 Write a blog post based on this trending news item:
@@ -55,7 +59,7 @@ REQUIREMENTS:
 - Reference the original news source naturally in the text
 - Do NOT use the exact headline from the source; create a unique angle
 
-${ctaInstruction}
+${complianceInstruction}${ctaInstruction}
 
 OUTPUT FORMAT: Return ONLY valid JSON (no markdown fences, no extra text) with this exact structure:
 {

@@ -74,14 +74,17 @@ function jaccardSimilarity(setA, setB) {
   return similarity;
 }
 
-const TRACKED_CATEGORIES = ['Compliance', 'IT Ops'];
+// Category → how many most-recent posts must include at least one post of it.
+// Compliance (SOC 2 mainly) is an editorial priority, so its window is short.
+const TRACKED_CATEGORIES = { 'Compliance': 3, 'IT Ops': 8 };
 
-export function getCategoryGaps(lookbackCount = 8) {
-  log.info('getCategoryGaps', `Checking last ${lookbackCount} posts for category coverage gaps (tracking: [${TRACKED_CATEGORIES.join(', ')}])`);
+export function getCategoryGaps() {
+  const tracked = Object.keys(TRACKED_CATEGORIES);
+  log.info('getCategoryGaps', `Checking recent posts for category coverage gaps (windows: ${JSON.stringify(TRACKED_CATEGORIES)})`);
 
   if (!existsSync(INDEX_PATH)) {
     log.warn('getCategoryGaps', `Index file not found — assuming all categories are gaps`);
-    return [...TRACKED_CATEGORIES];
+    return tracked;
   }
 
   let index;
@@ -89,22 +92,15 @@ export function getCategoryGaps(lookbackCount = 8) {
     index = JSON.parse(readFileSync(INDEX_PATH, 'utf-8'));
   } catch (err) {
     log.error('getCategoryGaps', `Failed to parse index.json: ${err.message}`);
-    return [...TRACKED_CATEGORIES];
+    return tracked;
   }
 
-  const recentSlice = index.slice(0, lookbackCount);
-  log.info('getCategoryGaps', `Analyzing ${recentSlice.length} most recent posts`);
-
-  const coveredCategories = new Set();
-  for (const post of recentSlice) {
-    for (const cat of (post.categories || [])) {
-      coveredCategories.add(cat);
-    }
-  }
-
-  log.info('getCategoryGaps', `Categories covered in last ${recentSlice.length} posts: [${[...coveredCategories].join(', ')}]`);
-
-  const gaps = TRACKED_CATEGORIES.filter((cat) => !coveredCategories.has(cat));
+  const gaps = tracked.filter((cat) => {
+    const window = index.slice(0, TRACKED_CATEGORIES[cat]);
+    const covered = window.some((post) => (post.categories || []).includes(cat));
+    log.info('getCategoryGaps', `"${cat}" ${covered ? 'covered' : 'missing'} in last ${window.length} posts`);
+    return !covered;
+  });
   if (gaps.length > 0) {
     log.warn('getCategoryGaps', `Category gaps found: [${gaps.join(', ')}]`);
   } else {

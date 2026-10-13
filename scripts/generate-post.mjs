@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: join(__dirname, '..', '.env') });
 
-import { fetchTrendingNews, pickArticleForCategory, FALLBACK_TOPICS } from './fetch-news.mjs';
+import { fetchTrendingNews, pickArticleForCategory, pickFallbackTopic } from './fetch-news.mjs';
 import { generatePost } from './gemini-writer.mjs';
 import { fetchHeroImage } from './unsplash.mjs';
 import { buildPost } from './build-post-html.mjs';
@@ -67,7 +67,7 @@ async function main() {
 
   // Step 4: Check category gaps and generate gap-filler posts
   log.section('Step 4 — Category Gap Check');
-  const categoryGaps = getCategoryGaps(8);
+  const categoryGaps = getCategoryGaps();
   const remainingGaps = categoryGaps.filter((cat) => !(post.categories || []).includes(cat));
 
   if (remainingGaps.length > 0) {
@@ -81,7 +81,7 @@ async function main() {
 
       if (!gapNewsItem) {
         log.warn('main', `No RSS article found for "${gapCategory}" — using fallback topic`);
-        gapNewsItem = FALLBACK_TOPICS[gapCategory];
+        gapNewsItem = pickFallbackTopic(gapCategory);
         if (!gapNewsItem) {
           log.warn('main', `No fallback topic defined for "${gapCategory}" — skipping`);
           continue;

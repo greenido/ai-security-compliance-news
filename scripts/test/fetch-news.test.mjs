@@ -7,6 +7,8 @@ import {
   cleanUrl,
   RSS_FEEDS,
   RELEVANCE_KEYWORDS,
+  FALLBACK_TOPICS,
+  pickFallbackTopic,
 } from '../fetch-news.mjs';
 
 // ---------------------------------------------------------------------------
@@ -95,11 +97,64 @@ describe('scoreArticle', () => {
     assert.ok(scoreArticle(article) > scoreArticle(baseline));
   });
 
+  it('matches keywords as whole words only', () => {
+    const article = { title: 'Certain email against maintainers', contentSnippet: 'social media said' };
+    assert.equal(scoreArticle(article), 0);
+  });
+
+  it('still matches plural keyword forms', () => {
+    assert.ok(scoreArticle({ title: 'New threats and breaches', contentSnippet: '' }) > 0);
+  });
+
   it('handles missing fields gracefully', () => {
     const article = {};
     const score = scoreArticle(article);
     assert.equal(typeof score, 'number');
     assert.equal(score, 0);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// Compliance priority (SOC 2 mainly)
+// ---------------------------------------------------------------------------
+describe('compliance priority scoring', () => {
+  it('ranks a SOC 2 article above a keyword-heavy security article', () => {
+    const soc2 = { title: 'Startup achieves SOC 2 Type II attestation', contentSnippet: 'Audit covered security and availability criteria' };
+    const security = { title: 'AI ransomware breach exploits zero-day vulnerability', contentSnippet: 'Malware threat actors target endpoint security' };
+    assert.ok(scoreArticle(soc2) > scoreArticle(security), `soc2=${scoreArticle(soc2)} security=${scoreArticle(security)}`);
+  });
+
+  it('gives SOC 2 a bigger boost than other frameworks', () => {
+    const soc2 = { title: 'New SOC 2 guidance released', contentSnippet: '' };
+    const iso = { title: 'New ISO 27001 guidance released', contentSnippet: '' };
+    assert.ok(scoreArticle(soc2) > scoreArticle(iso));
+  });
+
+  it('does not boost non-framework "soc" matches', () => {
+    const noise = { title: 'Soc Energ 2026 Financial Calendar Update', contentSnippet: '' };
+    const plain = { title: 'Energ 2026 Financial Calendar Update', contentSnippet: '' };
+    assert.ok(scoreArticle(noise) - scoreArticle(plain) < 8);
+  });
+});
+
+describe('compliance feeds and fallbacks', () => {
+  it('includes at least one compliance-focused feed', () => {
+    assert.ok(RSS_FEEDS.some((f) => f.focus === 'Compliance'));
+  });
+
+  it('has several SOC 2 fallback topics, all tagged Compliance', () => {
+    const topics = FALLBACK_TOPICS['Compliance'];
+    assert.ok(topics.filter((t) => /soc 2/i.test(t.title)).length >= 3);
+    for (const t of topics) assert.ok(t.categories.includes('Compliance'));
+  });
+
+  it('pickFallbackTopic returns a Compliance topic', () => {
+    const topic = pickFallbackTopic('Compliance');
+    assert.ok(topic && topic.categories.includes('Compliance'));
+  });
+
+  it('pickFallbackTopic returns null for unknown categories', () => {
+    assert.equal(pickFallbackTopic('Nope'), null);
   });
 });
 
