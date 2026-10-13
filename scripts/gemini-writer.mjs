@@ -10,8 +10,9 @@ import {
 
 const log = createLogger('gemini');
 
-// gemini-2.5-flash was retired for new API keys (404 NOT_FOUND) in Oct 2026.
-export const GEMINI_MODEL = 'gemini-3.8-flash';
+// Alias that Google re-points to the newest stable Flash model, so model
+// retirements (like gemini-2.5-flash in Oct 2026) don't break the pipeline.
+export const GEMINI_MODEL = 'gemini-flash-latest';
 
 let _ai;
 function getAI() {
@@ -171,7 +172,7 @@ export async function generatePost(newsItem) {
       },
     });
 
-    apiTimer.end('Gemini API responded');
+    apiTimer.end(`Gemini API responded (modelVersion=${response.modelVersion})`);
 
     let text = response.text.trim();
     log.info('generatePost', `Raw response: ${text.length} chars`);
