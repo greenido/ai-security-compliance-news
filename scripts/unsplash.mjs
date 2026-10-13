@@ -1,5 +1,6 @@
 import { GoogleGenAI } from '@google/genai';
 import { createLogger } from './logger.mjs';
+import { GEMINI_MODEL } from './gemini-writer.mjs';
 
 const log = createLogger('unsplash');
 
@@ -42,7 +43,7 @@ Return ONLY the search query, nothing else. No quotes, no explanation.`;
 
   try {
     const response = await getAI().models.generateContent({
-      model: 'gemini-2.5-flash',
+      model: GEMINI_MODEL,
       contents: prompt,
       config: { temperature: 1.0, maxOutputTokens: 60 },
     });

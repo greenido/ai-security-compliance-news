@@ -10,6 +10,9 @@ import {
 
 const log = createLogger('gemini');
 
+// gemini-2.5-flash was retired for new API keys (404 NOT_FOUND) in Oct 2026.
+export const GEMINI_MODEL = 'gemini-3.8-flash';
+
 let _ai;
 function getAI() {
   if (!_ai) {
@@ -155,11 +158,11 @@ export async function generatePost(newsItem) {
   let post;
 
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-    log.info('generatePost', `Calling Gemini API attempt ${attempt}/${MAX_RETRIES} (model=gemini-2.5-flash, temp=0.7, maxTokens=16384, json-mode=ON)`);
+    log.info('generatePost', `Calling Gemini API attempt ${attempt}/${MAX_RETRIES} (model=${GEMINI_MODEL}, temp=0.7, maxTokens=16384, json-mode=ON)`);
     const apiTimer = log.time('generatePost:api-call');
 
     const response = await getAI().models.generateContent({
-      model: 'gemini-2.5-flash',
+      model: GEMINI_MODEL,
       contents: prompt,
       config: {
         temperature: 0.7,
