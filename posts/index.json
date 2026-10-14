@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI Compliance Automation Wins Big: SOC 2 & GRC Impact",
+    "slug": "2026-10-14-ai-compliance-automation-wins-big-soc-2-grc-impact",
+    "date": "2026-10-14",
+    "excerpt": "Kovr.AI's recent CyberSecurity Breakthrough award signals a major transition in GRC. Here is how continuous compliance automation reshapes SOC 2 and ISO 27001 audits.",
+    "tags": [
+      "Compliance Automation",
+      "SOC 2",
+      "GRC",
+      "ISO 27001",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 627,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1635886948198-dee745a773dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBmb3J0cmVzc3xlbnwxfDB8fHwxNzkyMDA0NTI4fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a scenic view of a city with a river running through it",
+      "credit": "Radek Kozák",
+      "color": "#0c73d9"
+    }
+  },
+  {
     "title": "Ivanti Zero-Day Exploit Chain: Root Access Risk & Defense",
     "slug": "2026-10-13-ivanti-zero-day-exploit-chain-root-access-risk-defense",
     "date": "2026-10-13",
