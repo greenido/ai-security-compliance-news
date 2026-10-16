@@ -1,5 +1,30 @@
 [
   {
+    "title": "Why Eventide's SOC 2 Milestone Matters for Cloud Ops",
+    "slug": "2026-10-16-why-eventides-soc-2-milestone-matters-for-cloud-ops",
+    "date": "2026-10-16",
+    "excerpt": "Eventide Communications has achieved SOC 2 compliance for its mission-critical cloud solutions. Here is what security and compliance teams must evaluate.",
+    "tags": [
+      "SOC 2",
+      "Compliance",
+      "Cloud Security",
+      "Third-Party Risk",
+      "IT Operations"
+    ],
+    "categories": [
+      "Compliance",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 700,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1771454527110-7d510b107f40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxmb3J0cmVzc3xlbnwxfDB8fHwxNzkyMTc1NDQ4fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A large castle sits atop a grassy hill",
+      "credit": "Tina Williams",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "SOC 2 Myths Debunked: What Real Data Tells Security Teams",
     "slug": "2026-10-15-soc-2-myths-debunked-audit-data",
     "date": "2026-10-15",
