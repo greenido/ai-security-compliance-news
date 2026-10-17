@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI in the SOC: Navigating SOC 2 Compliance",
+    "slug": "2026-10-17-ai-in-the-soc-navigating-soc-2-compliance",
+    "date": "2026-10-17",
+    "excerpt": "As security teams deploy AI-powered SOCs, compliance officers face new audit challenges. Learn how automated SecOps affects your SOC 2 posture and evidence collection.",
+    "tags": [
+      "SOC 2",
+      "AI SOC",
+      "Compliance Automation",
+      "SecOps",
+      "Trust Services Criteria"
+    ],
+    "categories": [
+      "AI",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 689,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzkyMjU4NTkzfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "Why Eventide's SOC 2 Milestone Matters for Cloud Ops",
     "slug": "2026-10-16-why-eventides-soc-2-milestone-matters-for-cloud-ops",
     "date": "2026-10-16",
