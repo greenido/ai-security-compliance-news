@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI-Driven SOCs: Navigating Modern SOC 2 Audits",
+    "slug": "2026-10-18-ai-driven-socs-navigating-modern-soc-2-audits",
+    "date": "2026-10-18",
+    "excerpt": "As security teams turn to AI-driven SOC platforms to accelerate triage and response, compliance officers face new scrutiny during SOC 2 audits. Here is how to keep your operations compliant.",
+    "tags": [
+      "SOC 2",
+      "AI SOC",
+      "Cybersecurity",
+      "Compliance Automation",
+      "Audit Readiness"
+    ],
+    "categories": [
+      "AI",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 673,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1635184549784-90a9f799d68d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBnbGFzc3xlbnwxfDB8fHwxNzkyMzQ1MTY0fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a group of vases sitting on top of a table",
+      "credit": "Dan Hadar",
+      "color": "#c08c73"
+    }
+  },
+  {
     "title": "AI in the SOC: Navigating SOC 2 Compliance",
     "slug": "2026-10-17-ai-in-the-soc-navigating-soc-2-compliance",
     "date": "2026-10-17",
