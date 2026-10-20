@@ -1,5 +1,30 @@
 [
   {
+    "title": "SOC 2 Audits: Bridge the Gap from Assessment to Proof",
+    "slug": "2026-10-20-soc-2-audits-bridge-gap-assessment-to-proof",
+    "date": "2026-10-20",
+    "excerpt": "Transitioning from a SOC 2 gap assessment to a clean audit report requires deliberate control design and continuous evidence collection. Here is how compliance teams succeed.",
+    "tags": [
+      "SOC 2",
+      "Cybersecurity Compliance",
+      "Audit Readiness",
+      "ISO 27001",
+      "Information Security"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 735,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1783646114168-dbe5bd90eda1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxzdXNwfGVufDF8MHx8fDE3OTI1MjIxNDd8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "3D text 'superposition state' with spheres and a wavy line",
+      "credit": "Brecht Corbeel",
+      "color": "#0c4059"
+    }
+  },
+  {
     "title": "Fake AI Grants Lure Devs With Malicious npm Packages",
     "slug": "2026-10-19-fake-ai-grants-lure-devs-with-malicious-npm-packages",
     "date": "2026-10-19",
