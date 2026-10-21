@@ -1,5 +1,30 @@
 [
   {
+    "title": "SOC 2 Compliance in the Era of the AI SOC",
+    "slug": "2026-10-21-soc-2-compliance-in-the-era-of-the-ai-soc",
+    "date": "2026-10-21",
+    "excerpt": "As artificial intelligence automates SecOps, compliance officers face new audit hurdles. Here is how AI SOC architectures meet SOC 2 requirements.",
+    "tags": [
+      "SOC 2",
+      "AI SOC",
+      "Compliance Automation",
+      "SecOps",
+      "Cybersecurity Audit"
+    ],
+    "categories": [
+      "AI",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 612,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1620207418302-439b387441b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxtb2Rlcm58ZW58MXwwfHx8MTc5MjYwOTI4Nnww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "purple and pink flowing wallpaper",
+      "credit": "Milad Fakurian",
+      "color": "#260c40"
+    }
+  },
+  {
     "title": "SOC 2 Audits: Bridge the Gap from Assessment to Proof",
     "slug": "2026-10-20-soc-2-audits-bridge-gap-assessment-to-proof",
     "date": "2026-10-20",
