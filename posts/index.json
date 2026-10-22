@@ -1,5 +1,30 @@
 [
   {
+    "title": "Mastering the SOC 2 Audit: From Readiness to Report",
+    "slug": "2026-10-22-mastering-the-soc-2-audit-readiness-to-report",
+    "date": "2026-10-22",
+    "excerpt": "Preparing for a SOC 2 audit can feel daunting. Here is a practical roadmap to bridge the gap between initial assessment and final audit report without burning out your team.",
+    "tags": [
+      "SOC 2",
+      "Cybersecurity Compliance",
+      "Audit Readiness",
+      "Trust Services Criteria",
+      "Information Security"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 684,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1559843788-693858bf7338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxicmlkZ2UlMjBvdmVyfGVufDF8MHx8fDE3OTI2OTU0MzF8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "low-angel photography of bridge during daytime",
+      "credit": "Mason  Kimbarovsky",
+      "color": "#c0c0d9"
+    }
+  },
+  {
     "title": "SOC 2 Compliance in the Era of the AI SOC",
     "slug": "2026-10-21-soc-2-compliance-in-the-era-of-the-ai-soc",
     "date": "2026-10-21",
