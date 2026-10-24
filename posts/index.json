@@ -1,5 +1,55 @@
 [
   {
+    "title": "Meet Phantom: The AI Agent Behind Modern Ransomware",
+    "slug": "2026-10-24-meet-phantom-the-ai-agent-behind-modern-ransomware",
+    "date": "2026-10-24",
+    "excerpt": "Ransomware groups INC and The Gentlemen are deploying 'Phantom,' an AI agent orchestrating autonomous corporate intrusions and data extortion at machine speed.",
+    "tags": [
+      "Ransomware",
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Threat Intelligence",
+      "Incident Response"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 685,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzkyODYzODE3fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
+    "title": "Demystifying SOC 2: What Auditors Really Look For",
+    "slug": "2026-10-24-demystifying-soc-2-auditor-evaluation",
+    "date": "2026-10-24",
+    "excerpt": "Auditors evaluate more than just policy documents during a SOC 2 audit. Here is what IT and compliance teams need to know about Trust Services Criteria and continuous evidence.",
+    "tags": [
+      "SOC 2",
+      "Compliance",
+      "Trust Services Criteria",
+      "Information Security",
+      "Auditing"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 680,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxiYWxhbmNlJTIwb3JkZXIlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc5Mjg2Mzc3NXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "worm's-eye view photography of concrete building",
+      "credit": "Kimon Maritz",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "Mastering SOC 2: From Assessment to Type II Audit",
     "slug": "2026-10-23-mastering-soc-2-from-assessment-to-type-ii-audit",
     "date": "2026-10-23",
