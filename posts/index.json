@@ -1,5 +1,29 @@
 [
   {
+    "title": "Demystifying SOC 2: What Auditors Really Look For",
+    "slug": "2026-10-25-demystifying-soc-2-what-auditors-look-for",
+    "date": "2026-10-25",
+    "excerpt": "Navigating SOC 2 audits can feel daunting. Here is a breakdown of the Trust Services Criteria, audit expectations, and how to prepare controls across your tech stack.",
+    "tags": [
+      "SOC 2",
+      "Compliance",
+      "Auditing",
+      "Information Security",
+      "Risk Management"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 661,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1589642428333-96ce74c6f0d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxzdW5saWdodCUyMHRocm91Z2h8ZW58MXwwfHx8MTc5Mjk1MTA2MXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "white clouds and blue sky during daytime",
+      "credit": "Thomas Kinto",
+      "color": "#404026"
+    }
+  },
+  {
     "title": "Meet Phantom: The AI Agent Behind Modern Ransomware",
     "slug": "2026-10-24-meet-phantom-the-ai-agent-behind-modern-ransomware",
     "date": "2026-10-24",
