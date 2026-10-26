@@ -1,5 +1,29 @@
 [
   {
+    "title": "Zero-Exception SOC 2 Type II: What Cyngn's Audit Teaches",
+    "slug": "2026-10-26-zero-exception-soc-2-type-ii-audit-lessons",
+    "date": "2026-10-26",
+    "excerpt": "Cyngn achieved a clean SOC 2 Type II audit with zero exceptions while launching an Enterprise Trust Center. Here are the key takeaways for compliance leaders.",
+    "tags": [
+      "SOC 2",
+      "Compliance",
+      "Trust Center",
+      "Information Security",
+      "Auditing"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 685,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1547190027-9156686aa2f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxmbGF3fGVufDF8MHx8fDE3OTMwNDU2MDR8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "Vertical columns of glowing green digital code against a dark black background",
+      "credit": "Markus Spiske",
+      "color": "#0c260c"
+    }
+  },
+  {
     "title": "Demystifying SOC 2: What Auditors Really Look For",
     "slug": "2026-10-25-demystifying-soc-2-what-auditors-look-for",
     "date": "2026-10-25",
