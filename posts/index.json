@@ -1,5 +1,30 @@
 [
   {
+    "title": "Atombeam SOC 2 Type 2 Audit: Key Takeaways for TPRM",
+    "slug": "2026-10-27-atombeam-soc-2-type-2-audit-tprm-takeaways",
+    "date": "2026-10-27",
+    "excerpt": "Atombeam's SOC 2 Type 2 audit completion highlights evolving standards for edge data security. Here is how compliance teams can evaluate the results.",
+    "tags": [
+      "SOC 2 Type 2",
+      "Compliance",
+      "Third-Party Risk",
+      "Data Security",
+      "Information Security"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 651,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1566873535350-a3f5d4a804b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxmb3J0cmVzc3xlbnwxfDB8fHwxNzkzMTMwMzA5fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "grasses on hill",
+      "credit": "MAKM PHOTOGRAPHY",
+      "color": "#0c8cf3"
+    }
+  },
+  {
     "title": "Zero-Exception SOC 2 Type II: What Cyngn's Audit Teaches",
     "slug": "2026-10-26-zero-exception-soc-2-type-ii-audit-lessons",
     "date": "2026-10-26",
