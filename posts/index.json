@@ -1,5 +1,30 @@
 [
   {
+    "title": "Atombeam's SOC 2 Type 2: What It Means for Audits",
+    "slug": "2026-10-28-atombeams-soc-2-type-2-what-it-means-for-audits",
+    "date": "2026-10-28",
+    "excerpt": "Atombeam's SOC 2 Type 2 attestation validates operational security for its Neurpac data compaction engine. Here is what compliance officers need to review.",
+    "tags": [
+      "SOC 2",
+      "Data Security",
+      "Vendor Risk Management",
+      "Compliance",
+      "Edge Computing"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 668,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1676970344754-c75fa97e3713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxtb25vbGl0aGljfGVufDF8MHx8fDE3OTMyMTc1MjZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a group of stone pillars sitting next to each other",
+      "credit": "Abhinav",
+      "color": "#598cd9"
+    }
+  },
+  {
     "title": "Atombeam SOC 2 Type 2 Audit: Key Takeaways for TPRM",
     "slug": "2026-10-27-atombeam-soc-2-type-2-audit-tprm-takeaways",
     "date": "2026-10-27",
