@@ -1,5 +1,30 @@
 [
   {
+    "title": "Fake AI Desktop Apps Abuse Signed Binaries to Mine Crypto",
+    "slug": "2026-10-29-fake-ai-desktop-apps-abuse-signed-binaries-to-mine-crypto",
+    "date": "2026-10-29",
+    "excerpt": "Threat actors are weaponizing fake ChatGPT and Claude desktop apps via signed executables in the Yoba campaign, deploying crypto miners on corporate endpoints.",
+    "tags": [
+      "Cybersecurity",
+      "Artificial Intelligence",
+      "Malware",
+      "Endpoint Security",
+      "Threat Intelligence"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 679,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1686771416282-3888ddaf249b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHwlMkMlMjBzaWduZWR8ZW58MXwwfHx8MTc5MzMwMzgwMnww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a man and a woman shaking hands in front of a laptop",
+      "credit": "Mina Rad",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Atombeam's SOC 2 Type 2: What It Means for Audits",
     "slug": "2026-10-28-atombeams-soc-2-type-2-what-it-means-for-audits",
     "date": "2026-10-28",
