@@ -1,5 +1,29 @@
 [
   {
+    "title": "Mastering SOC 2 Type II Audits With Zero Exceptions",
+    "slug": "2026-10-30-mastering-soc-2-type-ii-zero-exceptions",
+    "date": "2026-10-30",
+    "excerpt": "Cyngn's zero-exception SOC 2 Type II audit offers a masterclass in audit readiness. Discover the critical controls, evidence strategies, and framework mappings that IT leaders need to succeed.",
+    "tags": [
+      "SOC 2",
+      "Compliance",
+      "Cybersecurity",
+      "Audit Readiness",
+      "Risk Management"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 672,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxiYWxhbmNlJTIwb3JkZXIlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc5MzM4OTU5M3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "worm's-eye view photography of concrete building",
+      "credit": "Kimon Maritz",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "Fake AI Desktop Apps Abuse Signed Binaries to Mine Crypto",
     "slug": "2026-10-29-fake-ai-desktop-apps-abuse-signed-binaries-to-mine-crypto",
     "date": "2026-10-29",
