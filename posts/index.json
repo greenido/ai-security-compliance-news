@@ -1,5 +1,29 @@
 [
   {
+    "title": "Zero Exceptions: Lessons from Cyngn's SOC 2 Win",
+    "slug": "2026-10-31-zero-exceptions-lessons-from-cyngn-soc-2-win",
+    "date": "2026-10-31",
+    "excerpt": "Cyngn secured a flawless SOC 2 Type II examination with zero exceptions. Discover the key takeaways for compliance teams aiming for audit-ready operational controls.",
+    "tags": [
+      "SOC 2",
+      "Compliance",
+      "Information Security",
+      "Risk Management",
+      "Cybersecurity"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 587,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1431576901776-e539bd916ba2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxhcmNoaXRlY3R1cmFsJTIwcHJlY2lzaW9ufGVufDF8MHx8fDE3OTM0NzI4NTR8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "worms eye view of buildings",
+      "credit": "Alex wong",
+      "color": "#402626"
+    }
+  },
+  {
     "title": "Mastering SOC 2 Type II Audits With Zero Exceptions",
     "slug": "2026-10-30-mastering-soc-2-type-ii-zero-exceptions",
     "date": "2026-10-30",
