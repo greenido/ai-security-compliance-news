@@ -1,5 +1,55 @@
 [
   {
+    "title": "Ivanti Flaws Chained for Zero-Click Root Access",
+    "slug": "2026-11-01-ivanti-flaws-chained-zero-click-root-access",
+    "date": "2026-11-01",
+    "excerpt": "Active exploitation chains three Ivanti Connect Secure vulnerabilities to grant attackers unauthenticated root control. CISA has issued an urgent advisory.",
+    "tags": [
+      "Ivanti",
+      "Vulnerability",
+      "CISA",
+      "Cybersecurity",
+      "ZeroDay"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 673,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc5MzU2MDU5NXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
+    "title": "Why Peec AI's SOC 2 Type II Matters for Enterprise AI",
+    "slug": "2026-11-01-why-peec-ais-soc-2-type-ii-matters-for-enterprise-ai",
+    "date": "2026-11-01",
+    "excerpt": "Peec AI's SOC 2 Type II attestation marks a key shift for enterprise AI search tools. Here is what compliance officers and security teams must evaluate.",
+    "tags": [
+      "SOC 2 Type II",
+      "AI Compliance",
+      "Vendor Risk Management",
+      "Enterprise AI",
+      "Information Security"
+    ],
+    "categories": [
+      "AI",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 667,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzkzNTYwNTY0fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "Zero Exceptions: Lessons from Cyngn's SOC 2 Win",
     "slug": "2026-10-31-zero-exceptions-lessons-from-cyngn-soc-2-win",
     "date": "2026-10-31",
