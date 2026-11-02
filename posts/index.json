@@ -1,5 +1,29 @@
 [
   {
+    "title": "SOC 2 vs. ISO 27001: Navigating the 93 Controls",
+    "slug": "2026-11-02-soc-2-vs-iso-27001-navigating-the-93-controls",
+    "date": "2026-11-02",
+    "excerpt": "Choosing between SOC 2 and ISO 27001 doesn't have to be an either-or dilemma. Explore how to harmonize ISO's 93 Annex A controls with SOC 2 Trust Services Criteria.",
+    "tags": [
+      "SOC 2",
+      "ISO 27001",
+      "Information Security",
+      "Compliance Audits",
+      "Risk Management"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 695,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxiYWxhbmNlJTIwb3JkZXIlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc5MzY2MDE5Mnww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "worm's-eye view photography of concrete building",
+      "credit": "Kimon Maritz",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "Ivanti Flaws Chained for Zero-Click Root Access",
     "slug": "2026-11-01-ivanti-flaws-chained-zero-click-root-access",
     "date": "2026-11-01",
