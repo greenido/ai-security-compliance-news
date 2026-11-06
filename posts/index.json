@@ -1,5 +1,29 @@
 [
   {
+    "title": "Navigating SOC 2 & ISO 27001 Automation in 2026",
+    "slug": "2026-11-06-navigating-soc-2-iso-27001-automation-in-2026",
+    "date": "2026-11-06",
+    "excerpt": "A guide to navigating the 2026 compliance automation landscape for SOC 2 and ISO 27001, focusing on Trust Services Criteria and continuous audit readiness.",
+    "tags": [
+      "SOC 2",
+      "ISO 27001",
+      "Compliance Automation",
+      "Information Security",
+      "GRC"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 680,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBhcmNoaXRlY3R1cmFsfGVufDF8MHx8fDE3OTM5OTc1NjJ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "low angle photography of gray building at daytime",
+      "credit": "Anders Jildén",
+      "color": "#8c8c8c"
+    }
+  },
+  {
     "title": "Buyer's Guide: SOC 2 & ISO 27001 Automation in 2026",
     "slug": "2026-11-05-buyers-guide-soc-2-iso-27001-automation",
     "date": "2026-11-05",
