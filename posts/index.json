@@ -1,5 +1,30 @@
 [
   {
+    "title": "InnerActiv Earns SOC 2 Type II: Lessons for Compliance",
+    "slug": "2026-11-07-inneractiv-earns-soc-2-type-ii-lessons-for-compliance",
+    "date": "2026-11-07",
+    "excerpt": "InnerActiv has completed its SOC 2 Type II examination. Here is what compliance officers must know about reviewing vendor risk, CUECs, and continuous assurance.",
+    "tags": [
+      "SOC 2",
+      "Compliance",
+      "Vendor Risk Management",
+      "Data Security",
+      "Auditing"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 696,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc5NDA3ODY3NXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "Navigating SOC 2 & ISO 27001 Automation in 2026",
     "slug": "2026-11-06-navigating-soc-2-iso-27001-automation-in-2026",
     "date": "2026-11-06",
