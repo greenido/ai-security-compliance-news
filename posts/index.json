@@ -1,5 +1,30 @@
 [
   {
+    "title": "Claude Code Setting Leaks Passwords in 1,100+ Repos",
+    "slug": "2026-11-08-claude-code-setting-leaks-passwords-in-1100-repos",
+    "date": "2026-11-08",
+    "excerpt": "A convenience feature in Anthropic's Claude Code has left API keys and credentials exposed across more than 1,100 public GitHub repositories. Here is what SecOps teams need to know.",
+    "tags": [
+      "Claude Code",
+      "AI Security",
+      "Secret Sprawl",
+      "GitHub",
+      "Application Security"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 700,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1582543553486-6579463ddb77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxjcmFja2VkJTIwZGFtfGVufDF8MHx8fDE3OTQxNjUyNTZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "white and brown concrete building near body of water during daytime",
+      "credit": "Ryan Thorpe",
+      "color": "#8c7373"
+    }
+  },
+  {
     "title": "InnerActiv Earns SOC 2 Type II: Lessons for Compliance",
     "slug": "2026-11-07-inneractiv-earns-soc-2-type-ii-lessons-for-compliance",
     "date": "2026-11-07",
