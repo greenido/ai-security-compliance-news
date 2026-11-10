@@ -1,5 +1,31 @@
 [
   {
+    "title": "AI-Driven GRC: The New Playbook for Audits",
+    "slug": "2026-11-10-ai-driven-grc-the-new-playbook-for-audits",
+    "date": "2026-11-10",
+    "excerpt": "Rivial Data Security introduces Rivial.ai to automate heavy-lifting GRC workloads. Explore the practical implications for SOC 2, ISO 27001, and audit teams.",
+    "tags": [
+      "Cybersecurity",
+      "GRC",
+      "AI",
+      "SOC 2",
+      "Compliance"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 682,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1560257084-d568f6eb7b29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxvcmdhbml6ZWQlMjBhcmNoaXRlY3R1cmUlMjBsaWdodHxlbnwxfDB8fHwxNzk0MzQ0NzI4fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "empty beige pathway with lights",
+      "credit": "Quentin Grignet",
+      "color": "#594026"
+    }
+  },
+  {
     "title": "Qubole Cloud Breach: How Trusted AWS Access Was Abused",
     "slug": "2026-11-09-qubole-cloud-breach-aws-trusted-access-abused",
     "date": "2026-11-09",
