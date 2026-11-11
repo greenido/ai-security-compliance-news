@@ -1,5 +1,30 @@
 [
   {
+    "title": "Navigating SOC 2 and ISO 27001 Automation in 2026",
+    "slug": "2026-11-11-navigating-soc-2-iso-27001-automation-2026",
+    "date": "2026-11-11",
+    "excerpt": "Continuous evidence collection is redefining audit prep. Here is how modern compliance automation platforms streamline SOC 2 and ISO 27001 readiness in 2026.",
+    "tags": [
+      "SOC 2",
+      "ISO 27001",
+      "Compliance Automation",
+      "Cloud Security",
+      "Information Security"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 635,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1609627016501-b862497c7294?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxzdGFuZGFyZHMlMkMlMjBzdHJ1Y3R1cmV8ZW58MXwwfHx8MTc5NDQzMzEyNXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "yellow metal tower with yellow metal frame",
+      "credit": "Luca Upper",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "AI-Driven GRC: The New Playbook for Audits",
     "slug": "2026-11-10-ai-driven-grc-the-new-playbook-for-audits",
     "date": "2026-11-10",
