@@ -1,5 +1,30 @@
 [
   {
+    "title": "SOC 2 & ISO 27001: 2026 Compliance Automation Trends",
+    "slug": "2026-11-12-soc-2-iso-27001-compliance-automation-trends",
+    "date": "2026-11-12",
+    "excerpt": "As compliance automation tools advance in 2026, IT leaders can move beyond manual audits. Explore how platforms optimize SOC 2 and ISO 27001 evidence collection.",
+    "tags": [
+      "SOC 2",
+      "ISO 27001",
+      "Compliance Automation",
+      "GRC",
+      "Cloud Security"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 632,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc5NDUxOTUzN3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "low angle photography of gray building at daytime",
+      "credit": "Anders Jildén",
+      "color": "#8c8c8c"
+    }
+  },
+  {
     "title": "Navigating SOC 2 and ISO 27001 Automation in 2026",
     "slug": "2026-11-11-navigating-soc-2-iso-27001-automation-2026",
     "date": "2026-11-11",
