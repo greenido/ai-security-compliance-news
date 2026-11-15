@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cursor Breach: Stolen Key Taints Claude Code Extension",
+    "slug": "2026-11-15-cursor-breach-stolen-key-taints-claude-code-extension",
+    "date": "2026-11-15",
+    "excerpt": "A stolen API key exposed in an upstream breach allowed attackers to distribute a trojanized Claude Code extension inside Cursor, exposing critical AI supply chain risks.",
+    "tags": [
+      "cursor",
+      "claude code",
+      "supply chain security",
+      "ai security",
+      "appsec"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 670,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzk0NzcyODcyfDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "UnrealIRCd Flaw Under Attack: CISA Issues KEV Warning",
     "slug": "2026-11-14-unrealircd-flaw-under-attack-cisa-warning",
     "date": "2026-11-14",
