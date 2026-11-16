@@ -1,5 +1,55 @@
 [
   {
+    "title": "SOC 2 Type I vs. Type II: The Strategic Audit Guide",
+    "slug": "2026-11-16-soc-2-type-i-vs-type-ii-strategic-audit-guide",
+    "date": "2026-11-16",
+    "excerpt": "Stuck deciding between a SOC 2 Type I and Type II report? Here is how compliance leaders balance sales velocity, audit timelines, and Trust Services Criteria.",
+    "tags": [
+      "SOC 2",
+      "Compliance",
+      "Auditing",
+      "Information Security",
+      "Risk Management"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 669,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxiYWxhbmNlJTIwb3JkZXIlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc5NDg3MjEyNHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "worm's-eye view photography of concrete building",
+      "credit": "Kimon Maritz",
+      "color": "#f3f3f3"
+    }
+  },
+  {
+    "title": "AI Agents Weaponize Software Patches at Machine Speed",
+    "slug": "2026-11-16-ai-agents-weaponize-software-patches",
+    "date": "2026-11-16",
+    "excerpt": "Adversaries are deploying autonomous multi-agent AI frameworks to reverse-engineer patches and execute exploits at unprecedented velocity, Google warns.",
+    "tags": [
+      "AI Security",
+      "Vulnerability Management",
+      "Threat Intelligence",
+      "Patch Diffing",
+      "Autonomous Agents"
+    ],
+    "categories": [
+      "AI",
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 684,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1565551223391-be988013ee6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxjcmFja2VkfGVufDF8MHx8fDE3OTQ4NzIwOTl8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "orange band aid on concrete surface crack",
+      "credit": "Luis Villasmil",
+      "color": "#404040"
+    }
+  },
+  {
     "title": "Cursor Breach: Stolen Key Taints Claude Code Extension",
     "slug": "2026-11-15-cursor-breach-stolen-key-taints-claude-code-extension",
     "date": "2026-11-15",
