@@ -1,13 +1,8 @@
-import { describe, it } from 'node:test';
+import { describe, it, afterEach } from 'node:test';
 import assert from 'node:assert/strict';
-import dotenv from 'dotenv';
-import { dirname, join } from 'path';
-import { fileURLToPath } from 'url';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-dotenv.config({ path: join(__dirname, '..', '..', '.env') });
-
-import { shouldAddCTA, buildPrompt, generatePost, isTransientError, sanitizeSlug, POST_SCHEMA } from '../gemini-writer.mjs';
+import {
+  shouldAddCTA, buildPrompt, generatePost, isTransientError, sanitizeSlug, POST_SCHEMA, setAIClient,
+} from '../gemini-writer.mjs';
 
 // ---------------------------------------------------------------------------
 // shouldAddCTA
@@ -176,39 +171,78 @@ describe('POST_SCHEMA', () => {
 });
 
 // ---------------------------------------------------------------------------
-// generatePost (live Gemini API — integration, requires GEMINI_API_KEY)
+// generatePost — stubbed Gemini client (the live call is in integration.test.mjs)
 // ---------------------------------------------------------------------------
-describe('generatePost (live Gemini API)', () => {
-  it('generates a valid blog post from a news item', async () => {
-    if (!process.env.GEMINI_API_KEY) {
-      console.log('  ⏭  Skipping: GEMINI_API_KEY not set');
-      return;
-    }
+describe('generatePost (stubbed client)', () => {
+  const today = new Date().toISOString().split('T')[0];
+  const newsItem = {
+    title: 'AI-Powered Threat Detection Reduces MTTR',
+    source: 'Industry Analysis',
+    snippet: 'Summary',
+    link: 'https://example.org/story',
+    categories: ['AI', 'Security'],
+    evergreen: true, // skip fetching the source article
+  };
+  const goodDraft = {
+    title: 'Faster Threat Response with AI',
+    slug: `${today}-faster-threat-response-with-ai`,
+    metaDescription: 'Meta',
+    excerpt: 'Excerpt',
+    tags: ['AI', 'SOC', 'MTTR'],
+    categories: ['AI', 'Security'],
+    content: `<h2>What changed</h2><p>${'word '.repeat(500)}</p>`,
+    hasCTA: false,
+    wordCount: 500,
+  };
 
-    const newsItem = {
-      title: 'AI-Powered Threat Detection Reduces MTTR by 60%',
-      source: 'The Hacker News',
-      snippet: 'New AI systems help security teams detect and respond to threats faster than ever, with mean-time-to-respond dropping by 60% in early deployments.',
-      link: 'https://example.com/ai-threat-detection',
-      categories: ['AI', 'Security'],
-    };
+  function stubClient(...responses) {
+    const calls = [];
+    setAIClient({
+      models: {
+        generateContent: async (req) => {
+          calls.push(req);
+          const next = responses.shift();
+          if (next instanceof Error) throw next;
+          return { text: typeof next === 'string' ? next : JSON.stringify(next) };
+        },
+      },
+    });
+    return calls;
+  }
 
-    const post = await generatePost(newsItem);
+  afterEach(() => setAIClient(null));
 
-    assert.ok(post.title, 'Post should have a title');
-    assert.ok(post.title.length <= 80, `Title too long: ${post.title.length} chars`);
-    assert.ok(post.slug, 'Post should have a slug');
-    assert.ok(/^[a-z0-9-]+$/.test(post.slug), `Slug has invalid chars: ${post.slug}`);
-    assert.ok(post.metaDescription, 'Post should have a metaDescription');
-    assert.ok(post.metaDescription.length <= 200, `metaDescription too long: ${post.metaDescription.length}`);
-    assert.ok(post.content, 'Post should have content');
-    assert.ok(post.content.length > 200, 'Content seems too short');
-    assert.ok(Array.isArray(post.tags), 'tags should be an array');
-    assert.ok(post.tags.length >= 3, 'Should have at least 3 tags');
-    assert.ok(Array.isArray(post.categories), 'categories should be an array');
-    assert.ok(post.date, 'Post should have a date');
-    assert.ok(typeof post.hasCTA === 'boolean', 'hasCTA should be a boolean');
-    assert.ok(post.sourceUrl === newsItem.link, 'sourceUrl should match news link');
-    assert.ok(post.sourceName === newsItem.source, 'sourceName should match news source');
+  it('returns a post and sends the JSON schema', async () => {
+    const calls = stubClient(goodDraft);
+    const post = await generatePost(newsItem, { retryBaseMs: 0 });
+    assert.equal(post.title, goodDraft.title);
+    assert.equal(post.date, today);
+    assert.equal(post.sourceUrl, newsItem.link);
+    assert.equal(calls[0].config.responseJsonSchema, POST_SCHEMA);
+  });
+
+  it('retries transient API errors', async () => {
+    const calls = stubClient(Object.assign(new Error('overloaded'), { status: 503 }), goodDraft);
+    const post = await generatePost(newsItem, { retryBaseMs: 0 });
+    assert.equal(post.title, goodDraft.title);
+    assert.equal(calls.length, 2);
+  });
+
+  it('does not retry client errors', async () => {
+    const calls = stubClient(Object.assign(new Error('bad key'), { status: 403 }), goodDraft);
+    await assert.rejects(generatePost(newsItem, { retryBaseMs: 0 }), /bad key/);
+    assert.equal(calls.length, 1);
+  });
+
+  it('regenerates invalid JSON and drafts that fail the quality gate', async () => {
+    const calls = stubClient('{not json', { ...goodDraft, content: '<p>short</p>' }, goodDraft);
+    const post = await generatePost(newsItem, { retryBaseMs: 0 });
+    assert.equal(post.title, goodDraft.title);
+    assert.equal(calls.length, 3);
+  });
+
+  it('gives up after repeated bad drafts', async () => {
+    stubClient('{', '{', '{', '{');
+    await assert.rejects(generatePost(newsItem, { retryBaseMs: 0 }), /after 4 attempts: invalid JSON/);
   });
 });

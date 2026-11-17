@@ -20,7 +20,7 @@ async function main() {
   log.section('AI Security & Compliance News — Post Generator');
   log.info('main', `Date: ${new Date().toISOString().split('T')[0]}`);
   log.info('main', `Node: ${process.version}, Platform: ${process.platform}`);
-  log.info('main', `ENV: GEMINI_API_KEY=${process.env.GEMINI_API_KEY ? 'set (' + process.env.GEMINI_API_KEY.length + ' chars)' : 'NOT SET'}`);
+  log.info('main', `ENV: GEMINI_API_KEY ${process.env.GEMINI_API_KEY ? 'set' : 'NOT SET'}`);
   log.info('main', `DEBUG mode: ${process.env.DEBUG ? 'ON' : 'OFF (set DEBUG=1 for verbose logs)'}`);
 
   // Step 1: Fetch trending news

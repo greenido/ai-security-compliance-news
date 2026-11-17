@@ -3,7 +3,6 @@ import assert from 'node:assert/strict';
 import {
   scoreArticle,
   categorizeArticle,
-  fetchTrendingNews,
   cleanUrl,
   RSS_FEEDS,
   RELEVANCE_KEYWORDS,
@@ -231,21 +230,5 @@ describe('RELEVANCE_KEYWORDS config', () => {
       assert.ok(typeof kw.word === 'string' && kw.word.length > 0);
       assert.ok(typeof kw.weight === 'number' && kw.weight > 0);
     }
-  });
-});
-
-// ---------------------------------------------------------------------------
-// fetchTrendingNews (live RSS — integration)
-// ---------------------------------------------------------------------------
-describe('fetchTrendingNews (live RSS)', () => {
-  it('fetches and returns a top news item with required fields', async () => {
-    const news = await fetchTrendingNews();
-
-    assert.ok(news.title, 'Missing title');
-    assert.ok(news.link, 'Missing link');
-    assert.ok(typeof news.snippet === 'string', 'snippet should be a string');
-    assert.ok(news.source, 'Missing source');
-    assert.ok(Array.isArray(news.categories), 'categories should be an array');
-    assert.ok(news.categories.length > 0, 'categories should have at least one entry');
   });
 });

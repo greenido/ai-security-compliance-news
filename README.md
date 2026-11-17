@@ -69,6 +69,7 @@ npm --prefix scripts run test:unit
 | --- | --- |
 | `posts/data/*.json` | Source of truth for every post (title, content, tags, hero image, …). A post with `"unlisted": true` gets a page but is left out of the index, feed and sitemap. |
 | `posts/*.html`, `posts/index.json`, `sitemap.xml`, `feed.xml` | Generated from `posts/data/` — don't edit by hand |
+| `index.html` (between `POSTS:START`/`POSTS:END`) | The newest post cards, generated so the home page works without JavaScript; `js/posts-loader.js` adds search, filters and pagination |
 | `scripts/generate-post.mjs` | Daily pipeline entry point |
 | `scripts/build-post-html.mjs` | Post template and listing generation |
 | `scripts/quality-gate.mjs` | Checks a post must pass before publishing |

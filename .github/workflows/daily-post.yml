@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# A manual run and the scheduled run must not push at the same time.
+concurrency:
+  group: daily-post
+  cancel-in-progress: false
+
 jobs:
   generate-and-push:
     runs-on: ubuntu-latest
@@ -26,8 +31,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install
-          npm install --prefix scripts
+          npm ci
+          npm ci --prefix scripts
+
+      - name: Unit tests
+        run: npm run test:unit
+        working-directory: scripts
 
       - name: Generate daily blog post
         run: node generate-post.mjs
@@ -44,7 +53,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add posts/ sitemap.xml feed.xml css/tailwind.css
+          git add posts/ index.html sitemap.xml feed.xml css/tailwind.css
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Daily post: $(date +%Y-%m-%d)"
           git push

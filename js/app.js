@@ -33,8 +33,9 @@
     yearEl.textContent = new Date().getFullYear();
   }
 
-  // Register service worker for PWA
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  // Register service worker for PWA. Resolve it relative to this script
+  // (js/app.js → /sw.js) so it also works from pages in posts/.
+  if ('serviceWorker' in navigator && document.currentScript) {
+    navigator.serviceWorker.register(new URL('../sw.js', document.currentScript.src)).catch(() => {});
   }
 })();

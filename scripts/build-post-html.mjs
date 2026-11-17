@@ -10,7 +10,8 @@ import { checkPostQuality, countContentWords } from './quality-gate.mjs';
 const log = createLogger('build-post');
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = join(__dirname, '..');
+// SITE_ROOT lets tests build into a temporary directory instead of the repo.
+const ROOT = process.env.SITE_ROOT || join(__dirname, '..');
 const POSTS_DIR = join(ROOT, 'posts');
 // posts/data/<slug>.json is the source of truth for every post. The post HTML,
 // index.json, sitemap.xml and feed.xml are all generated from it.
@@ -18,7 +19,9 @@ const DATA_DIR = join(POSTS_DIR, 'data');
 const INDEX_PATH = join(POSTS_DIR, 'index.json');
 const SITEMAP_PATH = join(ROOT, 'sitemap.xml');
 const FEED_PATH = join(ROOT, 'feed.xml');
+const HOME_PATH = join(ROOT, 'index.html');
 const FEED_ITEMS = 20;
+const POSTS_PER_PAGE = 9; // keep in sync with js/posts-loader.js
 
 export const SITE_URL = (process.env.SITE_URL || 'https://aicybersecurity.news').replace(/\/+$/, '');
 const SITE_NAME = 'AI Security and Compliance News';
@@ -82,20 +85,78 @@ function buildCtaBanner() {
     </div>`;
 }
 
-function buildPostHtmlPage(post) {
+// Keep in sync with getCategoryColor() in js/posts-loader.js.
+const CATEGORY_COLORS = {
+  'AI': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300',
+  'Security': 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300',
+  'Compliance': 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300',
+  'IT Ops': 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300',
+};
+const DEFAULT_CATEGORY_COLOR = 'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300';
+
+function categoryBadges(categories) {
+  const cats = categories && categories.length ? categories : ['AI'];
+  return cats
+    .map((c) => `<span class="inline-block px-2.5 py-0.5 text-xs font-semibold rounded-full ${CATEGORY_COLORS[c] || DEFAULT_CATEGORY_COLOR}">${escapeHtml(c)}</span>`)
+    .join('');
+}
+
+function safeColor(color) {
+  return /^#[0-9a-f]{3,8}$/i.test(color || '') ? color : '#1a1a2e';
+}
+
+function buildMorePostsHtml({ related = [], older, newer } = {}) {
+  if (related.length === 0 && !older && !newer) return '';
+  const relatedHtml = related.length === 0 ? '' : `
+        <h2 class="text-lg font-bold mb-4">Related posts</h2>
+        <ul class="grid gap-4 sm:grid-cols-3">
+${related.map((p) => `          <li><a href="${escapeHtml(p.slug)}.html" class="block h-full p-4 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-brand-300 dark:hover:border-brand-700 transition-colors"><time datetime="${p.date}" class="text-xs text-gray-400">${formatDate(p.date)}</time><span class="block mt-1 text-sm font-semibold leading-snug">${escapeHtml(p.title)}</span></a></li>`).join('\n')}
+        </ul>`;
+  const link = (p, label, align) => p
+    ? `<a href="${escapeHtml(p.slug)}.html" class="flex-1 ${align} hover:text-brand-600 dark:hover:text-brand-400 transition-colors"><span class="block text-xs text-gray-400">${label}</span><span class="font-semibold">${escapeHtml(p.title)}</span></a>`
+    : '<span class="flex-1"></span>';
+  return `
+      <!-- More posts -->
+      <nav class="mt-10 pt-6 border-t border-gray-200 dark:border-gray-800" aria-label="More posts">${relatedHtml}
+        <div class="${related.length ? 'mt-8 ' : ''}flex gap-6 text-sm">
+          ${link(older, '&larr; Older', 'text-left')}
+          ${link(newer, 'Newer &rarr;', 'text-right')}
+        </div>
+      </nav>
+`;
+}
+
+/**
+ * Older/newer neighbours and related posts for a page. Related posts are picked
+ * only from older posts, so a published page doesn't change when new posts arrive.
+ */
+function pageContext(post, listed) {
+  const i = listed.findIndex((p) => p.slug === post.slug);
+  const olderPool = i >= 0 ? listed.slice(i + 1) : listed.filter((p) => p.date <= post.date && p.slug !== post.slug);
+  const older = i >= 0 ? listed[i + 1] : undefined;
+  const newer = i > 0 ? listed[i - 1] : undefined;
+
+  const tags = new Set((post.tags || []).map((t) => t.toLowerCase()));
+  const cats = new Set(post.categories || []);
+  const related = olderPool
+    .filter((p) => p !== older)
+    .map((p) => ({
+      p,
+      score: 2 * (p.tags || []).filter((t) => tags.has(t.toLowerCase())).length
+        + (p.categories || []).filter((c) => cats.has(c)).length,
+    }))
+    .filter((r) => r.score >= 3) // at least one shared tag plus a shared category
+    .sort((a, b) => b.score - a.score) // stable: ties keep newest-first order
+    .slice(0, 3)
+    .map((r) => r.p);
+
+  return { related, older, newer };
+}
+
+function buildPostHtmlPage(post, context = {}) {
   log.debug('buildPostHtmlPage', `Building HTML page for: "${post.title?.slice(0, 60)}"`);
 
   const readTime = estimateReadTime(post.wordCount);
-  const categoryColors = {
-    'AI': 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-300',
-    'Security': 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300',
-    'Compliance': 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300',
-    'IT Ops': 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300',
-  };
-  const primaryCategory = (post.categories && post.categories[0]) || 'AI';
-  const catClass = categoryColors[primaryCategory] || 'bg-gray-100 text-gray-700';
-
-  log.debug('buildPostHtmlPage', `Page config: category=${primaryCategory}, readTime=${readTime}min, CTA=${post.hasCTA ? 'YES' : 'NO'}, tags=[${(post.tags || []).join(', ')}]`);
 
   const tagsHtml = (post.tags || [])
     .map((t) => `<span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">${escapeHtml(t)}</span>`)
@@ -192,7 +253,7 @@ ${post.heroImage ? `  <meta name="twitter:image" content="${escapeAttr(post.hero
     <article>
       <header class="mb-8">
         <div class="flex items-center gap-3 mb-4">
-          <span class="inline-block px-2.5 py-0.5 text-xs font-semibold rounded-full ${catClass}">${escapeHtml(primaryCategory)}</span>
+          <span class="flex flex-wrap gap-2">${categoryBadges(post.categories)}</span>
           <span class="text-sm text-gray-400">${readTime} min read</span>
         </div>
         <h1 class="text-3xl sm:text-4xl font-bold tracking-tight leading-tight mb-4">${escapeHtml(post.title)}</h1>
@@ -204,7 +265,7 @@ ${post.heroImage ? `  <meta name="twitter:image" content="${escapeAttr(post.hero
       </header>
 
 ${post.heroImage ? `      <figure class="mb-10 -mx-4 sm:mx-0">
-        <div class="relative overflow-hidden rounded-none sm:rounded-xl" style="background-color: ${post.heroImage.color || '#1a1a2e'}">
+        <div class="relative overflow-hidden rounded-none sm:rounded-xl" style="background-color: ${safeColor(post.heroImage.color)}">
           <img
             src="${escapeAttr(post.heroImage.url)}"
             alt="${escapeAttr(post.heroImage.alt)}"
@@ -250,7 +311,7 @@ ${post.heroImage ? `      <figure class="mb-10 -mx-4 sm:mx-0">
           </button>
         </div>
       </div>
-    </article>
+${buildMorePostsHtml(context)}    </article>
   </main>
 
   <!-- Footer -->
@@ -327,7 +388,7 @@ function formatDate(dateStr) {
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
-export { escapeHtml, escapeAttr, formatDate, estimateReadTime, buildPostHtmlPage, buildCtaBanner };
+export { escapeHtml, escapeAttr, formatDate, estimateReadTime, buildPostHtmlPage, buildCtaBanner, pageContext };
 
 function escapeXml(str) {
   return String(str)
@@ -449,6 +510,39 @@ ${items}
   log.success('writeFeed', `Saved feed.xml — ${latest.length} items`);
 }
 
+/** A home-page card. Keep the markup in sync with cardHtml() in js/posts-loader.js. */
+export function renderPostCard(post) {
+  const href = `posts/${escapeHtml(post.slug)}.html`;
+  const image = post.heroImage?.url
+    ? `<a href="${href}" class="block aspect-video overflow-hidden" style="background-color:${safeColor(post.heroImage.color)}" tabindex="-1" aria-hidden="true"><img src="${escapeHtml(post.heroImage.url)}" alt="" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"></a>`
+    : '';
+  return `<article class="group bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col">${image}`
+    + '<div class="p-6 flex flex-col flex-1">'
+    + `<div class="flex items-center gap-2 mb-3 flex-wrap">${categoryBadges(post.categories)}<span class="text-xs text-gray-400">${estimateReadTime(post.wordCount)} min read</span></div>`
+    + `<h2 class="text-lg font-bold leading-snug mb-2 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors"><a href="${href}" class="block">${escapeHtml(post.title)}</a></h2>`
+    + `<p class="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4 flex-1">${escapeHtml(post.excerpt || '')}</p>`
+    + '<div class="flex items-center justify-between pt-3 border-t border-gray-100 dark:border-gray-800">'
+    + `<time datetime="${escapeHtml(post.date)}" class="text-xs text-gray-400">${formatDate(post.date)}</time>`
+    + `<a href="${href}" class="text-xs font-semibold text-brand-600 dark:text-brand-400 hover:underline">Read more &rarr;</a>`
+    + '</div></div></article>';
+}
+
+const HOME_MARKERS = /(<!-- POSTS:START[^>]*-->)[\s\S]*?(\s*<!-- POSTS:END -->)/;
+
+// The newest cards are written into index.html so the page has content
+// without JavaScript (crawlers, link previews); posts-loader.js takes over in the browser.
+function writeHomePage(listed) {
+  if (!existsSync(HOME_PATH)) return;
+  const html = readFileSync(HOME_PATH, 'utf-8');
+  if (!HOME_MARKERS.test(html)) {
+    log.warn('writeHomePage', 'POSTS:START/END markers not found in index.html — skipping');
+    return;
+  }
+  const cards = listed.slice(0, POSTS_PER_PAGE).map((p) => '      ' + renderPostCard(toIndexEntry(p))).join('\n');
+  writeFileSync(HOME_PATH, html.replace(HOME_MARKERS, (_, start, end) => `${start}\n${cards}${end}`));
+  log.success('writeHomePage', `Rendered ${Math.min(listed.length, POSTS_PER_PAGE)} cards into index.html`);
+}
+
 // A page without a data file would silently vanish from the index and feed.
 function assertEveryPageHasData(posts) {
   const known = new Set(posts.map((p) => p.slug));
@@ -458,7 +552,7 @@ function assertEveryPageHasData(posts) {
   }
 }
 
-/** Regenerate index.json, sitemap.xml and feed.xml from posts/data. */
+/** Regenerate index.json, sitemap.xml, feed.xml and the home-page cards from posts/data. */
 export function rebuildListings() {
   const posts = loadAllPostData();
   assertEveryPageHasData(posts);
@@ -466,20 +560,22 @@ export function rebuildListings() {
   writeIndex(listed);
   writeSitemap(listed);
   writeFeed(listed);
+  writeHomePage(listed);
   return listed;
 }
 
-function writePostHtml(post) {
+function writePostHtml(post, listed) {
   mkdirSync(POSTS_DIR, { recursive: true });
   const filePath = join(POSTS_DIR, `${post.slug}.html`);
-  writeFileSync(filePath, buildPostHtmlPage(post));
+  writeFileSync(filePath, buildPostHtmlPage(post, pageContext(post, listed)));
   return filePath;
 }
 
 /** Re-render every post page and listing from posts/data (e.g. after a template change). */
 export function buildAll() {
   const posts = loadAllPostData();
-  for (const post of posts) writePostHtml(post);
+  const listed = sortNewestFirst(posts.filter((p) => !p.unlisted));
+  for (const post of posts) writePostHtml(post, listed);
   log.success('buildAll', `Rendered ${posts.length} post pages`);
   rebuildListings();
   return posts.length;
@@ -516,10 +612,13 @@ export async function buildPost(post) {
 
   const dataPath = writePostData(post);
   log.success('buildPost', `Wrote post data: ${dataPath}`);
-  const filePath = writePostHtml(post);
+  const listed = rebuildListings();
+  const filePath = writePostHtml(toPostData(post), listed);
   log.success('buildPost', `Wrote post HTML: ${filePath}`);
 
-  rebuildListings();
+  // The previous newest post gains a "Newer" link to this one.
+  const { older } = pageContext(post, listed);
+  if (older) writePostHtml(older, listed);
 
   timer.end(`build complete for "${post.slug}"`);
   return filePath;

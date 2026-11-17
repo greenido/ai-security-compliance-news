@@ -1,10 +1,21 @@
-import { describe, it, beforeEach, afterEach } from 'node:test';
+import { describe, it, beforeEach } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync, mkdtempSync } from 'fs';
+import { join } from 'path';
+import { tmpdir } from 'os';
 
-import {
+// Build into a throwaway site root so tests never touch the real posts.
+const ROOT = mkdtempSync(join(tmpdir(), 'blog-build-test-'));
+const POSTS_DIR = join(ROOT, 'posts');
+const DATA_DIR = join(POSTS_DIR, 'data');
+const INDEX_PATH = join(POSTS_DIR, 'index.json');
+const SITEMAP_PATH = join(ROOT, 'sitemap.xml');
+const FEED_PATH = join(ROOT, 'feed.xml');
+const HOME_PATH = join(ROOT, 'index.html');
+process.env.SITE_ROOT = ROOT;
+process.on('exit', () => rmSync(ROOT, { recursive: true, force: true }));
+
+const {
   escapeHtml,
   escapeAttr,
   formatDate,
@@ -14,14 +25,9 @@ import {
   buildPost,
   sanitizeContent,
   countContentWords,
-} from '../build-post-html.mjs';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = join(__dirname, '..', '..');
-const POSTS_DIR = join(ROOT, 'posts');
-const INDEX_PATH = join(POSTS_DIR, 'index.json');
-const SITEMAP_PATH = join(ROOT, 'sitemap.xml');
-const FEED_PATH = join(ROOT, 'feed.xml');
+  renderPostCard,
+  pageContext,
+} = await import('../build-post-html.mjs');
 
 function samplePost(overrides = {}) {
   return {
@@ -263,48 +269,22 @@ describe('buildPostHtmlPage', () => {
 // buildPost (writes files — uses a test slug to avoid collisions)
 // ---------------------------------------------------------------------------
 describe('buildPost (file I/O)', () => {
-  // Far-future date so the test post sorts first in index.json and feed.xml.
   const testDate = '2099-12-31';
   const testSlug = `${testDate}-test-runner-temp-post`;
   const testPostPath = join(POSTS_DIR, `${testSlug}.html`);
-  const testDataPath = join(POSTS_DIR, 'data', `${testSlug}.json`);
+  const testDataPath = join(DATA_DIR, `${testSlug}.json`);
   const publishablePost = (overrides = {}) => samplePost({
     slug: testSlug,
     date: testDate,
     content: `<h2>What happened</h2><p>${'word '.repeat(480)}</p>`,
     ...overrides,
   });
-  let originalIndex;
-  let originalSitemap;
-  let originalFeed;
 
   beforeEach(() => {
-    if (existsSync(INDEX_PATH)) {
-      originalIndex = readFileSync(INDEX_PATH, 'utf-8');
-    }
-    if (existsSync(SITEMAP_PATH)) {
-      originalSitemap = readFileSync(SITEMAP_PATH, 'utf-8');
-    }
-    if (existsSync(FEED_PATH)) {
-      originalFeed = readFileSync(FEED_PATH, 'utf-8');
-    }
-  });
-
-  afterEach(() => {
-    for (const path of [testPostPath, testDataPath]) {
-      if (existsSync(path)) rmSync(path);
-    }
-    if (originalIndex !== undefined) {
-      writeFileSync(INDEX_PATH, originalIndex);
-    }
-    if (originalSitemap !== undefined) {
-      writeFileSync(SITEMAP_PATH, originalSitemap);
-    }
-    if (originalFeed !== undefined) {
-      writeFileSync(FEED_PATH, originalFeed);
-    } else if (existsSync(FEED_PATH)) {
-      rmSync(FEED_PATH);
-    }
+    rmSync(POSTS_DIR, { recursive: true, force: true });
+    for (const f of [SITEMAP_PATH, FEED_PATH]) rmSync(f, { force: true });
+    mkdirSync(DATA_DIR, { recursive: true });
+    writeFileSync(HOME_PATH, '<div id="posts-grid">\n<!-- POSTS:START -->\n<!-- POSTS:END -->\n</div>\n');
   });
 
   it('creates an HTML file in the posts directory', async () => {
@@ -435,5 +415,78 @@ describe('countContentWords', () => {
 
   it('returns 0 for empty content', () => {
     assert.equal(countContentWords(''), 0);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// Home page, related posts and older/newer links
+// ---------------------------------------------------------------------------
+describe('site navigation', () => {
+  const longContent = `<h2>H</h2><p>${'word '.repeat(480)}</p>`;
+  const post = (slug, date, tags, overrides = {}) => samplePost({
+    slug, date, title: `Title ${slug}`, tags, categories: ['Security'], content: longContent, ...overrides,
+  });
+
+  beforeEach(() => {
+    rmSync(POSTS_DIR, { recursive: true, force: true });
+    mkdirSync(DATA_DIR, { recursive: true });
+    writeFileSync(HOME_PATH, '<div id="posts-grid">\n<!-- POSTS:START -->\n<!-- POSTS:END -->\n</div>\n');
+  });
+
+  it('renders every category on the post page', () => {
+    const html = buildPostHtmlPage(samplePost({ categories: ['AI', 'Compliance'] }));
+    assert.ok(html.includes('>AI</span>') && html.includes('>Compliance</span>'));
+  });
+
+  it('renders related posts and older/newer links from the page context', () => {
+    const older = { slug: '2026-01-01-older', title: 'Older <one>', date: '2026-01-01' };
+    const newer = { slug: '2026-01-03-newer', title: 'Newer one', date: '2026-01-03' };
+    const related = [{ slug: '2025-12-01-rel', title: 'Related one', date: '2025-12-01' }];
+    const html = buildPostHtmlPage(samplePost(), { older, newer, related });
+    assert.ok(html.includes('href="2026-01-01-older.html"'));
+    assert.ok(html.includes('Older &lt;one&gt;'));
+    assert.ok(html.includes('href="2026-01-03-newer.html"'));
+    assert.ok(html.includes('Related posts') && html.includes('href="2025-12-01-rel.html"'));
+  });
+
+  it('omits the section when there is nothing to link', () => {
+    assert.ok(!buildPostHtmlPage(samplePost()).includes('aria-label="More posts"'));
+  });
+
+  it('picks related posts only from older posts that share a tag and a category', () => {
+    const listed = [
+      post('2026-01-05-e', '2026-01-05', ['ransomware']),
+      post('2026-01-04-d', '2026-01-04', ['ransomware']),
+      post('2026-01-03-c', '2026-01-03', ['phishing']),
+      post('2026-01-02-b', '2026-01-02', ['ransomware']),
+      post('2026-01-01-a', '2026-01-01', ['ransomware'], { categories: ['AI'] }),
+    ];
+    const ctx = pageContext(listed[1], listed);
+    assert.equal(ctx.newer.slug, '2026-01-05-e');
+    assert.equal(ctx.older.slug, '2026-01-03-c');
+    // e is newer, c is the "older" link and shares no tag, a shares no category.
+    assert.deepEqual(ctx.related.map((p) => p.slug), ['2026-01-02-b']);
+  });
+
+  it('renders cards with escaped text, hero image and a safe colour', () => {
+    const card = renderPostCard({
+      slug: 's', title: 'A <b>title</b>', excerpt: 'x"y', date: '2026-01-01', categories: ['AI'],
+      heroImage: { url: 'https://images.example.org/a.jpg', color: 'red;background:url(x)' },
+    });
+    assert.ok(card.includes('A &lt;b&gt;title&lt;/b&gt;'));
+    assert.ok(card.includes('x&quot;y'));
+    assert.ok(card.includes('src="https://images.example.org/a.jpg"'));
+    assert.ok(card.includes('background-color:#1a1a2e'));
+  });
+
+  it('writes the newest cards into index.html and links the previous post to the new one', async () => {
+    await buildPost(post('2026-01-01-first', '2026-01-01', ['x']));
+    await buildPost(post('2026-01-02-second', '2026-01-02', ['x']));
+
+    const home = readFileSync(HOME_PATH, 'utf-8');
+    assert.ok(home.indexOf('Title 2026-01-02-second') < home.indexOf('Title 2026-01-01-first'));
+
+    const first = readFileSync(join(POSTS_DIR, '2026-01-01-first.html'), 'utf-8');
+    assert.ok(first.includes('href="2026-01-02-second.html"'), 'previous post should link to the newer one');
   });
 });
