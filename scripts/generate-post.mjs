@@ -90,6 +90,13 @@ async function main() {
 
       log.info('main', `Gap-filler source: "${gapNewsItem.title}" (${gapNewsItem.source})`);
 
+      // Same safety check as the main post (fallback topics can be reused when all are recent).
+      const gapDupe = isTooSimilar(gapNewsItem, getRecentPosts());
+      if (gapDupe.similar) {
+        log.warn('main', `Skipping gap-filler: too similar to recent post "${gapDupe.matchedPost}" (similarity: ${gapDupe.similarity})`);
+        continue;
+      }
+
       try {
         const gapGenTimer = log.time(`gap:generate:${gapCategory}`);
         const gapPost = await generatePost(gapNewsItem);

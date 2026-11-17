@@ -216,12 +216,13 @@ export function pickFallbackTopic(category) {
   const fresh = topics.find((t) => !isTooSimilar(t, recentPosts).similar);
   if (fresh) {
     log.info('pickFallbackTopic', `Using "${category}" fallback: "${fresh.title}"`);
-    return fresh;
+    return { ...fresh, evergreen: true };
   }
   if (topics.length > 0) {
     log.warn('pickFallbackTopic', `All "${category}" fallbacks used in the last ${FALLBACK_LOOKBACK_DAYS} days — reusing the first one`);
+    return { ...topics[0], evergreen: true };
   }
-  return topics[0] || null;
+  return null;
 }
 
 export { scoreArticle, categorizeArticle, RSS_FEEDS, RELEVANCE_KEYWORDS, FALLBACK_TOPICS };
