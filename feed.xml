@@ -5,8 +5,18 @@
     <link>https://aicybersecurity.news/</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://aicybersecurity.news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>MSPs Scale AI and Compliance Training: What Audits Demand</title>
+    <link>https://aicybersecurity.news/posts/2026-11-17-msps-scale-ai-compliance-training-audit-impact.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-17-msps-scale-ai-compliance-training-audit-impact.html</guid>
+    <description>Breach Secure Now partners with Climb Channel Solutions to expand AI and compliance training for MSPs. Here is what it means for your SOC 2 and ISO audits.</description>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
   <item>
     <title>SOC 2 Type I vs. Type II: The Strategic Audit Guide</title>
     <link>https://aicybersecurity.news/posts/2026-11-16-soc-2-type-i-vs-type-ii-strategic-audit-guide.html</link>
@@ -173,14 +183,6 @@
     <description>Peec AI&apos;s SOC 2 Type II attestation marks a key shift for enterprise AI search tools. Here is what compliance officers and security teams must evaluate.</description>
     <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
     <category>AI</category>
-    <category>Compliance</category>
-  </item>
-  <item>
-    <title>Zero Exceptions: Lessons from Cyngn&apos;s SOC 2 Win</title>
-    <link>https://aicybersecurity.news/posts/2026-10-31-zero-exceptions-lessons-from-cyngn-soc-2-win.html</link>
-    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-10-31-zero-exceptions-lessons-from-cyngn-soc-2-win.html</guid>
-    <description>Cyngn secured a flawless SOC 2 Type II examination with zero exceptions. Discover the key takeaways for compliance teams aiming for audit-ready operational controls.</description>
-    <pubDate>Sat, 31 Oct 2026 12:00:00 GMT</pubDate>
     <category>Compliance</category>
   </item>
   </channel>
