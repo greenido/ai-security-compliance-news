@@ -359,6 +359,17 @@ describe('buildPost (file I/O)', () => {
     assert.ok(data.publishedAt, 'publishedAt should be set');
   });
 
+  it('refuses to build while a post page has no data file', async () => {
+    const strayPage = join(POSTS_DIR, '2099-12-30-page-without-data.html');
+    writeFileSync(strayPage, '<!DOCTYPE html>');
+    try {
+      await assert.rejects(buildPost(publishablePost()), /without posts\/data\/ files: 2099-12-30-page-without-data\.html/);
+      assert.ok(!existsSync(testDataPath), 'No data should be written');
+    } finally {
+      rmSync(strayPage);
+    }
+  });
+
   it('refuses to publish a post that fails the quality gate', async () => {
     await assert.rejects(
       buildPost(publishablePost({ content: '<p>Too short.</p>' })),

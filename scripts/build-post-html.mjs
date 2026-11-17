@@ -449,9 +449,20 @@ ${items}
   log.success('writeFeed', `Saved feed.xml — ${latest.length} items`);
 }
 
+// A page without a data file would silently vanish from the index and feed.
+function assertEveryPageHasData(posts) {
+  const known = new Set(posts.map((p) => p.slug));
+  const orphans = readdirSync(POSTS_DIR).filter((f) => f.endsWith('.html') && !known.has(f.slice(0, -5)));
+  if (orphans.length > 0) {
+    throw new Error(`Post pages without posts/data/ files: ${orphans.join(', ')} — run scripts/migrate-html-to-data.mjs first`);
+  }
+}
+
 /** Regenerate index.json, sitemap.xml and feed.xml from posts/data. */
 export function rebuildListings() {
-  const listed = sortNewestFirst(loadAllPostData().filter((p) => !p.unlisted));
+  const posts = loadAllPostData();
+  assertEveryPageHasData(posts);
+  const listed = sortNewestFirst(posts.filter((p) => !p.unlisted));
   writeIndex(listed);
   writeSitemap(listed);
   writeFeed(listed);
@@ -486,7 +497,9 @@ export async function buildPost(post) {
   post.wordCount = actualWordCount;
   post.publishedAt = post.publishedAt || new Date().toISOString();
 
-  const issues = checkPostQuality(post, loadAllPostData());
+  const existing = loadAllPostData();
+  assertEveryPageHasData(existing);
+  const issues = checkPostQuality(post, existing);
   if (issues.length > 0) {
     throw new Error(`Post failed quality checks: ${issues.join('; ')}`);
   }
