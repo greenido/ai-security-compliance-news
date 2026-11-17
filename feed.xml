@@ -1,158 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI Security and Compliance News</title>
-    <link>https://greenido.github.io/ai-security-compliance-news</link>
-    <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2026 15:23:03 GMT</lastBuildDate>
-    <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Cybersecurity&apos;s Shifting Sands: 0-Days, Botnets, &amp; Rogue AI</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-16-cybersecuritys-shifting-sands-0-days-botnets-rogue-ai.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-16-cybersecuritys-shifting-sands-0-days-botnets-rogue-ai.html</guid>
-    <description>The cybersecurity landscape is in constant flux, but some weeks underscore just how rapidly threats evolve. From critical browser vulnerabilities and silent infrastructure compromises to the ominous rise of AI-driven risks, vigilance is paramount.</description>
-    <pubDate>Mon, 16 Mar 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
-    <category>IT Ops</category>
-  </item>
-  <item>
-    <title>INTERPOL&apos;s Cyber Strike: 45,000 IPs Down, What It Means</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-15-interpol-cyber-strike-45000-ips-down-what-it-means.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-15-interpol-cyber-strike-45000-ips-down-what-it-means.html</guid>
-    <description>INTERPOL&apos;s recent global operation dismantled 45,000 malicious IPs and led to 94 arrests, striking a blow against cybercriminal infrastructure. This significant victory offers a critical lesson for IT professionals and security teams on maintaining robust defenses in an evolving threat landscape.</description>
-    <pubDate>Sun, 15 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>AI-Assisted Malware: The Slopoly Threat and Your Defenses</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-14-ai-assisted-malware-the-slopoly-threat-and-your-defenses.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-14-ai-assisted-malware-the-slopoly-threat-and-your-defenses.html</guid>
-    <description>The cybersecurity landscape just got a significant jolt. AI-generated malware, exemplified by the recently disclosed Slopoly, is no longer a theoretical threat but a practical weapon in the hands of sophisticated actors like Hive0163. This development demands a re-evaluation of our defensive strategies.</description>
-    <pubDate>Sat, 14 Mar 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>AI-Powered Malware: The Rise of Slopoly and Hive0163&apos;s Threat</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-13-ai-powered-malware-slopoly-hive0163-threat.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-13-ai-powered-malware-slopoly-hive0163-threat.html</guid>
-    <description>The cybersecurity landscape just got a significant upgrade in threat sophistication. New research reveals Hive0163 is utilizing AI-generated malware, dubbed Slopoly, to streamline ransomware operations. This development signals a new era for enterprise security.</description>
-    <pubDate>Fri, 13 Mar 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>Beyond the Inbox: Phishing Attacks Weaponize Your SOC Workload</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-12-beyond-inbox-phishing-attacks-weaponize-soc-workload.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-12-beyond-inbox-phishing-attacks-weaponize-soc-workload.html</guid>
-    <description>Phishing has evolved beyond simple email scams. Modern attackers are now designing campaigns to overwhelm and exhaust your Security Operations Center (SOC) analysts, turning routine investigations into critical incidents. This new threat paradigm demands a shift in defensive strategies.</description>
-    <pubDate>Thu, 12 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>n8n Critical Flaws: RCE &amp; Credential Exposure Alert</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-11-n8n-critical-flaws-rce-credential-exposure-alert.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-11-n8n-critical-flaws-rce-credential-exposure-alert.html</guid>
-    <description>A recent disclosure from cybersecurity researchers has revealed two critical vulnerabilities in the n8n workflow automation platform. These flaws, carrying CVSS scores up to 9.5, could lead to remote code execution and the exposure of sensitive stored credentials, posing significant risks to IT operations and data security.</description>
-    <pubDate>Wed, 11 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-    <category>IT Ops</category>
-  </item>
-  <item>
-    <title>Proactive Defense: Mastering Your Attack Surface Against Zero-Days</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-10-proactive-defense-mastering-attack-surface-zero-days.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-10-proactive-defense-mastering-attack-surface-zero-days.html</guid>
-    <description>The frantic scramble during a zero-day exploit is a familiar, unwelcome scenario for many IT and security teams. But what if much of that panic could be avoided? A recent report highlights that proactive attack surface reduction is key to mitigating the impact of inevitable vulnerabilities.</description>
-    <pubDate>Tue, 10 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>2026 Compliance Crossroads: Mastering Evolving Frameworks</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-compliance-crossroads-mastering-evolving-frameworks.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-compliance-crossroads-mastering-evolving-frameworks.html</guid>
-    <description>The regulatory landscape is shifting dramatically. For IT professionals, security teams, and compliance officers, understanding the latest updates to CMMC 2.0, SOC 2 Type II, and HIPAA is no longer optional—it&apos;s imperative. Prepare for tighter timelines and increased enforcement.</description>
-    <pubDate>Tue, 10 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Compliance</category>
-  </item>
-  <item>
-    <title>AirDrop Attack: UNC4899&apos;s Cloud Compromise Exposes Enterprise Vulnerabilities</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-10-airdrop-attack-unc4899s-cloud-compromise-exposes-enterprise-vulnerabilities.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-10-airdrop-attack-unc4899s-cloud-compromise-exposes-enterprise-vulnerabilities.html</guid>
-    <description>A seemingly innocuous AirDrop transfer led to a multi-million dollar cloud compromise by the North Korean threat actor UNC4899. This incident serves as a stark reminder of the evolving attack vectors and the necessity for robust security protocols.</description>
-    <pubDate>Tue, 10 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-    <category>IT Ops</category>
-  </item>
-  <item>
-    <title>Zero-Day Blitz: Navigating Qualcomm, iOS &amp; New Cyber Threats</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats.html</guid>
-    <description>Another week, another stark reminder of the relentless pace of cyber threats. From a critical Qualcomm 0-day to sophisticated iOS exploit chains and novel attack vectors, defenders were kept on their toes. This post unpacks the key takeaways from the latest cybersecurity headlines.</description>
-    <pubDate>Mon, 09 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>AI Transforms Code Security: OpenAI&apos;s New Vulnerability Agent</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent.html</guid>
-    <description>The landscape of software security is shifting. OpenAI has just unveiled Codex Security, an AI agent designed to proactively identify, validate, and propose fixes for vulnerabilities in your codebase. This innovation promises to revolutionize how organizations approach secure development.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>AI Transforms Code Security: A New Era for Vulnerability Detection</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-a-new-era-for-vulnerability-detection.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-a-new-era-for-vulnerability-detection.html</guid>
-    <description>The landscape of software development security is undergoing a seismic shift. OpenAI&apos;s new Codex Security agent is demonstrating unprecedented capabilities in identifying and fixing vulnerabilities at scale, promising a future of more resilient codebases.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>OpenAI Codex Security: AI&apos;s Bold Leap in Code Vulnerability</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-openai-codex-security-ais-bold-leap-in-code-vulnerability.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-openai-codex-security-ais-bold-leap-in-code-vulnerability.html</guid>
-    <description>The cybersecurity landscape just got a powerful new ally. OpenAI&apos;s Codex Security, an AI-powered agent, has scanned millions of code commits, uncovering thousands of high-severity vulnerabilities and proposing fixes. This innovation marks a significant shift in how organizations can approach code security, promising to revolutionize DevSecOps workflows.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>AI&apos;s Deep Dive: OpenAI Codex Security Reshapes Code Security</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-deep-dive-openai-codex-security-reshapes-code-security.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-deep-dive-openai-codex-security-reshapes-code-security.html</guid>
-    <description>The landscape of software security is undergoing a seismic shift. OpenAI&apos;s recently launched Codex Security, an AI-powered agent, has revealed the sheer scale of vulnerabilities lurking in codebases. Its initial findings underscore the transformative potential of AI in proactive code security.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>AI-Powered Code Security: OpenAI Codex Unearths Thousands of Vulnerabilities</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-powered-code-security-openai-codex-unearths-thousands-of-vulnerabilities.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-powered-code-security-openai-codex-unearths-thousands-of-vulnerabilities.html</guid>
-    <description>The cybersecurity landscape just gained a powerful new ally. OpenAI has unveiled Codex Security, an AI-powered agent designed to proactively identify and fix vulnerabilities in codebases. This innovative tool promises to redefine how organizations approach software security.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>VOID#GEIST: Deconstructing the Stealthy Multi-Stage RAT Threat</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-deconstructing-stealthy-multi-stage-rat-threat.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-deconstructing-stealthy-multi-stage-rat-threat.html</guid>
-    <description>A new multi-stage malware campaign, dubbed VOID#GEIST, is leveraging obfuscated batch scripts to deploy a trio of potent Remote Access Trojans: XWorm, AsyncRAT, and Xeno RAT. Securonix Threat Research has unveiled the intricate details of this stealthy attack chain, highlighting a significant evolution in threat actor tactics.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>VOID#GEIST: New Multi-RAT Malware Threat Emerges</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-new-multi-rat-malware-threat-emerges.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-new-multi-rat-malware-threat-emerges.html</guid>
-    <description>A newly discovered malware campaign, dubbed VOID#GEIST, is leveraging sophisticated techniques to deliver a trio of potent Remote Access Trojans (RATs). Security teams need to understand this multi-stage attack to protect their environments.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-  </item>
+    <title>AI Security and Compliance News (moved)</title>
+    <link>https://aicybersecurity.news/</link>
+    <description>This feed has moved to https://aicybersecurity.news/feed.xml</description>
+    <atom:link href="https://aicybersecurity.news/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>This feed has moved to aicybersecurity.news</title>
+      <link>https://aicybersecurity.news/feed.xml</link>
+      <guid isPermaLink="false">feed-moved-to-aicybersecurity-news</guid>
+      <description>AI Security and Compliance News now lives at https://aicybersecurity.news/. Please subscribe to https://aicybersecurity.news/feed.xml to keep getting new posts.</description>
+      <pubDate>Tue, 17 Nov 2026 23:39:25 GMT</pubDate>
+    </item>
   </channel>
 </rss>

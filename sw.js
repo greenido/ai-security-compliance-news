@@ -1,41 +1,8 @@
-const CACHE_NAME = 'ai-secnews-v1';
-const PRECACHE_URLS = [
-  './',
-  './index.html',
-  './about.html',
-  './css/custom.css',
-  './js/app.js',
-  './js/posts-loader.js',
-  './manifest.json',
-  './images/icons/favicon.svg',
-];
-
-self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(PRECACHE_URLS))
-  );
-  self.skipWaiting();
-});
-
+self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', (event) => {
-  event.waitUntil(
-    caches.keys().then((keys) =>
-      Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)))
-    )
-  );
-  self.clients.claim();
-});
-
-self.addEventListener('fetch', (event) => {
-  if (event.request.method !== 'GET') return;
-
-  event.respondWith(
-    fetch(event.request)
-      .then((response) => {
-        const clone = response.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
-        return response;
-      })
-      .catch(() => caches.match(event.request))
-  );
+  event.waitUntil((async () => {
+    await Promise.all((await caches.keys()).map((k) => caches.delete(k)));
+    await self.registration.unregister();
+    for (const client of await self.clients.matchAll({ type: 'window' })) client.navigate(client.url);
+  })());
 });
