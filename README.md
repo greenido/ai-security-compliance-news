@@ -86,7 +86,6 @@ npm --prefix scripts run test:unit
 
 - The Hacker News (cybersecurity)
 - Krebs on Security
-- TechCrunch AI
 - Wired Security
 - Ars Technica
 - Google News (AI + cybersecurity, SOC 2, compliance audits)
