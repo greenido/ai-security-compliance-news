@@ -263,8 +263,17 @@ describe('buildPostHtmlPage', () => {
 // buildPost (writes files — uses a test slug to avoid collisions)
 // ---------------------------------------------------------------------------
 describe('buildPost (file I/O)', () => {
-  const testSlug = '_test-runner-temp-post';
+  // Far-future date so the test post sorts first in index.json and feed.xml.
+  const testDate = '2099-12-31';
+  const testSlug = `${testDate}-test-runner-temp-post`;
   const testPostPath = join(POSTS_DIR, `${testSlug}.html`);
+  const testDataPath = join(POSTS_DIR, 'data', `${testSlug}.json`);
+  const publishablePost = (overrides = {}) => samplePost({
+    slug: testSlug,
+    date: testDate,
+    content: `<h2>What happened</h2><p>${'word '.repeat(480)}</p>`,
+    ...overrides,
+  });
   let originalIndex;
   let originalSitemap;
   let originalFeed;
@@ -282,8 +291,8 @@ describe('buildPost (file I/O)', () => {
   });
 
   afterEach(() => {
-    if (existsSync(testPostPath)) {
-      rmSync(testPostPath);
+    for (const path of [testPostPath, testDataPath]) {
+      if (existsSync(path)) rmSync(path);
     }
     if (originalIndex !== undefined) {
       writeFileSync(INDEX_PATH, originalIndex);
@@ -299,7 +308,7 @@ describe('buildPost (file I/O)', () => {
   });
 
   it('creates an HTML file in the posts directory', async () => {
-    const post = samplePost({ slug: testSlug });
+    const post = publishablePost();
     const filePath = await buildPost(post);
     assert.ok(existsSync(filePath), 'Post HTML file should exist');
     const content = readFileSync(filePath, 'utf-8');
@@ -307,7 +316,7 @@ describe('buildPost (file I/O)', () => {
   });
 
   it('adds the post to index.json', async () => {
-    const post = samplePost({ slug: testSlug, title: 'Index Test Post' });
+    const post = publishablePost({ title: 'Index Test Post' });
     await buildPost(post);
     const index = JSON.parse(readFileSync(INDEX_PATH, 'utf-8'));
     const found = index.find((p) => p.slug === testSlug);
@@ -316,7 +325,7 @@ describe('buildPost (file I/O)', () => {
   });
 
   it('does not duplicate entries in index.json on re-run', async () => {
-    const post = samplePost({ slug: testSlug });
+    const post = publishablePost();
     await buildPost(post);
     await buildPost(post);
     const index = JSON.parse(readFileSync(INDEX_PATH, 'utf-8'));
@@ -325,7 +334,7 @@ describe('buildPost (file I/O)', () => {
   });
 
   it('updates sitemap.xml with the new post URL', async () => {
-    const post = samplePost({ slug: testSlug });
+    const post = publishablePost();
     await buildPost(post);
     assert.ok(existsSync(SITEMAP_PATH), 'sitemap.xml should exist');
     const sitemap = readFileSync(SITEMAP_PATH, 'utf-8');
@@ -333,13 +342,41 @@ describe('buildPost (file I/O)', () => {
   });
 
   it('generates feed.xml after building a post', async () => {
-    const post = samplePost({ slug: testSlug, title: 'Feed Test Post' });
+    const post = publishablePost({ title: 'Feed Test Post' });
     await buildPost(post);
     assert.ok(existsSync(FEED_PATH), 'feed.xml should exist');
     const feed = readFileSync(FEED_PATH, 'utf-8');
     assert.ok(feed.includes('<rss'), 'Should be valid RSS');
     assert.ok(feed.includes('Feed Test Post'), 'Feed should contain the post title');
     assert.ok(feed.includes(testSlug), 'Feed should contain the post slug');
+  });
+
+  it('saves the post data that the page is rendered from', async () => {
+    await buildPost(publishablePost({ title: 'Data Test Post' }));
+    const data = JSON.parse(readFileSync(testDataPath, 'utf-8'));
+    assert.equal(data.title, 'Data Test Post');
+    assert.ok(data.content.includes('<h2>What happened</h2>'));
+    assert.ok(data.publishedAt, 'publishedAt should be set');
+  });
+
+  it('refuses to build while a post page has no data file', async () => {
+    const strayPage = join(POSTS_DIR, '2099-12-30-page-without-data.html');
+    writeFileSync(strayPage, '<!DOCTYPE html>');
+    try {
+      await assert.rejects(buildPost(publishablePost()), /without posts\/data\/ files: 2099-12-30-page-without-data\.html/);
+      assert.ok(!existsSync(testDataPath), 'No data should be written');
+    } finally {
+      rmSync(strayPage);
+    }
+  });
+
+  it('refuses to publish a post that fails the quality gate', async () => {
+    await assert.rejects(
+      buildPost(publishablePost({ content: '<p>Too short.</p>' })),
+      /quality checks/,
+    );
+    assert.ok(!existsSync(testPostPath), 'No HTML should be written');
+    assert.ok(!existsSync(testDataPath), 'No data should be written');
   });
 });
 

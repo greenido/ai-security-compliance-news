@@ -1,21 +1,26 @@
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import sanitizeHtml from 'sanitize-html';
 import { cleanUrl } from './fetch-news.mjs';
 import { createLogger } from './logger.mjs';
 import { ESPRESSO_LABS_URL } from './espressolabs.mjs';
+import { checkPostQuality, countContentWords } from './quality-gate.mjs';
 
 const log = createLogger('build-post');
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const POSTS_DIR = join(ROOT, 'posts');
+// posts/data/<slug>.json is the source of truth for every post. The post HTML,
+// index.json, sitemap.xml and feed.xml are all generated from it.
+const DATA_DIR = join(POSTS_DIR, 'data');
 const INDEX_PATH = join(POSTS_DIR, 'index.json');
 const SITEMAP_PATH = join(ROOT, 'sitemap.xml');
 const FEED_PATH = join(ROOT, 'feed.xml');
+const FEED_ITEMS = 20;
 
-const SITE_URL = 'https://greenido.github.io/ai-security-compliance-news';
+export const SITE_URL = (process.env.SITE_URL || 'https://aicybersecurity.news').replace(/\/+$/, '');
 const SITE_NAME = 'AI Security and Compliance News';
 
 const ALLOWED_TAGS = [
@@ -52,11 +57,6 @@ function sanitizeContent(html) {
   return clean;
 }
 
-function countContentWords(html) {
-  const text = html.replace(/<[^>]*>/g, ' ').replace(/&[a-z]+;/gi, ' ').replace(/\s+/g, ' ').trim();
-  return text.split(' ').filter((w) => w.length > 0).length;
-}
-
 export { sanitizeContent, countContentWords };
 
 function estimateReadTime(wordCount) {
@@ -83,7 +83,7 @@ function buildCtaBanner() {
 }
 
 function buildPostHtmlPage(post) {
-  log.info('buildPostHtmlPage', `Building HTML page for: "${post.title?.slice(0, 60)}"`);
+  log.debug('buildPostHtmlPage', `Building HTML page for: "${post.title?.slice(0, 60)}"`);
 
   const readTime = estimateReadTime(post.wordCount);
   const categoryColors = {
@@ -95,7 +95,7 @@ function buildPostHtmlPage(post) {
   const primaryCategory = (post.categories && post.categories[0]) || 'AI';
   const catClass = categoryColors[primaryCategory] || 'bg-gray-100 text-gray-700';
 
-  log.info('buildPostHtmlPage', `Page config: category=${primaryCategory}, readTime=${readTime}min, CTA=${post.hasCTA ? 'YES' : 'NO'}, tags=[${(post.tags || []).join(', ')}]`);
+  log.debug('buildPostHtmlPage', `Page config: category=${primaryCategory}, readTime=${readTime}min, CTA=${post.hasCTA ? 'YES' : 'NO'}, tags=[${(post.tags || []).join(', ')}]`);
 
   const tagsHtml = (post.tags || [])
     .map((t) => `<span class="inline-block px-2.5 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded-full">${escapeHtml(t)}</span>`)
@@ -306,7 +306,7 @@ ${post.heroImage ? `      <figure class="mb-10 -mx-4 sm:mx-0">
 </body>
 </html>`;
 
-  log.success('buildPostHtmlPage', `HTML page built — ${html.length} chars`);
+  log.debug('buildPostHtmlPage', `HTML page built — ${html.length} chars`);
   return html;
 }
 
@@ -327,83 +327,6 @@ function formatDate(dateStr) {
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
-function updateIndex(post) {
-  log.info('updateIndex', `Updating posts index for slug="${post.slug}"`);
-
-  let index = [];
-  if (existsSync(INDEX_PATH)) {
-    try {
-      index = JSON.parse(readFileSync(INDEX_PATH, 'utf-8'));
-      log.info('updateIndex', `Loaded existing index with ${index.length} posts`);
-    } catch (err) {
-      log.warn('updateIndex', `Failed to read existing index: ${err.message} — starting fresh`);
-      index = [];
-    }
-  } else {
-    log.info('updateIndex', 'No existing index.json found — creating new one');
-  }
-
-  const entry = {
-    title: post.title,
-    slug: post.slug,
-    date: post.date,
-    excerpt: post.excerpt || post.metaDescription,
-    tags: post.tags,
-    categories: post.categories,
-    hasCTA: post.hasCTA || false,
-    wordCount: post.wordCount || 650,
-    ...(post.heroImage ? {
-      heroImage: {
-        url: post.heroImage.smallUrl,
-        alt: post.heroImage.alt,
-        credit: post.heroImage.credit,
-        color: post.heroImage.color,
-      },
-    } : {}),
-  };
-
-  const prevCount = index.length;
-  index = index.filter((p) => p.slug !== post.slug);
-  if (index.length < prevCount) {
-    log.info('updateIndex', `Removed existing entry for slug="${post.slug}" (was duplicate)`);
-  }
-  index.unshift(entry);
-
-  writeFileSync(INDEX_PATH, JSON.stringify(index, null, 2));
-  log.success('updateIndex', `Saved index.json — ${index.length} posts total`);
-}
-
-function updateSitemap(post) {
-  log.info('updateSitemap', `Updating sitemap for slug="${post.slug}"`);
-
-  let xml = '';
-  if (existsSync(SITEMAP_PATH)) {
-    xml = readFileSync(SITEMAP_PATH, 'utf-8');
-    log.info('updateSitemap', `Loaded existing sitemap (${xml.length} chars)`);
-  } else {
-    log.info('updateSitemap', 'No existing sitemap.xml — will create new one');
-  }
-
-  const postUrl = `${SITE_URL}/posts/${post.slug}.html`;
-  if (xml.includes(postUrl)) {
-    log.info('updateSitemap', `URL already in sitemap — skipping: ${postUrl}`);
-    return;
-  }
-
-  const newEntry = `  <url>\n    <loc>${postUrl}</loc>\n    <lastmod>${post.date}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>`;
-
-  if (xml.includes('</urlset>')) {
-    xml = xml.replace('</urlset>', newEntry + '\n</urlset>');
-    log.info('updateSitemap', 'Appended new URL entry to existing sitemap');
-  } else {
-    xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${newEntry}\n</urlset>`;
-    log.info('updateSitemap', 'Created new sitemap from scratch');
-  }
-
-  writeFileSync(SITEMAP_PATH, xml);
-  log.success('updateSitemap', `Saved sitemap.xml — added ${postUrl}`);
-}
-
 export { escapeHtml, escapeAttr, formatDate, estimateReadTime, buildPostHtmlPage, buildCtaBanner };
 
 function escapeXml(str) {
@@ -415,47 +338,154 @@ function escapeXml(str) {
     .replace(/'/g, '&apos;');
 }
 
-function updateRssFeed() {
-  log.info('updateRssFeed', 'Generating RSS feed (feed.xml)');
+// ---------------------------------------------------------------------------
+// Post data (posts/data/<slug>.json)
+// ---------------------------------------------------------------------------
 
-  let index = [];
-  if (existsSync(INDEX_PATH)) {
-    try {
-      index = JSON.parse(readFileSync(INDEX_PATH, 'utf-8'));
-    } catch (err) {
-      log.warn('updateRssFeed', `Failed to parse index.json: ${err.message}`);
-      return;
-    }
-  }
+const POST_DATA_FIELDS = [
+  'title', 'slug', 'date', 'publishedAt', 'metaDescription', 'excerpt', 'tags', 'categories',
+  'content', 'hasCTA', 'wordCount', 'sourceUrl', 'sourceName', 'sourceTitle', 'heroImage', 'unlisted',
+];
 
-  const items = index.slice(0, 20).map((p) => `  <item>
+function toPostData(post) {
+  return Object.fromEntries(POST_DATA_FIELDS.filter((f) => post[f] !== undefined).map((f) => [f, post[f]]));
+}
+
+function writePostData(post) {
+  mkdirSync(DATA_DIR, { recursive: true });
+  const path = join(DATA_DIR, `${post.slug}.json`);
+  writeFileSync(path, JSON.stringify(toPostData(post), null, 2) + '\n');
+  return path;
+}
+
+export function loadAllPostData() {
+  if (!existsSync(DATA_DIR)) return [];
+  return readdirSync(DATA_DIR)
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => JSON.parse(readFileSync(join(DATA_DIR, f), 'utf-8')));
+}
+
+// Newest first; posts from the same day keep their publish order.
+function sortNewestFirst(posts) {
+  return posts.slice().sort((a, b) =>
+    b.date.localeCompare(a.date)
+    || String(b.publishedAt || '').localeCompare(String(a.publishedAt || ''))
+    || a.slug.localeCompare(b.slug));
+}
+
+// ---------------------------------------------------------------------------
+// Listings generated from post data: index.json, sitemap.xml, feed.xml
+// ---------------------------------------------------------------------------
+
+function toIndexEntry(post) {
+  return {
+    title: post.title,
+    slug: post.slug,
+    date: post.date,
+    excerpt: post.excerpt || post.metaDescription,
+    tags: post.tags,
+    categories: post.categories,
+    hasCTA: post.hasCTA || false,
+    wordCount: post.wordCount || 650,
+    ...(post.heroImage ? {
+      heroImage: {
+        url: post.heroImage.smallUrl || post.heroImage.url,
+        alt: post.heroImage.alt,
+        credit: post.heroImage.credit,
+        color: post.heroImage.color,
+      },
+    } : {}),
+  };
+}
+
+function writeIndex(listed) {
+  writeFileSync(INDEX_PATH, JSON.stringify(listed.map(toIndexEntry), null, 2));
+  log.success('writeIndex', `Saved index.json — ${listed.length} posts`);
+}
+
+function sitemapEntry(loc, lastmod, changefreq, priority) {
+  return `  <url>\n    <loc>${loc}</loc>\n${lastmod ? `    <lastmod>${lastmod}</lastmod>\n` : ''}    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
+}
+
+function writeSitemap(listed) {
+  const entries = [
+    sitemapEntry(`${SITE_URL}/`, listed[0]?.date, 'daily', '1.0'),
+    sitemapEntry(`${SITE_URL}/about.html`, null, 'monthly', '0.5'),
+    ...listed.slice().reverse().map((p) => sitemapEntry(`${SITE_URL}/posts/${p.slug}.html`, p.date, 'monthly', '0.8')),
+  ];
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.join('\n')}\n</urlset>\n`;
+  writeFileSync(SITEMAP_PATH, xml);
+  log.success('writeSitemap', `Saved sitemap.xml — ${entries.length} URLs`);
+}
+
+function writeFeed(listed) {
+  const latest = listed.slice(0, FEED_ITEMS);
+  const items = latest.map((p) => `  <item>
     <title>${escapeXml(p.title)}</title>
     <link>${SITE_URL}/posts/${p.slug}.html</link>
     <guid isPermaLink="true">${SITE_URL}/posts/${p.slug}.html</guid>
-    <description>${escapeXml(p.excerpt || '')}</description>
+    <description>${escapeXml(p.excerpt || p.metaDescription || '')}</description>
     <pubDate>${new Date(p.date + 'T12:00:00Z').toUTCString()}</pubDate>
 ${(p.categories || []).map((c) => `    <category>${escapeXml(c)}</category>`).join('\n')}
   </item>`).join('\n');
 
+  // lastBuildDate follows the newest post (not the clock) so rebuilding an
+  // unchanged site produces no diff.
+  const lastBuild = latest[0] ? new Date(latest[0].date + 'T12:00:00Z').toUTCString() : new Date(0).toUTCString();
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>${escapeXml(SITE_NAME)}</title>
-    <link>${SITE_URL}</link>
+    <link>${SITE_URL}/</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <lastBuildDate>${lastBuild}</lastBuildDate>
     <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>
 ${items}
   </channel>
-</rss>`;
-
+</rss>
+`;
   writeFileSync(FEED_PATH, rss);
-  log.success('updateRssFeed', `Saved feed.xml — ${index.slice(0, 20).length} items`);
+  log.success('writeFeed', `Saved feed.xml — ${latest.length} items`);
 }
 
-export { updateRssFeed };
+// A page without a data file would silently vanish from the index and feed.
+function assertEveryPageHasData(posts) {
+  const known = new Set(posts.map((p) => p.slug));
+  const orphans = readdirSync(POSTS_DIR).filter((f) => f.endsWith('.html') && !known.has(f.slice(0, -5)));
+  if (orphans.length > 0) {
+    throw new Error(`Post pages without posts/data/ files: ${orphans.join(', ')} — run scripts/migrate-html-to-data.mjs first`);
+  }
+}
 
+/** Regenerate index.json, sitemap.xml and feed.xml from posts/data. */
+export function rebuildListings() {
+  const posts = loadAllPostData();
+  assertEveryPageHasData(posts);
+  const listed = sortNewestFirst(posts.filter((p) => !p.unlisted));
+  writeIndex(listed);
+  writeSitemap(listed);
+  writeFeed(listed);
+  return listed;
+}
+
+function writePostHtml(post) {
+  mkdirSync(POSTS_DIR, { recursive: true });
+  const filePath = join(POSTS_DIR, `${post.slug}.html`);
+  writeFileSync(filePath, buildPostHtmlPage(post));
+  return filePath;
+}
+
+/** Re-render every post page and listing from posts/data (e.g. after a template change). */
+export function buildAll() {
+  const posts = loadAllPostData();
+  for (const post of posts) writePostHtml(post);
+  log.success('buildAll', `Rendered ${posts.length} post pages`);
+  rebuildListings();
+  return posts.length;
+}
+
+/** Save a newly generated post, render its page and refresh the listings. */
 export async function buildPost(post) {
   const timer = log.time('buildPost');
 
@@ -464,10 +494,15 @@ export async function buildPost(post) {
 
   const actualWordCount = countContentWords(post.content);
   log.info('buildPost', `Actual word count: ${actualWordCount} (reported: ${post.wordCount || 'N/A'})`);
-  if (actualWordCount < 200) {
-    log.warn('buildPost', `Content suspiciously short (${actualWordCount} words) — proceeding anyway`);
-  }
   post.wordCount = actualWordCount;
+  post.publishedAt = post.publishedAt || new Date().toISOString();
+
+  const existing = loadAllPostData();
+  assertEveryPageHasData(existing);
+  const issues = checkPostQuality(post, existing);
+  if (issues.length > 0) {
+    throw new Error(`Post failed quality checks: ${issues.join('; ')}`);
+  }
 
   log.dump('buildPost', 'Post to build', {
     title: post.title,
@@ -479,19 +514,12 @@ export async function buildPost(post) {
     contentLength: `${post.content?.length || 0} chars`,
   });
 
-  if (!existsSync(POSTS_DIR)) {
-    log.info('buildPost', `Creating posts directory: ${POSTS_DIR}`);
-    mkdirSync(POSTS_DIR, { recursive: true });
-  }
+  const dataPath = writePostData(post);
+  log.success('buildPost', `Wrote post data: ${dataPath}`);
+  const filePath = writePostHtml(post);
+  log.success('buildPost', `Wrote post HTML: ${filePath}`);
 
-  const html = buildPostHtmlPage(post);
-  const filePath = join(POSTS_DIR, `${post.slug}.html`);
-  writeFileSync(filePath, html);
-  log.success('buildPost', `Wrote post HTML: ${filePath} (${html.length} chars)`);
-
-  updateIndex(post);
-  updateSitemap(post);
-  updateRssFeed();
+  rebuildListings();
 
   timer.end(`build complete for "${post.slug}"`);
   return filePath;

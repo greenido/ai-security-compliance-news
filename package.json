@@ -6,7 +6,8 @@
   "scripts": {
     "build:css": "npx tailwindcss -i css/input.css -o css/tailwind.css --minify",
     "serve": "npx serve -l 3000",
-    "generate": "npm --prefix scripts run generate && npm run build:css"
+    "generate": "npm --prefix scripts run generate && npm run build:css",
+    "rebuild": "npm --prefix scripts run build && npm run build:css"
   },
   "devDependencies": {
     "sharp": "^0.34.5",

@@ -5,8 +5,9 @@
   "description": "Generation pipeline for AI Security and Compliance News posts",
   "scripts": {
     "generate": "node generate-post.mjs",
+    "build": "node build-all.mjs",
     "test": "node --test test/*.test.mjs",
-    "test:unit": "node --test test/fetch-news.test.mjs test/build-post-html.test.mjs test/gemini-writer.test.mjs test/espressolabs.test.mjs",
+    "test:unit": "node --test test/fetch-news.test.mjs test/build-post-html.test.mjs test/gemini-writer.test.mjs test/espressolabs.test.mjs test/quality-gate.test.mjs test/article-text.test.mjs",
     "test:integration": "node --test test/integration.test.mjs"
   },
   "dependencies": {

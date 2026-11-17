@@ -2,88 +2,188 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI Security and Compliance News</title>
-    <link>https://greenido.github.io/ai-security-compliance-news</link>
+    <link>https://aicybersecurity.news/</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2026 17:43:21 GMT</lastBuildDate>
-    <atom:link href="https://greenido.github.io/ai-security-compliance-news/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 17 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://aicybersecurity.news/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>AirDrop to Cloud Compromise: UNC4899&apos;s Latest Crypto Heist</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-airdrop-to-cloud-compromise-unc4899s-latest-crypto-heist.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-airdrop-to-cloud-compromise-unc4899s-latest-crypto-heist.html</guid>
-    <description>The North Korean threat actor UNC4899 orchestrated a sophisticated cloud compromise, exploiting a developer&apos;s AirDrop use to steal millions from a crypto firm. This incident highlights critical vulnerabilities in human trust and device policies, demanding a re-evaluation of current security strategies.</description>
-    <pubDate>Mon, 09 Mar 2026 12:00:00 GMT</pubDate>
+    <title>MSPs Scale AI and Compliance Training: What Audits Demand</title>
+    <link>https://aicybersecurity.news/posts/2026-11-17-msps-scale-ai-compliance-training-audit-impact.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-17-msps-scale-ai-compliance-training-audit-impact.html</guid>
+    <description>Breach Secure Now partners with Climb Channel Solutions to expand AI and compliance training for MSPs. Here is what it means for your SOC 2 and ISO audits.</description>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>SOC 2 Type I vs. Type II: The Strategic Audit Guide</title>
+    <link>https://aicybersecurity.news/posts/2026-11-16-soc-2-type-i-vs-type-ii-strategic-audit-guide.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-16-soc-2-type-i-vs-type-ii-strategic-audit-guide.html</guid>
+    <description>Stuck deciding between a SOC 2 Type I and Type II report? Here is how compliance leaders balance sales velocity, audit timelines, and Trust Services Criteria.</description>
+    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>AI Agents Weaponize Software Patches at Machine Speed</title>
+    <link>https://aicybersecurity.news/posts/2026-11-16-ai-agents-weaponize-software-patches.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-16-ai-agents-weaponize-software-patches.html</guid>
+    <description>Adversaries are deploying autonomous multi-agent AI frameworks to reverse-engineer patches and execute exploits at unprecedented velocity, Google warns.</description>
+    <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
     <category>Security</category>
     <category>IT Ops</category>
   </item>
   <item>
-    <title>Zero-Day Blitz: Navigating Qualcomm, iOS &amp; New Cyber Threats</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats.html</guid>
-    <description>Another week, another stark reminder of the relentless pace of cyber threats. From a critical Qualcomm 0-day to sophisticated iOS exploit chains and novel attack vectors, defenders were kept on their toes. This post unpacks the key takeaways from the latest cybersecurity headlines.</description>
-    <pubDate>Mon, 09 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>AI Transforms Code Security: OpenAI&apos;s New Vulnerability Agent</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent.html</guid>
-    <description>The landscape of software security is shifting. OpenAI has just unveiled Codex Security, an AI agent designed to proactively identify, validate, and propose fixes for vulnerabilities in your codebase. This innovation promises to revolutionize how organizations approach secure development.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
+    <title>Cursor Breach: Stolen Key Taints Claude Code Extension</title>
+    <link>https://aicybersecurity.news/posts/2026-11-15-cursor-breach-stolen-key-taints-claude-code-extension.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-15-cursor-breach-stolen-key-taints-claude-code-extension.html</guid>
+    <description>A stolen API key exposed in an upstream breach allowed attackers to distribute a trojanized Claude Code extension inside Cursor, exposing critical AI supply chain risks.</description>
+    <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
     <category>AI</category>
     <category>Security</category>
   </item>
   <item>
-    <title>AI Transforms Code Security: A New Era for Vulnerability Detection</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-a-new-era-for-vulnerability-detection.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-a-new-era-for-vulnerability-detection.html</guid>
-    <description>The landscape of software development security is undergoing a seismic shift. OpenAI&apos;s new Codex Security agent is demonstrating unprecedented capabilities in identifying and fixing vulnerabilities at scale, promising a future of more resilient codebases.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
+    <title>UnrealIRCd Flaw Under Attack: CISA Issues KEV Warning</title>
+    <link>https://aicybersecurity.news/posts/2026-11-14-unrealircd-flaw-under-attack-cisa-warning.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-14-unrealircd-flaw-under-attack-cisa-warning.html</guid>
+    <description>A high-severity command injection bug in UnrealIRCd is facing active exploitation, prompting CISA to mandate rapid remediation across enterprise environments.</description>
+    <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>IT Ops</category>
+  </item>
+  <item>
+    <title>Top HIPAA Compliance Software in 2026: Key Buyer Guide</title>
+    <link>https://aicybersecurity.news/posts/2026-11-13-top-hipaa-compliance-software-2026-buyer-guide.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-13-top-hipaa-compliance-software-2026-buyer-guide.html</guid>
+    <description>CyberSecurityNews ranked the best HIPAA compliance platforms of 2026. Here is what IT and compliance teams need to know to automate controls and bridge HIPAA with SOC 2.</description>
+    <pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>SOC 2 &amp; ISO 27001: 2026 Compliance Automation Trends</title>
+    <link>https://aicybersecurity.news/posts/2026-11-12-soc-2-iso-27001-compliance-automation-trends.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-12-soc-2-iso-27001-compliance-automation-trends.html</guid>
+    <description>As compliance automation tools advance in 2026, IT leaders can move beyond manual audits. Explore how platforms optimize SOC 2 and ISO 27001 evidence collection.</description>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>Navigating SOC 2 and ISO 27001 Automation in 2026</title>
+    <link>https://aicybersecurity.news/posts/2026-11-11-navigating-soc-2-iso-27001-automation-2026.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-11-navigating-soc-2-iso-27001-automation-2026.html</guid>
+    <description>Continuous evidence collection is redefining audit prep. Here is how modern compliance automation platforms streamline SOC 2 and ISO 27001 readiness in 2026.</description>
+    <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>AI-Driven GRC: The New Playbook for Audits</title>
+    <link>https://aicybersecurity.news/posts/2026-11-10-ai-driven-grc-the-new-playbook-for-audits.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-10-ai-driven-grc-the-new-playbook-for-audits.html</guid>
+    <description>Rivial Data Security introduces Rivial.ai to automate heavy-lifting GRC workloads. Explore the practical implications for SOC 2, ISO 27001, and audit teams.</description>
+    <pubDate>Tue, 10 Nov 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>Qubole Cloud Breach: How Trusted AWS Access Was Abused</title>
+    <link>https://aicybersecurity.news/posts/2026-11-09-qubole-cloud-breach-aws-trusted-access-abused.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-09-qubole-cloud-breach-aws-trusted-access-abused.html</guid>
+    <description>Hackers leveraged Qubole&apos;s trusted AWS credentials to infiltrate customer environments and steal data. Learn how to harden your cross-account IAM architecture.</description>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>IT Ops</category>
+  </item>
+  <item>
+    <title>Beyon Cyber Orryx AI Achieves SOC 2 Attestation</title>
+    <link>https://aicybersecurity.news/posts/2026-11-09-beyon-cyber-orryx-ai-soc-2-attestation.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-09-beyon-cyber-orryx-ai-soc-2-attestation.html</guid>
+    <description>Beyon Cyber&apos;s Orryx AI platform has officially achieved SOC 2 attestation, raising the bar for autonomous security tooling and vendor risk management in 2026.</description>
+    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>Claude Code Setting Leaks Passwords in 1,100+ Repos</title>
+    <link>https://aicybersecurity.news/posts/2026-11-08-claude-code-setting-leaks-passwords-in-1100-repos.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-08-claude-code-setting-leaks-passwords-in-1100-repos.html</guid>
+    <description>A convenience feature in Anthropic&apos;s Claude Code has left API keys and credentials exposed across more than 1,100 public GitHub repositories. Here is what SecOps teams need to know.</description>
+    <pubDate>Sun, 08 Nov 2026 12:00:00 GMT</pubDate>
     <category>AI</category>
     <category>Security</category>
   </item>
   <item>
-    <title>OpenAI Codex Security: AI&apos;s Bold Leap in Code Vulnerability</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-openai-codex-security-ais-bold-leap-in-code-vulnerability.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-openai-codex-security-ais-bold-leap-in-code-vulnerability.html</guid>
-    <description>The cybersecurity landscape just got a powerful new ally. OpenAI&apos;s Codex Security, an AI-powered agent, has scanned millions of code commits, uncovering thousands of high-severity vulnerabilities and proposing fixes. This innovation marks a significant shift in how organizations can approach code security, promising to revolutionize DevSecOps workflows.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
+    <title>InnerActiv Earns SOC 2 Type II: Lessons for Compliance</title>
+    <link>https://aicybersecurity.news/posts/2026-11-07-inneractiv-earns-soc-2-type-ii-lessons-for-compliance.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-07-inneractiv-earns-soc-2-type-ii-lessons-for-compliance.html</guid>
+    <description>InnerActiv has completed its SOC 2 Type II examination. Here is what compliance officers must know about reviewing vendor risk, CUECs, and continuous assurance.</description>
+    <pubDate>Sat, 07 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>Navigating SOC 2 &amp; ISO 27001 Automation in 2026</title>
+    <link>https://aicybersecurity.news/posts/2026-11-06-navigating-soc-2-iso-27001-automation-in-2026.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-06-navigating-soc-2-iso-27001-automation-in-2026.html</guid>
+    <description>A guide to navigating the 2026 compliance automation landscape for SOC 2 and ISO 27001, focusing on Trust Services Criteria and continuous audit readiness.</description>
+    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>Buyer&apos;s Guide: SOC 2 &amp; ISO 27001 Automation in 2026</title>
+    <link>https://aicybersecurity.news/posts/2026-11-05-buyers-guide-soc-2-iso-27001-automation.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-05-buyers-guide-soc-2-iso-27001-automation.html</guid>
+    <description>Selecting the right compliance automation platform requires looking past vendor marketing to evaluate cross-framework mapping, continuous evidence collection, and real audit workflows.</description>
+    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>A2LA SOC 2 Accreditation: What Compliance Leads Must Know</title>
+    <link>https://aicybersecurity.news/posts/2026-11-04-a2la-soc-2-accreditation-compliance-takeaways.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-04-a2la-soc-2-accreditation-compliance-takeaways.html</guid>
+    <description>BARR Advisory has attained A2LA accreditation for SOC 2 audits. Here is what independent auditor accreditation means for your control testing and multi-framework compliance.</description>
+    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>A2LA SOC 2 Accreditation: What It Means for Audits</title>
+    <link>https://aicybersecurity.news/posts/2026-11-03-a2la-soc-2-accreditation-what-it-means-for-audits.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-03-a2la-soc-2-accreditation-what-it-means-for-audits.html</guid>
+    <description>As audit firms gain formal A2LA accreditation for SOC 2 examinations, compliance teams must prepare for deeper scrutiny across Trust Services Criteria.</description>
+    <pubDate>Tue, 03 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>SOC 2 vs. ISO 27001: Navigating the 93 Controls</title>
+    <link>https://aicybersecurity.news/posts/2026-11-02-soc-2-vs-iso-27001-navigating-the-93-controls.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-02-soc-2-vs-iso-27001-navigating-the-93-controls.html</guid>
+    <description>Choosing between SOC 2 and ISO 27001 doesn&apos;t have to be an either-or dilemma. Explore how to harmonize ISO&apos;s 93 Annex A controls with SOC 2 Trust Services Criteria.</description>
+    <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Compliance</category>
+  </item>
+  <item>
+    <title>Ivanti Flaws Chained for Zero-Click Root Access</title>
+    <link>https://aicybersecurity.news/posts/2026-11-01-ivanti-flaws-chained-zero-click-root-access.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-01-ivanti-flaws-chained-zero-click-root-access.html</guid>
+    <description>Active exploitation chains three Ivanti Connect Secure vulnerabilities to grant attackers unauthenticated root control. CISA has issued an urgent advisory.</description>
+    <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>IT Ops</category>
+  </item>
+  <item>
+    <title>Why Peec AI&apos;s SOC 2 Type II Matters for Enterprise AI</title>
+    <link>https://aicybersecurity.news/posts/2026-11-01-why-peec-ais-soc-2-type-ii-matters-for-enterprise-ai.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-01-why-peec-ais-soc-2-type-ii-matters-for-enterprise-ai.html</guid>
+    <description>Peec AI&apos;s SOC 2 Type II attestation marks a key shift for enterprise AI search tools. Here is what compliance officers and security teams must evaluate.</description>
+    <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
     <category>AI</category>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>AI&apos;s Deep Dive: OpenAI Codex Security Reshapes Code Security</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-deep-dive-openai-codex-security-reshapes-code-security.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-deep-dive-openai-codex-security-reshapes-code-security.html</guid>
-    <description>The landscape of software security is undergoing a seismic shift. OpenAI&apos;s recently launched Codex Security, an AI-powered agent, has revealed the sheer scale of vulnerabilities lurking in codebases. Its initial findings underscore the transformative potential of AI in proactive code security.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>AI-Powered Code Security: OpenAI Codex Unearths Thousands of Vulnerabilities</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-powered-code-security-openai-codex-unearths-thousands-of-vulnerabilities.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-powered-code-security-openai-codex-unearths-thousands-of-vulnerabilities.html</guid>
-    <description>The cybersecurity landscape just gained a powerful new ally. OpenAI has unveiled Codex Security, an AI-powered agent designed to proactively identify and fix vulnerabilities in codebases. This innovative tool promises to redefine how organizations approach software security.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>VOID#GEIST: Deconstructing the Stealthy Multi-Stage RAT Threat</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-deconstructing-stealthy-multi-stage-rat-threat.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-deconstructing-stealthy-multi-stage-rat-threat.html</guid>
-    <description>A new multi-stage malware campaign, dubbed VOID#GEIST, is leveraging obfuscated batch scripts to deploy a trio of potent Remote Access Trojans: XWorm, AsyncRAT, and Xeno RAT. Securonix Threat Research has unveiled the intricate details of this stealthy attack chain, highlighting a significant evolution in threat actor tactics.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-  </item>
-  <item>
-    <title>VOID#GEIST: New Multi-RAT Malware Threat Emerges</title>
-    <link>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-new-multi-rat-malware-threat-emerges.html</link>
-    <guid isPermaLink="true">https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-new-multi-rat-malware-threat-emerges.html</guid>
-    <description>A newly discovered malware campaign, dubbed VOID#GEIST, is leveraging sophisticated techniques to deliver a trio of potent Remote Access Trojans (RATs). Security teams need to understand this multi-stage attack to protect their environments.</description>
-    <pubDate>Sun, 08 Mar 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
+    <category>Compliance</category>
   </item>
   </channel>
 </rss>

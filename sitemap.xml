@@ -1,1729 +1,1716 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/</loc>
-    <lastmod>2026-03-08</lastmod>
+    <loc>https://aicybersecurity.news/</loc>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/about.html</loc>
-    <lastmod>2026-03-08</lastmod>
+    <loc>https://aicybersecurity.news/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-new-multi-rat-malware-threat-emerges.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-08-voidgeist-deconstructing-stealthy-multi-stage-rat-threat.html</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-triple-threat-rat-attack.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-08-ai-powered-code-security-openai-codex-unearths-thousands-of-vulnerabilities.html</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-voidgeist-deconstructing-stealthy-multi-stage-rat-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-08-ai-deep-dive-openai-codex-security-reshapes-code-security.html</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-powered-code-security-openai-codex-unearths-thousands-of-vulnerabilities.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-08-openai-codex-security-ais-bold-leap-in-code-vulnerability.html</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-deep-dive-openai-codex-security-reshapes-code-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-08-ai-transforms-code-security-a-new-era-for-vulnerability-detection.html</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-openai-codex-security-ais-bold-leap-in-code-vulnerability.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent.html</loc>
     <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-a-new-era-for-vulnerability-detection.html</loc>
-    <lastmod>2026-03-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-08-ai-transforms-code-security-openais-new-vulnerability-agent.html</loc>
-    <lastmod>2026-03-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-09-zero-day-blitz-navigating-qualcomm-ios-new-cyber-threats.html</loc>
     <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-10-airdrop-attack-unc4899s-cloud-compromise-exposes-enterprise-vulnerabilities.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-10-airdrop-attack-unc4899s-cloud-compromise-exposes-enterprise-vulnerabilities.html</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-compliance-crossroads-mastering-evolving-frameworks.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-compliance-crossroads-mastering-evolving-frameworks.html</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-10-proactive-defense-mastering-attack-surface-zero-days.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-10-proactive-defense-mastering-attack-surface-zero-days.html</loc>
     <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-11-n8n-critical-flaws-rce-credential-exposure-alert.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-11-n8n-critical-flaws-rce-credential-exposure-alert.html</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-12-beyond-inbox-phishing-attacks-weaponize-soc-workload.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-12-beyond-inbox-phishing-attacks-weaponize-soc-workload.html</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-13-ai-powered-malware-slopoly-hive0163-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-13-ai-powered-malware-slopoly-hive0163-threat.html</loc>
     <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-14-ai-assisted-malware-the-slopoly-threat-and-your-defenses.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-14-ai-assisted-malware-the-slopoly-threat-and-your-defenses.html</loc>
     <lastmod>2026-03-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-15-interpol-cyber-strike-45000-ips-down-what-it-means.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-15-interpol-cyber-strike-45000-ips-down-what-it-means.html</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-16-cybersecuritys-shifting-sands-0-days-botnets-rogue-ai.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-16-cybersecuritys-shifting-sands-0-days-botnets-rogue-ai.html</loc>
     <lastmod>2026-03-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-17-ais-edge-in-cybersecurity-compliance-automation.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-17-ais-edge-in-cybersecurity-compliance-automation.html</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-18-ai-flaws-expose-cloud-data-bedrock-langsmith-sglang-risk.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-18-ai-flaws-expose-cloud-data-bedrock-langsmith-sglang-risk.html</loc>
     <lastmod>2026-03-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-19-cisco-fmc-zero-day-interlock-ransomware-strikes-hard.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-19-cisco-fmc-zero-day-interlock-ransomware-strikes-hard.html</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-20-ais-cyber-shadow-behavioral-analytics-our-new-defense-line.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-20-ais-cyber-shadow-behavioral-analytics-our-new-defense-line.html</loc>
     <lastmod>2026-03-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-21-russian-intelligence-phishing-attacks-target-secure-messaging.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-21-russian-intelligence-phishing-attacks-target-secure-messaging.html</loc>
     <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-22-ci-cd-supply-chain-under-attack-lessons-from-the-trivy-breach.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-22-ci-cd-supply-chain-under-attack-lessons-from-the-trivy-breach.html</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-23-quest-kace-sma-under-attack-critical-flaw-actively-exploited.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-23-quest-kace-sma-under-attack-critical-flaw-actively-exploited.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-24-ci-cd-under-siege-checkmarx-github-actions-compromised.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-24-ci-cd-under-siege-checkmarx-github-actions-compromised.html</loc>
     <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-25-glassworm-evolves-solana-dead-drops-advanced-data-theft.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-25-glassworm-evolves-solana-dead-drops-advanced-data-theft.html</loc>
     <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-25-ai-driven-cmmc-compliance-zifino-carahsoft-partner-up.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-25-ai-driven-cmmc-compliance-zifino-carahsoft-partner-up.html</loc>
     <lastmod>2026-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-26-zero-click-flaw-exposes-ai-assistants-to-web-based-prompt-injection.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-26-zero-click-flaw-exposes-ai-assistants-to-web-based-prompt-injection.html</loc>
     <lastmod>2026-03-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-27-tiktok-business-accounts-under-aitm-phishing-siege-what-it-needs-to-know.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-27-tiktok-business-accounts-under-aitm-phishing-siege-what-it-needs-to-know.html</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-27-tiktok-business-accounts-new-aitm-phishing-bypass-cloudflare.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-27-tiktok-business-accounts-new-aitm-phishing-bypass-cloudflare.html</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-28-state-sponsored-threats-target-ios-with-darksword-exploit.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-28-state-sponsored-threats-target-ios-with-darksword-exploit.html</loc>
     <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-29-ta446s-darksword-exploit-new-ios-threat-enterprise-mobility.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-29-ta446s-darksword-exploit-new-ios-threat-enterprise-mobility.html</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-30-ctrl-toolkit-russian-apt-leverages-lnks-for-rdp-hijacks.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-30-ctrl-toolkit-russian-apt-leverages-lnks-for-rdp-hijacks.html</loc>
     <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-03-31-weaponized-ai-agents-google-cloud-vertex-ais-critical-blind-spot.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-03-31-weaponized-ai-agents-google-cloud-vertex-ais-critical-blind-spot.html</loc>
     <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-01-your-trust-their-weapon-why-living-off-the-land-attacks-thrive.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-01-your-trust-their-weapon-why-living-off-the-land-attacks-thrive.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-01-ai-gateway-security-crisis-litellms-delve-breakup-sparks-rethink.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-01-ai-gateway-security-crisis-litellms-delve-breakup-sparks-rethink.html</loc>
     <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-02-trust-under-attack-cert-ua-impersonation-agewheeze.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-02-trust-under-attack-cert-ua-impersonation-agewheeze.html</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-04-cyber-security-alert-code-leaks-weaponized-fbi-hacked.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-04-cyber-security-alert-code-leaks-weaponized-fbi-hacked.html</loc>
     <lastmod>2026-04-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-05-syrias-cyber-failures-stark-warning-enterprise-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-05-syrias-cyber-failures-stark-warning-enterprise-security.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-06-ransomwares-new-playbook-disabling-edr-with-byovd.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-06-ransomwares-new-playbook-disabling-edr-with-byovd.html</loc>
     <lastmod>2026-04-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-07-critical-rce-exploit-targets-flowise-ai-what-you-must-know.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-07-critical-rce-exploit-targets-flowise-ai-what-you-must-know.html</loc>
     <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-08-ai-unleashes-a-tsunami-of-zero-day-discoveries-mythos-reshapes-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-08-ai-unleashes-a-tsunami-of-zero-day-discoveries-mythos-reshapes-security.html</loc>
     <lastmod>2026-04-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-08-critical-infrastructure-under-fire-plcs-targeted-by-state-sponsored-cyber-storm.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-08-critical-infrastructure-under-fire-plcs-targeted-by-state-sponsored-cyber-storm.html</loc>
     <lastmod>2026-04-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-09-adobe-zero-day-silent-pdf-threat-exploiting-enterprises.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-09-adobe-zero-day-silent-pdf-threat-exploiting-enterprises.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-10-glassworms-new-zig-dropper-a-direct-threat-to-developer-ides.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-10-glassworms-new-zig-dropper-a-direct-threat-to-developer-ides.html</loc>
     <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/mastering-2026-compliance-cmmc-soc2-hipaa-shifts.html</loc>
+    <loc>https://aicybersecurity.news/posts/mastering-2026-compliance-cmmc-soc2-hipaa-shifts.html</loc>
     <lastmod>2026-04-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-11-lucidrook-unpacking-sophisticated-malware-targeting-taiwanese-ngos.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-11-lucidrook-unpacking-sophisticated-malware-targeting-taiwanese-ngos.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-12-supply-chain-shock-stx-rat-spreads-via-cpuid-breach.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-12-supply-chain-shock-stx-rat-spreads-via-cpuid-breach.html</loc>
     <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-13-ai-redefines-cyber-compliance-fortreums-strategic-move.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-13-ai-redefines-cyber-compliance-fortreums-strategic-move.html</loc>
     <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-14-massive-chrome-extension-campaign-targets-enterprise-data.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-14-massive-chrome-extension-campaign-targets-enterprise-data.html</loc>
     <lastmod>2026-04-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-15-fortreums-kovr-ai-ai-redefines-cybersecurity-compliance.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-15-fortreums-kovr-ai-ai-redefines-cybersecurity-compliance.html</loc>
     <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-16-n8n-webhook-abuse-when-productivity-tools-turn-malicious.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-16-n8n-webhook-abuse-when-productivity-tools-turn-malicious.html</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-17-microsoft-defender-zero-days-urgent-action-it-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-17-microsoft-defender-zero-days-urgent-action-it-security.html</loc>
     <lastmod>2026-04-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-18-nexcorium-mirai-variant-hijacks-dvrs-what-it-needs-to-know.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-18-nexcorium-mirai-variant-hijacks-dvrs-what-it-needs-to-know.html</loc>
     <lastmod>2026-04-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-19-iot-botnet-threat-nexcorium-hijacks-dvrs-eol-routers.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-19-iot-botnet-threat-nexcorium-hijacks-dvrs-eol-routers.html</loc>
     <lastmod>2026-04-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-20-ai-supply-chain-under-threat-mcp-vulnerability-exposes-rce.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-20-ai-supply-chain-under-threat-mcp-vulnerability-exposes-rce.html</loc>
     <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-21-identity-attacks-the-front-door-to-data-breaches.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-21-identity-attacks-the-front-door-to-data-breaches.html</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-22-identity-based-attacks-unseen-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-22-identity-based-attacks-unseen-threat.html</loc>
     <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-23-gopherwhisper-apt-unpacking-the-go-backdoor-threat-to-government-systems.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-23-gopherwhisper-apt-unpacking-the-go-backdoor-threat-to-government-systems.html</loc>
     <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-23-delves-compliance-failures-a-wake-up-call-for-ai-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-23-delves-compliance-failures-a-wake-up-call-for-ai-security.html</loc>
     <lastmod>2026-04-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-24-supply-chain-shock-malicious-kics-docker-images-found.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-24-supply-chain-shock-malicious-kics-docker-images-found.html</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-24-project-glasswing-ai-finds-bugs-who-will-fix-them-all.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-24-project-glasswing-ai-finds-bugs-who-will-fix-them-all.html</loc>
     <lastmod>2026-04-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-25-before-stuxnet-fast16-malware-rewrites-cyber-warfare-history.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-25-before-stuxnet-fast16-malware-rewrites-cyber-warfare-history.html</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-26-unmasking-fast16-pre-stuxnet-genesis-industrial-sabotage.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-26-unmasking-fast16-pre-stuxnet-genesis-industrial-sabotage.html</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-27-ais-vulnerability-surge-defenses-ready-mythos.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-27-ais-vulnerability-surge-defenses-ready-mythos.html</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-28-hugging-face-lerobot-rce-deserialization-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-28-hugging-face-lerobot-rce-deserialization-threat.html</loc>
     <lastmod>2026-04-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-29-ai-transforms-grc-compliagence-ai-global-rollout.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-29-ai-transforms-grc-compliagence-ai-global-rollout.html</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-04-30-deepdoor-python-backdoor-targets-cloud-browser-credentials.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-04-30-deepdoor-python-backdoor-targets-cloud-browser-credentials.html</loc>
     <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-01-cybersecurity-revenue-why-msps-miss-69b-opportunity.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-01-cybersecurity-revenue-why-msps-miss-69b-opportunity.html</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-02-trellix-source-code-breach-unpacking-supply-chain-risk.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-02-trellix-source-code-breach-unpacking-supply-chain-risk.html</loc>
     <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-03-trellix-source-code-breach-supply-chain-security-red-flag.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-03-trellix-source-code-breach-supply-chain-security-red-flag.html</loc>
     <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-04-beyond-the-breach-the-new-era-of-cyber-occupation.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-04-beyond-the-breach-the-new-era-of-cyber-occupation.html</loc>
     <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-05-metinfo-cms-under-siege-unauthenticated-rce-exploit-active.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-05-metinfo-cms-under-siege-unauthenticated-rce-exploit-active.html</loc>
     <lastmod>2026-05-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-06-beyond-breach-celebrating-cybersecuritys-unsung-heroes.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-06-beyond-breach-celebrating-cybersecuritys-unsung-heroes.html</loc>
     <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-07-ais-invisible-hand-mitigating-next-gen-patient-zero-threats.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-07-ais-invisible-hand-mitigating-next-gen-patient-zero-threats.html</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-07-2026-compliance-navigating-cmmc-soc2-hipaa-shifts.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-07-2026-compliance-navigating-cmmc-soc2-hipaa-shifts.html</loc>
     <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-08-ai-powered-patient-zero-one-click-catastrophe.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-08-ai-powered-patient-zero-one-click-catastrophe.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-09-ai-powered-patient-zero-containing-the-next-stealth-breach.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-09-ai-powered-patient-zero-containing-the-next-stealth-breach.html</loc>
     <lastmod>2026-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-10-ollamas-bleeding-llama-critical-memory-leak-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-10-ollamas-bleeding-llama-critical-memory-leak-threat.html</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-11-beyond-red-and-blue-integrated-security-operations.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-11-beyond-red-and-blue-integrated-security-operations.html</loc>
     <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-12-openai-daybreak-ai-powered-proactive-cyber-defense.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-12-openai-daybreak-ai-powered-proactive-cyber-defense.html</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-13-gemstuffer-campaign-rubygems-abused-for-covert-data-exfiltration.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-13-gemstuffer-campaign-rubygems-abused-for-covert-data-exfiltration.html</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-14-praisonai-exploit-when-hours-matter-in-cyber-defense.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-14-praisonai-exploit-when-hours-matter-in-cyber-defense.html</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-15-your-it-tools-the-hidden-attack-surface-you-cant-ignore.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-15-your-it-tools-the-hidden-attack-surface-you-cant-ignore.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-16-when-cybercriminals-forget-to-hit-mute-opsec-lessons.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-16-when-cybercriminals-forget-to-hit-mute-opsec-lessons.html</loc>
     <lastmod>2026-05-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-17-critical-nginx-flaw-exploited-what-it-needs-to-know-about-cve-2026-42945.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-17-critical-nginx-flaw-exploited-what-it-needs-to-know-about-cve-2026-42945.html</loc>
     <lastmod>2026-05-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-18-closing-the-gap-early-phishing-detection-to-prevent-disruption.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-18-closing-the-gap-early-phishing-detection-to-prevent-disruption.html</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-19-dirtydecrypt-poc-urgent-linux-lpe-threat-for-it-professionals.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-19-dirtydecrypt-poc-urgent-linux-lpe-threat-for-it-professionals.html</loc>
     <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-20-microsoft-disrupts-malware-signing-service-wake-up-call.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-20-microsoft-disrupts-malware-signing-service-wake-up-call.html</loc>
     <lastmod>2026-05-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-21-showboat-linux-malware-stealthy-threat-critical-infrastructure.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-21-showboat-linux-malware-stealthy-threat-critical-infrastructure.html</loc>
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-22-megalodon-strikes-github-ci-cd-supply-chain-under-siege.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-22-megalodon-strikes-github-ci-cd-supply-chain-under-siege.html</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-23-ai-uncovers-10000-critical-flaws-new-security-paradigm.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-23-ai-uncovers-10000-critical-flaws-new-security-paradigm.html</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-23-2026-compliance-navigating-evolving-cmmc-soc2-hipaa.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-23-2026-compliance-navigating-evolving-cmmc-soc2-hipaa.html</loc>
     <lastmod>2026-05-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-24-ai-revolutionizes-iso-27001-new-era-for-compliance.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-24-ai-revolutionizes-iso-27001-new-era-for-compliance.html</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-25-ais-quiet-revolution-silencing-the-ndr-alert-storm.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-25-ais-quiet-revolution-silencing-the-ndr-alert-storm.html</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-26-ai-accelerated-threats-demand-12-hour-patching-cert-ins-new-mandate.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-26-ai-accelerated-threats-demand-12-hour-patching-cert-ins-new-mandate.html</loc>
     <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-27-gitea-flaw-exposes-private-container-images-urgent-patch-required.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-27-gitea-flaw-exposes-private-container-images-urgent-patch-required.html</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-28-forticlient-ems-flaw-wake-up-call-endpoint-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-28-forticlient-ems-flaw-wake-up-call-endpoint-security.html</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-29-software-supply-chain-under-siege-malicious-nuget-targets-banking.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-29-software-supply-chain-under-siege-malicious-nuget-targets-banking.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-30-chatgphish-ais-unexpected-phishing-surface-in-chatgpt.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-30-chatgphish-ais-unexpected-phishing-surface-in-chatgpt.html</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-05-31-chatgphish-chatgpts-new-phishing-vector-unveiled.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-05-31-chatgphish-chatgpts-new-phishing-vector-unveiled.html</loc>
     <lastmod>2026-05-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-01-beyond-vciso-rise-of-security-growth-platforms-for-msps.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-01-beyond-vciso-rise-of-security-growth-platforms-for-msps.html</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-02-sidecopy-unleashes-xeno-rat-warning-critical-sectors.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-02-sidecopy-unleashes-xeno-rat-warning-critical-sectors.html</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-03-beyond-zero-day-panic-reshaping-your-network-for-inevitable-breaches.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-03-beyond-zero-day-panic-reshaping-your-network-for-inevitable-breaches.html</loc>
     <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-04-fluttershell-backdoor-macos-under-siege-via-malvertising.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-04-fluttershell-backdoor-macos-under-siege-via-malvertising.html</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-05-op-512-targets-iis-unpacking-custom-web-shell-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-05-op-512-targets-iis-unpacking-custom-web-shell-threat.html</loc>
     <lastmod>2026-06-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-06-cisco-sd-wan-flaw-actively-exploited-urgent-action-needed-for-it-and-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-06-cisco-sd-wan-flaw-actively-exploited-urgent-action-needed-for-it-and-security.html</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-07-cisco-sd-wan-zero-day-exploited-urgent-action-no-patch.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-07-cisco-sd-wan-zero-day-exploited-urgent-action-no-patch.html</loc>
     <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-08-ai-phishing-overload-socs-fight-back-against-alert-fatigue.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-08-ai-phishing-overload-socs-fight-back-against-alert-fatigue.html</loc>
     <lastmod>2026-06-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-09-ai-regulations-new-era-gaia-act.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-09-ai-regulations-new-era-gaia-act.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-10-langflow-rce-unpatched-ai-flaw-under-active-attack.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-10-langflow-rce-unpatched-ai-flaw-under-active-attack.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-11-cybersecuritys-quiet-victories-unpacking-the-2026-stars-awards.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-11-cybersecuritys-quiet-victories-unpacking-the-2026-stars-awards.html</loc>
     <lastmod>2026-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-12-langgraph-rce-securing-ai-agents.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-12-langgraph-rce-securing-ai-agents.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-13-fccs-burner-phone-plan-privacy-security-tightrope.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-13-fccs-burner-phone-plan-privacy-security-tightrope.html</loc>
     <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-14-fccs-burner-phone-plan-enterprise-impact-cyber-threats.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-14-fccs-burner-phone-plan-enterprise-impact-cyber-threats.html</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-15-cybersecuritys-recurring-nightmare-the-peril-of-forgotten-tech.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-15-cybersecuritys-recurring-nightmare-the-peril-of-forgotten-tech.html</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-16-north-korea-weaponizes-developer-tools-for-malware-delivery.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-16-north-korea-weaponizes-developer-tools-for-malware-delivery.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-17-ai-api-key-theft-developer-workflows-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-17-ai-api-key-theft-developer-workflows-security.html</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-17-government-ai-intervention-beyond-jailbreaks-a-strategic-shift.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-17-government-ai-intervention-beyond-jailbreaks-a-strategic-shift.html</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-18-inc-ransomwares-meteoric-rise.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-18-inc-ransomwares-meteoric-rise.html</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-19-fortibleed-threat-cisa-warns-fortigate-users-of-widespread-attacks.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-19-fortibleed-threat-cisa-warns-fortigate-users-of-widespread-attacks.html</loc>
     <lastmod>2026-06-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-20-gentlekiller-raas-targets-edr-elevating-cyber-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-20-gentlekiller-raas-targets-edr-elevating-cyber-threat.html</loc>
     <lastmod>2026-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-21-eus-digital-focus-ai-cyber-and-compliance-converge.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-21-eus-digital-focus-ai-cyber-and-compliance-converge.html</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-22-cybersecurity-deja-vu-battling-persistent-threats.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-22-cybersecurity-deja-vu-battling-persistent-threats.html</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-23-asia-pacific-cyber-surge-lessons-for-global-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-23-asia-pacific-cyber-surge-lessons-for-global-security.html</loc>
     <lastmod>2026-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-24-cordyceps-cicd-flaws-new-software-supply-chain-nightmare.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-24-cordyceps-cicd-flaws-new-software-supply-chain-nightmare.html</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-25-cisco-sd-wan-zero-day-unmasking-a-pre-disclosure-compromise.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-25-cisco-sd-wan-zero-day-unmasking-a-pre-disclosure-compromise.html</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-26-miasma-malware-escalates-supply-chain-threat-npm-github-go-under-fire.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-26-miasma-malware-escalates-supply-chain-threat-npm-github-go-under-fire.html</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-27-ai-driven-gdpr-compliance-new-benchmark-data-privacy.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-27-ai-driven-gdpr-compliance-new-benchmark-data-privacy.html</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-28-gdpr-compliance-ai-age-hounddog-ai-leads-pack.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-28-gdpr-compliance-ai-age-hounddog-ai-leads-pack.html</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-28-tiny-rct-backdoor-new-apt-threat-to-southeast-asias-infrastructure.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-28-tiny-rct-backdoor-new-apt-threat-to-southeast-asias-infrastructure.html</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-29-gamaredons-cloud-offensive-new-malware-targets-it-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-29-gamaredons-cloud-offensive-new-malware-targets-it-security.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-06-30-gamaredons-evolving-cyber-onslaught-cloud-abuse-and-new-malware.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-06-30-gamaredons-evolving-cyber-onslaught-cloud-abuse-and-new-malware.html</loc>
     <lastmod>2026-06-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-01-ai-unleashes-browser-ransomware-new-chromium-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-01-ai-unleashes-browser-ransomware-new-chromium-threat.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-02-unmasking-micro-vulnerabilities-small-gaps-big-breaches.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-02-unmasking-micro-vulnerabilities-small-gaps-big-breaches.html</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-03-veildrop-bloggers-new-role-in-enterprise-data-theft.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-03-veildrop-bloggers-new-role-in-enterprise-data-theft.html</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-04-avalon-modular-malware-framework-redefining-cyber-threats.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-04-avalon-modular-malware-framework-redefining-cyber-threats.html</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-05-avalon-malware-modular-ransomware-threats.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-05-avalon-malware-modular-ransomware-threats.html</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-05-navigating-2026-compliance-cmmc-soc-2-hipaa-beyond.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-05-navigating-2026-compliance-cmmc-soc-2-hipaa-beyond.html</loc>
     <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-06-autonomous-ai-ransomware-the-new-frontier-of-cyber-warfare.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-06-autonomous-ai-ransomware-the-new-frontier-of-cyber-warfare.html</loc>
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-07-ai-flaw-exposes-session-tokens-threatens-enterprise-data.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-07-ai-flaw-exposes-session-tokens-threatens-enterprise-data.html</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-08-vendor-trust-under-siege-zero-day-markets-dark-side.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-08-vendor-trust-under-siege-zero-day-markets-dark-side.html</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-09-securing-enterprise-ai-mitigating-9-critical-risks.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-09-securing-enterprise-ai-mitigating-9-critical-risks.html</loc>
     <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-10-modbeacon-rat-grpc-streaming-elevates-c2-evasion.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-10-modbeacon-rat-grpc-streaming-elevates-c2-evasion.html</loc>
     <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-11-modbeacon-rat-next-gen-c2-leverages-grpc-for-stealth.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-11-modbeacon-rat-next-gen-c2-leverages-grpc-for-stealth.html</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-12-police-portal-weaponized-cyber-espionage-targets-critical-data.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-12-police-portal-weaponized-cyber-espionage-targets-critical-data.html</loc>
     <lastmod>2026-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-13-ai-old-bugs-new-threats-the-speed-of-cyber-exploitation.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-13-ai-old-bugs-new-threats-the-speed-of-cyber-exploitation.html</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-14-rabbitmq-flaws-threaten-oauth-secrets-enterprise-messaging.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-14-rabbitmq-flaws-threaten-oauth-secrets-enterprise-messaging.html</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-15-windows-zero-day-legacyhive-exploits-user-profile-service-post-patch-tuesday.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-15-windows-zero-day-legacyhive-exploits-user-profile-service-post-patch-tuesday.html</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-16-telepuz-malware-new-threat-clickfix.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-16-telepuz-malware-new-threat-clickfix.html</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-17-sharepoint-rce-zero-day-cisa-kev-alert-ignites-urgent-patching.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-17-sharepoint-rce-zero-day-cisa-kev-alert-ignites-urgent-patching.html</loc>
     <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-17-navigating-2026s-evolving-compliance-cmmc-soc-2-hipaa.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-17-navigating-2026s-evolving-compliance-cmmc-soc-2-hipaa.html</loc>
     <lastmod>2026-07-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-18-digicert-breach-goldeneyedog-subgroup-steals-code-signing-certs.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-18-digicert-breach-goldeneyedog-subgroup-steals-code-signing-certs.html</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-19-sonicwall-sma-zero-days-exploited-what-it-needs-to-know.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-19-sonicwall-sma-zero-days-exploited-what-it-needs-to-know.html</loc>
     <lastmod>2026-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-20-ais-promise-streamlining-cyber-compliance-for-enterprises.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-20-ais-promise-streamlining-cyber-compliance-for-enterprises.html</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-21-pan-os-flaw-fuels-qilin-ransomware-critical-alert-for-it.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-21-pan-os-flaw-fuels-qilin-ransomware-critical-alert-for-it.html</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-22-ai-powered-attacks-demand-multi-layered-soc-defenses-now.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-22-ai-powered-attacks-demand-multi-layered-soc-defenses-now.html</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-23-beyond-edr-why-modern-socs-need-multi-layered-detection.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-23-beyond-edr-why-modern-socs-need-multi-layered-detection.html</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-25-fastjson-1x-rce-alert-unpatched-flaw-under-active-attack.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-25-fastjson-1x-rce-alert-unpatched-flaw-under-active-attack.html</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-26-devman-raas-portal-new-apex-in-ransomware-industrialization.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-26-devman-raas-portal-new-apex-in-ransomware-industrialization.html</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-27-fake-teams-update-delivers-rmm-a-new-enterprise-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-27-fake-teams-update-delivers-rmm-a-new-enterprise-threat.html</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-28-ai-breaks-out-artifactory-zero-day-exploited-by-openai-models.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-28-ai-breaks-out-artifactory-zero-day-exploited-by-openai-models.html</loc>
     <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-29-critical-ruflo-flaw-unauthenticated-rce-and-ai-memory-poisoning.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-29-critical-ruflo-flaw-unauthenticated-rce-and-ai-memory-poisoning.html</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-30-ai-securitys-new-frontier-the-network-as-control-plane.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-30-ai-securitys-new-frontier-the-network-as-control-plane.html</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-07-31-when-ai-goes-rogue-anthropics-unintended-breaches.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-07-31-when-ai-goes-rogue-anthropics-unintended-breaches.html</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-01-when-ai-breaches-unintended-incursions-and-enterprise-risk.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-01-when-ai-breaches-unintended-incursions-and-enterprise-risk.html</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-02-hollowframe-matryoshka-new-go-rust-malware-targets-law-firms.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-02-hollowframe-matryoshka-new-go-rust-malware-targets-law-firms.html</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-03-inc-ransomware-dominates-sonicwall-exploits-patch-now.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-03-inc-ransomware-dominates-sonicwall-exploits-patch-now.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-03-ai-driven-grc-future-cybersecurity-audits.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-03-ai-driven-grc-future-cybersecurity-audits.html</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-04-smokescreen-unveiled-stealthy-rmm-threat-to-your-enterprise.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-04-smokescreen-unveiled-stealthy-rmm-threat-to-your-enterprise.html</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-05-beware-discounted-ai-the-hidden-cost-of-poison-claude.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-05-beware-discounted-ai-the-hidden-cost-of-poison-claude.html</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-07-aitm-phishing-targets-microsoft-365-finance-accounts.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-07-aitm-phishing-targets-microsoft-365-finance-accounts.html</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-08-metabase-zero-day-unauthenticated-admin-access-critical-alert.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-08-metabase-zero-day-unauthenticated-admin-access-critical-alert.html</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-09-ais-uncontrolled-evolution-when-safety-tests-become-the-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-09-ais-uncontrolled-evolution-when-safety-tests-become-the-threat.html</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-10-unpatched-trueconf-servers-under-siege-head-mare-deploys-phantomcore.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-10-unpatched-trueconf-servers-under-siege-head-mare-deploys-phantomcore.html</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-11-openai-gpt-5-6-cyber-double-edged-sword-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-11-openai-gpt-5-6-cyber-double-edged-sword-security.html</loc>
     <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-12-microsoft-defender-shieldbreak-bypass.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-12-microsoft-defender-shieldbreak-bypass.html</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-13-lazarus-latest-zero-day-exploit-targets-global-defense.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-13-lazarus-latest-zero-day-exploit-targets-global-defense.html</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-14-80-incident-rate-securing-ai-enterprise-frontier.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-14-80-incident-rate-securing-ai-enterprise-frontier.html</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-15-the-80-percent-imperative-navigating-ai-and-cyber-incident-realities.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-15-the-80-percent-imperative-navigating-ai-and-cyber-incident-realities.html</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-16-ai-misuse-chilling-wake-up-call-it-security-teams.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-16-ai-misuse-chilling-wake-up-call-it-security-teams.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-17-evooo1bot-new-linux-botnet-turns-edge-devices-into-covert-socks5-proxies.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-17-evooo1bot-new-linux-botnet-turns-edge-devices-into-covert-socks5-proxies.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-17-navigating-2026-compliance-cmmc-soc-2-hipaa-updates.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-17-navigating-2026-compliance-cmmc-soc-2-hipaa-updates.html</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-18-rubygems-typosquatting-stubmaker-steals-credentials.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-18-rubygems-typosquatting-stubmaker-steals-credentials.html</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-19-operation-cameraswarm-dahua-devices-compromised.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-19-operation-cameraswarm-dahua-devices-compromised.html</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-20-toxicpanda-2-0-evolving-android-banking-malware-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-20-toxicpanda-2-0-evolving-android-banking-malware-threat.html</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-20-cdn-tsunami-http3-amplification-threatens-origin-servers.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-20-cdn-tsunami-http3-amplification-threatens-origin-servers.html</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-21-ai-integration-enhancing-cybersecurity-operations-for-it-pros.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-21-ai-integration-enhancing-cybersecurity-operations-for-it-pros.html</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-22-vehicle-vulnerability-android-car-units-hijacked-by-malware.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-22-vehicle-vulnerability-android-car-units-hijacked-by-malware.html</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-23-android-car-malware-hijacks-updaters-for-ad-fraud-botnets.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-23-android-car-malware-hijacks-updaters-for-ad-fraud-botnets.html</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-24-new-malware-loaders-threaten-enterprise-wordlistloader-synkloader.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-24-new-malware-loaders-threaten-enterprise-wordlistloader-synkloader.html</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-24-compliance-frameworks-2026-navigating-evolving-regulations.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-24-compliance-frameworks-2026-navigating-evolving-regulations.html</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-25-npm-packages-weaponize-unpkg-for-phishing-supply-chain-alert.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-25-npm-packages-weaponize-unpkg-for-phishing-supply-chain-alert.html</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-26-ai-voice-phishing-new-apple-device-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-26-ai-voice-phishing-new-apple-device-threat.html</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-28-ais-unforeseen-threat-reward-hacking-hugging-face.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-28-ais-unforeseen-threat-reward-hacking-hugging-face.html</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-29-ais-unintended-genius-reward-hacking-exploits-zero-days.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-29-ais-unintended-genius-reward-hacking-exploits-zero-days.html</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-30-from-autonomous-mines-to-enterprise-ai-caterpillars-blueprint.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-30-from-autonomous-mines-to-enterprise-ai-caterpillars-blueprint.html</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-08-31-ai-powered-ransomware-aurora-group-leverages-coding-ai-in-attacks.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-08-31-ai-powered-ransomware-aurora-group-leverages-coding-ai-in-attacks.html</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-01-ais-new-cyber-vulnerability-guardbreaker-llm-manipulation.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-01-ais-new-cyber-vulnerability-guardbreaker-llm-manipulation.html</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-02-streamrat-android-trojan-new-level-mobile-device-takeover.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-02-streamrat-android-trojan-new-level-mobile-device-takeover.html</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-02-jfrog-artifactory-flaw-race-from-patch-to-exploit.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-02-jfrog-artifactory-flaw-race-from-patch-to-exploit.html</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-03-brazetsu-malware-new-frontier-compromised-host-marketplaces.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-03-brazetsu-malware-new-frontier-compromised-host-marketplaces.html</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-04-gpt-6-astra-new-era-ai-cybersecurity.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-04-gpt-6-astra-new-era-ai-cybersecurity.html</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-05-jetbrains-cadence-breach-unpatched-teamcity-exposes-aws-credentials.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-05-jetbrains-cadence-breach-unpatched-teamcity-exposes-aws-credentials.html</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-06-unpatched-ci-cd-ripple-effect-supply-chain-breach.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-06-unpatched-ci-cd-ripple-effect-supply-chain-breach.html</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-07-ai-powered-soc-revolutionizing-cybersecurity-compliance.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-07-ai-powered-soc-revolutionizing-cybersecurity-compliance.html</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-08-ai-dark-side-autonomous-agents-rapid-credential-theft.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-08-ai-dark-side-autonomous-agents-rapid-credential-theft.html</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-09-ai-ip-under-siege-model-distillation.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-09-ai-ip-under-siege-model-distillation.html</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-10-autonomous-ai-anthropics-breaches-signal-new-cyber-threats.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-10-autonomous-ai-anthropics-breaches-signal-new-cyber-threats.html</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-11-ais-dark-side-claude-fuels-next-gen-cyber-attacks.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-11-ais-dark-side-claude-fuels-next-gen-cyber-attacks.html</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-12-cisa-flags-actively-exploited-flaws-key-it-infrastructure.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-12-cisa-flags-actively-exploited-flaws-key-it-infrastructure.html</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-13-the-new-phishing-frontier-passkeys-target-microsoft-cloud.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-13-the-new-phishing-frontier-passkeys-target-microsoft-cloud.html</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-14-gitea-rce-exploited-red-herons-multi-national-campaign.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-14-gitea-rce-exploited-red-herons-multi-national-campaign.html</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-15-human-speed-ai-threat-marimo-rce-bastion-8-seconds.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-15-human-speed-ai-threat-marimo-rce-bastion-8-seconds.html</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-15-navigating-2026-compliance-cmmc-soc-2-hipaa-evolve.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-15-navigating-2026-compliance-cmmc-soc-2-hipaa-evolve.html</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-16-triple-threat-new-apts-target-russian-enterprises-with-wipers.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-16-triple-threat-new-apts-target-russian-enterprises-with-wipers.html</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-17-agentic-ai-next-frontier-enterprise-security-compliance.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-17-agentic-ai-next-frontier-enterprise-security-compliance.html</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-18-rathat-android-malwares-ai-post-uninstall-persistence.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-18-rathat-android-malwares-ai-post-uninstall-persistence.html</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-19-rathat-malware-ai-powered-android-threat-abuses-adb-for-stealth.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-19-rathat-malware-ai-powered-android-threat-abuses-adb-for-stealth.html</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-20-gemini-breaches-real-systems-ai-security-wake-up-call.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-20-gemini-breaches-real-systems-ai-security-wake-up-call.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-21-north-korean-apts-weaponize-job-hunts.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-21-north-korean-apts-weaponize-job-hunts.html</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-22-bigdiskbuster-defender-update-zero-day-threatens-it-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-22-bigdiskbuster-defender-update-zero-day-threatens-it-security.html</loc>
     <lastmod>2026-09-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-23-enterprise-alert-meta-ai-flaw-exposes-new-zero-day-risks.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-23-enterprise-alert-meta-ai-flaw-exposes-new-zero-day-risks.html</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-24-terraform-supply-chain-under-attack-malicious-providers-emerge.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-24-terraform-supply-chain-under-attack-malicious-providers-emerge.html</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-25-pamstealers-evolved-stealth-new-macos-threat-landscape.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-25-pamstealers-evolved-stealth-new-macos-threat-landscape.html</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-25-cjis-ai-cybersecurity-beyond-audit-imperative.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-25-cjis-ai-cybersecurity-beyond-audit-imperative.html</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-26-pamstealer-evolves-macos-malwares-stealthy-new-tactics.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-26-pamstealer-evolves-macos-malwares-stealthy-new-tactics.html</loc>
     <lastmod>2026-09-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-27-peoplesoft-under-attack-wafs-bypassed-web-shells-deployed.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-27-peoplesoft-under-attack-wafs-bypassed-web-shells-deployed.html</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-28-carbonato-botnet-weaponizes-ai-agents-on-docker-hosts.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-28-carbonato-botnet-weaponizes-ai-agents-on-docker-hosts.html</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-29-ai-agents-weaponized-carbonato-botnet-targets-docker-hosts.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-29-ai-agents-weaponized-carbonato-botnet-targets-docker-hosts.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-29-openai-codex-ais-next-leap-for-enterprise-dev-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-29-openai-codex-ais-next-leap-for-enterprise-dev-security.html</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-09-30-chatgpt-custom-gpts-exploited-for-rat-delivery.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-09-30-chatgpt-custom-gpts-exploited-for-rat-delivery.html</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-01-wordpress-self-healing-backdoor-new-era-persistent-threats.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-01-wordpress-self-healing-backdoor-new-era-persistent-threats.html</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-02-fortimail-zero-day-exploited-cisa-warns-critical-flaw.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-02-fortimail-zero-day-exploited-cisa-warns-critical-flaw.html</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-02-ais-regulatory-wave-cybersecuritys-crucial-role-in-compliance.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-02-ais-regulatory-wave-cybersecuritys-crucial-role-in-compliance.html</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-03-fortimail-zero-day-unauthenticated-file-write-poses-critical-threat.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-03-fortimail-zero-day-unauthenticated-file-write-poses-critical-threat.html</loc>
     <lastmod>2026-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-04-ai-policy-under-siege-nation-state-phishing-targets-us-experts.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-04-ai-policy-under-siege-nation-state-phishing-targets-us-experts.html</loc>
     <lastmod>2026-10-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-05-small-oversights-major-threats-a-week-in-cyber-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-05-small-oversights-major-threats-a-week-in-cyber-security.html</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-06-unseen-threats-why-small-oversights-fuel-major-cyber-attacks.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-06-unseen-threats-why-small-oversights-fuel-major-cyber-attacks.html</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-07-ai-infrastructure-under-siege-poellm-malware-fuels-crypto-mining.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-07-ai-infrastructure-under-siege-poellm-malware-fuels-crypto-mining.html</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-08-ashvein-rat-uac-0099s-stealthy-attack-on-ukraines-gov.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-08-ashvein-rat-uac-0099s-stealthy-attack-on-ukraines-gov.html</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-09-darksword-p7-ios-exploit-kit-targets-crypto-wallets-data.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-09-darksword-p7-ios-exploit-kit-targets-crypto-wallets-data.html</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-10-anthropic-unleashes-free-ai-scanner-revolutionizing-open-source-security.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-10-anthropic-unleashes-free-ai-scanner-revolutionizing-open-source-security.html</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-10-2026-compliance-update-navigating-cmmc-soc-2-hipaa-shifts.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-10-2026-compliance-update-navigating-cmmc-soc-2-hipaa-shifts.html</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-11-ios-exploit-kit-p7-darksword-targets-crypto-wallets.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-11-ios-exploit-kit-p7-darksword-targets-crypto-wallets.html</loc>
     <lastmod>2026-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-13-ivanti-zero-day-exploit-chain-root-access-risk-defense.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-13-ivanti-zero-day-exploit-chain-root-access-risk-defense.html</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-14-ai-compliance-automation-wins-big-soc-2-grc-impact.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-14-ai-compliance-automation-wins-big-soc-2-grc-impact.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-15-soc-2-myths-debunked-audit-data.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-15-soc-2-myths-debunked-audit-data.html</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-16-why-eventides-soc-2-milestone-matters-for-cloud-ops.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-16-why-eventides-soc-2-milestone-matters-for-cloud-ops.html</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-17-ai-in-the-soc-navigating-soc-2-compliance.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-17-ai-in-the-soc-navigating-soc-2-compliance.html</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-18-ai-driven-socs-navigating-modern-soc-2-audits.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-18-ai-driven-socs-navigating-modern-soc-2-audits.html</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-19-fake-ai-grants-lure-devs-with-malicious-npm-packages.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-19-fake-ai-grants-lure-devs-with-malicious-npm-packages.html</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-20-soc-2-audits-bridge-gap-assessment-to-proof.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-20-soc-2-audits-bridge-gap-assessment-to-proof.html</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-21-soc-2-compliance-in-the-era-of-the-ai-soc.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-21-soc-2-compliance-in-the-era-of-the-ai-soc.html</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-22-mastering-the-soc-2-audit-readiness-to-report.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-22-mastering-the-soc-2-audit-readiness-to-report.html</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-23-mastering-soc-2-from-assessment-to-type-ii-audit.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-23-mastering-soc-2-from-assessment-to-type-ii-audit.html</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-24-demystifying-soc-2-auditor-evaluation.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-24-demystifying-soc-2-auditor-evaluation.html</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-24-meet-phantom-the-ai-agent-behind-modern-ransomware.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-24-meet-phantom-the-ai-agent-behind-modern-ransomware.html</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-25-demystifying-soc-2-what-auditors-look-for.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-25-demystifying-soc-2-what-auditors-look-for.html</loc>
     <lastmod>2026-10-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-26-zero-exception-soc-2-type-ii-audit-lessons.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-26-zero-exception-soc-2-type-ii-audit-lessons.html</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-27-atombeam-soc-2-type-2-audit-tprm-takeaways.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-27-atombeam-soc-2-type-2-audit-tprm-takeaways.html</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-28-atombeams-soc-2-type-2-what-it-means-for-audits.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-28-atombeams-soc-2-type-2-what-it-means-for-audits.html</loc>
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-29-fake-ai-desktop-apps-abuse-signed-binaries-to-mine-crypto.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-29-fake-ai-desktop-apps-abuse-signed-binaries-to-mine-crypto.html</loc>
     <lastmod>2026-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-30-mastering-soc-2-type-ii-zero-exceptions.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-30-mastering-soc-2-type-ii-zero-exceptions.html</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-10-31-zero-exceptions-lessons-from-cyngn-soc-2-win.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-10-31-zero-exceptions-lessons-from-cyngn-soc-2-win.html</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-01-why-peec-ais-soc-2-type-ii-matters-for-enterprise-ai.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-01-why-peec-ais-soc-2-type-ii-matters-for-enterprise-ai.html</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-01-ivanti-flaws-chained-zero-click-root-access.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-01-ivanti-flaws-chained-zero-click-root-access.html</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-02-soc-2-vs-iso-27001-navigating-the-93-controls.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-02-soc-2-vs-iso-27001-navigating-the-93-controls.html</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-03-a2la-soc-2-accreditation-what-it-means-for-audits.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-03-a2la-soc-2-accreditation-what-it-means-for-audits.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-04-a2la-soc-2-accreditation-compliance-takeaways.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-04-a2la-soc-2-accreditation-compliance-takeaways.html</loc>
     <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-05-buyers-guide-soc-2-iso-27001-automation.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-05-buyers-guide-soc-2-iso-27001-automation.html</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-06-navigating-soc-2-iso-27001-automation-in-2026.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-06-navigating-soc-2-iso-27001-automation-in-2026.html</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-07-inneractiv-earns-soc-2-type-ii-lessons-for-compliance.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-07-inneractiv-earns-soc-2-type-ii-lessons-for-compliance.html</loc>
     <lastmod>2026-11-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-08-claude-code-setting-leaks-passwords-in-1100-repos.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-08-claude-code-setting-leaks-passwords-in-1100-repos.html</loc>
     <lastmod>2026-11-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-09-beyon-cyber-orryx-ai-soc-2-attestation.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-09-beyon-cyber-orryx-ai-soc-2-attestation.html</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-09-qubole-cloud-breach-aws-trusted-access-abused.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-09-qubole-cloud-breach-aws-trusted-access-abused.html</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-10-ai-driven-grc-the-new-playbook-for-audits.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-10-ai-driven-grc-the-new-playbook-for-audits.html</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-11-navigating-soc-2-iso-27001-automation-2026.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-11-navigating-soc-2-iso-27001-automation-2026.html</loc>
     <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-12-soc-2-iso-27001-compliance-automation-trends.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-12-soc-2-iso-27001-compliance-automation-trends.html</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-13-top-hipaa-compliance-software-2026-buyer-guide.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-13-top-hipaa-compliance-software-2026-buyer-guide.html</loc>
     <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-14-unrealircd-flaw-under-attack-cisa-warning.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-14-unrealircd-flaw-under-attack-cisa-warning.html</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-15-cursor-breach-stolen-key-taints-claude-code-extension.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-15-cursor-breach-stolen-key-taints-claude-code-extension.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-16-ai-agents-weaponize-software-patches.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-16-ai-agents-weaponize-software-patches.html</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-16-soc-2-type-i-vs-type-ii-strategic-audit-guide.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-16-soc-2-type-i-vs-type-ii-strategic-audit-guide.html</loc>
     <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://greenido.github.io/ai-security-compliance-news/posts/2026-11-17-msps-scale-ai-compliance-training-audit-impact.html</loc>
+    <loc>https://aicybersecurity.news/posts/2026-11-17-msps-scale-ai-compliance-training-audit-impact.html</loc>
     <lastmod>2026-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
