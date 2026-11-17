@@ -6,7 +6,7 @@ import { createLogger } from './logger.mjs';
 const log = createLogger('dedupe');
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const INDEX_PATH = join(__dirname, '..', 'posts', 'index.json');
+const INDEX_PATH = join(process.env.SITE_ROOT || join(__dirname, '..'), 'posts', 'index.json');
 
 const SIMILARITY_THRESHOLD = 0.35;
 const LOOKBACK_DAYS = 7;
