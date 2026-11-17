@@ -20,11 +20,14 @@ jobs:
         with:
           node-version: '22'
           cache: 'npm'
-          cache-dependency-path: scripts/package-lock.json
+          cache-dependency-path: |
+            package-lock.json
+            scripts/package-lock.json
 
       - name: Install dependencies
-        run: npm install
-        working-directory: scripts
+        run: |
+          npm install
+          npm install --prefix scripts
 
       - name: Generate daily blog post
         run: node generate-post.mjs
@@ -33,11 +36,15 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
 
+      # New posts can use Tailwind classes the compiled CSS doesn't have yet.
+      - name: Build CSS
+        run: npm run build:css
+
       - name: Commit new post
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add posts/ sitemap.xml
+          git add posts/ sitemap.xml feed.xml css/tailwind.css
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "Daily post: $(date +%Y-%m-%d)"
           git push
