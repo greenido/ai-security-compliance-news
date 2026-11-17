@@ -19,11 +19,15 @@ export const GEMINI_MODEL = 'gemini-flash-latest';
 let _ai;
 function getAI() {
   if (!_ai) {
-    const hasKey = !!process.env.GEMINI_API_KEY;
-    log.info('getAI', `Initializing GoogleGenAI (API key present: ${hasKey}, key prefix: ${hasKey ? process.env.GEMINI_API_KEY.slice(0, 6) + '…' : 'N/A'})`);
+    log.info('getAI', `Initializing GoogleGenAI (API key present: ${!!process.env.GEMINI_API_KEY})`);
     _ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
   }
   return _ai;
+}
+
+/** Replace the Gemini client (tests pass a stub; null restores the real one). */
+export function setAIClient(client) {
+  _ai = client;
 }
 
 function buildPrompt(newsItem, sourceText = '') {
@@ -128,7 +132,7 @@ export function isTransientError(err) {
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-export async function generatePost(newsItem) {
+export async function generatePost(newsItem, { retryBaseMs = RETRY_BASE_MS } = {}) {
   const timer = log.time('generatePost');
 
   log.dump('generatePost', 'Input news item', {
@@ -149,7 +153,7 @@ export async function generatePost(newsItem) {
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
     if (attempt > 1) {
-      const delay = RETRY_BASE_MS * 2 ** (attempt - 2);
+      const delay = retryBaseMs * 2 ** (attempt - 2);
       log.info('generatePost', `Retrying in ${delay}ms (attempt ${attempt}/${MAX_ATTEMPTS}) — last problem: ${lastProblem}`);
       await sleep(delay);
     }

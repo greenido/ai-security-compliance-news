@@ -8,6 +8,11 @@ on:
 permissions:
   contents: write
 
+# A manual run and the scheduled run must not push at the same time.
+concurrency:
+  group: daily-post
+  cancel-in-progress: false
+
 jobs:
   generate-and-push:
     runs-on: ubuntu-latest
@@ -26,8 +31,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install
-          npm install --prefix scripts
+          npm ci
+          npm ci --prefix scripts
+
+      - name: Unit tests
+        run: npm run test:unit
+        working-directory: scripts
 
       - name: Generate daily blog post
         run: node generate-post.mjs

@@ -16,6 +16,23 @@ const ROOT = join(__dirname, '..', '..');
 const POSTS_DIR = join(ROOT, 'posts');
 const INDEX_PATH = join(POSTS_DIR, 'index.json');
 const SITEMAP_PATH = join(ROOT, 'sitemap.xml');
+const FEED_PATH = join(ROOT, 'feed.xml');
+
+// ---------------------------------------------------------------------------
+// Live RSS
+// ---------------------------------------------------------------------------
+describe('fetchTrendingNews (live RSS)', () => {
+  it('fetches and returns a top news item with required fields', async () => {
+    const news = await fetchTrendingNews();
+
+    assert.ok(news.title, 'Missing title');
+    assert.ok(news.link, 'Missing link');
+    assert.ok(typeof news.snippet === 'string', 'snippet should be a string');
+    assert.ok(news.source, 'Missing source');
+    assert.ok(Array.isArray(news.categories), 'categories should be an array');
+    assert.ok(news.categories.length > 0, 'categories should have at least one entry');
+  });
+});
 
 // ---------------------------------------------------------------------------
 // Full pipeline integration test
@@ -24,18 +41,17 @@ describe('Full pipeline: fetch → generate → build', () => {
   let createdPostPath;
   let originalIndex;
   let originalSitemap;
+  let originalFeed;
   let createdSlug;
 
   afterEach(() => {
-    if (createdPostPath && existsSync(createdPostPath)) {
-      rmSync(createdPostPath);
+    const createdData = createdSlug && join(POSTS_DIR, 'data', `${createdSlug}.json`);
+    for (const path of [createdPostPath, createdData]) {
+      if (path && existsSync(path)) rmSync(path);
     }
-    if (originalIndex !== undefined) {
-      writeFileSync(INDEX_PATH, originalIndex);
-    }
-    if (originalSitemap !== undefined) {
-      writeFileSync(SITEMAP_PATH, originalSitemap);
-    }
+    if (originalIndex !== undefined) writeFileSync(INDEX_PATH, originalIndex);
+    if (originalSitemap !== undefined) writeFileSync(SITEMAP_PATH, originalSitemap);
+    if (originalFeed !== undefined) writeFileSync(FEED_PATH, originalFeed);
   });
 
   it('end-to-end: fetches news, generates post, builds HTML', async () => {
@@ -50,6 +66,9 @@ describe('Full pipeline: fetch → generate → build', () => {
     }
     if (existsSync(SITEMAP_PATH)) {
       originalSitemap = readFileSync(SITEMAP_PATH, 'utf-8');
+    }
+    if (existsSync(FEED_PATH)) {
+      originalFeed = readFileSync(FEED_PATH, 'utf-8');
     }
 
     // Step 1: Fetch news
