@@ -51,7 +51,6 @@ export function cleanUrl(raw) {
 const RSS_FEEDS = [
   { url: 'https://feeds.feedburner.com/TheHackersNews', source: 'The Hacker News', focus: 'Security' },
   { url: 'https://krebsonsecurity.com/feed/', source: 'Krebs on Security', focus: 'Security' },
-  { url: 'https://techcrunch.com/category/artificial-intelligence/feed/', source: 'TechCrunch', focus: 'AI' },
   { url: 'https://www.wired.com/feed/category/security/latest/rss', source: 'Wired', focus: 'Security' },
   { url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', source: 'Ars Technica', focus: 'AI' },
   { url: 'https://news.google.com/rss/search?q=AI+cybersecurity+compliance&hl=en-US&gl=US&ceid=US:en', source: 'Google News', focus: 'Mixed' },
