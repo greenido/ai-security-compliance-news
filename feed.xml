@@ -5,8 +5,17 @@
     <link>https://aicybersecurity.news/</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://aicybersecurity.news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>How Modern GRC Ecosystems Tame Audit Sprawl</title>
+    <link>https://aicybersecurity.news/posts/2026-11-18-how-modern-grc-ecosystems-tame-audit-sprawl.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-18-how-modern-grc-ecosystems-tame-audit-sprawl.html</guid>
+    <description>Learn how modern GRC ecosystems streamline compliance, eliminate audit sprawl, and simplify evidence collection across SOC 2, ISO 27001, and CMMC.</description>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
   <item>
     <title>MSPs Scale AI and Compliance Training: What Audits Demand</title>
     <link>https://aicybersecurity.news/posts/2026-11-17-msps-scale-ai-compliance-training-audit-impact.html</link>
@@ -175,15 +184,6 @@
     <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
     <category>Security</category>
     <category>IT Ops</category>
-  </item>
-  <item>
-    <title>Why Peec AI&apos;s SOC 2 Type II Matters for Enterprise AI</title>
-    <link>https://aicybersecurity.news/posts/2026-11-01-why-peec-ais-soc-2-type-ii-matters-for-enterprise-ai.html</link>
-    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-01-why-peec-ais-soc-2-type-ii-matters-for-enterprise-ai.html</guid>
-    <description>Peec AI&apos;s SOC 2 Type II attestation marks a key shift for enterprise AI search tools. Here is what compliance officers and security teams must evaluate.</description>
-    <pubDate>Sun, 01 Nov 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Compliance</category>
   </item>
   </channel>
 </rss>
