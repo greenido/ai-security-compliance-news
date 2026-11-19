@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aicybersecurity.news/</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1718,6 +1718,12 @@
   <url>
     <loc>https://aicybersecurity.news/posts/2026-11-18-how-modern-grc-ecosystems-tame-audit-sprawl.html</loc>
     <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aicybersecurity.news/posts/2026-11-19-public-sector-iso-27001-lessons-poland.html</loc>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

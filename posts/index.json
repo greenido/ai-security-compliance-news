@@ -1,5 +1,29 @@
 [
   {
+    "title": "Public Sector ISO 27001: Lessons from Poland",
+    "slug": "2026-11-19-public-sector-iso-27001-lessons-poland",
+    "date": "2026-11-19",
+    "excerpt": "Poland's Ministry of Digital Affairs has secured ISO 27001 certification, highlighting how public sector organizations can operationalize international security frameworks.",
+    "tags": [
+      "ISO 27001",
+      "Compliance",
+      "SOC 2",
+      "Public Sector",
+      "Information Security"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 636,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1653100421180-a63b2bcc7340?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwyfHxtb258ZW58MXwwfHx8MTc5NTEyNzQzOXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "a body of water with trees and mountains in the background",
+      "credit": "Bunly Hort",
+      "color": "#a6c0a6"
+    }
+  },
+  {
     "title": "How Modern GRC Ecosystems Tame Audit Sprawl",
     "slug": "2026-11-18-how-modern-grc-ecosystems-tame-audit-sprawl",
     "date": "2026-11-18",
