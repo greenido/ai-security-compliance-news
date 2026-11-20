@@ -1,5 +1,29 @@
 [
   {
+    "title": "SOC 2 Automation: Vanta vs. Drata vs. Secureframe",
+    "slug": "2026-11-20-soc-2-automation-vanta-drata-secureframe",
+    "date": "2026-11-20",
+    "excerpt": "As compliance automation matures, platforms like Vanta, Drata, and Secureframe lead SOC 2 preparation. Here is how security leaders can evaluate their options.",
+    "tags": [
+      "SOC 2",
+      "Compliance Automation",
+      "Vanta",
+      "Drata",
+      "Secureframe"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 583,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxiYWxhbmNlJTIwb3JkZXIlMjBhcmNoaXRlY3R1cmV8ZW58MXwwfHx8MTc5NTIxMjEyOXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "worm's-eye view photography of concrete building",
+      "credit": "Kimon Maritz",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "Public Sector ISO 27001: Lessons from Poland",
     "slug": "2026-11-19-public-sector-iso-27001-lessons-poland",
     "date": "2026-11-19",
