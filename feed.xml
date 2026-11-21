@@ -5,8 +5,16 @@
     <link>https://aicybersecurity.news/</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://aicybersecurity.news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Bullish Secures Dual SOC 1 and SOC 2 Type 2 Badges</title>
+    <link>https://aicybersecurity.news/posts/2026-11-21-bullish-secures-dual-soc-1-soc-2-type-2-badges.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-21-bullish-secures-dual-soc-1-soc-2-type-2-badges.html</guid>
+    <description>Bullish attains SOC 1 Type 2 and SOC 2 Type 2 compliance, establishing verified assurance across financial reporting and IT security operations.</description>
+    <pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Compliance</category>
+  </item>
   <item>
     <title>SOC 2 Automation: Vanta vs. Drata vs. Secureframe</title>
     <link>https://aicybersecurity.news/posts/2026-11-20-soc-2-automation-vanta-drata-secureframe.html</link>
@@ -174,14 +182,6 @@
     <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-04-a2la-soc-2-accreditation-compliance-takeaways.html</guid>
     <description>BARR Advisory has attained A2LA accreditation for SOC 2 audits. Here is what independent auditor accreditation means for your control testing and multi-framework compliance.</description>
     <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-    <category>Compliance</category>
-  </item>
-  <item>
-    <title>A2LA SOC 2 Accreditation: What It Means for Audits</title>
-    <link>https://aicybersecurity.news/posts/2026-11-03-a2la-soc-2-accreditation-what-it-means-for-audits.html</link>
-    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-03-a2la-soc-2-accreditation-what-it-means-for-audits.html</guid>
-    <description>As audit firms gain formal A2LA accreditation for SOC 2 examinations, compliance teams must prepare for deeper scrutiny across Trust Services Criteria.</description>
-    <pubDate>Tue, 03 Nov 2026 12:00:00 GMT</pubDate>
     <category>Compliance</category>
   </item>
   </channel>
