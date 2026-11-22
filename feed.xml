@@ -5,8 +5,17 @@
     <link>https://aicybersecurity.news/</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://aicybersecurity.news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>AI Agents Find Zero-Day in Medical Software for Root Access</title>
+    <link>https://aicybersecurity.news/posts/2026-11-22-ai-agents-find-zero-day-medical-software-root-access.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-22-ai-agents-find-zero-day-medical-software-root-access.html</guid>
+    <description>Threat actors used autonomous AI agents to find a zero-day in MONAI Label and gain root access to a university server, signaling a new era of machine-speed attacks.</description>
+    <pubDate>Sun, 22 Nov 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Security</category>
+  </item>
   <item>
     <title>Bullish Secures Dual SOC 1 and SOC 2 Type 2 Badges</title>
     <link>https://aicybersecurity.news/posts/2026-11-21-bullish-secures-dual-soc-1-soc-2-type-2-badges.html</link>
@@ -174,14 +183,6 @@
     <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-05-buyers-guide-soc-2-iso-27001-automation.html</guid>
     <description>Selecting the right compliance automation platform requires looking past vendor marketing to evaluate cross-framework mapping, continuous evidence collection, and real audit workflows.</description>
     <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
-    <category>Compliance</category>
-  </item>
-  <item>
-    <title>A2LA SOC 2 Accreditation: What Compliance Leads Must Know</title>
-    <link>https://aicybersecurity.news/posts/2026-11-04-a2la-soc-2-accreditation-compliance-takeaways.html</link>
-    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-04-a2la-soc-2-accreditation-compliance-takeaways.html</guid>
-    <description>BARR Advisory has attained A2LA accreditation for SOC 2 audits. Here is what independent auditor accreditation means for your control testing and multi-framework compliance.</description>
-    <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
     <category>Compliance</category>
   </item>
   </channel>

@@ -1,5 +1,30 @@
 [
   {
+    "title": "AI Agents Find Zero-Day in Medical Software for Root Access",
+    "slug": "2026-11-22-ai-agents-find-zero-day-medical-software-root-access",
+    "date": "2026-11-22",
+    "excerpt": "Threat actors used autonomous AI agents to find a zero-day in MONAI Label and gain root access to a university server, signaling a new era of machine-speed attacks.",
+    "tags": [
+      "AI Security",
+      "Zero-Day Exploits",
+      "Threat Intelligence",
+      "Application Security",
+      "Vulnerability Management"
+    ],
+    "categories": [
+      "AI",
+      "Security"
+    ],
+    "hasCTA": false,
+    "wordCount": 628,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1624969862644-791f3dc98927?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxicmVhY2h8ZW58MXwwfHx8MTc5NTM4MDc4Nnww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A person wearing fingerless gloves typing on a laptop on a dark surface",
+      "credit": "Towfiqu barbhuiya",
+      "color": "#262626"
+    }
+  },
+  {
     "title": "Bullish Secures Dual SOC 1 and SOC 2 Type 2 Badges",
     "slug": "2026-11-21-bullish-secures-dual-soc-1-soc-2-type-2-badges",
     "date": "2026-11-21",
