@@ -1,5 +1,55 @@
 [
   {
+    "title": "Webworm Weaponizes Modified SoftEther VPN",
+    "slug": "2026-11-24-webworm-weaponizes-modified-softether-vpn",
+    "date": "2026-11-24",
+    "excerpt": "Webworm is stripping detection signatures from SoftEther VPN, disguising the tool as monitoring software to secure stealthy remote access.",
+    "tags": [
+      "Webworm",
+      "SoftEther VPN",
+      "Evasion Techniques",
+      "Threat Intelligence",
+      "Remote Access"
+    ],
+    "categories": [
+      "Security",
+      "IT Ops"
+    ],
+    "hasCTA": false,
+    "wordCount": 542,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc5NTQ4NTQ0NXww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
+    "title": "Per Mar Achieves SOC 2 Type II: What It Means",
+    "slug": "2026-11-24-per-mar-achieves-soc-2-type-ii-what-it-means",
+    "date": "2026-11-24",
+    "excerpt": "Per Mar Security Services has attained SOC 2 Type II compliance. Here is an analysis of why this milestone matters for vendor risk management and IT audits.",
+    "tags": [
+      "SOC 2",
+      "Compliance",
+      "Vendor Risk",
+      "Cybersecurity",
+      "Audit"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 666,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1573345173719-5fbd4783d3c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwzfHxtb25vbGl0aGljJTIwY29uY3JldGV8ZW58MXwwfHx8MTc5NTQ4NTQyN3ww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "gray surface",
+      "credit": "Bhavya Kashyap",
+      "color": "#a6a6a6"
+    }
+  },
+  {
     "title": "AI Agents Find Zero-Day in Medical Software for Root Access",
     "slug": "2026-11-22-ai-agents-find-zero-day-medical-software-root-access",
     "date": "2026-11-22",

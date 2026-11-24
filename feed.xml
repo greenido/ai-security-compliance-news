@@ -5,8 +5,26 @@
     <link>https://aicybersecurity.news/</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://aicybersecurity.news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Webworm Weaponizes Modified SoftEther VPN</title>
+    <link>https://aicybersecurity.news/posts/2026-11-24-webworm-weaponizes-modified-softether-vpn.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-24-webworm-weaponizes-modified-softether-vpn.html</guid>
+    <description>Webworm is stripping detection signatures from SoftEther VPN, disguising the tool as monitoring software to secure stealthy remote access.</description>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>IT Ops</category>
+  </item>
+  <item>
+    <title>Per Mar Achieves SOC 2 Type II: What It Means</title>
+    <link>https://aicybersecurity.news/posts/2026-11-24-per-mar-achieves-soc-2-type-ii-what-it-means.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-24-per-mar-achieves-soc-2-type-ii-what-it-means.html</guid>
+    <description>Per Mar Security Services has attained SOC 2 Type II compliance. Here is an analysis of why this milestone matters for vendor risk management and IT audits.</description>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
   <item>
     <title>AI Agents Find Zero-Day in Medical Software for Root Access</title>
     <link>https://aicybersecurity.news/posts/2026-11-22-ai-agents-find-zero-day-medical-software-root-access.html</link>
@@ -167,22 +185,6 @@
     <description>InnerActiv has completed its SOC 2 Type II examination. Here is what compliance officers must know about reviewing vendor risk, CUECs, and continuous assurance.</description>
     <pubDate>Sat, 07 Nov 2026 12:00:00 GMT</pubDate>
     <category>Security</category>
-    <category>Compliance</category>
-  </item>
-  <item>
-    <title>Navigating SOC 2 &amp; ISO 27001 Automation in 2026</title>
-    <link>https://aicybersecurity.news/posts/2026-11-06-navigating-soc-2-iso-27001-automation-in-2026.html</link>
-    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-06-navigating-soc-2-iso-27001-automation-in-2026.html</guid>
-    <description>A guide to navigating the 2026 compliance automation landscape for SOC 2 and ISO 27001, focusing on Trust Services Criteria and continuous audit readiness.</description>
-    <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-    <category>Compliance</category>
-  </item>
-  <item>
-    <title>Buyer&apos;s Guide: SOC 2 &amp; ISO 27001 Automation in 2026</title>
-    <link>https://aicybersecurity.news/posts/2026-11-05-buyers-guide-soc-2-iso-27001-automation.html</link>
-    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-05-buyers-guide-soc-2-iso-27001-automation.html</guid>
-    <description>Selecting the right compliance automation platform requires looking past vendor marketing to evaluate cross-framework mapping, continuous evidence collection, and real audit workflows.</description>
-    <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
     <category>Compliance</category>
   </item>
   </channel>
