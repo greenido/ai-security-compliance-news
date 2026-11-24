@@ -8,6 +8,14 @@
     <lastBuildDate>Tue, 24 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://aicybersecurity.news/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
+    <title>SaaS Enterprise Growth Demands SOC 2 Type 2 Rigor</title>
+    <link>https://aicybersecurity.news/posts/2026-11-24-saas-enterprise-growth-demands-soc-2-type-2-rigor.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-24-saas-enterprise-growth-demands-soc-2-type-2-rigor.html</guid>
+    <description>As Upfluence achieves SOC 2 Type 2 compliance, enterprise demand is making rigorous audit validation a mandatory baseline for SaaS vendors.</description>
+    <pubDate>Tue, 24 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Compliance</category>
+  </item>
+  <item>
     <title>Webworm Weaponizes Modified SoftEther VPN</title>
     <link>https://aicybersecurity.news/posts/2026-11-24-webworm-weaponizes-modified-softether-vpn.html</link>
     <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-24-webworm-weaponizes-modified-softether-vpn.html</guid>
@@ -177,15 +185,6 @@
     <pubDate>Sun, 08 Nov 2026 12:00:00 GMT</pubDate>
     <category>AI</category>
     <category>Security</category>
-  </item>
-  <item>
-    <title>InnerActiv Earns SOC 2 Type II: Lessons for Compliance</title>
-    <link>https://aicybersecurity.news/posts/2026-11-07-inneractiv-earns-soc-2-type-ii-lessons-for-compliance.html</link>
-    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-07-inneractiv-earns-soc-2-type-ii-lessons-for-compliance.html</guid>
-    <description>InnerActiv has completed its SOC 2 Type II examination. Here is what compliance officers must know about reviewing vendor risk, CUECs, and continuous assurance.</description>
-    <pubDate>Sat, 07 Nov 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-    <category>Compliance</category>
   </item>
   </channel>
 </rss>

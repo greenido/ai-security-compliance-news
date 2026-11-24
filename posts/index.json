@@ -1,5 +1,29 @@
 [
   {
+    "title": "SaaS Enterprise Growth Demands SOC 2 Type 2 Rigor",
+    "slug": "2026-11-24-saas-enterprise-growth-demands-soc-2-type-2-rigor",
+    "date": "2026-11-24",
+    "excerpt": "As Upfluence achieves SOC 2 Type 2 compliance, enterprise demand is making rigorous audit validation a mandatory baseline for SaaS vendors.",
+    "tags": [
+      "SOC 2 Type 2",
+      "Compliance",
+      "Vendor Risk Management",
+      "Information Security",
+      "Audit Readiness"
+    ],
+    "categories": [
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 650,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1542407795-03a57a1b8fd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxicnV0fGVufDF8MHx8fDE3OTU1NjM2ODZ8MA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "liquor bottle on brown table",
+      "credit": "Maël BALLAND",
+      "color": "#260c0c"
+    }
+  },
+  {
     "title": "Webworm Weaponizes Modified SoftEther VPN",
     "slug": "2026-11-24-webworm-weaponizes-modified-softether-vpn",
     "date": "2026-11-24",
