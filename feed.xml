@@ -5,8 +5,17 @@
     <link>https://aicybersecurity.news/</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://aicybersecurity.news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Upfluence SOC 2 Type 2: Why MarTech Trust Matters</title>
+    <link>https://aicybersecurity.news/posts/2026-11-25-upfluence-soc-2-type-2-martech-security.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-25-upfluence-soc-2-type-2-martech-security.html</guid>
+    <description>Upfluence has attained SOC 2 Type 2 certification for creator data security, highlighting a growing compliance focus in MarTech vendor risk management.</description>
+    <pubDate>Wed, 25 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
   <item>
     <title>SaaS Enterprise Growth Demands SOC 2 Type 2 Rigor</title>
     <link>https://aicybersecurity.news/posts/2026-11-24-saas-enterprise-growth-demands-soc-2-type-2-rigor.html</link>
@@ -176,15 +185,6 @@
     <category>AI</category>
     <category>Security</category>
     <category>Compliance</category>
-  </item>
-  <item>
-    <title>Claude Code Setting Leaks Passwords in 1,100+ Repos</title>
-    <link>https://aicybersecurity.news/posts/2026-11-08-claude-code-setting-leaks-passwords-in-1100-repos.html</link>
-    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-08-claude-code-setting-leaks-passwords-in-1100-repos.html</guid>
-    <description>A convenience feature in Anthropic&apos;s Claude Code has left API keys and credentials exposed across more than 1,100 public GitHub repositories. Here is what SecOps teams need to know.</description>
-    <pubDate>Sun, 08 Nov 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
   </item>
   </channel>
 </rss>

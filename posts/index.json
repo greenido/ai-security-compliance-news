@@ -1,5 +1,30 @@
 [
   {
+    "title": "Upfluence SOC 2 Type 2: Why MarTech Trust Matters",
+    "slug": "2026-11-25-upfluence-soc-2-type-2-martech-security",
+    "date": "2026-11-25",
+    "excerpt": "Upfluence has attained SOC 2 Type 2 certification for creator data security, highlighting a growing compliance focus in MarTech vendor risk management.",
+    "tags": [
+      "SOC 2",
+      "Vendor Risk Management",
+      "Data Security",
+      "Compliance",
+      "Information Security"
+    ],
+    "categories": [
+      "Security",
+      "Compliance"
+    ],
+    "hasCTA": true,
+    "wordCount": 625,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1544502062-f82887f03d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxkYXJrJTIwc2hpZWxkJTIwZGlnaXRhbCUyMHByb3RlY3Rpb258ZW58MXwwfHx8MTc5NTY0OTExMHww&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "silhouette of man",
+      "credit": "Joe Shields",
+      "color": "#f3f3f3"
+    }
+  },
+  {
     "title": "SaaS Enterprise Growth Demands SOC 2 Type 2 Rigor",
     "slug": "2026-11-24-saas-enterprise-growth-demands-soc-2-type-2-rigor",
     "date": "2026-11-24",
