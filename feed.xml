@@ -5,8 +5,17 @@
     <link>https://aicybersecurity.news/</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://aicybersecurity.news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Upfluence Earns SOC 2 Type 2: Securing Creator Data</title>
+    <link>https://aicybersecurity.news/posts/2026-11-26-upfluence-earns-soc-2-type-2-creator-data-security.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-26-upfluence-earns-soc-2-type-2-creator-data-security.html</guid>
+    <description>Upfluence has earned SOC 2 Type 2 certification for creator data security. Here is what security and compliance teams need to know about vendor audits and data protection.</description>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 GMT</pubDate>
+    <category>Security</category>
+    <category>Compliance</category>
+  </item>
   <item>
     <title>Upfluence SOC 2 Type 2: Why MarTech Trust Matters</title>
     <link>https://aicybersecurity.news/posts/2026-11-25-upfluence-soc-2-type-2-martech-security.html</link>
@@ -175,16 +184,6 @@
     <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
     <category>Security</category>
     <category>IT Ops</category>
-  </item>
-  <item>
-    <title>Beyon Cyber Orryx AI Achieves SOC 2 Attestation</title>
-    <link>https://aicybersecurity.news/posts/2026-11-09-beyon-cyber-orryx-ai-soc-2-attestation.html</link>
-    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-09-beyon-cyber-orryx-ai-soc-2-attestation.html</guid>
-    <description>Beyon Cyber&apos;s Orryx AI platform has officially achieved SOC 2 attestation, raising the bar for autonomous security tooling and vendor risk management in 2026.</description>
-    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
-    <category>AI</category>
-    <category>Security</category>
-    <category>Compliance</category>
   </item>
   </channel>
 </rss>
