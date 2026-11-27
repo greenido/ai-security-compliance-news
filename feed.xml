@@ -5,8 +5,17 @@
     <link>https://aicybersecurity.news/</link>
     <description>AI-powered news and analysis on cybersecurity, compliance, and IT operations.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://aicybersecurity.news/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Why Legacy GRC Is Failing the Enterprise AI Era</title>
+    <link>https://aicybersecurity.news/posts/2026-11-27-why-legacy-grc-is-failing-the-enterprise-ai-era.html</link>
+    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-27-why-legacy-grc-is-failing-the-enterprise-ai-era.html</guid>
+    <description>Legacy governance, risk, and compliance tooling was built for deterministic systems. Here is why enterprise risk models must evolve for artificial intelligence.</description>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+    <category>AI</category>
+    <category>Compliance</category>
+  </item>
   <item>
     <title>Upfluence Earns SOC 2 Type 2: Securing Creator Data</title>
     <link>https://aicybersecurity.news/posts/2026-11-26-upfluence-earns-soc-2-type-2-creator-data-security.html</link>
@@ -175,15 +184,6 @@
     <category>AI</category>
     <category>Security</category>
     <category>Compliance</category>
-  </item>
-  <item>
-    <title>Qubole Cloud Breach: How Trusted AWS Access Was Abused</title>
-    <link>https://aicybersecurity.news/posts/2026-11-09-qubole-cloud-breach-aws-trusted-access-abused.html</link>
-    <guid isPermaLink="true">https://aicybersecurity.news/posts/2026-11-09-qubole-cloud-breach-aws-trusted-access-abused.html</guid>
-    <description>Hackers leveraged Qubole&apos;s trusted AWS credentials to infiltrate customer environments and steal data. Learn how to harden your cross-account IAM architecture.</description>
-    <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
-    <category>Security</category>
-    <category>IT Ops</category>
   </item>
   </channel>
 </rss>

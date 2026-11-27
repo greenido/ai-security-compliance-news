@@ -1,5 +1,30 @@
 [
   {
+    "title": "Why Legacy GRC Is Failing the Enterprise AI Era",
+    "slug": "2026-11-27-why-legacy-grc-is-failing-the-enterprise-ai-era",
+    "date": "2026-11-27",
+    "excerpt": "Legacy governance, risk, and compliance tooling was built for deterministic systems. Here is why enterprise risk models must evolve for artificial intelligence.",
+    "tags": [
+      "Enterprise AI",
+      "GRC",
+      "Compliance",
+      "Risk Management",
+      "IT Governance"
+    ],
+    "categories": [
+      "AI",
+      "Compliance"
+    ],
+    "hasCTA": false,
+    "wordCount": 588,
+    "heroImage": {
+      "url": "https://images.unsplash.com/photo-1727434032773-af3cd98375ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTAyNDd8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwYWJzdHJhY3QlMjBsaWdodHxlbnwxfDB8fHwxNzk1ODIwNjI1fDA&ixlib=rb-4.1.0&q=80&w=400",
+      "alt": "A close up of a computer circuit board",
+      "credit": "Luke Jones",
+      "color": "#0c2659"
+    }
+  },
+  {
     "title": "Upfluence Earns SOC 2 Type 2: Securing Creator Data",
     "slug": "2026-11-26-upfluence-earns-soc-2-type-2-creator-data-security",
     "date": "2026-11-26",
